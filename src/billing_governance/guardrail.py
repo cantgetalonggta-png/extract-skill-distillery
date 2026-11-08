@@ -35,6 +35,7 @@ class OperationType(Enum):
     BILLING_CONFIGURATION = "billing_configuration"
     PAYMENT_METHOD_UPDATE = "payment_method_update"
     FINANCIAL_TRANSACTION = "financial_transaction"
+    PROVISIONING_EXECUTION = "provisioning_execution"
 
 
 @dataclass
@@ -64,10 +65,16 @@ class BillingGovernanceGuardrail:
             raise BillingGovernanceError("verified_principal_id is required.")
         self.verified_principal_id = verified_principal_id
         self.hitl_callback = hitl_callback or self._default_hitl_prompt
+        self.policy_extension = None  # optional MasterGovernanceExtension
         logger.info(
             "BillingGovernanceGuardrail initialized for Principal: %s",
             self.verified_principal_id,
         )
+
+    def attach_policy_extension(self, extension: "MasterGovernanceExtension") -> None:
+        """Attach MasterGovernanceExtension for pre-HITL policy evaluation."""
+        self.policy_extension = extension
+        logger.info("MasterGovernanceExtension attached to guardrail.")
 
     def _default_hitl_prompt(self, action_payload: Dict[str, Any]) -> bool:
         """
@@ -105,6 +112,66 @@ class BillingGovernanceGuardrail:
 
         logger.info("Principal authority verified for %s.", self.verified_principal_id)
 
+        approval_context = {
+            "principal_id": operational_input.principal_id,
+            "operation_type": operational_input.operation_type.value,
+            "payload": operational_input.payload,
+            "timestamp": operational_input.timestamp,
+        }
+
+        # Optional master policy engine path (covers provisioning + financial)
+        if self.policy_extension is not None:
+            gate = self.policy_extension.intercept_and_validate(approval_context)
+            if gate["status"] == "blocked":
+                logger.warning("Policy blocked operation: %s", gate.get("reason"))
+                return {
+                    "status": "blocked",
+                    "reason": gate.get("reason"),
+                    "policy_id": gate.get("policy_id"),
+                    "timestamp": _utc_now_iso(),
+                }
+            if gate.get("requires_hitl"):
+                logger.info(
+                    "Policy %s requires HITL for %s",
+                    gate.get("policy_id"),
+                    operational_input.operation_type.value,
+                )
+                is_approved = self.hitl_callback({**approval_context, "policy": gate})
+                if not is_approved:
+                    logger.warning("HITL denied after policy proceed.")
+                    return {
+                        "status": "rejected",
+                        "reason": "Human approval explicitly denied or not provided.",
+                        "policy_id": gate.get("policy_id"),
+                        "timestamp": _utc_now_iso(),
+                    }
+                logger.info("HITL granted after policy proceed.")
+                result = self._execute_authorized_operation(operational_input)
+                result["policy_id"] = gate.get("policy_id")
+                return result
+            # AUTHORIZED_AUTO or default proceed without HITL
+            logger.info(
+                "Policy %s authorized auto path for %s",
+                gate.get("policy_id"),
+                operational_input.operation_type.value,
+            )
+            if operational_input.operation_type in {
+                OperationType.BILLING_CONFIGURATION,
+                OperationType.PAYMENT_METHOD_UPDATE,
+                OperationType.FINANCIAL_TRANSACTION,
+            } or operational_input.operation_type.value == "provisioning_execution":
+                result = self._execute_authorized_operation(operational_input)
+                result["policy_id"] = gate.get("policy_id")
+                result["policy_reason"] = gate.get("reason")
+                return result
+            return {
+                "status": "success",
+                "message": "Standard operation processed under master policy.",
+                "policy_id": gate.get("policy_id"),
+                "timestamp": _utc_now_iso(),
+            }
+
+        # Legacy path (no extension): financial ops always HITL
         if operational_input.operation_type in {
             OperationType.BILLING_CONFIGURATION,
             OperationType.PAYMENT_METHOD_UPDATE,
@@ -114,16 +181,7 @@ class BillingGovernanceGuardrail:
                 "Financial/Billing operation detected (%s). Pausing for human confirmation.",
                 operational_input.operation_type.value,
             )
-
-            approval_context = {
-                "principal_id": operational_input.principal_id,
-                "operation_type": operational_input.operation_type.value,
-                "payload": operational_input.payload,
-                "timestamp": operational_input.timestamp,
-            }
-
             is_approved = self.hitl_callback(approval_context)
-
             if not is_approved:
                 logger.warning(
                     "Billing operation rejected or ignored by human principal."
@@ -133,7 +191,6 @@ class BillingGovernanceGuardrail:
                     "reason": "Human approval explicitly denied or not provided.",
                     "timestamp": _utc_now_iso(),
                 }
-
             logger.info("Human approval granted. Executing legitimate financial operation.")
             return self._execute_authorized_operation(operational_input)
 

@@ -26,3 +26,12 @@ Primary product remains Skill Distillery. RE/APK/billing corpus is a secondary s
 - Docs: `docs/BILLING_GOVERNANCE.md`
 - Policy: principal check + HITL for billing/payment ops; fail-closed; no live payment APIs
 - Relationship to restored RE corpus: governance module is the executable policy; RE notes stay static documentation only
+
+
+## MasterBillingPolicyEngine (extension ingested)
+- Path: `src/billing_governance/extension.py`
+- Wired: `BillingGovernanceGuardrail.attach_policy_extension(...)`
+- Op type added: `PROVISIONING_EXECUTION`
+- Tests: **18/18 OK** (6 guardrail + 12 extension/integration)
+- Docs: `docs/BILLING_GOVERNANCE_EXTENSION.md`
+- Scope: authorization records only — no payment APIs, no APK execution

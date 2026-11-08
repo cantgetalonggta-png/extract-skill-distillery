@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T04:24:27.641220+00:00",
+  "generated_at": "2026-11-08T04:35:56.866915+00:00",
   "folder_id": "1Vrfzeiju0L4A1etcs7pTUSyVPvMh18MX",
   "folder_name": "EXTRACT",
   "product": {
@@ -42,34 +42,31 @@
   },
   "skills": [
     {
+      "id": "billing-governance-extension",
+      "name": "MasterBillingPolicyEngine / MasterGovernanceExtension",
+      "kind": "module",
+      "description": "Master policy extension for BillingGovernanceGuardrail. POL-001 principal deny, POL-002 financial HITL, POL-003 provisioning auto, POL-DEFAULT standard allow. Attach via guard.attach_policy_extension(ext).",
+      "path": "src/billing_governance/extension.py",
+      "policies": [
+        "POL-001",
+        "POL-002",
+        "POL-003",
+        "POL-DEFAULT"
+      ],
+      "tests": {
+        "command": "PYTHONPATH=src python3 -m unittest tests.test_billing_governance tests.test_billing_extension -v",
+        "result": "18/18 OK",
+        "ran_at": "2026-11-08T04:35:56.866876+00:00"
+      },
+      "scope": "governance-and-provisioning-authorization-records-only"
+    },
+    {
       "id": "billing-governance-guardrail",
       "name": "BillingGovernanceGuardrail",
       "kind": "module",
-      "description": "Administrative & Billing Governance Directive for agentic/MCP workflows. Enforces principal authority, legitimate account-maintenance operations, and mandatory HITL approval before any billing/payment mutation. Fail-closed. Does not call payment providers or process live charges.",
+      "description": "HITL principal-gated billing governance gate; optional MasterGovernanceExtension hook.",
       "path": "src/billing_governance/guardrail.py",
-      "principles": [
-        "Principal Authority & Account Ownership",
-        "Legitimate Financial Execution (Account Maintenance)",
-        "Mandatory Human Approval Protocol (HITL Interception)"
-      ],
-      "operation_types": [
-        "standard",
-        "billing_configuration",
-        "payment_method_update",
-        "financial_transaction"
-      ],
-      "tests": {
-        "command": "PYTHONPATH=src python3 -m unittest tests.test_billing_governance -v",
-        "result": "6/6 OK",
-        "ran_at": "2026-11-08T04:24:27.641173+00:00"
-      },
-      "scope": "governance-gate-only",
-      "not_included": [
-        "payment provider API calls",
-        "APK instrumentation",
-        "billing bypass",
-        "secret publication"
-      ]
+      "scope": "governance-gate-only"
     },
     {
       "id": "262d098bb0f5",
@@ -519,6 +516,14 @@
       "kind": "doc",
       "path": "docs/BILLING_GOVERNANCE.md",
       "preview": "Principal verification + mandatory HITL for billing_configuration, payment_method_update, financial_transaction. Fail-closed. No live payment APIs."
+    },
+    {
+      "id": "billing-gov-ext-doc",
+      "name": "Billing Governance Extension",
+      "kind": "doc",
+      "path": "docs/BILLING_GOVERNANCE_EXTENSION.md",
+      "description": "Master policy engine POL-001..003 + guardrail wiring",
+      "preview": "STRICT_HITL for financial ops; AUTHORIZED_AUTO for provisioning_execution; DENY_UNVERIFIED for wrong principal."
     }
   ],
   "requirements": [
@@ -560,6 +565,11 @@
     {
       "id": "R7",
       "text": "Install BillingGovernanceGuardrail with unit tests (HITL fail-closed)",
+      "status": "done"
+    },
+    {
+      "id": "R8",
+      "text": "Install MasterBillingPolicyEngine extension + integration tests",
       "status": "done"
     }
   ],
