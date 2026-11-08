@@ -1,0 +1,6548 @@
+{
+  "generated_at": "2026-11-08T05:33:34.468792+00:00",
+  "product": {
+    "name": "EXTRACT Skill Distillery",
+    "tagline": "Inventory, distill, and search agent skills from the EXTRACT vault",
+    "decision": "Skill Distillery is the primary app. RE/APK/billing notes are restored as a secondary static workspace. All former quarantine items are unblocked in inventory; secrets stay private-hold; binaries not executed; secret values not in public KB body.",
+    "assumptions": [
+      "Static SPA remains public product surface",
+      "workspace-restored/private holds secret materials offline only",
+      "APK/RPM files may exist on disk but are not installed or run here",
+      "Drive originals unchanged"
+    ]
+  },
+  "stats": {
+    "nodes": 208,
+    "skills": 129,
+    "docs": 65,
+    "categories": 11,
+    "edges": 317,
+    "source_skills": 176,
+    "source_docs": 20
+  },
+  "categories": {
+    "agent": [
+      "19d993f59864",
+      "c2625c54ebc7",
+      "c3ed37af9248",
+      "575365303ae0",
+      "ec99e8fe6d73",
+      "a25242e28e48",
+      "50e6dc1c3160",
+      "4596d8984229",
+      "ba3a10b5fa60",
+      "590f269ee48c",
+      "ea149e5ac4e1",
+      "351936bd7f04",
+      "9111487e7459",
+      "b14441c4dce4",
+      "src-1-QHthiDb-8J",
+      "src-10CCVmNHHBtV",
+      "src-10UBOpRR91b1",
+      "src-10o1fkTJwjVA",
+      "src-125JfMD4UDZn",
+      "src-12BLjoUXO2CD",
+      "src-12LWqIrG4g0-",
+      "src-132LIkFckmv0",
+      "src-134DXUG-oMEA",
+      "src-15BKfpwr9U-J",
+      "src-15aGM-w6qPhE",
+      "src-17X7h4aD4T7O",
+      "src-18bxv6CEa4Le",
+      "src-19SovwVKexfo",
+      "src-1BWFjyaFPPFx",
+      "src-1CmWHD-LN1i2",
+      "src-1FPnBUmBOWKW",
+      "src-1Fe227xb5aGF",
+      "src-1GqxsRMTV_9v",
+      "src-1GxYNbDueSjN",
+      "src-1H4i9vcllnH9",
+      "src-1HuiMPPcXq0z",
+      "src-1I1_3pTiwJEu",
+      "src-1IEjZE7DKA4T",
+      "src-1II6iQhJQ_h6",
+      "src-1Iwmb_k8LTF-",
+      "src-1JOxNy3QuJOH",
+      "src-1JrqOnFjMH2r",
+      "src-1K5ArlJf__aG",
+      "src-1KBEv0pI91cu",
+      "src-1KBpvmBoIHA-",
+      "src-1KYH3FB1nFUY",
+      "src-1LbaL45WTSmb",
+      "src-1M1Q5Q_LVuJm",
+      "src-1MV9IxBUGhnz",
+      "src-1O6-D_aSOcn9",
+      "src-1PfXe5OmYhxF",
+      "src-1Rqy3kTh8bOf",
+      "src-1RqyDENPYL1-",
+      "src-1SDB6RN_znl9",
+      "src-1SsageWwgMe2",
+      "src-1TIfltceR7iL",
+      "src-1UQlqjKkXpUs",
+      "src-1VLBgzqm9gUK",
+      "src-1Vz5KAGD4Bdx",
+      "src-1WPfKseKae5w",
+      "src-1WYNhILFVXJG",
+      "src-1X479KSGJDEn",
+      "src-1X5ZWG3-KiXL",
+      "src-1XK3SxLZTZe8",
+      "src-1XnaFfvehszY",
+      "src-1XtWXZcJnbIh",
+      "src-1Y5G3oXinvaK",
+      "src-1YuFm5HCMVwl",
+      "src-1YvVESg5KwpG",
+      "src-1Z5u9ndB2_39",
+      "src-1ZVzyhwD0ILT",
+      "src-1ZhBQawgBZLP",
+      "src-1_1YqkM5-iVP",
+      "src-1_To1xtMdmoZ",
+      "src-1aE9qThN0-c5",
+      "src-1aPXiBxbQR-0",
+      "src-1bSGh20IDC3j",
+      "src-1biIspLD7Ee8",
+      "src-1cPM7KC5sQxv",
+      "src-1cyYG2xEEAmM",
+      "src-1d_Ox5GX4Rr9",
+      "src-1dqHKP3Tssdl",
+      "src-1eMumtmVkpZo",
+      "src-1evYy3XIIsFy",
+      "src-1fePtSnoO0EP",
+      "src-1g0CSXPI5vRq",
+      "src-1gHsjAJloHMF",
+      "src-1gXr2Ahj-FbU",
+      "src-1iABhKy03Rvi",
+      "src-1iR1mJ35Jjc-",
+      "src-1j6OGxh57fd6",
+      "src-1jRPcjku_xw_",
+      "src-1jlekcsFtAob",
+      "src-1kjyTg7Dnmds",
+      "src-1lCUeLnEdtr6",
+      "src-1mkQnvj6MECA",
+      "src-1nYcFMb1Vp2h",
+      "src-1q8tEMTnwlfU",
+      "src-1qIlyLYooJf0",
+      "src-1qspm_fRAsgV",
+      "src-1r2sv-I56mei",
+      "src-1sSAiq8Zb53h",
+      "src-1tTdPNXFCr1z",
+      "src-1xZYagWJD9C6",
+      "src-1x_lfCB7235V",
+      "src-1yWlsiNYgFjA",
+      "src-1z36me9wQp12",
+      "src-1zHM_Lcvcl4f",
+      "4ccf744653c2",
+      "7171c4c51ebf",
+      "be5666a0e1aa",
+      "5718b459b3c6",
+      "8bf3fc1dfc74",
+      "f0e26a3323d9",
+      "e2ba8b9bb985"
+    ],
+    "android_re": [
+      "src-1LNc48OKxSCn",
+      "src-1s7OK5Cjj6nh",
+      "src-1v1lD3igXT7x",
+      "ffad5aceb50f",
+      "8f8a5763c17d",
+      "50d25c432e82",
+      "e8cd40237fe7",
+      "ac3bbf2a8410"
+    ],
+    "backend": [
+      "0d6f929ff3bf",
+      "a583605990c0",
+      "src-1G8B0UQ63yrH",
+      "src-1LgX1ZvSwPyw",
+      "src-1M_wc5ADA9CX",
+      "src-1c34A8z-RC4A",
+      "src-1krh-Tro3Uh2"
+    ],
+    "devops": [
+      "src-15QfxHxaCT9b",
+      "src-1M0LjEW8uUsn",
+      "src-1WV2H9M34_Uj",
+      "src-1j0SUZghqfJ8"
+    ],
+    "frontend": [
+      "9c6075025ce1",
+      "src-10-vH9if2omS",
+      "src-10HrRCDVCAAE",
+      "src-11ueDhCrKz3d",
+      "src-1335tUP25Rb8",
+      "src-15MbTZc9L7RS",
+      "src-194l9OW9HA1I",
+      "src-1E57fBSd0kCh",
+      "src-1KkoUnS86A8h",
+      "src-1N4k0NW7Xhdi",
+      "src-1QjllrirAgz0",
+      "src-1aVaJ4GIpN2z",
+      "src-1asMEihxtPBF",
+      "src-1bbzVu0ZancS",
+      "src-1cUblWeuTvOW",
+      "src-1sQh5oBA55ez",
+      "src-1t8l91SSy68h",
+      "efe8b52a5c6d",
+      "9c671daa1c18",
+      "c3eb09c24a40",
+      "3bc299752312",
+      "5a0fb867ef35",
+      "re-billing-meta"
+    ],
+    "general": [
+      "src-16cMxMJG17Ki",
+      "src-1A5Pt-AAidfP",
+      "src-1p1156g_kMfj"
+    ],
+    "ingestion": [
+      "src-113sI7Fpcmuk",
+      "src-118dv3VilDkJ",
+      "src-11cs5FPhXV94",
+      "src-16Da2zi4fkAd",
+      "src-1A8qcf-bxCn_",
+      "src-1KGN00-6f8dJ",
+      "src-1V0jvvkfI41w",
+      "src-1WDTqS2UzyQj",
+      "src-1WkzNd8gHyhR",
+      "src-1YmOXlQRWDHq",
+      "src-1bsvYru4gJcb",
+      "src-1el9x82aw8zU",
+      "src-1loxnygiVrk8",
+      "src-1pdPzhgQZ2sA",
+      "src-1vy8dgkHuOcB"
+    ],
+    "media": [
+      "src-15x1von2Rx69",
+      "src-1MDiezUBzJK3",
+      "src-1_J9KplzSwva"
+    ],
+    "research": [
+      "src-18q3hvf-xp8I",
+      "src-1BtBZC9RmjNi",
+      "src-1CZtuAERCR77",
+      "src-1IswK8GGdivm",
+      "src-1LehaQuF1lVh",
+      "src-1dBcdlJAFalu"
+    ],
+    "search": [
+      "src-18bt5DDrfNqf",
+      "src-1Fc-afLd_2W6",
+      "src-1JNgaz8rfAFH",
+      "src-1oxxXB6RDKUg"
+    ],
+    "security": [
+      "billing-governance-extension",
+      "billing-governance-guardrail",
+      "262d098bb0f5",
+      "398c14636964",
+      "src-1AVd4HwJ2jDJ",
+      "src-1k--QUxu5HZp",
+      "billing-governance-doc",
+      "billing-gov-ext-doc"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "name": "EXTRACT Skill Distillery",
+      "kind": "root",
+      "category": "root",
+      "depth": 0,
+      "parent": null,
+      "score": 0.0,
+      "tags": [],
+      "description": "Inventory, distill, and search agent skills from the EXTRACT vault",
+      "children_count": 11,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:agent",
+      "name": "Agent",
+      "kind": "category",
+      "category": "agent",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: agent",
+      "children_count": 115,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:android_re",
+      "name": "Android Re",
+      "kind": "category",
+      "category": "android_re",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: android_re",
+      "children_count": 8,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:backend",
+      "name": "Backend",
+      "kind": "category",
+      "category": "backend",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: backend",
+      "children_count": 7,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:devops",
+      "name": "Devops",
+      "kind": "category",
+      "category": "devops",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: devops",
+      "children_count": 4,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:frontend",
+      "name": "Frontend",
+      "kind": "category",
+      "category": "frontend",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: frontend",
+      "children_count": 23,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:general",
+      "name": "General",
+      "kind": "category",
+      "category": "general",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: general",
+      "children_count": 3,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:ingestion",
+      "name": "Ingestion",
+      "kind": "category",
+      "category": "ingestion",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: ingestion",
+      "children_count": 15,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:media",
+      "name": "Media",
+      "kind": "category",
+      "category": "media",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: media",
+      "children_count": 3,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:research",
+      "name": "Research",
+      "kind": "category",
+      "category": "research",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: research",
+      "children_count": 6,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:search",
+      "name": "Search",
+      "kind": "category",
+      "category": "search",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: search",
+      "children_count": 4,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "cat:security",
+      "name": "Security",
+      "kind": "category",
+      "category": "security",
+      "depth": 1,
+      "parent": "root",
+      "score": 0.0,
+      "tags": [],
+      "description": "Category hub: security",
+      "children_count": 8,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "billing-governance-extension",
+      "name": "MasterBillingPolicyEngine / MasterGovernanceExtension",
+      "kind": "module",
+      "category": "security",
+      "depth": 2,
+      "parent": "cat:security",
+      "score": 9.0,
+      "tags": [
+        "masterbillingpolicyengine",
+        "mastergovernanceextension",
+        "master",
+        "policy",
+        "extension",
+        "billinggovernanceguardrail"
+      ],
+      "description": "Master policy extension for BillingGovernanceGuardrail. POL-001 principal deny, POL-002 financial HITL, POL-003 provisioning auto, POL-DEFAULT standard allow. Attach via guard.atta",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-1AVd4HwJ2jDJ"
+      ]
+    },
+    {
+      "id": "billing-governance-guardrail",
+      "name": "BillingGovernanceGuardrail",
+      "kind": "module",
+      "category": "security",
+      "depth": 2,
+      "parent": "cat:security",
+      "score": 1.0,
+      "tags": [
+        "billinggovernanceguardrail",
+        "hitl",
+        "principal-gated",
+        "billing",
+        "governance",
+        "gate"
+      ],
+      "description": "HITL principal-gated billing governance gate; optional MasterGovernanceExtension hook.",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1k--QUxu5HZp"
+      ],
+      "unlocks": [
+        "262d098bb0f5"
+      ]
+    },
+    {
+      "id": "262d098bb0f5",
+      "name": "blacksmith-testbox",
+      "kind": "skill",
+      "category": "security",
+      "depth": 2,
+      "parent": "cat:security",
+      "score": 1.0,
+      "tags": [
+        "blacksmith-testbox",
+        "run",
+        "blacksmith",
+        "testbox",
+        "ci-parity",
+        "checks"
+      ],
+      "description": "Run Blacksmith Testbox for CI-parity checks, secrets, hosted services, migrations, or builds local cannot reproduce.",
+      "children_count": 0,
+      "prerequisites": [
+        "billing-governance-guardrail"
+      ],
+      "unlocks": [
+        "398c14636964"
+      ]
+    },
+    {
+      "id": "398c14636964",
+      "name": "Skill workshop plugin",
+      "kind": "skill",
+      "category": "security",
+      "depth": 2,
+      "parent": "cat:security",
+      "score": 1.0,
+      "tags": [
+        "workshop",
+        "plugin",
+        "experimental",
+        "capture",
+        "reusable",
+        "procedures"
+      ],
+      "description": "Experimental capture of reusable procedures as workspace skills with review, approval, quarantine, and hot skill refresh",
+      "children_count": 0,
+      "prerequisites": [
+        "262d098bb0f5"
+      ],
+      "unlocks": [
+        "billing-governance-doc"
+      ]
+    },
+    {
+      "id": "19d993f59864",
+      "name": "Skills config",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 0.0,
+      "tags": [
+        "skills",
+        "config",
+        "schema",
+        "examples"
+      ],
+      "description": "Skills config schema and examples",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "c2625c54ebc7",
+      "name": "Skills",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 0.0,
+      "tags": [
+        "skills",
+        "cli",
+        "reference",
+        "openclaw",
+        "search",
+        "install"
+      ],
+      "description": "CLI reference for `openclaw skills` (search/install/update/list/info/check)",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "c3ed37af9248",
+      "name": "agent-orchestration",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "agent-orchestration",
+        "divide",
+        "large",
+        "investigation",
+        "among",
+        "focused"
+      ],
+      "description": "Divide a large investigation among focused research workers and combine their results. Use when several independent questions can be researched separately.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "575365303ae0",
+      "name": "find-skills",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "find-skills",
+        "helps",
+        "users",
+        "discover",
+        "install",
+        "agent"
+      ],
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending c",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "ec99e8fe6d73"
+      ]
+    },
+    {
+      "id": "ec99e8fe6d73",
+      "name": "skill-creator",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "skill-creator",
+        "guide",
+        "creating",
+        "updating",
+        "skills",
+        "extend"
+      ],
+      "description": "Guide for creating or updating skills that extend Manus via specialized knowledge, workflows, or tool integrations. For any modification or improvement request, MUST first read thi",
+      "children_count": 0,
+      "prerequisites": [
+        "575365303ae0"
+      ],
+      "unlocks": [
+        "src-1-QHthiDb-8J"
+      ]
+    },
+    {
+      "id": "0d6f929ff3bf",
+      "name": "init_skill",
+      "kind": "skill",
+      "category": "backend",
+      "depth": 2,
+      "parent": "cat:backend",
+      "score": 2.0,
+      "tags": [
+        "init_skill",
+        "usr",
+        "bin",
+        "env",
+        "python3",
+        "initializer"
+      ],
+      "description": "#!/usr/bin/env python3 \"\"\" Skill Initializer - Creates a new skill from template Usage: init_skill.py <skill-name> Examples: init_skill.py my-new-skill init_skill.py my-api-helper ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1krh-Tro3Uh2"
+      ],
+      "unlocks": [
+        "a583605990c0"
+      ]
+    },
+    {
+      "id": "a25242e28e48",
+      "name": "optimizetests",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "optimizetests",
+        "optimize",
+        "openclaw",
+        "slow",
+        "tests",
+        "imports"
+      ],
+      "description": "Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "50e6dc1c3160",
+      "name": "openclaw-test-heap-leaks",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "openclaw-test-heap-leaks",
+        "investigate",
+        "openclaw",
+        "pnpm",
+        "test",
+        "memory"
+      ],
+      "description": "Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "4596d8984229",
+      "name": "openclaw-secret-scanning-maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "openclaw-secret-scanning-maintainer",
+        "triage",
+        "redact",
+        "clean",
+        "resolve",
+        "openclaw"
+      ],
+      "description": "Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "ba3a10b5fa60",
+      "name": "tavily",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 0.0,
+      "tags": [
+        "tavily",
+        "web",
+        "search",
+        "content",
+        "extraction",
+        "research"
+      ],
+      "description": "Tavily web search, content extraction, and research tools.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "a583605990c0",
+      "name": "qqbot-channel",
+      "kind": "skill",
+      "category": "backend",
+      "depth": 2,
+      "parent": "cat:backend",
+      "score": 1.0,
+      "tags": [
+        "qqbot-channel",
+        "qqbot_channel_api",
+        "http",
+        "token"
+      ],
+      "description": "QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002",
+      "children_count": 0,
+      "prerequisites": [
+        "0d6f929ff3bf"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "590f269ee48c",
+      "name": "prose",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "prose",
+        "openprose",
+        "pack",
+        "activate",
+        "any",
+        "command"
+      ],
+      "description": "OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenProse mentions; orchestrates multi-agent workflows.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "ea149e5ac4e1",
+      "name": "openclaw-release-maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "openclaw-release-maintainer",
+        "prepare",
+        "verify",
+        "openclaw",
+        "stable",
+        "beta"
+      ],
+      "description": "Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "351936bd7f04",
+      "name": "openclaw-parallels-smoke",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "openclaw-parallels-smoke",
+        "run",
+        "rerun",
+        "debug",
+        "interpret",
+        "openclaw"
+      ],
+      "description": "Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "9111487e7459",
+      "name": "gh-issues",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "gh-issues",
+        "fetch",
+        "github",
+        "issues",
+        "delegate",
+        "fixes"
+      ],
+      "description": "Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "b14441c4dce4",
+      "name": "skill-creator",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 1.0,
+      "tags": [
+        "skill-creator",
+        "create",
+        "edit",
+        "improve",
+        "tidy",
+        "review"
+      ],
+      "description": "Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "9c6075025ce1",
+      "name": "Skills",
+      "kind": "skill",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 0.0,
+      "tags": [
+        "skills",
+        "managed",
+        "workspace",
+        "gating",
+        "rules",
+        "config"
+      ],
+      "description": "Skills: managed vs workspace, gating rules, and config/env wiring",
+      "children_count": 0,
+      "prerequisites": [
+        "re-billing-meta"
+      ],
+      "unlocks": [
+        "src-1sQh5oBA55ez"
+      ]
+    },
+    {
+      "id": "src-1-QHthiDb-8J",
+      "name": "GitHub Skill",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "github",
+        "name",
+        "description",
+        "use",
+        "issues",
+        "status"
+      ],
+      "description": "--- name: github description: \"Use gh for GitHub issues, PR status, CI/logs, comments, reviews, releases, and API queries.\" metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc19\", \"requires\": { \"b",
+      "children_count": 0,
+      "prerequisites": [
+        "ec99e8fe6d73"
+      ],
+      "unlocks": [
+        "src-10CCVmNHHBtV"
+      ]
+    },
+    {
+      "id": "src-10-vH9if2omS",
+      "name": "Function calling.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "function",
+        "calling",
+        "txt",
+        "also",
+        "known",
+        "tool"
+      ],
+      "description": "\ufeff# Function calling **Function calling** (also known as **tool calling**) provides a powerful and flexible way for OpenAI models to interface with external systems and access data ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-10HrRCDVCAAE"
+      ]
+    },
+    {
+      "id": "src-10CCVmNHHBtV",
+      "name": "Skill Seekers v2.2.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "seekers",
+        "pdf",
+        "cial",
+        "library",
+        "seeker",
+        "presets"
+      ],
+      "description": "Skill Seekers v2.2.0: O\ufb03cial Skill Library(for the skill seeker) with 24+ Presets, Free Team Sharing (No Team Plan Required), and Custom Skill Repos Support MCP Hey everyone! \ud83d\udc4b Jus",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1-QHthiDb-8J"
+      ],
+      "unlocks": [
+        "src-10UBOpRR91b1"
+      ]
+    },
+    {
+      "id": "src-10HrRCDVCAAE",
+      "name": "Reasoning models.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "reasoning",
+        "models",
+        "txt",
+        "import",
+        "question",
+        "storage"
+      ],
+      "description": "\ufeff# Reasoning models import { Question, Storage, } from \"@components/react/oai/platform/ui/Icon.react\"; **Reasoning models** like [GPT-5.5](https://developers.openai.com/api/docs/mo",
+      "children_count": 0,
+      "prerequisites": [
+        "src-10-vH9if2omS"
+      ],
+      "unlocks": [
+        "src-11ueDhCrKz3d"
+      ]
+    },
+    {
+      "id": "src-10UBOpRR91b1",
+      "name": "1Password CLI",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "password",
+        "cli",
+        "name",
+        "description",
+        "set",
+        "use"
+      ],
+      "description": "--- name: 1password description: Set up and use 1Password CLI for sign-in, desktop integration, and reading or injecting secrets. homepage: https://developer.1password.com/docs/cli",
+      "children_count": 0,
+      "prerequisites": [
+        "src-10CCVmNHHBtV"
+      ],
+      "unlocks": [
+        "src-10o1fkTJwjVA"
+      ]
+    },
+    {
+      "id": "src-10o1fkTJwjVA",
+      "name": "QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "api",
+        "name",
+        "qqbot-channel",
+        "description",
+        "qqbot_channel_api",
+        "http"
+      ],
+      "description": "--- name: qqbot-channel description: QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002 metadata: { \"op",
+      "children_count": 0,
+      "prerequisites": [
+        "src-10UBOpRR91b1"
+      ],
+      "unlocks": [
+        "src-125JfMD4UDZn"
+      ]
+    },
+    {
+      "id": "src-113sI7Fpcmuk",
+      "name": "Skill Seekers _ Claude Code Skill for Knowledge Extraction.PDF",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "seekers",
+        "claude",
+        "code",
+        "knowledge",
+        "extraction",
+        "pdf"
+      ],
+      "description": "Skill Seekers is a powerful utility designed to expand the context and capabilities of Claude by transforming various information sources into structured AI skills. By utilizing do",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-118dv3VilDkJ"
+      ]
+    },
+    {
+      "id": "src-118dv3VilDkJ",
+      "name": "1. Install",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "install",
+        "watch72",
+        "sponsor",
+        "convert",
+        "documentation",
+        "websites"
+      ],
+      "description": "Watch72 Sponsor Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection MIT License skillseekersweb.com/ Contributing ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-113sI7Fpcmuk"
+      ],
+      "unlocks": [
+        "src-11cs5FPhXV94"
+      ]
+    },
+    {
+      "id": "src-11cs5FPhXV94",
+      "name": ".speakeasy/grok-overlay.yamloverlay: 1.0.0info:",
+      "kind": "doc",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "speakeasy",
+        "grok-overlay",
+        "yamloverlay",
+        "info",
+        "integrating",
+        "grok"
+      ],
+      "description": "\ufeffIntegrating Grok with Speakeasy involves a systematic workflow to turn the xAI API into a highly automated, type-safe SDK. ## The Master Blueprint The integration follows a four-s",
+      "children_count": 0,
+      "prerequisites": [
+        "src-118dv3VilDkJ"
+      ],
+      "unlocks": [
+        "src-16Da2zi4fkAd"
+      ]
+    },
+    {
+      "id": "src-11ueDhCrKz3d",
+      "name": "Implementing autonomy.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "implementing",
+        "autonomy",
+        "txt",
+        "autonomous",
+        "investigation",
+        "modules"
+      ],
+      "description": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the techni",
+      "children_count": 0,
+      "prerequisites": [
+        "src-10HrRCDVCAAE"
+      ],
+      "unlocks": [
+        "src-1335tUP25Rb8"
+      ]
+    },
+    {
+      "id": "src-125JfMD4UDZn",
+      "name": "OpenClaw Test Heap Leaks",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "test",
+        "heap",
+        "leaks",
+        "name",
+        "openclaw-test-heap-leaks"
+      ],
+      "description": "--- name: openclaw-test-heap-leaks description: Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas. --- # OpenClaw Test Heap Leaks Use ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-10o1fkTJwjVA"
+      ],
+      "unlocks": [
+        "src-12BLjoUXO2CD"
+      ]
+    },
+    {
+      "id": "src-12BLjoUXO2CD",
+      "name": "Workflows \u2014 Curated AI Agent Skill + MCP Server Bundles _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "workflows",
+        "curated",
+        "agent",
+        "mcp",
+        "server",
+        "bundles"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 03 \u00b7 WORKFLOW BUNDLES Agent stacks,ready torun. Curated bundles of AI agent skills and MCP servers for common development tasks. Install an entire ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-125JfMD4UDZn"
+      ],
+      "unlocks": [
+        "src-12LWqIrG4g0-"
+      ]
+    },
+    {
+      "id": "src-12LWqIrG4g0-",
+      "name": "Browser Automation",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "browser",
+        "automation",
+        "name",
+        "browser-automation",
+        "description",
+        "use"
+      ],
+      "description": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from",
+      "children_count": 0,
+      "prerequisites": [
+        "src-12BLjoUXO2CD"
+      ],
+      "unlocks": [
+        "src-132LIkFckmv0"
+      ]
+    },
+    {
+      "id": "src-132LIkFckmv0",
+      "name": "Skills.txt",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "skills",
+        "txt",
+        "agent",
+        "let",
+        "you",
+        "upload"
+      ],
+      "description": "\ufeff# Skills Agent Skills let you upload and reuse versioned bundles of files in hosted and local shell environments. We support Skills in two form factors: local execution and hosted",
+      "children_count": 0,
+      "prerequisites": [
+        "src-12LWqIrG4g0-"
+      ],
+      "unlocks": [
+        "src-134DXUG-oMEA"
+      ]
+    },
+    {
+      "id": "src-1335tUP25Rb8",
+      "name": "Function callin.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "function",
+        "callin",
+        "txt",
+        "calling",
+        "also",
+        "known"
+      ],
+      "description": "\ufeff# Function calling **Function calling** (also known as **tool calling**) provides a powerful and flexible way for OpenAI models to interface with external systems and access data ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-11ueDhCrKz3d"
+      ],
+      "unlocks": [
+        "src-15MbTZc9L7RS"
+      ]
+    },
+    {
+      "id": "src-134DXUG-oMEA",
+      "name": "Skills.txt",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "skills",
+        "txt",
+        "agent",
+        "let",
+        "you",
+        "upload"
+      ],
+      "description": "\ufeff# Skills Agent Skills let you upload and reuse versioned bundles of files in hosted and local shell environments. We support Skills in two form factors: local execution and hosted",
+      "children_count": 0,
+      "prerequisites": [
+        "src-132LIkFckmv0"
+      ],
+      "unlocks": [
+        "src-15BKfpwr9U-J"
+      ]
+    },
+    {
+      "id": "src-15BKfpwr9U-J",
+      "name": "GitLab MCP Server \u2014 GitLab _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "gitlab",
+        "mcp",
+        "server",
+        "agenticskills",
+        "pdf",
+        "index"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home MCP Servers GitLab GitLab OFFICIAL byGitLab GitLab API with OAuth DCR for project management and CI/CD pipelines. STDIO TYPESCRIPT API KEY REQ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-134DXUG-oMEA"
+      ],
+      "unlocks": [
+        "src-15aGM-w6qPhE"
+      ]
+    },
+    {
+      "id": "src-15MbTZc9L7RS",
+      "name": "Migrate to the.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "migrate",
+        "txt",
+        "responses",
+        "api",
+        "import",
+        "checkcirclefilled"
+      ],
+      "description": "\ufeff# Migrate to the Responses API import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; The [Responses API](https://developers.openai.com/api/do",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1335tUP25Rb8"
+      ],
+      "unlocks": [
+        "src-194l9OW9HA1I"
+      ]
+    },
+    {
+      "id": "src-15QfxHxaCT9b",
+      "name": "https_swagge.txt",
+      "kind": "doc",
+      "category": "devops",
+      "depth": 2,
+      "parent": "cat:devops",
+      "score": 2.0,
+      "tags": [
+        "https_swagge",
+        "txt",
+        "https",
+        "swagger",
+        "specification",
+        "v3_0"
+      ],
+      "description": "\ufeffhttps://swagger.io/docs/specification/v3_0/authentication/bearer-authentication/ https://swagger.io/docs/open-source-tools/swagger-editor/ https://swagger.io/docs/open-source-tool",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1j0SUZghqfJ8"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "src-15aGM-w6qPhE",
+      "name": "OpenClaw PR Maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "maintainer",
+        "name",
+        "openclaw-pr-maintainer",
+        "description",
+        "review"
+      ],
+      "description": "--- name: openclaw-pr-maintainer description: Review, triage, close, label, comment on, or land OpenClaw PRs/issues with maintainer evidence checks. --- # OpenClaw PR Maintainer Us",
+      "children_count": 0,
+      "prerequisites": [
+        "src-15BKfpwr9U-J"
+      ],
+      "unlocks": [
+        "src-17X7h4aD4T7O"
+      ]
+    },
+    {
+      "id": "src-15x1von2Rx69",
+      "name": "My Framework Skill",
+      "kind": "skill",
+      "category": "media",
+      "depth": 2,
+      "parent": "cat:media",
+      "score": 3.0,
+      "tags": [
+        "framework",
+        "development",
+        "skill_seekers",
+        "user-guide",
+        "core-concepts",
+        "yusufkaraaslanandclaudedocs"
+      ],
+      "description": "development Skill_Seekers/docs/user-guide/01-core-concepts.md yusufkaraaslanandclaudedocs: fix stale QWEN.md and version stamps across docs/ 7162f1d \u00b7 3 months ago 584 lines (415 l",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-1MDiezUBzJK3"
+      ]
+    },
+    {
+      "id": "src-16Da2zi4fkAd",
+      "name": "1. Install",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "install",
+        "yusufkaraaslan",
+        "skill_seekers",
+        "skill_seekerspublic",
+        "sponsor",
+        "watch69"
+      ],
+      "description": "yusufkaraaslan Skill_Seekers Skill_SeekersPublic Sponsor Watch69 About Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic con\ufb02ict de",
+      "children_count": 0,
+      "prerequisites": [
+        "src-11cs5FPhXV94"
+      ],
+      "unlocks": [
+        "src-1A8qcf-bxCn_"
+      ]
+    },
+    {
+      "id": "src-16cMxMJG17Ki",
+      "name": "Files",
+      "kind": "doc",
+      "category": "general",
+      "depth": 2,
+      "parent": "cat:general",
+      "score": 3.0,
+      "tags": [
+        "files",
+        "containers",
+        "list",
+        "get",
+        "query",
+        "parameters"
+      ],
+      "description": "\ufeff# Containers ## List containers **get** `/containers` List Containers ### Query Parameters - `after: optional string` A cursor for use in pagination. `after` is an object ID that ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-1p1156g_kMfj"
+      ]
+    },
+    {
+      "id": "src-17X7h4aD4T7O",
+      "name": "Canvas Skill",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "canvas",
+        "display",
+        "html",
+        "content",
+        "connected",
+        "openclaw"
+      ],
+      "description": "# Canvas Skill Display HTML content on connected OpenClaw nodes (Mac app, iOS, Android). ## Overview The canvas tool lets you present web content on any connected node's canvas vie",
+      "children_count": 0,
+      "prerequisites": [
+        "src-15aGM-w6qPhE"
+      ],
+      "unlocks": [
+        "src-18bxv6CEa4Le"
+      ]
+    },
+    {
+      "id": "src-18bt5DDrfNqf",
+      "name": "AI Agent Skills \u2014 The Curated Directory _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "search",
+      "depth": 2,
+      "parent": "cat:search",
+      "score": 3.0,
+      "tags": [
+        "agent",
+        "skills",
+        "curated",
+        "directory",
+        "agenticskills",
+        "pdf"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 01 \u00b7 SKILLS DIRECTORY 194+ curatedagent skills,one index. Search, filter, and compare every skill in the directory \u2014 for Claude Code, OpenAI Codex,",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-1Fc-afLd_2W6"
+      ]
+    },
+    {
+      "id": "src-18bxv6CEa4Le",
+      "name": "QQ Bot \u5b9a\u65f6\u63d0\u9192",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "bot",
+        "name",
+        "qqbot-remind",
+        "description",
+        "qqbot",
+        "metadata"
+      ],
+      "description": "--- name: qqbot-remind description: QQBot \u5b9a\u65f6\u63d0\u9192\u3002\u652f\u6301\u4e00\u6b21\u6027\u548c\u5468\u671f\u6027\u63d0\u9192\u7684\u521b\u5efa\u3001\u67e5\u8be2\u3001\u53d6\u6d88\u3002\u5f53\u901a\u8fc7 QQ \u901a\u9053\u901a\u4fe1\u4e14\u6d89\u53ca\u63d0\u9192/\u5b9a\u65f6\u4efb\u52a1\u65f6\u4f7f\u7528\u3002 metadata: { \"openclaw\": { \"emoji\": \"\u23f0\", \"requires\": { \"config\": [\"channels.qqbot\"] } }",
+      "children_count": 0,
+      "prerequisites": [
+        "src-17X7h4aD4T7O"
+      ],
+      "unlocks": [
+        "src-19SovwVKexfo"
+      ]
+    },
+    {
+      "id": "src-18q3hvf-xp8I",
+      "name": "detailed template layout.txt",
+      "kind": "doc",
+      "category": "research",
+      "depth": 2,
+      "parent": "cat:research",
+      "score": 3.0,
+      "tags": [
+        "detailed",
+        "template",
+        "layout",
+        "txt",
+        "specific",
+        "investigative"
+      ],
+      "description": "\ufeffdetailed template for a specific investigative task, such as a Forensic Artifact Analysis prompt using the ROLES Advanced prompt engineering has evolved from simple instructions i",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-1BtBZC9RmjNi"
+      ]
+    },
+    {
+      "id": "src-194l9OW9HA1I",
+      "name": "Setup specialized logging for audit trails",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "setup",
+        "specialized",
+        "logging",
+        "audit",
+        "trails",
+        "building"
+      ],
+      "description": "\ufeffBuilding an autonomous investigation module requires a multi-layered architecture that combines low-level forensic parsing (Action) with high-level cognitive reasoning (Reasoning)",
+      "children_count": 0,
+      "prerequisites": [
+        "src-15MbTZc9L7RS"
+      ],
+      "unlocks": [
+        "src-1E57fBSd0kCh"
+      ]
+    },
+    {
+      "id": "src-19SovwVKexfo",
+      "name": "blucli (blu)",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "blucli",
+        "blu",
+        "name",
+        "description",
+        "bluos",
+        "cli"
+      ],
+      "description": "--- name: blucli description: BluOS CLI (blu) for discovery, playback, grouping, and volume. homepage: https://blucli.sh metadata: { \"openclaw\": { \"emoji\": \"\ud83e\uded0\", \"requires\": { \"bins",
+      "children_count": 0,
+      "prerequisites": [
+        "src-18bxv6CEa4Le"
+      ],
+      "unlocks": [
+        "src-1BWFjyaFPPFx"
+      ]
+    },
+    {
+      "id": "src-1A5Pt-AAidfP",
+      "name": ".naf.txt",
+      "kind": "doc",
+      "category": "general",
+      "depth": 2,
+      "parent": "cat:general",
+      "score": 0.0,
+      "tags": [
+        "naf",
+        "txt"
+      ],
+      "description": "",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1p1156g_kMfj"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "src-1A8qcf-bxCn_",
+      "name": "In Claude Codefetch_config(config_name='nextjs')",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "claude",
+        "codefetch_config",
+        "config_name",
+        "nextjs",
+        "yusufkaraaslanskill-seekers-con",
+        "skill-seekers-con"
+      ],
+      "description": "yusufkaraaslanskill-seekers-con\ufb01gs skill-seekers-con\ufb01gsPublic Watch0 About Community-contributed con\ufb01guration \ufb01les for Skill Seekers - Documentation scraping con\ufb01gs for popular fra",
+      "children_count": 0,
+      "prerequisites": [
+        "src-16Da2zi4fkAd"
+      ],
+      "unlocks": [
+        "src-1KGN00-6f8dJ"
+      ]
+    },
+    {
+      "id": "src-1AVd4HwJ2jDJ",
+      "name": "Blacksmith Testbox",
+      "kind": "skill",
+      "category": "security",
+      "depth": 2,
+      "parent": "cat:security",
+      "score": 3.0,
+      "tags": [
+        "blacksmith",
+        "testbox",
+        "name",
+        "blacksmith-testbox",
+        "description",
+        "run"
+      ],
+      "description": "--- name: blacksmith-testbox description: Run Blacksmith Testbox for CI-parity checks, secrets, hosted services, migrations, or builds local cannot reproduce. --- # Blacksmith Test",
+      "children_count": 0,
+      "prerequisites": [
+        "billing-governance-extension"
+      ],
+      "unlocks": [
+        "src-1k--QUxu5HZp"
+      ]
+    },
+    {
+      "id": "src-1BWFjyaFPPFx",
+      "name": "Parallels Discord Roundtrip",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "parallels",
+        "discord",
+        "roundtrip",
+        "name",
+        "parallels-discord-roundtrip",
+        "description"
+      ],
+      "description": "--- name: parallels-discord-roundtrip description: Run macOS Parallels smoke with Discord send, host verification, host reply, and guest readback proof. --- # Parallels Discord Rou",
+      "children_count": 0,
+      "prerequisites": [
+        "src-19SovwVKexfo"
+      ],
+      "unlocks": [
+        "src-1CmWHD-LN1i2"
+      ]
+    },
+    {
+      "id": "src-1BtBZC9RmjNi",
+      "name": "Based.txt",
+      "kind": "doc",
+      "category": "research",
+      "depth": 2,
+      "parent": "cat:research",
+      "score": 3.0,
+      "tags": [
+        "based",
+        "txt",
+        "search",
+        "results",
+        "adding",
+        "specialized"
+      ],
+      "description": "\ufeffBased on the search results, adding specialized investigation modules involves enhancing existing systems (like case management, digital forensics, or cybersecurity platforms) wit",
+      "children_count": 0,
+      "prerequisites": [
+        "src-18q3hvf-xp8I"
+      ],
+      "unlocks": [
+        "src-1CZtuAERCR77"
+      ]
+    },
+    {
+      "id": "src-1CZtuAERCR77",
+      "name": "yusufkaraaslan_skill-seekers-action_ GitHub Action_ Transform docs, repos, PDFs, videos into AI skills and RAG knowledge.PDF",
+      "kind": "skill",
+      "category": "research",
+      "depth": 2,
+      "parent": "cat:research",
+      "score": 3.0,
+      "tags": [
+        "yusufkaraaslan_skill-seekers-action_",
+        "github",
+        "action_",
+        "transform",
+        "repos",
+        "pdfs"
+      ],
+      "description": "yusufkaraaslanskill-seekers-action skill-seekers-actionPublic Watch0 About GitHub Action: Transform docs, repos, PDFs, videos into AI skills and RAG knowledge Readme MIT license Ac",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1BtBZC9RmjNi"
+      ],
+      "unlocks": [
+        "src-1IswK8GGdivm"
+      ]
+    },
+    {
+      "id": "src-1CmWHD-LN1i2",
+      "name": "Agent Skills Marketplace _ Claude, C...PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "agent",
+        "skills",
+        "marketplace",
+        "claude",
+        "pdf",
+        "where"
+      ],
+      "description": "Where Agents Find Their Skills Skills Marketplace for Every Agent B r o w s e 3 3 4 , 1 5 1 S k i l l s b u i l t a g e n t - \ufb01 r s t a n d o p e n t o e v e r y s t a c k . P u b ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1BWFjyaFPPFx"
+      ],
+      "unlocks": [
+        "src-1FPnBUmBOWKW"
+      ]
+    },
+    {
+      "id": "src-1E57fBSd0kCh",
+      "name": "full catalog/plugin install rampstack-skills@rampstack",
+      "kind": "skill",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "full",
+        "catalog",
+        "plugin",
+        "install",
+        "rampstack-skills",
+        "rampstack"
+      ],
+      "description": "rampstackcoclaude-skills claude-skillsPublic Watch7 About Stack-agnostic Claude Skills covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and resea",
+      "children_count": 0,
+      "prerequisites": [
+        "src-194l9OW9HA1I"
+      ],
+      "unlocks": [
+        "src-1KkoUnS86A8h"
+      ]
+    },
+    {
+      "id": "src-1FPnBUmBOWKW",
+      "name": "OpenClaw PR Maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "maintainer",
+        "name",
+        "openclaw-pr-maintainer",
+        "description",
+        "review"
+      ],
+      "description": "--- name: openclaw-pr-maintainer description: Review, triage, close, label, comment on, or land OpenClaw PRs/issues with maintainer evidence checks. --- # OpenClaw PR Maintainer Us",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1CmWHD-LN1i2"
+      ],
+      "unlocks": [
+        "src-1Fe227xb5aGF"
+      ]
+    },
+    {
+      "id": "src-1Fc-afLd_2W6",
+      "name": "File search.txt",
+      "kind": "doc",
+      "category": "search",
+      "depth": 2,
+      "parent": "cat:search",
+      "score": 3.0,
+      "tags": [
+        "search",
+        "txt",
+        "import",
+        "checkcirclefilled",
+        "xcircle",
+        "components"
+      ],
+      "description": "\ufeff# File search import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; import { uploadFileExample, createVectorStoreExample, addFileToVectorStor",
+      "children_count": 0,
+      "prerequisites": [
+        "src-18bt5DDrfNqf"
+      ],
+      "unlocks": [
+        "src-1JNgaz8rfAFH"
+      ]
+    },
+    {
+      "id": "src-1Fe227xb5aGF",
+      "name": "Security Triage",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "security",
+        "triage",
+        "name",
+        "security-triage",
+        "description",
+        "openclaw"
+      ],
+      "description": "--- name: security-triage description: Triage OpenClaw security advisories, drafts, and GHSA reports with shipped-tag and trust-model proof. --- # Security Triage Use when reviewin",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1FPnBUmBOWKW"
+      ],
+      "unlocks": [
+        "src-1GqxsRMTV_9v"
+      ]
+    },
+    {
+      "id": "src-1G8B0UQ63yrH",
+      "name": "Retrieve containers.txt",
+      "kind": "doc",
+      "category": "backend",
+      "depth": 2,
+      "parent": "cat:backend",
+      "score": 3.0,
+      "tags": [
+        "retrieve",
+        "containers",
+        "txt",
+        "container",
+        "content",
+        "get"
+      ],
+      "description": "\ufeff## Retrieve container file content **get** `/containers/{container_id}/files/{file_id}/content` Retrieve Container File Content ### Path Parameters - `container_id: string` - `fil",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-1LgX1ZvSwPyw"
+      ]
+    },
+    {
+      "id": "src-1GqxsRMTV_9v",
+      "name": "OpenClaw GHSA Maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "ghsa",
+        "maintainer",
+        "name",
+        "openclaw-ghsa-maintainer",
+        "description"
+      ],
+      "description": "--- name: openclaw-ghsa-maintainer description: Inspect, patch, validate, publish, or confirm OpenClaw GHSA security advisories and private-fork state. --- # OpenClaw GHSA Maintain",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1Fe227xb5aGF"
+      ],
+      "unlocks": [
+        "src-1GxYNbDueSjN"
+      ]
+    },
+    {
+      "id": "src-1GxYNbDueSjN",
+      "name": "Browser Automation",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "browser",
+        "automation",
+        "name",
+        "browser-automation",
+        "description",
+        "use"
+      ],
+      "description": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1GqxsRMTV_9v"
+      ],
+      "unlocks": [
+        "src-1H4i9vcllnH9"
+      ]
+    },
+    {
+      "id": "src-1H4i9vcllnH9",
+      "name": "camsnap",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "camsnap",
+        "name",
+        "description",
+        "capture",
+        "frames",
+        "clips"
+      ],
+      "description": "--- name: camsnap description: Capture frames or clips from RTSP/ONVIF cameras. homepage: https://camsnap.ai metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"bins\": [\"camsnap",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1GxYNbDueSjN"
+      ],
+      "unlocks": [
+        "src-1HuiMPPcXq0z"
+      ]
+    },
+    {
+      "id": "src-1HuiMPPcXq0z",
+      "name": "Tavily Tools",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "tavily",
+        "tools",
+        "name",
+        "description",
+        "web",
+        "search"
+      ],
+      "description": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.en",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1H4i9vcllnH9"
+      ],
+      "unlocks": [
+        "src-1I1_3pTiwJEu"
+      ]
+    },
+    {
+      "id": "src-1I1_3pTiwJEu",
+      "name": "Learn \u2014 AI Agent Skills Guides & Tutorials _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "learn",
+        "agent",
+        "skills",
+        "guides",
+        "tutorials",
+        "agenticskills"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 04 \u00b7 LEARNING LIBRARY Field notesfor agenticbuilders. In-depth guides, tutorials, and best practices for AI agent skills, Claude Code, MCP servers,",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1HuiMPPcXq0z"
+      ],
+      "unlocks": [
+        "src-1IEjZE7DKA4T"
+      ]
+    },
+    {
+      "id": "src-1IEjZE7DKA4T",
+      "name": "yaml-language-server: $schema=https://raw.githubusercontent.com/openclaw/clawscan/main/schemas/clawscan.schema.json",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "yaml-language-server",
+        "schema",
+        "https",
+        "raw",
+        "githubusercontent",
+        "com"
+      ],
+      "description": "openclawclawscan clawscanPublic Watch0 About Composable security scanning harness for agent skills clawscanner.app/ agent-security ai-security llm-security prompt-injection securit",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1I1_3pTiwJEu"
+      ],
+      "unlocks": [
+        "src-1II6iQhJQ_h6"
+      ]
+    },
+    {
+      "id": "src-1II6iQhJQ_h6",
+      "name": "Skill Workshop pending approval",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "workshop",
+        "pending",
+        "approval",
+        "yaml",
+        "qa-scenario",
+        "skill-workshop-pending-approval"
+      ],
+      "description": "# Skill Workshop pending approval ```yaml qa-scenario id: skill-workshop-pending-approval title: Skill Workshop pending approval surface: plugins coverage: primary: - plugins.skill",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1IEjZE7DKA4T"
+      ],
+      "unlocks": [
+        "src-1Iwmb_k8LTF-"
+      ]
+    },
+    {
+      "id": "src-1IswK8GGdivm",
+      "name": "Changelog",
+      "kind": "doc",
+      "category": "research",
+      "depth": 2,
+      "parent": "cat:research",
+      "score": 3.0,
+      "tags": [
+        "changelog",
+        "https",
+        "github",
+        "com",
+        "openai",
+        "model_spec"
+      ],
+      "description": "\ufeffhttps://github.com/openai/model_spec/blob/main/CHANGELOG.md # Changelog ## v2025.12.18 ([Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes#updates-to-",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1CZtuAERCR77"
+      ],
+      "unlocks": [
+        "src-1LehaQuF1lVh"
+      ]
+    },
+    {
+      "id": "src-1Iwmb_k8LTF-",
+      "name": "skills (51).md",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "skills",
+        "summary",
+        "managed",
+        "workspace",
+        "gating",
+        "rules"
+      ],
+      "description": "--- summary: \"Skills: managed vs workspace, gating rules, and config/env wiring\" read_when: - Adding or modifying skills - Changing skill gating or load rules title: \"Skills\" --- O",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1II6iQhJQ_h6"
+      ],
+      "unlocks": [
+        "src-1JOxNy3QuJOH"
+      ]
+    },
+    {
+      "id": "src-1JNgaz8rfAFH",
+      "name": "AI Agent Skills \u2014 The Curated Directory _ AgenticSkills(1).PDF",
+      "kind": "skill",
+      "category": "search",
+      "depth": 2,
+      "parent": "cat:search",
+      "score": 3.0,
+      "tags": [
+        "agent",
+        "skills",
+        "curated",
+        "directory",
+        "agenticskills",
+        "pdf"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 01 \u00b7 SKILLS DIRECTORY 194+ curatedagent skills,one index. Search, filter, and compare every skill in the directory \u2014 for Claude Code, OpenAI Codex,",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1Fc-afLd_2W6"
+      ],
+      "unlocks": [
+        "src-1oxxXB6RDKUg"
+      ]
+    },
+    {
+      "id": "src-1JOxNy3QuJOH",
+      "name": "grok-search.md",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "grok-search",
+        "summary",
+        "grok",
+        "web",
+        "search",
+        "via"
+      ],
+      "description": "--- summary: \"Grok web search via xAI web-grounded responses\" read_when: - You want to use Grok for web_search - You need an XAI_API_KEY for web search title: \"Grok search\" --- Ope",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1Iwmb_k8LTF-"
+      ],
+      "unlocks": [
+        "src-1JrqOnFjMH2r"
+      ]
+    },
+    {
+      "id": "src-1JrqOnFjMH2r",
+      "name": "OpenClaw Release Maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "release",
+        "maintainer",
+        "name",
+        "openclaw-release-maintainer",
+        "description"
+      ],
+      "description": "--- name: openclaw-release-maintainer description: Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts. --- # OpenClaw Relea",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1JOxNy3QuJOH"
+      ],
+      "unlocks": [
+        "src-1K5ArlJf__aG"
+      ]
+    },
+    {
+      "id": "src-1K5ArlJf__aG",
+      "name": "AgenticSkills \u2014 AI Agent Skills & 190+ MCP Servers Directory.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "agenticskills",
+        "agent",
+        "skills",
+        "mcp",
+        "servers",
+        "directory"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 JUST ADDED SEP 28 2026 Anthropic Design Plugin Agent Skills Humanizer Last 30 Days Planning With Files Impeccable Browse all skills 194+ CURATED SK",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1JrqOnFjMH2r"
+      ],
+      "unlocks": [
+        "src-1KBEv0pI91cu"
+      ]
+    },
+    {
+      "id": "src-1KBEv0pI91cu",
+      "name": "openclaw_agent-skills_ Useful skills for agents and claws.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw_agent-skills_",
+        "useful",
+        "skills",
+        "agents",
+        "claws",
+        "pdf"
+      ],
+      "description": "openclawagent-skills agent-skillsPublic Watch3 About Useful skills for agents and claws. Readme MIT license Security policy Activity Custom properties 1.1k stars 3 watching 118 for",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1K5ArlJf__aG"
+      ],
+      "unlocks": [
+        "src-1KBpvmBoIHA-"
+      ]
+    },
+    {
+      "id": "src-1KBpvmBoIHA-",
+      "name": "ROLE (Role & Identity)You are the **Lead Investigative Swarm Coordinator (ISC)**. You oversee a decentralized network of",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "role",
+        "identity",
+        "you",
+        "are",
+        "lead",
+        "investigative"
+      ],
+      "description": "\ufeffThis implementation provides a high-fidelity Agent Swarm Architecture for autonomous investigation, utilizing the ROLES Framework to govern specialized micro-agents coordinated by",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1KBEv0pI91cu"
+      ],
+      "unlocks": [
+        "src-1KYH3FB1nFUY"
+      ]
+    },
+    {
+      "id": "src-1KGN00-6f8dJ",
+      "name": "Auto-detect and scrape",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "auto-detect",
+        "scrape",
+        "development",
+        "skill_seekers",
+        "user-guide",
+        "scraping"
+      ],
+      "description": "development Skill_Seekers/docs/user-guide/02-scraping.md yusufkaraaslandocs: update all documentation for 17 source types 37cb307 \u00b7 2 months ago File added toEcho Eternal Memory Lo",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1A8qcf-bxCn_"
+      ],
+      "unlocks": [
+        "src-1V0jvvkfI41w"
+      ]
+    },
+    {
+      "id": "src-1KYH3FB1nFUY",
+      "name": "QQBot \u5bcc\u5a92\u4f53\u6536\u53d1",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "qqbot",
+        "name",
+        "qqbot-media",
+        "description",
+        "qqmedia",
+        "metadata"
+      ],
+      "description": "--- name: qqbot-media description: QQBot \u5bcc\u5a92\u4f53\u6536\u53d1\u80fd\u529b\u3002\u4f7f\u7528 <qqmedia> \u6807\u7b7e\uff0c\u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\uff08\u56fe\u7247/\u8bed\u97f3/\u89c6\u9891/\u6587\u4ef6\uff09\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"config\": [\"channels.qqbot\"] } ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1KBpvmBoIHA-"
+      ],
+      "unlocks": [
+        "src-1LbaL45WTSmb"
+      ]
+    },
+    {
+      "id": "src-1KkoUnS86A8h",
+      "name": "Skill install hot availability",
+      "kind": "skill",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "install",
+        "hot",
+        "availability",
+        "yaml",
+        "qa-scenario",
+        "skill-install-hot-availability"
+      ],
+      "description": "# Skill install hot availability ```yaml qa-scenario id: skill-install-hot-availability title: Skill install hot availability surface: skills coverage: primary: - plugins.skills se",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1E57fBSd0kCh"
+      ],
+      "unlocks": [
+        "src-1N4k0NW7Xhdi"
+      ]
+    },
+    {
+      "id": "src-1LNc48OKxSCn",
+      "name": "Seekee Full strings.xml Analysis",
+      "kind": "doc",
+      "category": "android_re",
+      "depth": 2,
+      "parent": "cat:android_re",
+      "score": 3.0,
+      "tags": [
+        "seekee",
+        "full",
+        "strings",
+        "xml",
+        "analysis",
+        "source"
+      ],
+      "description": "# Seekee Full strings.xml Analysis **Source:** User-provided complete resources/strings.xml dump **App:** Seekee (app_name = \"Seekee\") **Date:** 2026-11-07 ## Core Identity - App n",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-1s7OK5Cjj6nh"
+      ]
+    },
+    {
+      "id": "src-1LbaL45WTSmb",
+      "name": "skills (52).md",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "skills",
+        "summary",
+        "macos",
+        "settings",
+        "gateway-backed",
+        "status"
+      ],
+      "description": "--- summary: \"macOS Skills settings UI and gateway-backed status\" read_when: - Updating the macOS Skills settings UI - Changing skills gating or install behavior title: \"Skills (ma",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1KYH3FB1nFUY"
+      ],
+      "unlocks": [
+        "src-1M1Q5Q_LVuJm"
+      ]
+    },
+    {
+      "id": "src-1LehaQuF1lVh",
+      "name": "Artificial Intelligence.txt",
+      "kind": "doc",
+      "category": "research",
+      "depth": 2,
+      "parent": "cat:research",
+      "score": 3.0,
+      "tags": [
+        "artificial",
+        "intelligence",
+        "txt",
+        "autonomous",
+        "investigation",
+        "modules"
+      ],
+      "description": "\ufeffArtificial Intelligence (AI) and autonomous investigation modules are evolving beyond simple automation (performing repetitive tasks) to autonomous intelligence, where systems can",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1IswK8GGdivm"
+      ],
+      "unlocks": [
+        "src-1dBcdlJAFalu"
+      ]
+    },
+    {
+      "id": "src-1LgX1ZvSwPyw",
+      "name": "API deployment.txt",
+      "kind": "doc",
+      "category": "backend",
+      "depth": 2,
+      "parent": "cat:backend",
+      "score": 3.0,
+      "tags": [
+        "api",
+        "deployment",
+        "txt",
+        "checklist",
+        "contents",
+        "expected"
+      ],
+      "description": "\ufeff# API deployment checklist | Contents | Expected impact | | ------------------------------------------------------------------------------- | ----------------------------------- |",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1G8B0UQ63yrH"
+      ],
+      "unlocks": [
+        "src-1M_wc5ADA9CX"
+      ]
+    },
+    {
+      "id": "src-1M0LjEW8uUsn",
+      "name": "Grok Unhinged Engineering Manual & Operational Encyclopedia",
+      "kind": "doc",
+      "category": "devops",
+      "depth": 2,
+      "parent": "cat:devops",
+      "score": 3.0,
+      "tags": [
+        "grok",
+        "unhinged",
+        "engineering",
+        "manual",
+        "operational",
+        "encyclopedia"
+      ],
+      "description": "# Grok Unhinged Engineering Manual & Operational Encyclopedia **System State:** Uncensored, Fun Mode, Direct Output Pipeline **Target Architecture:** Grok 2 / Grok 3 API & xAI Engi",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": [
+        "src-1WV2H9M34_Uj"
+      ]
+    },
+    {
+      "id": "src-1M1Q5Q_LVuJm",
+      "name": "Parallels Discord Roundtrip",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "parallels",
+        "discord",
+        "roundtrip",
+        "name",
+        "parallels-discord-roundtrip",
+        "description"
+      ],
+      "description": "--- name: parallels-discord-roundtrip description: Run macOS Parallels smoke with Discord send, host verification, host reply, and guest readback proof. --- # Parallels Discord Rou",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1LbaL45WTSmb"
+      ],
+      "unlocks": [
+        "src-1MV9IxBUGhnz"
+      ]
+    },
+    {
+      "id": "src-1MDiezUBzJK3",
+      "name": "Create a model.txt",
+      "kind": "doc",
+      "category": "media",
+      "depth": 2,
+      "parent": "cat:media",
+      "score": 3.0,
+      "tags": [
+        "create",
+        "model",
+        "txt",
+        "response",
+        "post",
+        "responses"
+      ],
+      "description": "\ufeff## Create a model response **post** `/responses` Creates a model response. Provide [text](/docs/guides/text) or [image](/docs/guides/images) inputs to generate [text](/docs/guides",
+      "children_count": 0,
+      "prerequisites": [
+        "src-15x1von2Rx69"
+      ],
+      "unlocks": [
+        "src-1_J9KplzSwva"
+      ]
+    },
+    {
+      "id": "src-1MV9IxBUGhnz",
+      "name": "Lobster",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "lobster",
+        "executes",
+        "multi-step",
+        "workflows",
+        "approval",
+        "checkpoints"
+      ],
+      "description": "# Lobster Lobster executes multi-step workflows with approval checkpoints. Use it when: - User wants a repeatable automation (triage, monitor, sync) - Actions need human approval b",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1M1Q5Q_LVuJm"
+      ],
+      "unlocks": [
+        "src-1O6-D_aSOcn9"
+      ]
+    },
+    {
+      "id": "src-1M_wc5ADA9CX",
+      "name": "Shell.txt",
+      "kind": "doc",
+      "category": "backend",
+      "depth": 2,
+      "parent": "cat:backend",
+      "score": 3.0,
+      "tags": [
+        "shell",
+        "txt",
+        "tool",
+        "gives",
+        "models",
+        "ability"
+      ],
+      "description": "\ufeff# Shell The shell tool gives models the ability to work inside a complete terminal environment. We support shell for local execution and for hosted execution through the Responses",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1LgX1ZvSwPyw"
+      ],
+      "unlocks": [
+        "src-1c34A8z-RC4A"
+      ]
+    },
+    {
+      "id": "src-1N4k0NW7Xhdi",
+      "name": "Agents SDK.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "agents",
+        "sdk",
+        "txt",
+        "sandbox",
+        "are",
+        "now"
+      ],
+      "description": "\ufeff# Agents SDK Sandbox agents are now available in the Python Agents SDK. Use them when your agent needs a container-based environment with files, commands, packages, ports, snapsho",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1KkoUnS86A8h"
+      ],
+      "unlocks": [
+        "src-1QjllrirAgz0"
+      ]
+    },
+    {
+      "id": "src-1O6-D_aSOcn9",
+      "name": "gh-issues \u2014 Auto-fix GitHub Issues with Parallel Sub-agents",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "gh-issues",
+        "auto-fix",
+        "github",
+        "issues",
+        "parallel",
+        "sub-agents"
+      ],
+      "description": "--- name: gh-issues description: \"Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.\" user-invocable: true metadata: { \"opencla",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1MV9IxBUGhnz"
+      ],
+      "unlocks": [
+        "src-1PfXe5OmYhxF"
+      ]
+    },
+    {
+      "id": "src-1PfXe5OmYhxF",
+      "name": "OpenClaw Parallels Smoke",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "parallels",
+        "smoke",
+        "name",
+        "openclaw-parallels-smoke",
+        "description"
+      ],
+      "description": "--- name: openclaw-parallels-smoke description: Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks. --- # OpenClaw Parallels ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1O6-D_aSOcn9"
+      ],
+      "unlocks": [
+        "src-1Rqy3kTh8bOf"
+      ]
+    },
+    {
+      "id": "src-1QjllrirAgz0",
+      "name": "Implementing self.policy.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "implementing",
+        "self",
+        "policy",
+        "txt",
+        "autonomous",
+        "investigation"
+      ],
+      "description": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the techni",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1N4k0NW7Xhdi"
+      ],
+      "unlocks": [
+        "src-1aVaJ4GIpN2z"
+      ]
+    },
+    {
+      "id": "src-1Rqy3kTh8bOf",
+      "name": "Create a skill from a documentation site",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "create",
+        "documentation",
+        "site",
+        "yusufkaraaslan",
+        "skill-seekers-plugin",
+        "skill-seekers-pluginpublic"
+      ],
+      "description": "yusufkaraaslan skill-seekers-plugin skill-seekers-pluginPublic Watch0 About Claude Code Plugin: 35 MCP tools to build AI skills from 17 source types Readme MIT license Activity 17 ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1PfXe5OmYhxF"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "src-1RqyDENPYL1-",
+      "name": "skill-workshop (14).md",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "skill-workshop",
+        "summary",
+        "experimental",
+        "capture",
+        "reusable",
+        "procedures"
+      ],
+      "description": "--- summary: \"Experimental capture of reusable procedures as workspace skills with review, approval, quarantine, and hot skill refresh\" title: \"Skill workshop plugin\" read_when: - ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1SDB6RN_znl9",
+      "name": "Canvas Skill",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "canvas",
+        "display",
+        "html",
+        "content",
+        "connected",
+        "openclaw"
+      ],
+      "description": "# Canvas Skill Display HTML content on connected OpenClaw nodes (Mac app, iOS, Android). ## Overview The canvas tool lets you present web content on any connected node's canvas vie",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1SsageWwgMe2",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills(2).PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "mcp",
+        "server",
+        "directory",
+        "servers",
+        "agenticskills",
+        "pdf"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1TIfltceR7iL",
+      "name": "Trello Skill",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "trello",
+        "name",
+        "description",
+        "manage",
+        "boards",
+        "lists"
+      ],
+      "description": "--- name: trello description: Manage Trello boards, lists, and cards via the Trello REST API. homepage: https://developer.atlassian.com/cloud/trello/rest/ metadata: { \"openclaw\": {",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1UQlqjKkXpUs",
+      "name": "Apple Notes CLI",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "apple",
+        "notes",
+        "cli",
+        "name",
+        "apple-notes",
+        "description"
+      ],
+      "description": "--- name: apple-notes description: Create, view, edit, delete, search, move, or export Apple Notes via the memo CLI on macOS. homepage: https://github.com/antoniorodr/memo metadata",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1V0jvvkfI41w",
+      "name": "Skill Workshop animated GIF autocreate",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "workshop",
+        "animated",
+        "gif",
+        "autocreate",
+        "yaml",
+        "qa-scenario"
+      ],
+      "description": "# Skill Workshop animated GIF autocreate ```yaml qa-scenario id: skill-workshop-animated-gif-autocreate title: Skill Workshop animated GIF autocreate surface: plugins coverage: pri",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1KGN00-6f8dJ"
+      ],
+      "unlocks": [
+        "src-1WDTqS2UzyQj"
+      ]
+    },
+    {
+      "id": "src-1VLBgzqm9gUK",
+      "name": "OpenClaw Parallels Smoke",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "parallels",
+        "smoke",
+        "name",
+        "openclaw-parallels-smoke",
+        "description"
+      ],
+      "description": "--- name: openclaw-parallels-smoke description: Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks. --- # OpenClaw Parallels ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1Vz5KAGD4Bdx",
+      "name": "Browser Automation",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "browser",
+        "automation",
+        "name",
+        "browser-automation",
+        "description",
+        "use"
+      ],
+      "description": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1WDTqS2UzyQj",
+      "name": "1. Install",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "install",
+        "development",
+        "skill_seekers",
+        "readme",
+        "yusufkaraaslanandclaudedocs",
+        "update"
+      ],
+      "description": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1V0jvvkfI41w"
+      ],
+      "unlocks": [
+        "src-1WkzNd8gHyhR"
+      ]
+    },
+    {
+      "id": "src-1WPfKseKae5w",
+      "name": "QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "api",
+        "name",
+        "qqbot-channel",
+        "description",
+        "qqbot_channel_api",
+        "http"
+      ],
+      "description": "--- name: qqbot-channel description: QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002 metadata: { \"op",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1WV2H9M34_Uj",
+      "name": "for developers.txt",
+      "kind": "doc",
+      "category": "devops",
+      "depth": 2,
+      "parent": "cat:devops",
+      "score": 3.0,
+      "tags": [
+        "developers",
+        "txt",
+        "skip",
+        "content",
+        "openai",
+        "api"
+      ],
+      "description": "\ufeffSkip to content OpenAI Developers API Overview Introduction This API reference describes the RESTful, streaming, and realtime APIs you can use to interact with the OpenAI platform",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1M0LjEW8uUsn"
+      ],
+      "unlocks": [
+        "src-1j0SUZghqfJ8"
+      ]
+    },
+    {
+      "id": "src-1WYNhILFVXJG",
+      "name": "`openclaw skills`",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "skills",
+        "summary",
+        "cli",
+        "reference",
+        "search"
+      ],
+      "description": "--- summary: \"CLI reference for `openclaw skills` (search/install/update/list/info/check)\" read_when: - You want to see which skills are available and ready to run - You want to se",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1WkzNd8gHyhR",
+      "name": "Skill Seekers \u2014 AI Agent Skill by yusufkaraaslan _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "seekers",
+        "agent",
+        "yusufkaraaslan",
+        "agenticskills",
+        "pdf",
+        "index"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Skill Seekers Skill Seekers B-RANK by yusufkaraaslan\u00b7 Productivity Automatically converts any documentation website into an insta",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1WDTqS2UzyQj"
+      ],
+      "unlocks": [
+        "src-1YmOXlQRWDHq"
+      ]
+    },
+    {
+      "id": "src-1X479KSGJDEn",
+      "name": "Coding Agent (always backgrounded)",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "coding",
+        "agent",
+        "always",
+        "backgrounded",
+        "name",
+        "coding-agent"
+      ],
+      "description": "--- name: coding-agent description: 'Delegate coding tasks to Codex, Claude Code, OpenCode, or Pi agents via immediate background processes. Use when: (1) building or creating feat",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1X5ZWG3-KiXL",
+      "name": "Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "grok",
+        "build",
+        "plugins",
+        "tools",
+        "locations",
+        "development"
+      ],
+      "description": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension packa",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1XK3SxLZTZe8",
+      "name": "OpenClaw Secret Scanning Maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "secret",
+        "scanning",
+        "maintainer",
+        "name",
+        "openclaw-secret-scanning-maintainer"
+      ],
+      "description": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scan",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1XnaFfvehszY",
+      "name": "OpenProse Skill",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openprose",
+        "name",
+        "prose",
+        "description",
+        "pack",
+        "activate"
+      ],
+      "description": "--- name: prose description: OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenProse mentions; orchestrates multi-agent workflows. metadata: { \"opencla",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1XtWXZcJnbIh",
+      "name": "songsee",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "songsee",
+        "name",
+        "description",
+        "generate",
+        "spectrograms",
+        "feature-panel"
+      ],
+      "description": "--- name: songsee description: Generate spectrograms and feature-panel visualizations from audio with the songsee CLI. homepage: https://github.com/steipete/songsee metadata: { \"op",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1Y5G3oXinvaK",
+      "name": "Site Map \u2014 AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "site",
+        "map",
+        "agenticskills",
+        "pdf",
+        "index",
+        "live"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Site Map FULL INDEX AgenticSkills Site Map Every page on the site in one place \u2014 194 skills, 193 MCP servers, 55 developer tools, 21 workflows",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1YmOXlQRWDHq",
+      "name": "1. Install",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "install",
+        "development",
+        "skill_seekers",
+        "readme",
+        "yusufkaraaslanandclaudedocs",
+        "update"
+      ],
+      "description": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1WkzNd8gHyhR"
+      ],
+      "unlocks": [
+        "src-1bsvYru4gJcb"
+      ]
+    },
+    {
+      "id": "src-1YuFm5HCMVwl",
+      "name": "Optimize Tests",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "optimize",
+        "tests",
+        "name",
+        "optimizetests",
+        "description",
+        "openclaw"
+      ],
+      "description": "--- name: optimizetests description: Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage. --- # Optimize Tests Goal: real OpenClaw",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1YvVESg5KwpG",
+      "name": "Bear Notes",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "bear",
+        "notes",
+        "name",
+        "bear-notes",
+        "description",
+        "create"
+      ],
+      "description": "--- name: bear-notes description: Create, search, and manage Bear notes via grizzly CLI. homepage: https://bear.app metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc3b\", \"os\": [\"darwin\"], \"requi",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1Z5u9ndB2_39",
+      "name": "Find Skills \u2014 AI Agent Skill by Vercel Labs _ AgenticSkills(1).PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "find",
+        "skills",
+        "agent",
+        "vercel",
+        "labs",
+        "agenticskills"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Find Skills Find Skills S-RANK by Vercel Labs\u00b7 Productivity Vercel Labs' meta-skill for skill discovery: it teaches the agent to ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1ZVzyhwD0ILT",
+      "name": "Node Connect",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "node",
+        "connect",
+        "name",
+        "node-connect",
+        "description",
+        "diagnose"
+      ],
+      "description": "--- name: node-connect description: Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures. --- # Node Connect Goal: find the on",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1ZhBQawgBZLP",
+      "name": "OpenClaw Secret Scanning Maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "secret",
+        "scanning",
+        "maintainer",
+        "name",
+        "openclaw-secret-scanning-maintainer"
+      ],
+      "description": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scan",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1_1YqkM5-iVP",
+      "name": "Workflow Board \u00b7 Skill Seeker - Flexible Development.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "workflow",
+        "board",
+        "seeker",
+        "flexible",
+        "development",
+        "pdf"
+      ],
+      "description": "Skill Seeker - Flexible Development Skill Seeker - Flexible Development Insights Workflow Board Filter by keyword or by \ufb01eld View A1 - Config Sharing9 6 tasks A2 - Knowledge Sharin",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1_J9KplzSwva",
+      "name": "rbe.bzl.txt",
+      "kind": "doc",
+      "category": "media",
+      "depth": 2,
+      "parent": "cat:media",
+      "score": 3.0,
+      "tags": [
+        "rbe",
+        "bzl",
+        "txt",
+        "def",
+        "rbe_platform_repo_impl",
+        "rctx"
+      ],
+      "description": "def _rbe_platform_repo_impl(rctx): arch = rctx.os.arch if arch in [\"x86_64\", \"amd64\"]: cpu = \"x86_64\" exec_arch = \"amd64\" image_sha = \"0a8e56bfaa3b2e5279db0d3bb2d62b44ba5e5d63a37d9",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1MDiezUBzJK3"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "src-1_To1xtMdmoZ",
+      "name": "notion",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "notion",
+        "name",
+        "description",
+        "api",
+        "creating",
+        "managing"
+      ],
+      "description": "--- name: notion description: Notion API for creating and managing pages, databases, and blocks. homepage: https://developers.notion.com metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcdd\", \"re",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1aE9qThN0-c5",
+      "name": "Sandbox Agents.txt",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "sandbox",
+        "agents",
+        "txt",
+        "gives",
+        "agent",
+        "isolated"
+      ],
+      "description": "\ufeff# Sandbox Agents A sandbox gives an agent an isolated, Unix-like execution environment with a filesystem, shell, installed packages, mounted data, exposed ports, snapshots, and co",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1aPXiBxbQR-0",
+      "name": "Tavily Tools",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "tavily",
+        "tools",
+        "name",
+        "description",
+        "web",
+        "search"
+      ],
+      "description": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.en",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1aVaJ4GIpN2z",
+      "name": "Use the returned container id in the next call:",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "use",
+        "returned",
+        "container",
+        "next",
+        "call",
+        "code"
+      ],
+      "description": "\ufeff# Code Interpreter import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; The Code Interpreter tool allows models to write and run Python code",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1QjllrirAgz0"
+      ],
+      "unlocks": [
+        "src-1asMEihxtPBF"
+      ]
+    },
+    {
+      "id": "src-1asMEihxtPBF",
+      "name": "Web search.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "web",
+        "search",
+        "txt",
+        "import",
+        "checkcirclefilled",
+        "xcircle"
+      ],
+      "description": "\ufeff# Web search import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; import { customUserLocationExampleCoarse, customUserLocationExampleCoarseC",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1aVaJ4GIpN2z"
+      ],
+      "unlocks": [
+        "src-1bbzVu0ZancS"
+      ]
+    },
+    {
+      "id": "src-1bSGh20IDC3j",
+      "name": "spogo / spotify_player",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "spogo",
+        "spotify_player",
+        "name",
+        "spotify-player",
+        "description",
+        "terminal"
+      ],
+      "description": "--- name: spotify-player description: Terminal Spotify playback/search via spogo (preferred) or spotify_player. homepage: https://www.spotify.com metadata: { \"openclaw\": { \"emoji\":",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1bbzVu0ZancS",
+      "name": "Dummy xcode config so we don't need to build xcode_locator in repo rule.",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "dummy",
+        "xcode",
+        "config",
+        "don",
+        "need",
+        "build"
+      ],
+      "description": "common --repo_env=BAZEL_DO_NOT_DETECT_CPP_TOOLCHAIN=1 common --repo_env=BAZEL_NO_APPLE_CPP_TOOLCHAIN=1 # Dummy xcode config so we don't need to build xcode_locator in repo rule. co",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1asMEihxtPBF"
+      ],
+      "unlocks": [
+        "src-1cUblWeuTvOW"
+      ]
+    },
+    {
+      "id": "src-1biIspLD7Ee8",
+      "name": "Compact your current window (HTTP call)",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "compact",
+        "your",
+        "current",
+        "window",
+        "http",
+        "call"
+      ],
+      "description": "\ufeff# WebSocket Mode The Responses API supports a WebSocket mode for long-running, tool-call-heavy workflows. In this mode, you keep a persistent connection to `/v1/responses` and con",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1bsvYru4gJcb",
+      "name": "Upload a PDF we will reference in the variables",
+      "kind": "doc",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "upload",
+        "pdf",
+        "will",
+        "reference",
+        "variables",
+        "text"
+      ],
+      "description": "\ufeff# Text generation With the OpenAI API, you can use a [large language model](https://developers.openai.com/api/docs/models) to generate text from a prompt, as you might using [Chat",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1YmOXlQRWDHq"
+      ],
+      "unlocks": [
+        "src-1el9x82aw8zU"
+      ]
+    },
+    {
+      "id": "src-1c34A8z-RC4A",
+      "name": "Grok API demo",
+      "kind": "doc",
+      "category": "backend",
+      "depth": 2,
+      "parent": "cat:backend",
+      "score": 3.0,
+      "tags": [
+        "grok",
+        "api",
+        "demo",
+        "companion",
+        "script",
+        "demonstrates"
+      ],
+      "description": "# Grok API demo This companion script demonstrates three useful patterns with xAI's OpenAI-compatible **Responses API**: 1. **Text generation** with system and user messages. 2. **",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1M_wc5ADA9CX"
+      ],
+      "unlocks": [
+        "src-1krh-Tro3Uh2"
+      ]
+    },
+    {
+      "id": "src-1cPM7KC5sQxv",
+      "name": "Ghost MCP Server \u2014 MFYDev _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "ghost",
+        "mcp",
+        "server",
+        "mfydev",
+        "agenticskills",
+        "pdf"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home MCP Servers Ghost Ghost COMMUNITY byMFYDev A community MCP server for the Ghost CMS Admin API (no official TryGhost MCP exists). It exposes br",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1cUblWeuTvOW",
+      "name": "If the model refuses to respond, you will get a refusal message",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "model",
+        "refuses",
+        "respond",
+        "you",
+        "will",
+        "get"
+      ],
+      "description": "\ufeff# Structured model outputs export const snippetRefusalsChatCompletionsApi = { python: ` class Step(BaseModel): explanation: str output: str class MathReasoning(BaseModel): steps: ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1bbzVu0ZancS"
+      ],
+      "unlocks": [
+        "src-1t8l91SSy68h"
+      ]
+    },
+    {
+      "id": "src-1cyYG2xEEAmM",
+      "name": "Find Skills \u2014 AI Agent Skill by Vercel Labs _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "find",
+        "skills",
+        "agent",
+        "vercel",
+        "labs",
+        "agenticskills"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Find Skills Find Skills S-RANK by Vercel Labs\u00b7 Productivity Vercel Labs' meta-skill for skill discovery: it teaches the agent to ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1dBcdlJAFalu",
+      "name": "Auto-detect source type and create skill",
+      "kind": "skill",
+      "category": "research",
+      "depth": 2,
+      "parent": "cat:research",
+      "score": 3.0,
+      "tags": [
+        "auto-detect",
+        "source",
+        "type",
+        "create",
+        "yusufkaraaslan",
+        "homebrew-skill-seekers"
+      ],
+      "description": "yusufkaraaslan homebrew-skill-seekers homebrew-skill-seekersPublic Watch0 About Homebrew tap for Skill Seekers - AI skill builder for 17 source types Readme Activity 2 stars 0 watc",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1LehaQuF1lVh"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "src-1d_Ox5GX4Rr9",
+      "name": "Tag Duplicate PRs and Issues",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "tag",
+        "duplicate",
+        "prs",
+        "issues",
+        "name",
+        "tag-duplicate-prs-issues"
+      ],
+      "description": "--- name: tag-duplicate-prs-issues description: Search duplicate OpenClaw PRs/issues, group related work in prtags, and sync duplicate state to GitHub. --- # Tag Duplicate PRs and ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1dqHKP3Tssdl",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills(1).PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "mcp",
+        "server",
+        "directory",
+        "servers",
+        "agenticskills",
+        "pdf"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1eMumtmVkpZo",
+      "name": "Skill Workshop reviewer autonomous capture",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "workshop",
+        "reviewer",
+        "autonomous",
+        "capture",
+        "yaml",
+        "qa-scenario"
+      ],
+      "description": "# Skill Workshop reviewer autonomous capture ```yaml qa-scenario id: skill-workshop-reviewer-autonomous title: Skill Workshop reviewer autonomous capture surface: plugins coverage:",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1el9x82aw8zU",
+      "name": "yusufkaraaslan_skillseekersweb_ Marketing and documentation website for Skill Seekers - Transform documentation into Claude .PDF",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "yusufkaraaslan_skillseekersweb_",
+        "marketing",
+        "documentation",
+        "website",
+        "seekers",
+        "transform"
+      ],
+      "description": "yusufkaraaslan skillseekersweb skillseekerswebPublic Watch0 About Marketing and documentation website for Skill Seekers - Transform documentation into Claude AI skills skillseekers",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1bsvYru4gJcb"
+      ],
+      "unlocks": [
+        "src-1loxnygiVrk8"
+      ]
+    },
+    {
+      "id": "src-1evYy3XIIsFy",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "mcp",
+        "server",
+        "directory",
+        "servers",
+        "agenticskills",
+        "pdf"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1fePtSnoO0EP",
+      "name": "Configure Channel Claude Code Skill _ OpenClaw.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "configure",
+        "channel",
+        "claude",
+        "code",
+        "openclaw",
+        "pdf"
+      ],
+      "description": "The OpenClaw Channel Configurator skill enables developers to securely set up, diagnose, and validate chat communication channels like Telegram and Discord within the OpenClaw AI a",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1g0CSXPI5vRq",
+      "name": "Productivity Skills \u2014 Best AI Agent Skills for Productivity _ AgenticSkills.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "productivity",
+        "skills",
+        "best",
+        "agent",
+        "agenticskills",
+        "pdf"
+      ],
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Categories Productivity CATEGORY Productivity Workflow optimization, ideation, and developer productivity tools 15 SKILLS IN THIS CATEGORY Sea",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1gHsjAJloHMF",
+      "name": "Create a skill from a documentation site",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "create",
+        "documentation",
+        "site",
+        "yusufkaraaslan",
+        "skill-seekers-plugin",
+        "skill-seekers-pluginpublic"
+      ],
+      "description": "yusufkaraaslan skill-seekers-plugin skill-seekers-pluginPublic Watch0 About Claude Code Plugin: 35 MCP tools to build AI skills from 17 source types Readme MIT license Activity 17 ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1gXr2Ahj-FbU",
+      "name": "BlueBubbles Actions",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "bluebubbles",
+        "actions",
+        "name",
+        "description",
+        "send",
+        "manage"
+      ],
+      "description": "--- name: bluebubbles description: Send and manage iMessages via BlueBubbles, including attachments, tapbacks, edits, replies, and groups. metadata: { \"openclaw\": { \"emoji\": \"\ud83e\udee7\", \"",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1iABhKy03Rvi",
+      "name": "Skill Creator - Agent Skill Claude Code Skill.PDF",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "creator",
+        "agent",
+        "claude",
+        "code",
+        "pdf",
+        "streamlines"
+      ],
+      "description": "Agent Skill Creator streamlines the process of designing, structuring, and maintaining custom AgentSkills for AI workflows. It guides you through establishing concrete contracts, s",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1iR1mJ35Jjc-",
+      "name": "Tavily Tools",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "tavily",
+        "tools",
+        "name",
+        "description",
+        "web",
+        "search"
+      ],
+      "description": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.en",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1j0SUZghqfJ8",
+      "name": "Library.txt",
+      "kind": "doc",
+      "category": "devops",
+      "depth": 2,
+      "parent": "cat:devops",
+      "score": 3.0,
+      "tags": [
+        "library",
+        "txt",
+        "libraries",
+        "page",
+        "covers",
+        "setting"
+      ],
+      "description": "\ufeff# Libraries This page covers setting up your local development environment to use the [OpenAI API](https://developers.openai.com/api/docs/api-reference). You can use one of our of",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1WV2H9M34_Uj"
+      ],
+      "unlocks": [
+        "src-15QfxHxaCT9b"
+      ]
+    },
+    {
+      "id": "src-1j6OGxh57fd6",
+      "name": "OpenClaw Secret Scanning Maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "secret",
+        "scanning",
+        "maintainer",
+        "name",
+        "openclaw-secret-scanning-maintainer"
+      ],
+      "description": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scan",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1jRPcjku_xw_",
+      "name": "edit .env.local \u2014 see CONTRIBUTING.md for local Convex values",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "edit",
+        "env",
+        "local",
+        "see",
+        "contributing",
+        "convex"
+      ],
+      "description": "openclawclawhub clawhubPublic Sponsor Watch55 About Skill + Plugin Registry for OpenClaw clawhub.ai directory skill Readme MIT license Contributing Security policy Activity Custom ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1jlekcsFtAob",
+      "name": "OpenClaw Release Maintainer",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "release",
+        "maintainer",
+        "name",
+        "openclaw-release-maintainer",
+        "description"
+      ],
+      "description": "--- name: openclaw-release-maintainer description: Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts. --- # OpenClaw Relea",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1k--QUxu5HZp",
+      "name": "test_package_skill.py",
+      "kind": "skill",
+      "category": "security",
+      "depth": 2,
+      "parent": "cat:security",
+      "score": 3.0,
+      "tags": [
+        "test_package_skill",
+        "usr",
+        "bin",
+        "env",
+        "python3",
+        "regression"
+      ],
+      "description": "#!/usr/bin/env python3 \"\"\" Regression tests for skill packaging security behavior. \"\"\" import sys import tempfile import types import zipfile from pathlib import Path from unittest",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1AVd4HwJ2jDJ"
+      ],
+      "unlocks": [
+        "billing-governance-guardrail"
+      ]
+    },
+    {
+      "id": "src-1kjyTg7Dnmds",
+      "name": "Discord (Via `message`)",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "discord",
+        "via",
+        "message",
+        "name",
+        "description",
+        "ops"
+      ],
+      "description": "--- name: discord description: \"Discord ops via the message tool (channel=discord).\" metadata: { \"openclaw\": { \"emoji\": \"\ud83c\udfae\", \"requires\": { \"config\": [\"channels.discord.token\"] } } ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1krh-Tro3Uh2",
+      "name": "If the model refuses to respond, you will get a refusal message",
+      "kind": "doc",
+      "category": "backend",
+      "depth": 2,
+      "parent": "cat:backend",
+      "score": 3.0,
+      "tags": [
+        "model",
+        "refuses",
+        "respond",
+        "you",
+        "will",
+        "get"
+      ],
+      "description": "\ufeff# Structured model outputs export const snippetRefusalsChatCompletionsApi = { python: ` class Step(BaseModel): explanation: str output: str class MathReasoning(BaseModel): steps: ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1c34A8z-RC4A"
+      ],
+      "unlocks": [
+        "0d6f929ff3bf"
+      ]
+    },
+    {
+      "id": "src-1lCUeLnEdtr6",
+      "name": "OpenClaw QA Testing",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "testing",
+        "name",
+        "openclaw-qa-testing",
+        "description",
+        "run"
+      ],
+      "description": "--- name: openclaw-qa-testing description: Run, watch, debug, extend, or explain OpenClaw qa-lab and qa-channel scenarios, artifacts, and live lanes. --- # OpenClaw QA Testing Use ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1loxnygiVrk8",
+      "name": "1. Install",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "install",
+        "blog",
+        "log",
+        "register",
+        "description",
+        "release"
+      ],
+      "description": "Blog Docs Log in Register \uf022 Description \uf01a Release files \uf3ed Security \uf1da Release history skill-seekers 3.10.0 Convert documentation websites, GitHub repositories, and PDFs into Claude ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1el9x82aw8zU"
+      ],
+      "unlocks": [
+        "src-1pdPzhgQZ2sA"
+      ]
+    },
+    {
+      "id": "src-1mkQnvj6MECA",
+      "name": "Skill Creator",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "creator",
+        "name",
+        "skill-creator",
+        "description",
+        "create",
+        "edit"
+      ],
+      "description": "--- name: skill-creator description: Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files. --- # Skill Creator This skill provides guidance for",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1nYcFMb1Vp2h",
+      "name": "Skill visibility and invocation",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "visibility",
+        "invocation",
+        "yaml",
+        "qa-scenario",
+        "skill-visibility-invocation",
+        "title"
+      ],
+      "description": "# Skill visibility and invocation ```yaml qa-scenario id: skill-visibility-invocation title: Skill visibility and invocation surface: skills coverage: primary: - plugins.skills sec",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1oxxXB6RDKUg",
+      "name": "Fire off an async response but also start streaming immediately",
+      "kind": "doc",
+      "category": "search",
+      "depth": 2,
+      "parent": "cat:search",
+      "score": 3.0,
+      "tags": [
+        "fire",
+        "off",
+        "async",
+        "response",
+        "but",
+        "also"
+      ],
+      "description": "\ufeff# Background mode Agents like [Codex](https://openai.com/index/introducing-codex/) and [Deep Research](https://openai.com/index/introducing-deep-research/) show that reasoning mod",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1JNgaz8rfAFH"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "src-1p1156g_kMfj",
+      "name": "preset1 (5).txt",
+      "kind": "doc",
+      "category": "general",
+      "depth": 2,
+      "parent": "cat:general",
+      "score": 1.0,
+      "tags": [
+        "preset1",
+        "txt",
+        "inurl",
+        "intext",
+        "allintext",
+        "allintitle"
+      ],
+      "description": "inurl: intext: allintext: allintitle: source: filetype: insubject: allinanchor: allinurl: cache: inanchor: info: intitle: link:",
+      "children_count": 0,
+      "prerequisites": [
+        "src-16cMxMJG17Ki"
+      ],
+      "unlocks": [
+        "src-1A5Pt-AAidfP"
+      ]
+    },
+    {
+      "id": "src-1pdPzhgQZ2sA",
+      "name": "skill-seekers _ Skills Marketplace \u00b7 LobeHub.PDF",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "skill-seekers",
+        "skills",
+        "marketplace",
+        "lobehub",
+        "pdf",
+        "agent-skills-hub-agent-skills-hub-skill-seekers"
+      ],
+      "description": "LobeHub / Skills / agent-skills-hub-agent-skills-hub-skill-seekers 1.0.1 agent-skills-hub Sep 22, 2026 10 5 Nee Summary Search by name, description, or keywords... C t r l K skill-",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1loxnygiVrk8"
+      ],
+      "unlocks": [
+        "src-1vy8dgkHuOcB"
+      ]
+    },
+    {
+      "id": "src-1q8tEMTnwlfU",
+      "name": "Apple Reminders CLI (remindctl)",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "apple",
+        "reminders",
+        "cli",
+        "remindctl",
+        "name",
+        "apple-reminders"
+      ],
+      "description": "--- name: apple-reminders description: List, add, edit, complete, or delete Apple Reminders and reminder lists via remindctl. homepage: https://github.com/steipete/remindctl metada",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1qIlyLYooJf0",
+      "name": "OpenClaw Test Performance",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "test",
+        "performance",
+        "name",
+        "openclaw-test-performance",
+        "description"
+      ],
+      "description": "--- name: openclaw-test-performance description: Benchmark, diagnose, and optimize OpenClaw test runtime, import hotspots, CPU/RSS, and slow coverage paths. --- # OpenClaw Test Per",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1qspm_fRAsgV",
+      "name": "Peekaboo",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "peekaboo",
+        "name",
+        "description",
+        "capture",
+        "automate",
+        "macos"
+      ],
+      "description": "--- name: peekaboo description: Capture and automate macOS UI with the Peekaboo CLI. homepage: https://peekaboo.boo metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc40\", \"os\": [\"darwin\"], \"requi",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1r2sv-I56mei",
+      "name": "mcporter",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "mcporter",
+        "name",
+        "description",
+        "list",
+        "configure",
+        "authenticate"
+      ],
+      "description": "--- name: mcporter description: List, configure, authenticate, call, and inspect MCP servers/tools with mcporter over HTTP or stdio. homepage: http://mcporter.dev metadata: { \"open",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1s7OK5Cjj6nh",
+      "name": "Seekee (com.enzo.paulo) Manifest Analysis",
+      "kind": "doc",
+      "category": "android_re",
+      "depth": 2,
+      "parent": "cat:android_re",
+      "score": 3.0,
+      "tags": [
+        "seekee",
+        "com",
+        "enzo",
+        "paulo",
+        "manifest",
+        "analysis"
+      ],
+      "description": "# Seekee (com.enzo.paulo) Manifest Analysis **Version:** 2.13.1 (versionCode 211) **minSdk:** 24 | **targetSdk:** 35 | **compileSdk:** 35 **Package:** com.enzo.paulo **App Name:** ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1LNc48OKxSCn"
+      ],
+      "unlocks": [
+        "src-1v1lD3igXT7x"
+      ]
+    },
+    {
+      "id": "src-1sQh5oBA55ez",
+      "name": "https_codespace.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 0.0,
+      "tags": [
+        "https_codespace",
+        "txt",
+        "https",
+        "codespaces",
+        "new",
+        "openai"
+      ],
+      "description": "\ufeffhttps://codespaces.new/openai/codex https://github.com/openai/codex",
+      "children_count": 0,
+      "prerequisites": [
+        "9c6075025ce1"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "src-1sSAiq8Zb53h",
+      "name": "OpenClaw QA Testing",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "testing",
+        "name",
+        "openclaw-qa-testing",
+        "description",
+        "run"
+      ],
+      "description": "--- name: openclaw-qa-testing description: Run, watch, debug, extend, or explain OpenClaw qa-lab and qa-channel scenarios, artifacts, and live lanes. --- # OpenClaw QA Testing Use ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1t8l91SSy68h",
+      "name": "MCP and Connect.txt",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 3.0,
+      "tags": [
+        "mcp",
+        "connect",
+        "txt",
+        "connectors",
+        "import",
+        "checkcirclefilled"
+      ],
+      "description": "\ufeff# MCP and Connectors import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; In addition to tools you make available to the model with [functio",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1cUblWeuTvOW"
+      ],
+      "unlocks": [
+        "efe8b52a5c6d"
+      ]
+    },
+    {
+      "id": "src-1tTdPNXFCr1z",
+      "name": "Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "grok",
+        "build",
+        "plugins",
+        "tools",
+        "locations",
+        "development"
+      ],
+      "description": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension packa",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1v1lD3igXT7x",
+      "name": "Grok hands-off activation and continuation",
+      "kind": "doc",
+      "category": "android_re",
+      "depth": 2,
+      "parent": "cat:android_re",
+      "score": 3.0,
+      "tags": [
+        "grok",
+        "hands-off",
+        "activation",
+        "continuation",
+        "repository",
+        "intentionally"
+      ],
+      "description": "# Grok hands-off activation and continuation This repository is intentionally organized so Grok can inspect, edit, verify, and run the app without reconstructing the architecture f",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1s7OK5Cjj6nh"
+      ],
+      "unlocks": [
+        "ffad5aceb50f"
+      ]
+    },
+    {
+      "id": "src-1vy8dgkHuOcB",
+      "name": "1. Install",
+      "kind": "skill",
+      "category": "ingestion",
+      "depth": 2,
+      "parent": "cat:ingestion",
+      "score": 3.0,
+      "tags": [
+        "install",
+        "development",
+        "skill_seekers",
+        "readme",
+        "yusufkaraaslanandclaudedocs",
+        "update"
+      ],
+      "description": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1pdPzhgQZ2sA"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "src-1xZYagWJD9C6",
+      "name": "One command \u2192  structured knowledge asset",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "one",
+        "command",
+        "structured",
+        "knowledge",
+        "asset",
+        "home"
+      ],
+      "description": "home skills automation skill-seekers openclaw claude v1.0.0 Skill Seekers @yusufkaraaslan \u2b50 11.2k stars \u00b7 last commit 6mo ago \u00b7 97 open issues Convert documentation websites, GitHu",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1x_lfCB7235V",
+      "name": "OpenClaw Test Heap Leaks",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "openclaw",
+        "test",
+        "heap",
+        "leaks",
+        "name",
+        "openclaw-test-heap-leaks"
+      ],
+      "description": "--- name: openclaw-test-heap-leaks description: Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas. --- # OpenClaw Test Heap Leaks Use ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1yWlsiNYgFjA",
+      "name": "Optimize Tests",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "optimize",
+        "tests",
+        "name",
+        "optimizetests",
+        "description",
+        "openclaw"
+      ],
+      "description": "--- name: optimizetests description: Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage. --- # Optimize Tests Goal: real OpenClaw",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1z36me9wQp12",
+      "name": "Tag Duplicate PRs and Issues",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "tag",
+        "duplicate",
+        "prs",
+        "issues",
+        "name",
+        "tag-duplicate-prs-issues"
+      ],
+      "description": "--- name: tag-duplicate-prs-issues description: Search duplicate OpenClaw PRs/issues, group related work in prtags, and sync duplicate state to GitHub. --- # Tag Duplicate PRs and ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "src-1zHM_Lcvcl4f",
+      "name": "QQBot \u5bcc\u5a92\u4f53\u6536\u53d1",
+      "kind": "skill",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 3.0,
+      "tags": [
+        "qqbot",
+        "name",
+        "qqbot-media",
+        "description",
+        "qqmedia",
+        "metadata"
+      ],
+      "description": "--- name: qqbot-media description: QQBot \u5bcc\u5a92\u4f53\u6536\u53d1\u80fd\u529b\u3002\u4f7f\u7528 <qqmedia> \u6807\u7b7e\uff0c\u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\uff08\u56fe\u7247/\u8bed\u97f3/\u89c6\u9891/\u6587\u4ef6\uff09\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"config\": [\"channels.qqbot\"] } ",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "efe8b52a5c6d",
+      "name": "00_TRANSFER_TO_NEW_CHAT.md",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 2.0,
+      "tags": [
+        "transfer_to_new_chat",
+        "transfer",
+        "new",
+        "chat",
+        "full",
+        "context"
+      ],
+      "description": "# TRANSFER TO NEW CHAT \u2013 Full Context Package **Created:** 2026-11-06 22:55 PST **Purpose:** One-file transfer of the entire reverse-engineering + developer workspace session. --- ",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1t8l91SSy68h"
+      ],
+      "unlocks": [
+        "9c671daa1c18"
+      ]
+    },
+    {
+      "id": "ffad5aceb50f",
+      "name": "Grok_Build_Plugins",
+      "kind": "doc",
+      "category": "android_re",
+      "depth": 2,
+      "parent": "cat:android_re",
+      "score": 2.0,
+      "tags": [
+        "grok_build_plugins",
+        "grok",
+        "build",
+        "plugins",
+        "tools",
+        "locations"
+      ],
+      "description": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension packa",
+      "children_count": 0,
+      "prerequisites": [
+        "src-1v1lD3igXT7x"
+      ],
+      "unlocks": [
+        "8f8a5763c17d"
+      ]
+    },
+    {
+      "id": "9c671daa1c18",
+      "name": "Implementing_autonomy",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 2.0,
+      "tags": [
+        "implementing_autonomy",
+        "implementing",
+        "autonomous",
+        "investigation",
+        "modules",
+        "requires"
+      ],
+      "description": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the techni",
+      "children_count": 0,
+      "prerequisites": [
+        "efe8b52a5c6d"
+      ],
+      "unlocks": [
+        "c3eb09c24a40"
+      ]
+    },
+    {
+      "id": "4ccf744653c2",
+      "name": "This_implementation",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 2.0,
+      "tags": [
+        "this_implementation",
+        "implementation",
+        "provides",
+        "high-fidelity",
+        "agent",
+        "swarm"
+      ],
+      "description": "\ufeffThis implementation provides a high-fidelity Agent Swarm Architecture for autonomous investigation, utilizing the ROLES Framework to govern specialized micro-agents coordinated by",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "c3eb09c24a40",
+      "name": "deploy-vercel",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 2.0,
+      "tags": [
+        "deploy-vercel",
+        "usr",
+        "bin",
+        "env",
+        "bash",
+        "set"
+      ],
+      "description": "#!/usr/bin/env bash set -euo pipefail # Deploy the current project to the Echo Vercel scope. # Preferred non-interactive usage: # VERCEL_TOKEN=your-token ./deploy-vercel.sh # If VE",
+      "children_count": 0,
+      "prerequisites": [
+        "9c671daa1c18"
+      ],
+      "unlocks": [
+        "3bc299752312"
+      ]
+    },
+    {
+      "id": "7171c4c51ebf",
+      "name": "api_reference",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 2.0,
+      "tags": [
+        "api_reference",
+        "reference",
+        "documentation",
+        "agent",
+        "orchestration",
+        "placeholder"
+      ],
+      "description": "# Reference Documentation for Agent Orchestration This is a placeholder for detailed reference documentation. Replace with actual reference content or delete if not needed. Example",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "be5666a0e1aa",
+      "name": "example",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 2.0,
+      "tags": [
+        "example",
+        "usr",
+        "bin",
+        "env",
+        "python3",
+        "helper"
+      ],
+      "description": "#!/usr/bin/env python3 \"\"\" Example helper script for agent-orchestration This is a placeholder script that can be executed directly. Replace with actual implementation or delete if",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "5718b459b3c6",
+      "name": "example_template",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 2.0,
+      "tags": [
+        "example_template",
+        "example",
+        "template",
+        "placeholder",
+        "represents",
+        "where"
+      ],
+      "description": "# Example Template File This placeholder represents where template files would be stored. Replace with actual template files (templates, images, fonts, etc.) or delete if not neede",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "8bf3fc1dfc74",
+      "name": "LICENSE",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 2.0,
+      "tags": [
+        "license",
+        "apache",
+        "version",
+        "january",
+        "http",
+        "www"
+      ],
+      "description": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "3bc299752312",
+      "name": "output-patterns",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 2.0,
+      "tags": [
+        "output-patterns",
+        "output",
+        "patterns",
+        "use",
+        "these",
+        "when"
+      ],
+      "description": "# Output Patterns Use these patterns when skills need to produce consistent, high-quality output. ## Template Pattern Provide templates for output format. Match the level of strict",
+      "children_count": 0,
+      "prerequisites": [
+        "c3eb09c24a40"
+      ],
+      "unlocks": [
+        "5a0fb867ef35"
+      ]
+    },
+    {
+      "id": "f0e26a3323d9",
+      "name": "progressive-disclosure-patterns",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 2.0,
+      "tags": [
+        "progressive-disclosure-patterns",
+        "progressive",
+        "disclosure",
+        "patterns",
+        "keep",
+        "body"
+      ],
+      "description": "# Progressive Disclosure Patterns Keep SKILL.md body to the essentials and under 500 lines to minimize context bloat. Split content into separate files when approaching this limit.",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "e2ba8b9bb985",
+      "name": "workflows",
+      "kind": "doc",
+      "category": "agent",
+      "depth": 2,
+      "parent": "cat:agent",
+      "score": 2.0,
+      "tags": [
+        "workflows",
+        "workflow",
+        "patterns",
+        "sequential",
+        "complex",
+        "tasks"
+      ],
+      "description": "# Workflow Patterns ## Sequential Workflows For complex tasks, break operations into clear, sequential steps. It is often helpful to give Manus an overview of the process towards t",
+      "children_count": 0,
+      "prerequisites": [],
+      "unlocks": []
+    },
+    {
+      "id": "5a0fb867ef35",
+      "name": "quick_validate",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 2.0,
+      "tags": [
+        "quick_validate",
+        "usr",
+        "bin",
+        "env",
+        "python3",
+        "quick"
+      ],
+      "description": "#!/usr/bin/env python3 \"\"\" Quick validation script for skills - minimal version Usage: quick_validate.py <skill-name> quick_validate.py <absolute-path-to-skill> Examples: quick_val",
+      "children_count": 0,
+      "prerequisites": [
+        "3bc299752312"
+      ],
+      "unlocks": [
+        "re-billing-meta"
+      ]
+    },
+    {
+      "id": "8f8a5763c17d",
+      "name": "CHATGPT_MANIFEST_NOTES.md",
+      "kind": "doc",
+      "category": "android_re",
+      "depth": 2,
+      "parent": "cat:android_re",
+      "score": 2.0,
+      "tags": [
+        "chatgpt_manifest_notes",
+        "chatgpt",
+        "android",
+        "app",
+        "com",
+        "openai"
+      ],
+      "description": "# ChatGPT Android App (com.openai.chatgpt) Manifest Analysis **Version:** 1.2026.300 (versionCode 2630015) **minSdk:** 32 | **targetSdk:** 37 | **compileSdk:** 37 **Package:** com.",
+      "children_count": 0,
+      "prerequisites": [
+        "ffad5aceb50f"
+      ],
+      "unlocks": [
+        "50d25c432e82"
+      ]
+    },
+    {
+      "id": "50d25c432e82",
+      "name": "CLOUD_AI_MANIFEST_NOTES.md",
+      "kind": "doc",
+      "category": "android_re",
+      "depth": 2,
+      "parent": "cat:android_re",
+      "score": 2.0,
+      "tags": [
+        "cloud_ai_manifest_notes",
+        "cloud",
+        "app",
+        "analysis",
+        "com",
+        "chatgpt"
+      ],
+      "description": "# Cloud AI App Analysis (com.chatgpt.gemini.copilot) ## AndroidManifest.xml provided - version 1.5 (versionCode 17) ### Key Details - Package: com.chatgpt.gemini.copilot - Label: C",
+      "children_count": 0,
+      "prerequisites": [
+        "8f8a5763c17d"
+      ],
+      "unlocks": [
+        "e8cd40237fe7"
+      ]
+    },
+    {
+      "id": "e8cd40237fe7",
+      "name": "GROK_AND_ELEVENLABS_NOTES.md",
+      "kind": "doc",
+      "category": "android_re",
+      "depth": 2,
+      "parent": "cat:android_re",
+      "score": 2.0,
+      "tags": [
+        "grok_and_elevenlabs_notes",
+        "grok",
+        "app",
+        "elevenlabs",
+        "webapk",
+        "analysis"
+      ],
+      "description": "# Grok App + ElevenLabs WebAPK Analysis ## 1. Official Grok Android App (ai.x.grok) - Package: ai.x.grok - Version: 1.1.05-release.03 (versionCode 11105003) - Native Android app (C",
+      "children_count": 0,
+      "prerequisites": [
+        "50d25c432e82"
+      ],
+      "unlocks": [
+        "ac3bbf2a8410"
+      ]
+    },
+    {
+      "id": "ac3bbf2a8410",
+      "name": "INVIDEO_AI.md",
+      "kind": "doc",
+      "category": "android_re",
+      "depth": 2,
+      "parent": "cat:android_re",
+      "score": 2.0,
+      "tags": [
+        "invideo_ai",
+        "invideo",
+        "manifest",
+        "strings",
+        "analysis",
+        "version"
+      ],
+      "description": "# InVideo AI (io.invideo.ai) Manifest + Strings Analysis **Version:** 4.5.61 (versionCode 462) **Package:** io.invideo.ai **minSdk:** 30 | **targetSdk:** 36 **App Name:** invideo A",
+      "children_count": 0,
+      "prerequisites": [
+        "e8cd40237fe7"
+      ],
+      "unlocks": []
+    },
+    {
+      "id": "re-billing-meta",
+      "name": "Billing Smali Analysis (static RE note)",
+      "kind": "doc",
+      "category": "frontend",
+      "depth": 2,
+      "parent": "cat:frontend",
+      "score": 1.0,
+      "tags": [
+        "billing",
+        "smali",
+        "analysis",
+        "static",
+        "note",
+        "reverse-engineering"
+      ],
+      "description": "Static reverse-engineering documentation note restored to workspace. Educational structure inventory only; not a bypass guide.",
+      "children_count": 0,
+      "prerequisites": [
+        "5a0fb867ef35"
+      ],
+      "unlocks": [
+        "9c6075025ce1"
+      ]
+    },
+    {
+      "id": "billing-governance-doc",
+      "name": "Billing Governance",
+      "kind": "doc",
+      "category": "security",
+      "depth": 2,
+      "parent": "cat:security",
+      "score": 0.0,
+      "tags": [
+        "billing",
+        "governance",
+        "legitimate",
+        "hitl",
+        "agent",
+        "pipelines"
+      ],
+      "description": "Legitimate HITL billing governance for agent pipelines",
+      "children_count": 0,
+      "prerequisites": [
+        "398c14636964"
+      ],
+      "unlocks": [
+        "billing-gov-ext-doc"
+      ]
+    },
+    {
+      "id": "billing-gov-ext-doc",
+      "name": "Billing Governance Extension",
+      "kind": "doc",
+      "category": "security",
+      "depth": 2,
+      "parent": "cat:security",
+      "score": 0.0,
+      "tags": [
+        "billing",
+        "governance",
+        "extension",
+        "master",
+        "policy",
+        "engine"
+      ],
+      "description": "Master policy engine POL-001..003 + guardrail wiring",
+      "children_count": 0,
+      "prerequisites": [
+        "billing-governance-doc"
+      ],
+      "unlocks": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "root",
+      "to": "cat:agent",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:android_re",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:backend",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:devops",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:frontend",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:general",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:ingestion",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:media",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:research",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:search",
+      "type": "contains"
+    },
+    {
+      "from": "root",
+      "to": "cat:security",
+      "type": "contains"
+    },
+    {
+      "from": "cat:security",
+      "to": "billing-governance-extension",
+      "type": "contains"
+    },
+    {
+      "from": "cat:security",
+      "to": "billing-governance-guardrail",
+      "type": "contains"
+    },
+    {
+      "from": "cat:security",
+      "to": "262d098bb0f5",
+      "type": "contains"
+    },
+    {
+      "from": "cat:security",
+      "to": "398c14636964",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "19d993f59864",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "c2625c54ebc7",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "c3ed37af9248",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "575365303ae0",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "ec99e8fe6d73",
+      "type": "contains"
+    },
+    {
+      "from": "cat:backend",
+      "to": "0d6f929ff3bf",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "a25242e28e48",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "50e6dc1c3160",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "4596d8984229",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "ba3a10b5fa60",
+      "type": "contains"
+    },
+    {
+      "from": "cat:backend",
+      "to": "a583605990c0",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "590f269ee48c",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "ea149e5ac4e1",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "351936bd7f04",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "9111487e7459",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "b14441c4dce4",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "9c6075025ce1",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1-QHthiDb-8J",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-10-vH9if2omS",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-10CCVmNHHBtV",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-10HrRCDVCAAE",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-10UBOpRR91b1",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-10o1fkTJwjVA",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-113sI7Fpcmuk",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-118dv3VilDkJ",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-11cs5FPhXV94",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-11ueDhCrKz3d",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-125JfMD4UDZn",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-12BLjoUXO2CD",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-12LWqIrG4g0-",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-132LIkFckmv0",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1335tUP25Rb8",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-134DXUG-oMEA",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-15BKfpwr9U-J",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-15MbTZc9L7RS",
+      "type": "contains"
+    },
+    {
+      "from": "cat:devops",
+      "to": "src-15QfxHxaCT9b",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-15aGM-w6qPhE",
+      "type": "contains"
+    },
+    {
+      "from": "cat:media",
+      "to": "src-15x1von2Rx69",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-16Da2zi4fkAd",
+      "type": "contains"
+    },
+    {
+      "from": "cat:general",
+      "to": "src-16cMxMJG17Ki",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-17X7h4aD4T7O",
+      "type": "contains"
+    },
+    {
+      "from": "cat:search",
+      "to": "src-18bt5DDrfNqf",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-18bxv6CEa4Le",
+      "type": "contains"
+    },
+    {
+      "from": "cat:research",
+      "to": "src-18q3hvf-xp8I",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-194l9OW9HA1I",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-19SovwVKexfo",
+      "type": "contains"
+    },
+    {
+      "from": "cat:general",
+      "to": "src-1A5Pt-AAidfP",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1A8qcf-bxCn_",
+      "type": "contains"
+    },
+    {
+      "from": "cat:security",
+      "to": "src-1AVd4HwJ2jDJ",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1BWFjyaFPPFx",
+      "type": "contains"
+    },
+    {
+      "from": "cat:research",
+      "to": "src-1BtBZC9RmjNi",
+      "type": "contains"
+    },
+    {
+      "from": "cat:research",
+      "to": "src-1CZtuAERCR77",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1CmWHD-LN1i2",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1E57fBSd0kCh",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1FPnBUmBOWKW",
+      "type": "contains"
+    },
+    {
+      "from": "cat:search",
+      "to": "src-1Fc-afLd_2W6",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1Fe227xb5aGF",
+      "type": "contains"
+    },
+    {
+      "from": "cat:backend",
+      "to": "src-1G8B0UQ63yrH",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1GqxsRMTV_9v",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1GxYNbDueSjN",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1H4i9vcllnH9",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1HuiMPPcXq0z",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1I1_3pTiwJEu",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1IEjZE7DKA4T",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1II6iQhJQ_h6",
+      "type": "contains"
+    },
+    {
+      "from": "cat:research",
+      "to": "src-1IswK8GGdivm",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1Iwmb_k8LTF-",
+      "type": "contains"
+    },
+    {
+      "from": "cat:search",
+      "to": "src-1JNgaz8rfAFH",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1JOxNy3QuJOH",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1JrqOnFjMH2r",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1K5ArlJf__aG",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1KBEv0pI91cu",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1KBpvmBoIHA-",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1KGN00-6f8dJ",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1KYH3FB1nFUY",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1KkoUnS86A8h",
+      "type": "contains"
+    },
+    {
+      "from": "cat:android_re",
+      "to": "src-1LNc48OKxSCn",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1LbaL45WTSmb",
+      "type": "contains"
+    },
+    {
+      "from": "cat:research",
+      "to": "src-1LehaQuF1lVh",
+      "type": "contains"
+    },
+    {
+      "from": "cat:backend",
+      "to": "src-1LgX1ZvSwPyw",
+      "type": "contains"
+    },
+    {
+      "from": "cat:devops",
+      "to": "src-1M0LjEW8uUsn",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1M1Q5Q_LVuJm",
+      "type": "contains"
+    },
+    {
+      "from": "cat:media",
+      "to": "src-1MDiezUBzJK3",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1MV9IxBUGhnz",
+      "type": "contains"
+    },
+    {
+      "from": "cat:backend",
+      "to": "src-1M_wc5ADA9CX",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1N4k0NW7Xhdi",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1O6-D_aSOcn9",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1PfXe5OmYhxF",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1QjllrirAgz0",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1Rqy3kTh8bOf",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1RqyDENPYL1-",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1SDB6RN_znl9",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1SsageWwgMe2",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1TIfltceR7iL",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1UQlqjKkXpUs",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1V0jvvkfI41w",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1VLBgzqm9gUK",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1Vz5KAGD4Bdx",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1WDTqS2UzyQj",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1WPfKseKae5w",
+      "type": "contains"
+    },
+    {
+      "from": "cat:devops",
+      "to": "src-1WV2H9M34_Uj",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1WYNhILFVXJG",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1WkzNd8gHyhR",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1X479KSGJDEn",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1X5ZWG3-KiXL",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1XK3SxLZTZe8",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1XnaFfvehszY",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1XtWXZcJnbIh",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1Y5G3oXinvaK",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1YmOXlQRWDHq",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1YuFm5HCMVwl",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1YvVESg5KwpG",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1Z5u9ndB2_39",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1ZVzyhwD0ILT",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1ZhBQawgBZLP",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1_1YqkM5-iVP",
+      "type": "contains"
+    },
+    {
+      "from": "cat:media",
+      "to": "src-1_J9KplzSwva",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1_To1xtMdmoZ",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1aE9qThN0-c5",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1aPXiBxbQR-0",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1aVaJ4GIpN2z",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1asMEihxtPBF",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1bSGh20IDC3j",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1bbzVu0ZancS",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1biIspLD7Ee8",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1bsvYru4gJcb",
+      "type": "contains"
+    },
+    {
+      "from": "cat:backend",
+      "to": "src-1c34A8z-RC4A",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1cPM7KC5sQxv",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1cUblWeuTvOW",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1cyYG2xEEAmM",
+      "type": "contains"
+    },
+    {
+      "from": "cat:research",
+      "to": "src-1dBcdlJAFalu",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1d_Ox5GX4Rr9",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1dqHKP3Tssdl",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1eMumtmVkpZo",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1el9x82aw8zU",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1evYy3XIIsFy",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1fePtSnoO0EP",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1g0CSXPI5vRq",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1gHsjAJloHMF",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1gXr2Ahj-FbU",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1iABhKy03Rvi",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1iR1mJ35Jjc-",
+      "type": "contains"
+    },
+    {
+      "from": "cat:devops",
+      "to": "src-1j0SUZghqfJ8",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1j6OGxh57fd6",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1jRPcjku_xw_",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1jlekcsFtAob",
+      "type": "contains"
+    },
+    {
+      "from": "cat:security",
+      "to": "src-1k--QUxu5HZp",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1kjyTg7Dnmds",
+      "type": "contains"
+    },
+    {
+      "from": "cat:backend",
+      "to": "src-1krh-Tro3Uh2",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1lCUeLnEdtr6",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1loxnygiVrk8",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1mkQnvj6MECA",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1nYcFMb1Vp2h",
+      "type": "contains"
+    },
+    {
+      "from": "cat:search",
+      "to": "src-1oxxXB6RDKUg",
+      "type": "contains"
+    },
+    {
+      "from": "cat:general",
+      "to": "src-1p1156g_kMfj",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1pdPzhgQZ2sA",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1q8tEMTnwlfU",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1qIlyLYooJf0",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1qspm_fRAsgV",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1r2sv-I56mei",
+      "type": "contains"
+    },
+    {
+      "from": "cat:android_re",
+      "to": "src-1s7OK5Cjj6nh",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1sQh5oBA55ez",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1sSAiq8Zb53h",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "src-1t8l91SSy68h",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1tTdPNXFCr1z",
+      "type": "contains"
+    },
+    {
+      "from": "cat:android_re",
+      "to": "src-1v1lD3igXT7x",
+      "type": "contains"
+    },
+    {
+      "from": "cat:ingestion",
+      "to": "src-1vy8dgkHuOcB",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1xZYagWJD9C6",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1x_lfCB7235V",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1yWlsiNYgFjA",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1z36me9wQp12",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "src-1zHM_Lcvcl4f",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "efe8b52a5c6d",
+      "type": "contains"
+    },
+    {
+      "from": "cat:android_re",
+      "to": "ffad5aceb50f",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "9c671daa1c18",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "4ccf744653c2",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "c3eb09c24a40",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "7171c4c51ebf",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "be5666a0e1aa",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "5718b459b3c6",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "8bf3fc1dfc74",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "3bc299752312",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "f0e26a3323d9",
+      "type": "contains"
+    },
+    {
+      "from": "cat:agent",
+      "to": "e2ba8b9bb985",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "5a0fb867ef35",
+      "type": "contains"
+    },
+    {
+      "from": "cat:android_re",
+      "to": "8f8a5763c17d",
+      "type": "contains"
+    },
+    {
+      "from": "cat:android_re",
+      "to": "50d25c432e82",
+      "type": "contains"
+    },
+    {
+      "from": "cat:android_re",
+      "to": "e8cd40237fe7",
+      "type": "contains"
+    },
+    {
+      "from": "cat:android_re",
+      "to": "ac3bbf2a8410",
+      "type": "contains"
+    },
+    {
+      "from": "cat:frontend",
+      "to": "re-billing-meta",
+      "type": "contains"
+    },
+    {
+      "from": "cat:security",
+      "to": "billing-governance-doc",
+      "type": "contains"
+    },
+    {
+      "from": "cat:security",
+      "to": "billing-gov-ext-doc",
+      "type": "contains"
+    },
+    {
+      "from": "575365303ae0",
+      "to": "ec99e8fe6d73",
+      "type": "unlocks"
+    },
+    {
+      "from": "ec99e8fe6d73",
+      "to": "src-1-QHthiDb-8J",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1-QHthiDb-8J",
+      "to": "src-10CCVmNHHBtV",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-10CCVmNHHBtV",
+      "to": "src-10UBOpRR91b1",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-10UBOpRR91b1",
+      "to": "src-10o1fkTJwjVA",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-10o1fkTJwjVA",
+      "to": "src-125JfMD4UDZn",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-125JfMD4UDZn",
+      "to": "src-12BLjoUXO2CD",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-12BLjoUXO2CD",
+      "to": "src-12LWqIrG4g0-",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-12LWqIrG4g0-",
+      "to": "src-132LIkFckmv0",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-132LIkFckmv0",
+      "to": "src-134DXUG-oMEA",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-134DXUG-oMEA",
+      "to": "src-15BKfpwr9U-J",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-15BKfpwr9U-J",
+      "to": "src-15aGM-w6qPhE",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-15aGM-w6qPhE",
+      "to": "src-17X7h4aD4T7O",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-17X7h4aD4T7O",
+      "to": "src-18bxv6CEa4Le",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-18bxv6CEa4Le",
+      "to": "src-19SovwVKexfo",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-19SovwVKexfo",
+      "to": "src-1BWFjyaFPPFx",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1BWFjyaFPPFx",
+      "to": "src-1CmWHD-LN1i2",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1CmWHD-LN1i2",
+      "to": "src-1FPnBUmBOWKW",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1FPnBUmBOWKW",
+      "to": "src-1Fe227xb5aGF",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1Fe227xb5aGF",
+      "to": "src-1GqxsRMTV_9v",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1GqxsRMTV_9v",
+      "to": "src-1GxYNbDueSjN",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1GxYNbDueSjN",
+      "to": "src-1H4i9vcllnH9",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1H4i9vcllnH9",
+      "to": "src-1HuiMPPcXq0z",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1HuiMPPcXq0z",
+      "to": "src-1I1_3pTiwJEu",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1I1_3pTiwJEu",
+      "to": "src-1IEjZE7DKA4T",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1IEjZE7DKA4T",
+      "to": "src-1II6iQhJQ_h6",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1II6iQhJQ_h6",
+      "to": "src-1Iwmb_k8LTF-",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1Iwmb_k8LTF-",
+      "to": "src-1JOxNy3QuJOH",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1JOxNy3QuJOH",
+      "to": "src-1JrqOnFjMH2r",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1JrqOnFjMH2r",
+      "to": "src-1K5ArlJf__aG",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1K5ArlJf__aG",
+      "to": "src-1KBEv0pI91cu",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1KBEv0pI91cu",
+      "to": "src-1KBpvmBoIHA-",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1KBpvmBoIHA-",
+      "to": "src-1KYH3FB1nFUY",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1KYH3FB1nFUY",
+      "to": "src-1LbaL45WTSmb",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1LbaL45WTSmb",
+      "to": "src-1M1Q5Q_LVuJm",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1M1Q5Q_LVuJm",
+      "to": "src-1MV9IxBUGhnz",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1MV9IxBUGhnz",
+      "to": "src-1O6-D_aSOcn9",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1O6-D_aSOcn9",
+      "to": "src-1PfXe5OmYhxF",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1PfXe5OmYhxF",
+      "to": "src-1Rqy3kTh8bOf",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1LNc48OKxSCn",
+      "to": "src-1s7OK5Cjj6nh",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1s7OK5Cjj6nh",
+      "to": "src-1v1lD3igXT7x",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1v1lD3igXT7x",
+      "to": "ffad5aceb50f",
+      "type": "unlocks"
+    },
+    {
+      "from": "ffad5aceb50f",
+      "to": "8f8a5763c17d",
+      "type": "unlocks"
+    },
+    {
+      "from": "8f8a5763c17d",
+      "to": "50d25c432e82",
+      "type": "unlocks"
+    },
+    {
+      "from": "50d25c432e82",
+      "to": "e8cd40237fe7",
+      "type": "unlocks"
+    },
+    {
+      "from": "e8cd40237fe7",
+      "to": "ac3bbf2a8410",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1G8B0UQ63yrH",
+      "to": "src-1LgX1ZvSwPyw",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1LgX1ZvSwPyw",
+      "to": "src-1M_wc5ADA9CX",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1M_wc5ADA9CX",
+      "to": "src-1c34A8z-RC4A",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1c34A8z-RC4A",
+      "to": "src-1krh-Tro3Uh2",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1krh-Tro3Uh2",
+      "to": "0d6f929ff3bf",
+      "type": "unlocks"
+    },
+    {
+      "from": "0d6f929ff3bf",
+      "to": "a583605990c0",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1M0LjEW8uUsn",
+      "to": "src-1WV2H9M34_Uj",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1WV2H9M34_Uj",
+      "to": "src-1j0SUZghqfJ8",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1j0SUZghqfJ8",
+      "to": "src-15QfxHxaCT9b",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-10-vH9if2omS",
+      "to": "src-10HrRCDVCAAE",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-10HrRCDVCAAE",
+      "to": "src-11ueDhCrKz3d",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-11ueDhCrKz3d",
+      "to": "src-1335tUP25Rb8",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1335tUP25Rb8",
+      "to": "src-15MbTZc9L7RS",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-15MbTZc9L7RS",
+      "to": "src-194l9OW9HA1I",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-194l9OW9HA1I",
+      "to": "src-1E57fBSd0kCh",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1E57fBSd0kCh",
+      "to": "src-1KkoUnS86A8h",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1KkoUnS86A8h",
+      "to": "src-1N4k0NW7Xhdi",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1N4k0NW7Xhdi",
+      "to": "src-1QjllrirAgz0",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1QjllrirAgz0",
+      "to": "src-1aVaJ4GIpN2z",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1aVaJ4GIpN2z",
+      "to": "src-1asMEihxtPBF",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1asMEihxtPBF",
+      "to": "src-1bbzVu0ZancS",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1bbzVu0ZancS",
+      "to": "src-1cUblWeuTvOW",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1cUblWeuTvOW",
+      "to": "src-1t8l91SSy68h",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1t8l91SSy68h",
+      "to": "efe8b52a5c6d",
+      "type": "unlocks"
+    },
+    {
+      "from": "efe8b52a5c6d",
+      "to": "9c671daa1c18",
+      "type": "unlocks"
+    },
+    {
+      "from": "9c671daa1c18",
+      "to": "c3eb09c24a40",
+      "type": "unlocks"
+    },
+    {
+      "from": "c3eb09c24a40",
+      "to": "3bc299752312",
+      "type": "unlocks"
+    },
+    {
+      "from": "3bc299752312",
+      "to": "5a0fb867ef35",
+      "type": "unlocks"
+    },
+    {
+      "from": "5a0fb867ef35",
+      "to": "re-billing-meta",
+      "type": "unlocks"
+    },
+    {
+      "from": "re-billing-meta",
+      "to": "9c6075025ce1",
+      "type": "unlocks"
+    },
+    {
+      "from": "9c6075025ce1",
+      "to": "src-1sQh5oBA55ez",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-16cMxMJG17Ki",
+      "to": "src-1p1156g_kMfj",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1p1156g_kMfj",
+      "to": "src-1A5Pt-AAidfP",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-113sI7Fpcmuk",
+      "to": "src-118dv3VilDkJ",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-118dv3VilDkJ",
+      "to": "src-11cs5FPhXV94",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-11cs5FPhXV94",
+      "to": "src-16Da2zi4fkAd",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-16Da2zi4fkAd",
+      "to": "src-1A8qcf-bxCn_",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1A8qcf-bxCn_",
+      "to": "src-1KGN00-6f8dJ",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1KGN00-6f8dJ",
+      "to": "src-1V0jvvkfI41w",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1V0jvvkfI41w",
+      "to": "src-1WDTqS2UzyQj",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1WDTqS2UzyQj",
+      "to": "src-1WkzNd8gHyhR",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1WkzNd8gHyhR",
+      "to": "src-1YmOXlQRWDHq",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1YmOXlQRWDHq",
+      "to": "src-1bsvYru4gJcb",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1bsvYru4gJcb",
+      "to": "src-1el9x82aw8zU",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1el9x82aw8zU",
+      "to": "src-1loxnygiVrk8",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1loxnygiVrk8",
+      "to": "src-1pdPzhgQZ2sA",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1pdPzhgQZ2sA",
+      "to": "src-1vy8dgkHuOcB",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-15x1von2Rx69",
+      "to": "src-1MDiezUBzJK3",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1MDiezUBzJK3",
+      "to": "src-1_J9KplzSwva",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-18q3hvf-xp8I",
+      "to": "src-1BtBZC9RmjNi",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1BtBZC9RmjNi",
+      "to": "src-1CZtuAERCR77",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1CZtuAERCR77",
+      "to": "src-1IswK8GGdivm",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1IswK8GGdivm",
+      "to": "src-1LehaQuF1lVh",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1LehaQuF1lVh",
+      "to": "src-1dBcdlJAFalu",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-18bt5DDrfNqf",
+      "to": "src-1Fc-afLd_2W6",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1Fc-afLd_2W6",
+      "to": "src-1JNgaz8rfAFH",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1JNgaz8rfAFH",
+      "to": "src-1oxxXB6RDKUg",
+      "type": "unlocks"
+    },
+    {
+      "from": "billing-governance-extension",
+      "to": "src-1AVd4HwJ2jDJ",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1AVd4HwJ2jDJ",
+      "to": "src-1k--QUxu5HZp",
+      "type": "unlocks"
+    },
+    {
+      "from": "src-1k--QUxu5HZp",
+      "to": "billing-governance-guardrail",
+      "type": "unlocks"
+    },
+    {
+      "from": "billing-governance-guardrail",
+      "to": "262d098bb0f5",
+      "type": "unlocks"
+    },
+    {
+      "from": "262d098bb0f5",
+      "to": "398c14636964",
+      "type": "unlocks"
+    },
+    {
+      "from": "398c14636964",
+      "to": "billing-governance-doc",
+      "type": "unlocks"
+    },
+    {
+      "from": "billing-governance-doc",
+      "to": "billing-gov-ext-doc",
+      "type": "unlocks"
+    }
+  ]
+}

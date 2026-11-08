@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skill Tree Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <div class="brand">
+        <div class="logo">STE</div>
+        <div>
+          <h1>Skill Tree Engine</h1>
+          <p id="productTag">EXTRACT Distillery</p>
+        </div>
+      </div>
+      <div class="stats" id="stats"></div>
+      <div class="search-box">
+        <input id="q" type="search" placeholder="Search skills…" autocomplete="off" />
+      </div>
+      <div class="cats" id="cats"></div>
+      <div class="side-foot">
+        <button id="btnVerify" class="btn">Verify tree</button>
+        <button id="btnExpand" class="btn ghost">Expand all</button>
+      </div>
+    </aside>
+    <main>
+      <header class="top">
+        <div>
+          <h2 id="viewTitle">Full tree</h2>
+          <p id="viewSub" class="muted">Hierarchical skill graph</p>
+        </div>
+        <div class="pills" id="statusPills"></div>
+      </header>
+      <section id="tree" class="tree"></section>
+      <section id="results" class="results hidden"></section>
+    </main>
+    <aside class="detail" id="detail">
+      <h3>Select a node</h3>
+      <p class="muted">Click any skill to inspect policies, tests, unlocks, and path.</p>
+    </aside>
+  </div>
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
