@@ -9,11 +9,11 @@
       "size_bytes": 0,
       "modified_time": "2026-11-08T02:48:46.257Z",
       "web_view_link": "https://drive.google.com/file/d/1A5Pt-AAidfP_GageYpg0f7DjwF50UtHP/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1A5Pt-AAidfP_GageYpg0f7DjwF50UtHP.txt",
+      "extracted_path": "staging/extracted/1A5Pt-AAidfP_GageYpg0f7DjwF50UtHP.txt",
+      "extracted_chars": 0
     },
     {
       "id": "1vuvt8KtuJC2ZpB2kmmIfU303NZVDzCzS",
@@ -25,8 +25,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk",
@@ -35,11 +35,11 @@
       "size_bytes": 1329247,
       "modified_time": "2026-11-08T02:43:38.365Z",
       "web_view_link": "https://drive.google.com/file/d/1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk.pdf",
+      "extracted_path": "staging/extracted/1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk.txt",
+      "extracted_chars": 1156
     },
     {
       "id": "1MdZ4VRZpXN4XKz8aABdgxlICIHu1t3Md",
@@ -51,8 +51,8 @@
       "status": "scanned",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap",
@@ -61,11 +61,11 @@
       "size_bytes": 313939,
       "modified_time": "2026-11-08T02:43:38.572Z",
       "web_view_link": "https://drive.google.com/file/d/1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap.pdf",
+      "extracted_path": "staging/extracted/1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap.txt",
+      "extracted_chars": 2845
     },
     {
       "id": "1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R",
@@ -74,11 +74,11 @@
       "size_bytes": 7798,
       "modified_time": "2026-11-08T02:52:23.836Z",
       "web_view_link": "https://drive.google.com/file/d/1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R.txt",
+      "extracted_path": "staging/extracted/1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R.txt",
+      "extracted_chars": 7796
     },
     {
       "id": "1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK",
@@ -87,11 +87,11 @@
       "size_bytes": 185230,
       "modified_time": "2026-11-08T02:43:38.461Z",
       "web_view_link": "https://drive.google.com/file/d/1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK.pdf",
+      "extracted_path": "staging/extracted/1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK.txt",
+      "extracted_chars": 4752
     },
     {
       "id": "18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx",
@@ -100,11 +100,11 @@
       "size_bytes": 326835,
       "modified_time": "2026-11-08T02:43:39.279Z",
       "web_view_link": "https://drive.google.com/file/d/18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx.pdf",
+      "extracted_path": "staging/extracted/18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx.txt",
+      "extracted_chars": 16278
     },
     {
       "id": "1WNm6rD12vNu2maErBZG1MM3yKsZKgrOg",
@@ -113,11 +113,11 @@
       "size_bytes": 198629,
       "modified_time": "2026-11-08T02:43:39.515Z",
       "web_view_link": "https://drive.google.com/file/d/1WNm6rD12vNu2maErBZG1MM3yKsZKgrOg/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1WNm6rD12vNu2maErBZG1MM3yKsZKgrOg.pdf",
+      "extracted_path": "staging/extracted/1WNm6rD12vNu2maErBZG1MM3yKsZKgrOg.txt",
+      "extracted_chars": 10540
     },
     {
       "id": "1iuKU8E9DgpQCZbAFYFnx2GOKXHPO2oeA",
@@ -126,11 +126,11 @@
       "size_bytes": 100284,
       "modified_time": "2026-11-08T02:43:40.078Z",
       "web_view_link": "https://drive.google.com/file/d/1iuKU8E9DgpQCZbAFYFnx2GOKXHPO2oeA/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1iuKU8E9DgpQCZbAFYFnx2GOKXHPO2oeA.pdf",
+      "extracted_path": "staging/extracted/1iuKU8E9DgpQCZbAFYFnx2GOKXHPO2oeA.txt",
+      "extracted_chars": 1615
     },
     {
       "id": "1sRC4YxWlVsl4VuFXGrmYi8CU_wgRnbLd",
@@ -139,11 +139,11 @@
       "size_bytes": 396323,
       "modified_time": "2026-11-08T02:55:48.509Z",
       "web_view_link": "https://drive.google.com/file/d/1sRC4YxWlVsl4VuFXGrmYi8CU_wgRnbLd/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1sRC4YxWlVsl4VuFXGrmYi8CU_wgRnbLd.pdf",
+      "extracted_path": "staging/extracted/1sRC4YxWlVsl4VuFXGrmYi8CU_wgRnbLd.txt",
+      "extracted_chars": 33377
     },
     {
       "id": "1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2",
@@ -152,11 +152,11 @@
       "size_bytes": 13399,
       "modified_time": "2026-11-08T02:52:57.014Z",
       "web_view_link": "https://drive.google.com/file/d/1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2.txt",
+      "extracted_path": "staging/extracted/1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2.txt",
+      "extracted_chars": 13397
     },
     {
       "id": "1kjrxQHabknn0mAyX9I7wZJq32Xuw9jb6",
@@ -168,8 +168,8 @@
       "status": "restored",
       "security_status": "doc-restored",
       "note": "Restored to workspace. Not executed. local=docs/API_Keys_Swagger_Docs.PDF",
-      "workspace_path": "workspace-restored/docs/API_Keys_Swagger_Docs.PDF",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1YMcOvz7PtjUWI3HkvbCISzeF4hyh0_52",
@@ -181,8 +181,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1FvC5qqbwxXHt2ETLjPN9G1NC-MBLnZZq",
@@ -194,8 +194,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/apitrace-13.0-1.mga10.aarch64.rpm",
-      "workspace_path": "workspace-restored/binaries/apitrace-13.0-1.mga10.aarch64.rpm",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1HaXPGe-agvk5NihtO3PDlRMxuGPKUH_n",
@@ -207,8 +207,8 @@
       "status": "restored",
       "security_status": "doc-restored",
       "note": "Restored to workspace. Not executed. local=docs/APK_Expansion_Files.eml",
-      "workspace_path": "workspace-restored/docs/APK_Expansion_Files.eml",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1FNtRiWn81GUcAfmBlCHQi-KEtzLcycUZ",
@@ -220,8 +220,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/APK1.zip",
-      "workspace_path": "workspace-restored/binaries/APK1.zip",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1AM6l_y83jFegQcCuQ0rk1gjanNRcORrn",
@@ -233,8 +233,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/APK2.zip",
-      "workspace_path": "workspace-restored/binaries/APK2.zip",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1IK_J_R4CSHr_LXvyn9xH-BR02J_1WoCg",
@@ -246,8 +246,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Apk3.zip",
-      "workspace_path": "workspace-restored/binaries/Apk3.zip",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1ihyiReG2xU4e2bYFLHuwbY8MjA-rlzGG",
@@ -259,8 +259,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Apk4.zip",
-      "workspace_path": "workspace-restored/binaries/Apk4.zip",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "13bzj9OHPT1qDlxH0FTrK5NuDxG0iaJLP",
@@ -272,8 +272,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Apk5.zip",
-      "workspace_path": "workspace-restored/binaries/Apk5.zip",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1yTvoJ9KzC4sjy-T5QGKVV9q1qEzoJJj2",
@@ -285,8 +285,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Apk6.zip",
-      "workspace_path": "workspace-restored/binaries/Apk6.zip",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1LehaQuF1lVh5ixRlEG2v_inYicc59xE6",
@@ -295,11 +295,11 @@
       "size_bytes": 5717,
       "modified_time": "2026-11-08T02:53:51.395Z",
       "web_view_link": "https://drive.google.com/file/d/1LehaQuF1lVh5ixRlEG2v_inYicc59xE6/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1LehaQuF1lVh5ixRlEG2v_inYicc59xE6.txt",
+      "extracted_path": "staging/extracted/1LehaQuF1lVh5ixRlEG2v_inYicc59xE6.txt",
+      "extracted_chars": 5715
     },
     {
       "id": "13wDoyatuCKWcP3AH6zXwh2UWQGHqvzVZ",
@@ -308,11 +308,11 @@
       "size_bytes": 308811,
       "modified_time": "2026-11-08T02:40:06.461Z",
       "web_view_link": "https://drive.google.com/file/d/13wDoyatuCKWcP3AH6zXwh2UWQGHqvzVZ/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/13wDoyatuCKWcP3AH6zXwh2UWQGHqvzVZ.pdf",
+      "extracted_path": "staging/extracted/13wDoyatuCKWcP3AH6zXwh2UWQGHqvzVZ.txt",
+      "extracted_chars": 1957
     },
     {
       "id": "1efaWYX7LDJu8VzCN80PG_eZpsEW6VCLD",
@@ -321,11 +321,11 @@
       "size_bytes": 197602,
       "modified_time": "2026-11-08T02:40:06.767Z",
       "web_view_link": "https://drive.google.com/file/d/1efaWYX7LDJu8VzCN80PG_eZpsEW6VCLD/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1efaWYX7LDJu8VzCN80PG_eZpsEW6VCLD.pdf",
+      "extracted_path": "staging/extracted/1efaWYX7LDJu8VzCN80PG_eZpsEW6VCLD.txt",
+      "extracted_chars": 959
     },
     {
       "id": "1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe",
@@ -334,11 +334,11 @@
       "size_bytes": 6629,
       "modified_time": "2026-11-08T02:52:57.882Z",
       "web_view_link": "https://drive.google.com/file/d/1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe.txt",
+      "extracted_path": "staging/extracted/1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe.txt",
+      "extracted_chars": 6627
     },
     {
       "id": "1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64",
@@ -347,11 +347,11 @@
       "size_bytes": 6514,
       "modified_time": "2026-11-08T02:53:51.476Z",
       "web_view_link": "https://drive.google.com/file/d/1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64.txt",
+      "extracted_path": "staging/extracted/1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64.txt",
+      "extracted_chars": 6512
     },
     {
       "id": "1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f",
@@ -360,11 +360,11 @@
       "size_bytes": 10286,
       "modified_time": "2026-11-08T02:48:46.098Z",
       "web_view_link": "https://drive.google.com/file/d/1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f.txt",
+      "extracted_path": "staging/extracted/1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f.txt",
+      "extracted_chars": 10286
     },
     {
       "id": "1vV-ZKt1EvhtBNM9OmAlcmPdoj25EKrny",
@@ -373,11 +373,11 @@
       "size_bytes": 446127,
       "modified_time": "2026-11-08T02:53:51.998Z",
       "web_view_link": "https://drive.google.com/file/d/1vV-ZKt1EvhtBNM9OmAlcmPdoj25EKrny/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1vV-ZKt1EvhtBNM9OmAlcmPdoj25EKrny.pdf",
+      "extracted_path": "staging/extracted/1vV-ZKt1EvhtBNM9OmAlcmPdoj25EKrny.txt",
+      "extracted_chars": 3863
     },
     {
       "id": "1k8pJ4Tp9xgNQqvZSaqj_bRjBx8LeSt19",
@@ -389,8 +389,8 @@
       "status": "restored",
       "security_status": "re-doc-restored",
       "note": "Restored to workspace. Not executed. local=re-docs/BILLING_SMALI_ANALYSIS.md.txt",
-      "workspace_path": "workspace-restored/re-docs/BILLING_SMALI_ANALYSIS.md.txt",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "17DUDChA6dvySb4TxEIHikzIop_qnZYRX",
@@ -399,11 +399,11 @@
       "size_bytes": 411346,
       "modified_time": "2026-11-08T02:57:41.101Z",
       "web_view_link": "https://drive.google.com/file/d/17DUDChA6dvySb4TxEIHikzIop_qnZYRX/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/17DUDChA6dvySb4TxEIHikzIop_qnZYRX.pdf",
+      "extracted_path": "staging/extracted/17DUDChA6dvySb4TxEIHikzIop_qnZYRX.txt",
+      "extracted_chars": 7131
     },
     {
       "id": "194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj",
@@ -412,11 +412,11 @@
       "size_bytes": 15720,
       "modified_time": "2026-11-08T02:53:51.163Z",
       "web_view_link": "https://drive.google.com/file/d/194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj.txt",
+      "extracted_path": "staging/extracted/194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj.txt",
+      "extracted_chars": 15716
     },
     {
       "id": "1kV7xSUDFgX9LhVC_jKehEH8yrLvxJsMf",
@@ -428,8 +428,8 @@
       "status": "restored",
       "security_status": "secret-private-hold",
       "note": "Restored to workspace. Not executed. Secret values held in private/ only \u2014 not published to public KB or git. local=private/clearance_secrets_vault.pdf",
-      "workspace_path": "workspace-restored/private/clearance_secrets_vault.pdf",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1fIrM3eLnTxcyXZqwQ1qq0qaDHDuKi5bQ",
@@ -441,8 +441,8 @@
       "status": "restored",
       "security_status": "secret-private-hold",
       "note": "Restored to workspace. Not executed. Secret values held in private/ only \u2014 not published to public KB or git. local=private/cat_env_WPS.pdf",
-      "workspace_path": "workspace-restored/private/cat_env_WPS.pdf",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1gDE8j7uTQ7RuyW-wzqvGpcBb9Q1n9TZq",
@@ -454,8 +454,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "15CI9jba5fqVVlTccCuUnv7NQq9tXzjZp",
@@ -464,11 +464,11 @@
       "size_bytes": 324202,
       "modified_time": "2026-11-08T02:40:06.915Z",
       "web_view_link": "https://drive.google.com/file/d/15CI9jba5fqVVlTccCuUnv7NQq9tXzjZp/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/15CI9jba5fqVVlTccCuUnv7NQq9tXzjZp.pdf",
+      "extracted_path": "staging/extracted/15CI9jba5fqVVlTccCuUnv7NQq9tXzjZp.txt",
+      "extracted_chars": 19779
     },
     {
       "id": "14DogYUtgYOp9GIVfe5NiLGTSqWNJlohu",
@@ -480,8 +480,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg",
@@ -490,11 +490,11 @@
       "size_bytes": 14595,
       "modified_time": "2026-11-08T02:52:24.185Z",
       "web_view_link": "https://drive.google.com/file/d/1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg.txt",
+      "extracted_path": "staging/extracted/1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg.txt",
+      "extracted_chars": 14591
     },
     {
       "id": "1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV",
@@ -503,11 +503,11 @@
       "size_bytes": 345558,
       "modified_time": "2026-11-08T02:37:55.271Z",
       "web_view_link": "https://drive.google.com/file/d/1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV.pdf",
+      "extracted_path": "staging/extracted/1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV.txt",
+      "extracted_chars": 3252
     },
     {
       "id": "16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ",
@@ -516,11 +516,11 @@
       "size_bytes": 27902,
       "modified_time": "2026-11-08T02:52:24.107Z",
       "web_view_link": "https://drive.google.com/file/d/16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ.txt",
+      "extracted_path": "staging/extracted/16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ.txt",
+      "extracted_chars": 27900
     },
     {
       "id": "1y2IfYg3KSR0RiWCVYbU-m3hyI1qF9gsO",
@@ -532,8 +532,8 @@
       "status": "scanned",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1buqOdO4Id5pglCJx1DkZGxhNeIrcPTjQ",
@@ -542,11 +542,11 @@
       "size_bytes": 30071,
       "modified_time": "2026-11-08T02:48:46.172Z",
       "web_view_link": "https://drive.google.com/file/d/1buqOdO4Id5pglCJx1DkZGxhNeIrcPTjQ/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1buqOdO4Id5pglCJx1DkZGxhNeIrcPTjQ.pdf",
+      "extracted_path": "staging/extracted/1buqOdO4Id5pglCJx1DkZGxhNeIrcPTjQ.txt",
+      "extracted_chars": 598
     },
     {
       "id": "1MDiezUBzJK36HpqrmccYTW-ybyoocZfM",
@@ -555,11 +555,11 @@
       "size_bytes": 335439,
       "modified_time": "2026-11-08T02:52:23.491Z",
       "web_view_link": "https://drive.google.com/file/d/1MDiezUBzJK36HpqrmccYTW-ybyoocZfM/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1MDiezUBzJK36HpqrmccYTW-ybyoocZfM.txt",
+      "extracted_path": "staging/extracted/1MDiezUBzJK36HpqrmccYTW-ybyoocZfM.txt",
+      "extracted_chars": 335429
     },
     {
       "id": "1mV_oow8m7qyWofHjFZ0B7DuFw1pz22hR",
@@ -568,11 +568,11 @@
       "size_bytes": 2479713,
       "modified_time": "2026-11-08T02:48:45.649Z",
       "web_view_link": "https://drive.google.com/file/d/1mV_oow8m7qyWofHjFZ0B7DuFw1pz22hR/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1mV_oow8m7qyWofHjFZ0B7DuFw1pz22hR.eml",
+      "extracted_path": "staging/extracted/1mV_oow8m7qyWofHjFZ0B7DuFw1pz22hR.txt",
+      "extracted_chars": 2479583
     },
     {
       "id": "12nBP1soh-wSLb3naJokDbdnBQERiLuoN",
@@ -584,8 +584,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD",
@@ -594,11 +594,11 @@
       "size_bytes": 10016,
       "modified_time": "2026-11-08T02:53:50.917Z",
       "web_view_link": "https://drive.google.com/file/d/18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD.txt",
+      "extracted_path": "staging/extracted/18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD.txt",
+      "extracted_chars": 10012
     },
     {
       "id": "1Lc0-GoB3ewiHCub6ljg3BTiNw74DAZCs",
@@ -610,8 +610,8 @@
       "status": "scanned",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "19hQhaiCRkTHJWNG0G6KgUHzCVasoZsya",
@@ -620,11 +620,11 @@
       "size_bytes": 186058,
       "modified_time": "2026-11-08T02:57:41.275Z",
       "web_view_link": "https://drive.google.com/file/d/19hQhaiCRkTHJWNG0G6KgUHzCVasoZsya/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/19hQhaiCRkTHJWNG0G6KgUHzCVasoZsya.pdf",
+      "extracted_path": "staging/extracted/19hQhaiCRkTHJWNG0G6KgUHzCVasoZsya.txt",
+      "extracted_chars": 1184
     },
     {
       "id": "1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2",
@@ -633,11 +633,11 @@
       "size_bytes": 6788,
       "modified_time": "2026-11-08T02:52:24.622Z",
       "web_view_link": "https://drive.google.com/file/d/1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2.txt",
+      "extracted_path": "staging/extracted/1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2.txt",
+      "extracted_chars": 6786
     },
     {
       "id": "1Z5u9ndB2_39GMaeGigTTwO_mXniywokK",
@@ -646,11 +646,11 @@
       "size_bytes": 276663,
       "modified_time": "2026-11-08T02:43:37.905Z",
       "web_view_link": "https://drive.google.com/file/d/1Z5u9ndB2_39GMaeGigTTwO_mXniywokK/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Z5u9ndB2_39GMaeGigTTwO_mXniywokK.pdf",
+      "extracted_path": "staging/extracted/1Z5u9ndB2_39GMaeGigTTwO_mXniywokK.txt",
+      "extracted_chars": 8709
     },
     {
       "id": "1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh",
@@ -659,11 +659,11 @@
       "size_bytes": 275714,
       "modified_time": "2026-11-08T02:43:39.179Z",
       "web_view_link": "https://drive.google.com/file/d/1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh.pdf",
+      "extracted_path": "staging/extracted/1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh.txt",
+      "extracted_chars": 8589
     },
     {
       "id": "1P0IK86NKfdRWZy_ykMMTyRVOxMst8Btl",
@@ -675,8 +675,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn",
@@ -685,11 +685,11 @@
       "size_bytes": 4929,
       "modified_time": "2026-11-08T02:52:23.931Z",
       "web_view_link": "https://drive.google.com/file/d/1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn.txt",
+      "extracted_path": "staging/extracted/1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn.txt",
+      "extracted_chars": 4925
     },
     {
       "id": "1335tUP25Rb896fPaltVxg0BrBh3w_P8f",
@@ -698,11 +698,11 @@
       "size_bytes": 29880,
       "modified_time": "2026-11-08T02:52:57.279Z",
       "web_view_link": "https://drive.google.com/file/d/1335tUP25Rb896fPaltVxg0BrBh3w_P8f/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1335tUP25Rb896fPaltVxg0BrBh3w_P8f.txt",
+      "extracted_path": "staging/extracted/1335tUP25Rb896fPaltVxg0BrBh3w_P8f.txt",
+      "extracted_chars": 29853
     },
     {
       "id": "10-vH9if2omS77U1U5_vhp9S6FgS2cjlz",
@@ -711,11 +711,11 @@
       "size_bytes": 29880,
       "modified_time": "2026-11-08T02:52:24.829Z",
       "web_view_link": "https://drive.google.com/file/d/10-vH9if2omS77U1U5_vhp9S6FgS2cjlz/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/10-vH9if2omS77U1U5_vhp9S6FgS2cjlz.txt",
+      "extracted_path": "staging/extracted/10-vH9if2omS77U1U5_vhp9S6FgS2cjlz.txt",
+      "extracted_chars": 29853
     },
     {
       "id": "1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8",
@@ -724,11 +724,11 @@
       "size_bytes": 200726,
       "modified_time": "2026-11-08T02:43:38.798Z",
       "web_view_link": "https://drive.google.com/file/d/1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8.pdf",
+      "extracted_path": "staging/extracted/1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8.txt",
+      "extracted_chars": 3435
     },
     {
       "id": "1CuDNDXuTYGqkfN3K008TdNA4pdAqvIuX",
@@ -737,11 +737,11 @@
       "size_bytes": 266999,
       "modified_time": "2026-11-08T02:40:06.281Z",
       "web_view_link": "https://drive.google.com/file/d/1CuDNDXuTYGqkfN3K008TdNA4pdAqvIuX/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1CuDNDXuTYGqkfN3K008TdNA4pdAqvIuX.pdf",
+      "extracted_path": "staging/extracted/1CuDNDXuTYGqkfN3K008TdNA4pdAqvIuX.txt",
+      "extracted_chars": 3724
     },
     {
       "id": "1S0MbGNZ9OUGs3n-2tInky2cJv5B6lqf5",
@@ -750,11 +750,11 @@
       "size_bytes": 713298,
       "modified_time": "2026-11-08T02:43:38.899Z",
       "web_view_link": "https://drive.google.com/file/d/1S0MbGNZ9OUGs3n-2tInky2cJv5B6lqf5/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1S0MbGNZ9OUGs3n-2tInky2cJv5B6lqf5.pdf",
+      "extracted_path": "staging/extracted/1S0MbGNZ9OUGs3n-2tInky2cJv5B6lqf5.txt",
+      "extracted_chars": 24019
     },
     {
       "id": "15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY",
@@ -763,11 +763,11 @@
       "size_bytes": 185658,
       "modified_time": "2026-11-08T02:43:38.982Z",
       "web_view_link": "https://drive.google.com/file/d/15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY.pdf",
+      "extracted_path": "staging/extracted/15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY.txt",
+      "extracted_chars": 3587
     },
     {
       "id": "1nUF6gVLtO14xhaSVdP0Q1f8f1LMltxuh",
@@ -779,8 +779,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/grok-0.260.0-12.mga10.noarch-1.rpm",
-      "workspace_path": "workspace-restored/binaries/grok-0.260.0-12.mga10.noarch-1.rpm",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1WQtG9AJ-i4QMsbTAY5aPRriflmlGK0fc",
@@ -792,8 +792,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/grok-0.260.0-12.mga10.noarch.rpm",
-      "workspace_path": "workspace-restored/binaries/grok-0.260.0-12.mga10.noarch.rpm",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1-Ants1F2MkG_S-GKfy88JnVfezjU46Wk",
@@ -802,11 +802,11 @@
       "size_bytes": 18585,
       "modified_time": "2026-11-08T02:57:40.721Z",
       "web_view_link": "https://drive.google.com/file/d/1-Ants1F2MkG_S-GKfy88JnVfezjU46Wk/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1-Ants1F2MkG_S-GKfy88JnVfezjU46Wk.pdf",
+      "extracted_path": "staging/extracted/1-Ants1F2MkG_S-GKfy88JnVfezjU46Wk.txt",
+      "extracted_chars": 4096
     },
     {
       "id": "1SodqCuA-ErRLX02AnD4gKDhgJ6tsoAfS",
@@ -815,11 +815,11 @@
       "size_bytes": 2690,
       "modified_time": "2026-11-08T02:51:37.732Z",
       "web_view_link": "https://drive.google.com/file/d/1SodqCuA-ErRLX02AnD4gKDhgJ6tsoAfS/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1SodqCuA-ErRLX02AnD4gKDhgJ6tsoAfS.sh",
+      "extracted_path": "staging/extracted/1SodqCuA-ErRLX02AnD4gKDhgJ6tsoAfS.txt",
+      "extracted_chars": 2690
     },
     {
       "id": "1z6PEKBZn0F3UuFECYEZ48RPzxNwdi4Rr",
@@ -831,8 +831,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1mN1sL4VQBzKo3DMGrkW09l0Ep1se6VHd",
@@ -844,8 +844,8 @@
       "status": "restored",
       "security_status": "secret-private-hold",
       "note": "Restored to workspace. Not executed. Secret values held in private/ only \u2014 not published to public KB or git. local=private/grok-premium-ca-keys.json",
-      "workspace_path": "workspace-restored/private/grok-premium-ca-keys.json",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK",
@@ -854,11 +854,11 @@
       "size_bytes": 2643,
       "modified_time": "2026-11-08T02:51:38.269Z",
       "web_view_link": "https://drive.google.com/file/d/1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK.md",
+      "extracted_path": "staging/extracted/1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK.txt",
+      "extracted_chars": 2643
     },
     {
       "id": "17hawKNZIM49FDAdGYqVCeN5--ocHvH-T",
@@ -870,8 +870,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt",
@@ -880,11 +880,11 @@
       "size_bytes": 3011,
       "modified_time": "2026-11-08T02:46:56.729Z",
       "web_view_link": "https://drive.google.com/file/d/1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt.md",
+      "extracted_path": "staging/extracted/1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt.txt",
+      "extracted_chars": 3011
     },
     {
       "id": "18RkEHuWz8zOl07cq0lEY4pNwimGBLpZl",
@@ -893,11 +893,11 @@
       "size_bytes": 5096,
       "modified_time": "2026-11-08T02:46:56.626Z",
       "web_view_link": "https://drive.google.com/file/d/18RkEHuWz8zOl07cq0lEY4pNwimGBLpZl/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/18RkEHuWz8zOl07cq0lEY4pNwimGBLpZl.py",
+      "extracted_path": "staging/extracted/18RkEHuWz8zOl07cq0lEY4pNwimGBLpZl.txt",
+      "extracted_chars": 5096
     },
     {
       "id": "1h5N28QbIFPK7PAeQgGhaohEZ1_y_s_Y_",
@@ -906,11 +906,11 @@
       "size_bytes": 8361,
       "modified_time": "2026-11-08T02:51:38.080Z",
       "web_view_link": "https://drive.google.com/file/d/1h5N28QbIFPK7PAeQgGhaohEZ1_y_s_Y_/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1h5N28QbIFPK7PAeQgGhaohEZ1_y_s_Y_.py",
+      "extracted_path": "staging/extracted/1h5N28QbIFPK7PAeQgGhaohEZ1_y_s_Y_.txt",
+      "extracted_chars": 8185
     },
     {
       "id": "1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi",
@@ -919,11 +919,11 @@
       "size_bytes": 17661,
       "modified_time": "2026-11-08T02:51:37.896Z",
       "web_view_link": "https://drive.google.com/file/d/1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi.md",
+      "extracted_path": "staging/extracted/1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi.txt",
+      "extracted_chars": 17527
     },
     {
       "id": "1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG",
@@ -932,11 +932,11 @@
       "size_bytes": 17661,
       "modified_time": "2026-11-08T02:46:56.923Z",
       "web_view_link": "https://drive.google.com/file/d/1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG.md",
+      "extracted_path": "staging/extracted/1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG.txt",
+      "extracted_chars": 17527
     },
     {
       "id": "12IjQTa-Yd3NhMlcJ7QY6uT2h1dqLelhu",
@@ -945,11 +945,11 @@
       "size_bytes": 277554,
       "modified_time": "2026-11-08T02:46:57.019Z",
       "web_view_link": "https://drive.google.com/file/d/12IjQTa-Yd3NhMlcJ7QY6uT2h1dqLelhu/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/12IjQTa-Yd3NhMlcJ7QY6uT2h1dqLelhu.pdf",
+      "extracted_path": "staging/extracted/12IjQTa-Yd3NhMlcJ7QY6uT2h1dqLelhu.txt",
+      "extracted_chars": 15706
     },
     {
       "id": "1kh4wyH8ExVOR913iAR3t5V_k9Wkap8u7",
@@ -958,11 +958,11 @@
       "size_bytes": 5712,
       "modified_time": "2026-11-08T02:51:38.185Z",
       "web_view_link": "https://drive.google.com/file/d/1kh4wyH8ExVOR913iAR3t5V_k9Wkap8u7/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1kh4wyH8ExVOR913iAR3t5V_k9Wkap8u7.sh",
+      "extracted_path": "staging/extracted/1kh4wyH8ExVOR913iAR3t5V_k9Wkap8u7.txt",
+      "extracted_chars": 5704
     },
     {
       "id": "1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF",
@@ -971,11 +971,11 @@
       "size_bytes": 5295,
       "modified_time": "2026-11-08T02:51:37.804Z",
       "web_view_link": "https://drive.google.com/file/d/1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF.md",
+      "extracted_path": "staging/extracted/1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF.txt",
+      "extracted_chars": 5279
     },
     {
       "id": "1X8Tzi4zVnam8LE_zyUqL9DrEJhh7GwHq",
@@ -987,8 +987,8 @@
       "status": "restored",
       "security_status": "binary-restored",
       "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Grok_webapk_v2_1.apks",
-      "workspace_path": "workspace-restored/binaries/Grok_webapk_v2_1.apks",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV",
@@ -997,11 +997,11 @@
       "size_bytes": 8875,
       "modified_time": "2026-11-08T02:46:56.819Z",
       "web_view_link": "https://drive.google.com/file/d/1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV.md",
+      "extracted_path": "staging/extracted/1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV.txt",
+      "extracted_chars": 8875
     },
     {
       "id": "1Q5x0dEicbMG_b6E4_oL6MlyOWIucMz5H",
@@ -1013,8 +1013,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1hjm16H5dP-fBOK5pGW-BHvzwC_JBprec",
@@ -1023,11 +1023,11 @@
       "size_bytes": 1743880,
       "modified_time": "2026-11-08T02:52:57.381Z",
       "web_view_link": "https://drive.google.com/file/d/1hjm16H5dP-fBOK5pGW-BHvzwC_JBprec/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1hjm16H5dP-fBOK5pGW-BHvzwC_JBprec.pdf",
+      "extracted_path": "staging/extracted/1hjm16H5dP-fBOK5pGW-BHvzwC_JBprec.txt",
+      "extracted_chars": 13804
     },
     {
       "id": "1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc",
@@ -1036,11 +1036,11 @@
       "size_bytes": 75,
       "modified_time": "2026-11-08T02:52:57.108Z",
       "web_view_link": "https://drive.google.com/file/d/1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc.txt",
+      "extracted_path": "staging/extracted/1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc.txt",
+      "extracted_chars": 73
     },
     {
       "id": "1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg",
@@ -1049,11 +1049,11 @@
       "size_bytes": 5075,
       "modified_time": "2026-11-08T02:52:56.840Z",
       "web_view_link": "https://drive.google.com/file/d/1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg.txt",
+      "extracted_path": "staging/extracted/1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg.txt",
+      "extracted_chars": 5073
     },
     {
       "id": "15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq",
@@ -1062,11 +1062,11 @@
       "size_bytes": 258,
       "modified_time": "2026-11-08T02:53:51.651Z",
       "web_view_link": "https://drive.google.com/file/d/15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq.txt",
+      "extracted_path": "staging/extracted/15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq.txt",
+      "extracted_chars": 256
     },
     {
       "id": "11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi",
@@ -1075,11 +1075,11 @@
       "size_bytes": 7515,
       "modified_time": "2026-11-08T02:53:51.303Z",
       "web_view_link": "https://drive.google.com/file/d/11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi.txt",
+      "extracted_path": "staging/extracted/11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi.txt",
+      "extracted_chars": 7507
     },
     {
       "id": "1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw",
@@ -1088,11 +1088,11 @@
       "size_bytes": 7580,
       "modified_time": "2026-11-08T02:53:50.824Z",
       "web_view_link": "https://drive.google.com/file/d/1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw.txt",
+      "extracted_path": "staging/extracted/1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw.txt",
+      "extracted_chars": 7572
     },
     {
       "id": "1wajkVVPHUik80AKzERN6LJUUWlZ3H-gO",
@@ -1101,11 +1101,11 @@
       "size_bytes": 63715,
       "modified_time": "2026-11-08T02:55:48.424Z",
       "web_view_link": "https://drive.google.com/file/d/1wajkVVPHUik80AKzERN6LJUUWlZ3H-gO/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1wajkVVPHUik80AKzERN6LJUUWlZ3H-gO.pdf",
+      "extracted_path": "staging/extracted/1wajkVVPHUik80AKzERN6LJUUWlZ3H-gO.txt",
+      "extracted_chars": 3823
     },
     {
       "id": "1BmjbuS4Sf_2RNP_MbF0MkcOpAtrU98No",
@@ -1114,11 +1114,11 @@
       "size_bytes": 1927328,
       "modified_time": "2026-11-08T02:52:57.488Z",
       "web_view_link": "https://drive.google.com/file/d/1BmjbuS4Sf_2RNP_MbF0MkcOpAtrU98No/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1BmjbuS4Sf_2RNP_MbF0MkcOpAtrU98No.pdf",
+      "extracted_path": "staging/extracted/1BmjbuS4Sf_2RNP_MbF0MkcOpAtrU98No.txt",
+      "extracted_chars": 11621
     },
     {
       "id": "1exRN7xTTnqxaGVe12fGIedp0WKusfF4j",
@@ -1127,11 +1127,11 @@
       "size_bytes": 127263,
       "modified_time": "2026-11-08T02:51:38.443Z",
       "web_view_link": "https://drive.google.com/file/d/1exRN7xTTnqxaGVe12fGIedp0WKusfF4j/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1exRN7xTTnqxaGVe12fGIedp0WKusfF4j.pdf",
+      "extracted_path": "staging/extracted/1exRN7xTTnqxaGVe12fGIedp0WKusfF4j.txt",
+      "extracted_chars": 40519
     },
     {
       "id": "11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb",
@@ -1140,11 +1140,11 @@
       "size_bytes": 26562,
       "modified_time": "2026-11-08T02:51:38.349Z",
       "web_view_link": "https://drive.google.com/file/d/11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb.txt",
+      "extracted_path": "staging/extracted/11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb.txt",
+      "extracted_chars": 26531
     },
     {
       "id": "1n-2CfmSu0hEo0hhL8hkPX6vWo8YZ5vFq",
@@ -1156,8 +1156,8 @@
       "status": "scanned",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1qbd-5-rQ3yvJO6FL7K4VaG5yiCQJTrHM",
@@ -1166,11 +1166,11 @@
       "size_bytes": 2159775,
       "modified_time": "2026-11-08T02:52:57.690Z",
       "web_view_link": "https://drive.google.com/file/d/1qbd-5-rQ3yvJO6FL7K4VaG5yiCQJTrHM/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1qbd-5-rQ3yvJO6FL7K4VaG5yiCQJTrHM.pdf",
+      "extracted_path": "staging/extracted/1qbd-5-rQ3yvJO6FL7K4VaG5yiCQJTrHM.txt",
+      "extracted_chars": 17136
     },
     {
       "id": "100z3lPnT0S8gofOIDahn86fhGp00sr7U",
@@ -1179,11 +1179,11 @@
       "size_bytes": 1377077,
       "modified_time": "2026-11-08T02:52:57.787Z",
       "web_view_link": "https://drive.google.com/file/d/100z3lPnT0S8gofOIDahn86fhGp00sr7U/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/100z3lPnT0S8gofOIDahn86fhGp00sr7U.pdf",
+      "extracted_path": "staging/extracted/100z3lPnT0S8gofOIDahn86fhGp00sr7U.txt",
+      "extracted_chars": 17603
     },
     {
       "id": "1zwF2STheU1xNRRO_kwoXfw1Q31FM_iML",
@@ -1195,8 +1195,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "17-Pv341ubFgl-pBTy7sJBV0-SeLI2GtZ",
@@ -1208,8 +1208,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9",
@@ -1218,11 +1218,11 @@
       "size_bytes": 155352,
       "modified_time": "2026-11-08T02:43:40.219Z",
       "web_view_link": "https://drive.google.com/file/d/1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9.pdf",
+      "extracted_path": "staging/extracted/1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9.txt",
+      "extracted_chars": 4154
     },
     {
       "id": "1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b",
@@ -1231,11 +1231,11 @@
       "size_bytes": 8206,
       "modified_time": "2026-11-08T02:53:51.571Z",
       "web_view_link": "https://drive.google.com/file/d/1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b.txt",
+      "extracted_path": "staging/extracted/1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b.txt",
+      "extracted_chars": 8204
     },
     {
       "id": "1S299jDGRhaMGukj1uqzmw0vA2nsjWtqD",
@@ -1244,11 +1244,11 @@
       "size_bytes": 43028,
       "modified_time": "2026-11-08T02:51:38.691Z",
       "web_view_link": "https://drive.google.com/file/d/1S299jDGRhaMGukj1uqzmw0vA2nsjWtqD/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1S299jDGRhaMGukj1uqzmw0vA2nsjWtqD.pdf",
+      "extracted_path": "staging/extracted/1S299jDGRhaMGukj1uqzmw0vA2nsjWtqD.txt",
+      "extracted_chars": 6671
     },
     {
       "id": "1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K",
@@ -1257,11 +1257,11 @@
       "size_bytes": 43972,
       "modified_time": "2026-11-08T02:52:24.536Z",
       "web_view_link": "https://drive.google.com/file/d/1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K.txt",
+      "extracted_path": "staging/extracted/1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K.txt",
+      "extracted_chars": 43970
     },
     {
       "id": "17fdvh4D3MkP3rVsq_69FQhVWbIzs8u5k",
@@ -1270,11 +1270,11 @@
       "size_bytes": 6695060,
       "modified_time": "2026-11-08T02:37:56.628Z",
       "web_view_link": "https://drive.google.com/file/d/17fdvh4D3MkP3rVsq_69FQhVWbIzs8u5k/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/17fdvh4D3MkP3rVsq_69FQhVWbIzs8u5k.pdf",
+      "extracted_path": "staging/extracted/17fdvh4D3MkP3rVsq_69FQhVWbIzs8u5k.txt",
+      "extracted_chars": 40193
     },
     {
       "id": "11JXJd2_kWpC854JKG-_MX_e-5rASUOff",
@@ -1283,11 +1283,11 @@
       "size_bytes": 297877,
       "modified_time": "2026-11-08T02:37:56.439Z",
       "web_view_link": "https://drive.google.com/file/d/11JXJd2_kWpC854JKG-_MX_e-5rASUOff/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/11JXJd2_kWpC854JKG-_MX_e-5rASUOff.pdf",
+      "extracted_path": "staging/extracted/11JXJd2_kWpC854JKG-_MX_e-5rASUOff.txt",
+      "extracted_chars": 6008
     },
     {
       "id": "1b0ELfDc4_sTTlf3WTDTK6SBlYE1hbnlw",
@@ -1296,11 +1296,11 @@
       "size_bytes": 298527,
       "modified_time": "2026-11-08T02:37:56.980Z",
       "web_view_link": "https://drive.google.com/file/d/1b0ELfDc4_sTTlf3WTDTK6SBlYE1hbnlw/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1b0ELfDc4_sTTlf3WTDTK6SBlYE1hbnlw.pdf",
+      "extracted_path": "staging/extracted/1b0ELfDc4_sTTlf3WTDTK6SBlYE1hbnlw.txt",
+      "extracted_chars": 6001
     },
     {
       "id": "1llGW8iS12XsSRKSI1n_26uXXEDGFbSpd",
@@ -1309,11 +1309,11 @@
       "size_bytes": 471611,
       "modified_time": "2026-11-08T02:57:40.566Z",
       "web_view_link": "https://drive.google.com/file/d/1llGW8iS12XsSRKSI1n_26uXXEDGFbSpd/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1llGW8iS12XsSRKSI1n_26uXXEDGFbSpd.pdf",
+      "extracted_path": "staging/extracted/1llGW8iS12XsSRKSI1n_26uXXEDGFbSpd.txt",
+      "extracted_chars": 20412
     },
     {
       "id": "1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu",
@@ -1322,11 +1322,11 @@
       "size_bytes": 295857,
       "modified_time": "2026-11-08T02:43:39.628Z",
       "web_view_link": "https://drive.google.com/file/d/1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu.pdf",
+      "extracted_path": "staging/extracted/1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu.txt",
+      "extracted_chars": 8565
     },
     {
       "id": "1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw",
@@ -1335,11 +1335,11 @@
       "size_bytes": 381531,
       "modified_time": "2026-11-08T02:43:39.378Z",
       "web_view_link": "https://drive.google.com/file/d/1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw.pdf",
+      "extracted_path": "staging/extracted/1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw.txt",
+      "extracted_chars": 17881
     },
     {
       "id": "1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC",
@@ -1348,11 +1348,11 @@
       "size_bytes": 178637,
       "modified_time": "2026-11-08T02:43:39.856Z",
       "web_view_link": "https://drive.google.com/file/d/1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC.pdf",
+      "extracted_path": "staging/extracted/1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC.txt",
+      "extracted_chars": 3212
     },
     {
       "id": "1rmHS_J_xqLDzhDl0AQOUxypEP1GHVexD",
@@ -1364,8 +1364,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1Csrgu9ptuH1CrxMDG6_U10VQWyObrNSR",
@@ -1377,8 +1377,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv",
@@ -1387,11 +1387,11 @@
       "size_bytes": 27838,
       "modified_time": "2026-11-08T02:52:24.258Z",
       "web_view_link": "https://drive.google.com/file/d/15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv.txt",
+      "extracted_path": "staging/extracted/15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv.txt",
+      "extracted_chars": 27828
     },
     {
       "id": "10CZHNVRPIS7-2BtUy6j3hpidX6HMLYPD",
@@ -1400,11 +1400,11 @@
       "size_bytes": 342461,
       "modified_time": "2026-11-08T02:51:38.610Z",
       "web_view_link": "https://drive.google.com/file/d/10CZHNVRPIS7-2BtUy6j3hpidX6HMLYPD/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/10CZHNVRPIS7-2BtUy6j3hpidX6HMLYPD.pdf",
+      "extracted_path": "staging/extracted/10CZHNVRPIS7-2BtUy6j3hpidX6HMLYPD.txt",
+      "extracted_chars": 41649
     },
     {
       "id": "1bl4m5Gioj0sX5ORtUbHOK-rwxk8-Cn3N",
@@ -1416,8 +1416,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1H6NnUZJJ309ugV3K6Xige-lH0kn_5Kmz",
@@ -1429,8 +1429,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1p_vtJfidqc9ATz1nXjQDkLjYAETV3ZSC",
@@ -1442,8 +1442,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "17R7wGD2EGi_k59FDSjlVMQ6e5wA0dHrE",
@@ -1452,11 +1452,11 @@
       "size_bytes": 207157,
       "modified_time": "2026-11-08T02:52:56.596Z",
       "web_view_link": "https://drive.google.com/file/d/17R7wGD2EGi_k59FDSjlVMQ6e5wA0dHrE/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/17R7wGD2EGi_k59FDSjlVMQ6e5wA0dHrE.pdf",
+      "extracted_path": "staging/extracted/17R7wGD2EGi_k59FDSjlVMQ6e5wA0dHrE.txt",
+      "extracted_chars": 1939
     },
     {
       "id": "1kFzg2wdZWsZts7FatP3uk1fqpeNgCrGd",
@@ -1465,11 +1465,11 @@
       "size_bytes": 591260,
       "modified_time": "2026-11-08T02:37:59.029Z",
       "web_view_link": "https://drive.google.com/file/d/1kFzg2wdZWsZts7FatP3uk1fqpeNgCrGd/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1kFzg2wdZWsZts7FatP3uk1fqpeNgCrGd.pdf",
+      "extracted_path": "staging/extracted/1kFzg2wdZWsZts7FatP3uk1fqpeNgCrGd.txt",
+      "extracted_chars": 4301
     },
     {
       "id": "1uRIwLhN_-QDO9be8gJUTJodl-ib7lke9",
@@ -1478,11 +1478,11 @@
       "size_bytes": 506304,
       "modified_time": "2026-11-08T02:37:59.714Z",
       "web_view_link": "https://drive.google.com/file/d/1uRIwLhN_-QDO9be8gJUTJodl-ib7lke9/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1uRIwLhN_-QDO9be8gJUTJodl-ib7lke9.pdf",
+      "extracted_path": "staging/extracted/1uRIwLhN_-QDO9be8gJUTJodl-ib7lke9.txt",
+      "extracted_chars": 2685
     },
     {
       "id": "1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6",
@@ -1491,11 +1491,11 @@
       "size_bytes": 379885,
       "modified_time": "2026-11-08T02:37:58.875Z",
       "web_view_link": "https://drive.google.com/file/d/1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6.pdf",
+      "extracted_path": "staging/extracted/1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6.txt",
+      "extracted_chars": 12278
     },
     {
       "id": "1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW",
@@ -1504,11 +1504,11 @@
       "size_bytes": 1535912,
       "modified_time": "2026-11-08T02:37:59.326Z",
       "web_view_link": "https://drive.google.com/file/d/1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW.pdf",
+      "extracted_path": "staging/extracted/1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW.txt",
+      "extracted_chars": 11729
     },
     {
       "id": "1EQbny70SXnLs5MMvqQzMKLHw5xCYHx49",
@@ -1517,11 +1517,11 @@
       "size_bytes": 357200,
       "modified_time": "2026-11-08T02:37:59.177Z",
       "web_view_link": "https://drive.google.com/file/d/1EQbny70SXnLs5MMvqQzMKLHw5xCYHx49/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1EQbny70SXnLs5MMvqQzMKLHw5xCYHx49.pdf",
+      "extracted_path": "staging/extracted/1EQbny70SXnLs5MMvqQzMKLHw5xCYHx49.txt",
+      "extracted_chars": 7684
     },
     {
       "id": "1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4",
@@ -1530,11 +1530,11 @@
       "size_bytes": 399988,
       "modified_time": "2026-11-08T02:37:58.374Z",
       "web_view_link": "https://drive.google.com/file/d/1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4.pdf",
+      "extracted_path": "staging/extracted/1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4.txt",
+      "extracted_chars": 16437
     },
     {
       "id": "1OXfSjR7_abwcc2WNzdAg7UI2HYx-Yle6",
@@ -1543,11 +1543,11 @@
       "size_bytes": 811835,
       "modified_time": "2026-11-08T02:37:58.497Z",
       "web_view_link": "https://drive.google.com/file/d/1OXfSjR7_abwcc2WNzdAg7UI2HYx-Yle6/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1OXfSjR7_abwcc2WNzdAg7UI2HYx-Yle6.pdf",
+      "extracted_path": "staging/extracted/1OXfSjR7_abwcc2WNzdAg7UI2HYx-Yle6.txt",
+      "extracted_chars": 10403
     },
     {
       "id": "1JZsUPMzX-ZJgMlwn8uHwZSQ6aGvAuKh1",
@@ -1556,11 +1556,11 @@
       "size_bytes": 426141,
       "modified_time": "2026-11-08T02:37:58.760Z",
       "web_view_link": "https://drive.google.com/file/d/1JZsUPMzX-ZJgMlwn8uHwZSQ6aGvAuKh1/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1JZsUPMzX-ZJgMlwn8uHwZSQ6aGvAuKh1.pdf",
+      "extracted_path": "staging/extracted/1JZsUPMzX-ZJgMlwn8uHwZSQ6aGvAuKh1.txt",
+      "extracted_chars": 14967
     },
     {
       "id": "1KHBqp04kq_4xd0JfDO7kyBE73MrZsL68",
@@ -1569,11 +1569,11 @@
       "size_bytes": 906316,
       "modified_time": "2026-11-08T02:37:59.590Z",
       "web_view_link": "https://drive.google.com/file/d/1KHBqp04kq_4xd0JfDO7kyBE73MrZsL68/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1KHBqp04kq_4xd0JfDO7kyBE73MrZsL68.pdf",
+      "extracted_path": "staging/extracted/1KHBqp04kq_4xd0JfDO7kyBE73MrZsL68.txt",
+      "extracted_chars": 8208
     },
     {
       "id": "1AFpB7K0_Upn82skxHou1QW7M7Gj893vS",
@@ -1582,11 +1582,11 @@
       "size_bytes": 340474,
       "modified_time": "2026-11-08T02:37:58.625Z",
       "web_view_link": "https://drive.google.com/file/d/1AFpB7K0_Upn82skxHou1QW7M7Gj893vS/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1AFpB7K0_Upn82skxHou1QW7M7Gj893vS.pdf",
+      "extracted_path": "staging/extracted/1AFpB7K0_Upn82skxHou1QW7M7Gj893vS.txt",
+      "extracted_chars": 9741
     },
     {
       "id": "1Kj-nfqpDvPT1nPAQJP9OnnCEdxf5pC4X",
@@ -1595,11 +1595,11 @@
       "size_bytes": 2499004,
       "modified_time": "2026-11-08T02:37:59.874Z",
       "web_view_link": "https://drive.google.com/file/d/1Kj-nfqpDvPT1nPAQJP9OnnCEdxf5pC4X/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Kj-nfqpDvPT1nPAQJP9OnnCEdxf5pC4X.pdf",
+      "extracted_path": "staging/extracted/1Kj-nfqpDvPT1nPAQJP9OnnCEdxf5pC4X.txt",
+      "extracted_chars": 13678
     },
     {
       "id": "1JdtpFQTwp89dmWxSngy0r-YZX9ssPF9G",
@@ -1608,11 +1608,11 @@
       "size_bytes": 836002,
       "modified_time": "2026-11-08T02:37:59.452Z",
       "web_view_link": "https://drive.google.com/file/d/1JdtpFQTwp89dmWxSngy0r-YZX9ssPF9G/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1JdtpFQTwp89dmWxSngy0r-YZX9ssPF9G.pdf",
+      "extracted_path": "staging/extracted/1JdtpFQTwp89dmWxSngy0r-YZX9ssPF9G.txt",
+      "extracted_chars": 8479
     },
     {
       "id": "1q2OBfcmpWCLp1p2hvZclRbVe2Oda5lqh",
@@ -1621,11 +1621,11 @@
       "size_bytes": 1205195,
       "modified_time": "2026-11-08T02:38:00.012Z",
       "web_view_link": "https://drive.google.com/file/d/1q2OBfcmpWCLp1p2hvZclRbVe2Oda5lqh/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1q2OBfcmpWCLp1p2hvZclRbVe2Oda5lqh.pdf",
+      "extracted_path": "staging/extracted/1q2OBfcmpWCLp1p2hvZclRbVe2Oda5lqh.txt",
+      "extracted_chars": 17852
     },
     {
       "id": "1aidQU_1IPXHr0GZEsrzK_jDufcEOI5YB",
@@ -1634,11 +1634,11 @@
       "size_bytes": 1205275,
       "modified_time": "2026-11-08T02:38:00.177Z",
       "web_view_link": "https://drive.google.com/file/d/1aidQU_1IPXHr0GZEsrzK_jDufcEOI5YB/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1aidQU_1IPXHr0GZEsrzK_jDufcEOI5YB.pdf",
+      "extracted_path": "staging/extracted/1aidQU_1IPXHr0GZEsrzK_jDufcEOI5YB.txt",
+      "extracted_chars": 17852
     },
     {
       "id": "15cuIuSUQkAmHN41Hl0_h_jTxCbhIQSfQ",
@@ -1647,11 +1647,11 @@
       "size_bytes": 127338,
       "modified_time": "2026-11-08T02:57:41.392Z",
       "web_view_link": "https://drive.google.com/file/d/15cuIuSUQkAmHN41Hl0_h_jTxCbhIQSfQ/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/15cuIuSUQkAmHN41Hl0_h_jTxCbhIQSfQ.pdf",
+      "extracted_path": "staging/extracted/15cuIuSUQkAmHN41Hl0_h_jTxCbhIQSfQ.txt",
+      "extracted_chars": 685
     },
     {
       "id": "1Bqtwk0ydtXgQpQcPpwbcqWrKrHcvcVN1",
@@ -1660,11 +1660,11 @@
       "size_bytes": 317,
       "modified_time": "2026-11-08T02:55:48.252Z",
       "web_view_link": "https://drive.google.com/file/d/1Bqtwk0ydtXgQpQcPpwbcqWrKrHcvcVN1/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Bqtwk0ydtXgQpQcPpwbcqWrKrHcvcVN1.yaml",
+      "extracted_path": "staging/extracted/1Bqtwk0ydtXgQpQcPpwbcqWrKrHcvcVN1.txt",
+      "extracted_chars": 317
     },
     {
       "id": "1oEljOy0o6NsABs8lzPPPHKv_98R5s442",
@@ -1673,11 +1673,11 @@
       "size_bytes": 456565,
       "modified_time": "2026-11-08T02:37:56.743Z",
       "web_view_link": "https://drive.google.com/file/d/1oEljOy0o6NsABs8lzPPPHKv_98R5s442/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1oEljOy0o6NsABs8lzPPPHKv_98R5s442.pdf",
+      "extracted_path": "staging/extracted/1oEljOy0o6NsABs8lzPPPHKv_98R5s442.txt",
+      "extracted_chars": 4134
     },
     {
       "id": "1p1156g_kMfjF08-VBsOw86KplL1ixTKV",
@@ -1686,11 +1686,11 @@
       "size_bytes": 140,
       "modified_time": "2026-11-08T02:49:40.799Z",
       "web_view_link": "https://drive.google.com/file/d/1p1156g_kMfjF08-VBsOw86KplL1ixTKV/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1p1156g_kMfjF08-VBsOw86KplL1ixTKV.txt",
+      "extracted_path": "staging/extracted/1p1156g_kMfjF08-VBsOw86KplL1ixTKV.txt",
+      "extracted_chars": 140
     },
     {
       "id": "1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5",
@@ -1699,11 +1699,11 @@
       "size_bytes": 134946,
       "modified_time": "2026-11-08T02:43:39.076Z",
       "web_view_link": "https://drive.google.com/file/d/1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5.pdf",
+      "extracted_path": "staging/extracted/1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5.txt",
+      "extracted_chars": 4091
     },
     {
       "id": "1otZxvqp-wr-Qrr_j0R7qGJSlPVvk8C-d",
@@ -1712,11 +1712,11 @@
       "size_bytes": 334297,
       "modified_time": "2026-11-08T02:37:57.898Z",
       "web_view_link": "https://drive.google.com/file/d/1otZxvqp-wr-Qrr_j0R7qGJSlPVvk8C-d/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1otZxvqp-wr-Qrr_j0R7qGJSlPVvk8C-d.pdf",
+      "extracted_path": "staging/extracted/1otZxvqp-wr-Qrr_j0R7qGJSlPVvk8C-d.txt",
+      "extracted_chars": 9313
     },
     {
       "id": "1E57fBSd0kChrvKW830YpueQ04kazW2Qe",
@@ -1725,11 +1725,11 @@
       "size_bytes": 4134687,
       "modified_time": "2026-11-08T02:37:58.088Z",
       "web_view_link": "https://drive.google.com/file/d/1E57fBSd0kChrvKW830YpueQ04kazW2Qe/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1E57fBSd0kChrvKW830YpueQ04kazW2Qe.pdf",
+      "extracted_path": "staging/extracted/1E57fBSd0kChrvKW830YpueQ04kazW2Qe.txt",
+      "extracted_chars": 48701
     },
     {
       "id": "1_J9KplzSwva_pSqwBjClV82SpMsBBNwv",
@@ -1738,11 +1738,11 @@
       "size_bytes": 1471,
       "modified_time": "2026-11-08T02:55:48.346Z",
       "web_view_link": "https://drive.google.com/file/d/1_J9KplzSwva_pSqwBjClV82SpMsBBNwv/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1_J9KplzSwva_pSqwBjClV82SpMsBBNwv.txt",
+      "extracted_path": "staging/extracted/1_J9KplzSwva_pSqwBjClV82SpMsBBNwv.txt",
+      "extracted_chars": 1471
     },
     {
       "id": "1zGRii2S6rtCcTubPGaynmI7TtbCKmRmm",
@@ -1751,11 +1751,11 @@
       "size_bytes": 1299062,
       "modified_time": "2026-11-08T02:52:57.576Z",
       "web_view_link": "https://drive.google.com/file/d/1zGRii2S6rtCcTubPGaynmI7TtbCKmRmm/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1zGRii2S6rtCcTubPGaynmI7TtbCKmRmm.pdf",
+      "extracted_path": "staging/extracted/1zGRii2S6rtCcTubPGaynmI7TtbCKmRmm.txt",
+      "extracted_chars": 9619
     },
     {
       "id": "10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR",
@@ -1764,11 +1764,11 @@
       "size_bytes": 20328,
       "modified_time": "2026-11-08T02:52:57.181Z",
       "web_view_link": "https://drive.google.com/file/d/10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR.txt",
+      "extracted_path": "staging/extracted/10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR.txt",
+      "extracted_chars": 20324
     },
     {
       "id": "1lJlQ3X9m46N6cJdUJoKS5LXTIylUyj_b",
@@ -1777,11 +1777,11 @@
       "size_bytes": 230083,
       "modified_time": "2026-11-08T02:37:55.723Z",
       "web_view_link": "https://drive.google.com/file/d/1lJlQ3X9m46N6cJdUJoKS5LXTIylUyj_b/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1lJlQ3X9m46N6cJdUJoKS5LXTIylUyj_b.pdf",
+      "extracted_path": "staging/extracted/1lJlQ3X9m46N6cJdUJoKS5LXTIylUyj_b.txt",
+      "extracted_chars": 6979
     },
     {
       "id": "1oMykg1Lwq3ps7J556XShCezp0pFrFftW",
@@ -1790,11 +1790,11 @@
       "size_bytes": 1496032,
       "modified_time": "2026-11-08T02:37:56.873Z",
       "web_view_link": "https://drive.google.com/file/d/1oMykg1Lwq3ps7J556XShCezp0pFrFftW/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1oMykg1Lwq3ps7J556XShCezp0pFrFftW.pdf",
+      "extracted_path": "staging/extracted/1oMykg1Lwq3ps7J556XShCezp0pFrFftW.txt",
+      "extracted_chars": 8943
     },
     {
       "id": "10Iy66jodb6G0DjapPPd4aWe_eL9716E8",
@@ -1803,11 +1803,11 @@
       "size_bytes": 2404,
       "modified_time": "2026-11-08T02:49:40.905Z",
       "web_view_link": "https://drive.google.com/file/d/10Iy66jodb6G0DjapPPd4aWe_eL9716E8/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/10Iy66jodb6G0DjapPPd4aWe_eL9716E8.json",
+      "extracted_path": "staging/extracted/10Iy66jodb6G0DjapPPd4aWe_eL9716E8.txt",
+      "extracted_chars": 2404
     },
     {
       "id": "16Tm-W9C-zB19LBVSUVemjyNuHX-_jOUb",
@@ -1819,8 +1819,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof",
@@ -1829,11 +1829,11 @@
       "size_bytes": 598,
       "modified_time": "2026-11-08T02:52:24.024Z",
       "web_view_link": "https://drive.google.com/file/d/1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof.txt",
+      "extracted_path": "staging/extracted/1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof.txt",
+      "extracted_chars": 596
     },
     {
       "id": "1oW-PBCLlhgoh3mKYpVy5sBiBZlkhc-Do",
@@ -1842,11 +1842,11 @@
       "size_bytes": 454,
       "modified_time": "2026-11-08T02:49:40.575Z",
       "web_view_link": "https://drive.google.com/file/d/1oW-PBCLlhgoh3mKYpVy5sBiBZlkhc-Do/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1oW-PBCLlhgoh3mKYpVy5sBiBZlkhc-Do.sh",
+      "extracted_path": "staging/extracted/1oW-PBCLlhgoh3mKYpVy5sBiBZlkhc-Do.txt",
+      "extracted_chars": 454
     },
     {
       "id": "1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3",
@@ -1855,11 +1855,11 @@
       "size_bytes": 34415,
       "modified_time": "2026-11-08T02:52:23.726Z",
       "web_view_link": "https://drive.google.com/file/d/1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3.txt",
+      "extracted_path": "staging/extracted/1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3.txt",
+      "extracted_chars": 34413
     },
     {
       "id": "1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh",
@@ -1868,11 +1868,11 @@
       "size_bytes": 5263,
       "modified_time": "2026-11-08T02:14:27.186Z",
       "web_view_link": "https://drive.google.com/file/d/1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh.txt",
+      "extracted_path": "staging/extracted/1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh.txt",
+      "extracted_chars": 5259
     },
     {
       "id": "1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j",
@@ -1881,11 +1881,11 @@
       "size_bytes": 2372,
       "modified_time": "2026-11-08T02:14:27.038Z",
       "web_view_link": "https://drive.google.com/file/d/1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j.txt",
+      "extracted_path": "staging/extracted/1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j.txt",
+      "extracted_chars": 2372
     },
     {
       "id": "1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J",
@@ -1894,11 +1894,11 @@
       "size_bytes": 20206,
       "modified_time": "2026-11-08T02:52:24.364Z",
       "web_view_link": "https://drive.google.com/file/d/1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J.txt",
+      "extracted_path": "staging/extracted/1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J.txt",
+      "extracted_chars": 20204
     },
     {
       "id": "1LC0D-sSw5LAcznZaFGK0KWDFo3mRlReX",
@@ -1910,8 +1910,8 @@
       "status": "restored",
       "security_status": "doc-restored",
       "note": "Restored to workspace. Not executed. local=docs/API_Radar_HN.PDF",
-      "workspace_path": "workspace-restored/docs/API_Radar_HN.PDF",
-      "workspace_present": true
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY",
@@ -1920,11 +1920,11 @@
       "size_bytes": 238348,
       "modified_time": "2026-11-08T02:43:38.658Z",
       "web_view_link": "https://drive.google.com/file/d/1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY.pdf",
+      "extracted_path": "staging/extracted/1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY.txt",
+      "extracted_chars": 9739
     },
     {
       "id": "1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA",
@@ -1933,11 +1933,11 @@
       "size_bytes": 2049,
       "modified_time": "2026-11-08T02:37:16.146Z",
       "web_view_link": "https://drive.google.com/file/d/1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA.md",
+      "extracted_path": "staging/extracted/1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA.txt",
+      "extracted_chars": 2049
     },
     {
       "id": "1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI",
@@ -1946,11 +1946,11 @@
       "size_bytes": 5771,
       "modified_time": "2026-11-08T02:37:16.276Z",
       "web_view_link": "https://drive.google.com/file/d/1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI.md",
+      "extracted_path": "staging/extracted/1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI.txt",
+      "extracted_chars": 5771
     },
     {
       "id": "1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM",
@@ -1959,11 +1959,11 @@
       "size_bytes": 8409,
       "modified_time": "2026-11-08T02:37:16.433Z",
       "web_view_link": "https://drive.google.com/file/d/1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM.md",
+      "extracted_path": "staging/extracted/1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM.txt",
+      "extracted_chars": 8377
     },
     {
       "id": "1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__",
@@ -1972,11 +1972,11 @@
       "size_bytes": 4873,
       "modified_time": "2026-11-08T02:37:15.418Z",
       "web_view_link": "https://drive.google.com/file/d/1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__.md",
+      "extracted_path": "staging/extracted/1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__.txt",
+      "extracted_chars": 4856
     },
     {
       "id": "1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM",
@@ -1985,11 +1985,11 @@
       "size_bytes": 3942,
       "modified_time": "2026-11-08T02:37:16.004Z",
       "web_view_link": "https://drive.google.com/file/d/1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM.md",
+      "extracted_path": "staging/extracted/1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM.txt",
+      "extracted_chars": 3942
     },
     {
       "id": "1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K",
@@ -1998,11 +1998,11 @@
       "size_bytes": 12485,
       "modified_time": "2026-11-08T02:37:15.760Z",
       "web_view_link": "https://drive.google.com/file/d/1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K.md",
+      "extracted_path": "staging/extracted/1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K.txt",
+      "extracted_chars": 10067
     },
     {
       "id": "1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0",
@@ -2011,11 +2011,11 @@
       "size_bytes": 1331,
       "modified_time": "2026-11-08T02:37:15.879Z",
       "web_view_link": "https://drive.google.com/file/d/1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0.md",
+      "extracted_path": "staging/extracted/1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0.txt",
+      "extracted_chars": 750
     },
     {
       "id": "18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS",
@@ -2024,11 +2024,11 @@
       "size_bytes": 6349,
       "modified_time": "2026-11-08T02:37:15.617Z",
       "web_view_link": "https://drive.google.com/file/d/18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS.md",
+      "extracted_path": "staging/extracted/18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS.txt",
+      "extracted_chars": 4450
     },
     {
       "id": "1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2",
@@ -2037,11 +2037,11 @@
       "size_bytes": 2946,
       "modified_time": "2026-11-08T02:37:17.516Z",
       "web_view_link": "https://drive.google.com/file/d/1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2.md",
+      "extracted_path": "staging/extracted/1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2.txt",
+      "extracted_chars": 2943
     },
     {
       "id": "1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh",
@@ -2050,11 +2050,11 @@
       "size_bytes": 5970,
       "modified_time": "2026-11-08T02:37:17.622Z",
       "web_view_link": "https://drive.google.com/file/d/1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh.md",
+      "extracted_path": "staging/extracted/1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh.txt",
+      "extracted_chars": 5967
     },
     {
       "id": "10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy",
@@ -2063,11 +2063,11 @@
       "size_bytes": 12485,
       "modified_time": "2026-11-08T02:37:17.750Z",
       "web_view_link": "https://drive.google.com/file/d/10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy.md",
+      "extracted_path": "staging/extracted/10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy.txt",
+      "extracted_chars": 10067
     },
     {
       "id": "1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF",
@@ -2076,11 +2076,11 @@
       "size_bytes": 1331,
       "modified_time": "2026-11-08T02:37:17.858Z",
       "web_view_link": "https://drive.google.com/file/d/1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF.md",
+      "extracted_path": "staging/extracted/1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF.txt",
+      "extracted_chars": 750
     },
     {
       "id": "12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7",
@@ -2089,11 +2089,11 @@
       "size_bytes": 3942,
       "modified_time": "2026-11-08T02:37:17.954Z",
       "web_view_link": "https://drive.google.com/file/d/12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7.md",
+      "extracted_path": "staging/extracted/12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7.txt",
+      "extracted_chars": 3942
     },
     {
       "id": "1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs",
@@ -2102,11 +2102,11 @@
       "size_bytes": 15611,
       "modified_time": "2026-11-08T02:37:18.058Z",
       "web_view_link": "https://drive.google.com/file/d/1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs.md",
+      "extracted_path": "staging/extracted/1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs.txt",
+      "extracted_chars": 15391
     },
     {
       "id": "1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH",
@@ -2115,11 +2115,11 @@
       "size_bytes": 4873,
       "modified_time": "2026-11-08T02:37:18.174Z",
       "web_view_link": "https://drive.google.com/file/d/1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH.md",
+      "extracted_path": "staging/extracted/1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH.txt",
+      "extracted_chars": 4856
     },
     {
       "id": "1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb",
@@ -2128,11 +2128,11 @@
       "size_bytes": 33437,
       "modified_time": "2026-11-08T02:37:18.317Z",
       "web_view_link": "https://drive.google.com/file/d/1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb.md",
+      "extracted_path": "staging/extracted/1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb.txt",
+      "extracted_chars": 33395
     },
     {
       "id": "1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk",
@@ -2141,11 +2141,11 @@
       "size_bytes": 9798,
       "modified_time": "2026-11-08T02:37:18.428Z",
       "web_view_link": "https://drive.google.com/file/d/1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk.md",
+      "extracted_path": "staging/extracted/1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk.txt",
+      "extracted_chars": 9790
     },
     {
       "id": "1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl",
@@ -2154,11 +2154,11 @@
       "size_bytes": 3151,
       "modified_time": "2026-11-08T02:37:18.530Z",
       "web_view_link": "https://drive.google.com/file/d/1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl.md",
+      "extracted_path": "staging/extracted/1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl.txt",
+      "extracted_chars": 3151
     },
     {
       "id": "15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD",
@@ -2167,11 +2167,11 @@
       "size_bytes": 5151,
       "modified_time": "2026-11-08T02:37:18.629Z",
       "web_view_link": "https://drive.google.com/file/d/15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD.md",
+      "extracted_path": "staging/extracted/15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD.txt",
+      "extracted_chars": 5151
     },
     {
       "id": "1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE",
@@ -2180,11 +2180,11 @@
       "size_bytes": 17821,
       "modified_time": "2026-11-08T02:37:18.741Z",
       "web_view_link": "https://drive.google.com/file/d/1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE.md",
+      "extracted_path": "staging/extracted/1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE.txt",
+      "extracted_chars": 17799
     },
     {
       "id": "1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5",
@@ -2193,11 +2193,11 @@
       "size_bytes": 8409,
       "modified_time": "2026-11-08T02:37:18.839Z",
       "web_view_link": "https://drive.google.com/file/d/1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5.md",
+      "extracted_path": "staging/extracted/1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5.txt",
+      "extracted_chars": 8377
     },
     {
       "id": "1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO",
@@ -2206,11 +2206,11 @@
       "size_bytes": 25611,
       "modified_time": "2026-11-08T02:37:18.951Z",
       "web_view_link": "https://drive.google.com/file/d/1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO.md",
+      "extracted_path": "staging/extracted/1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO.txt",
+      "extracted_chars": 25611
     },
     {
       "id": "1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE",
@@ -2219,11 +2219,11 @@
       "size_bytes": 1686,
       "modified_time": "2026-11-08T02:37:19.059Z",
       "web_view_link": "https://drive.google.com/file/d/1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE.md",
+      "extracted_path": "staging/extracted/1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE.txt",
+      "extracted_chars": 1683
     },
     {
       "id": "1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz",
@@ -2232,11 +2232,11 @@
       "size_bytes": 5381,
       "modified_time": "2026-11-08T02:37:19.157Z",
       "web_view_link": "https://drive.google.com/file/d/1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz.md",
+      "extracted_path": "staging/extracted/1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz.txt",
+      "extracted_chars": 5370
     },
     {
       "id": "1H4i9vcllnH9_pXN74t9GCAd8F-DZki03",
@@ -2245,11 +2245,11 @@
       "size_bytes": 1089,
       "modified_time": "2026-11-08T02:37:19.269Z",
       "web_view_link": "https://drive.google.com/file/d/1H4i9vcllnH9_pXN74t9GCAd8F-DZki03/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1H4i9vcllnH9_pXN74t9GCAd8F-DZki03.md",
+      "extracted_path": "staging/extracted/1H4i9vcllnH9_pXN74t9GCAd8F-DZki03.txt",
+      "extracted_chars": 1086
     },
     {
       "id": "1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u",
@@ -2258,11 +2258,11 @@
       "size_bytes": 1314,
       "modified_time": "2026-11-08T02:37:19.382Z",
       "web_view_link": "https://drive.google.com/file/d/1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u.md",
+      "extracted_path": "staging/extracted/1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u.txt",
+      "extracted_chars": 1311
     },
     {
       "id": "1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O",
@@ -2271,11 +2271,11 @@
       "size_bytes": 2662,
       "modified_time": "2026-11-08T02:37:19.510Z",
       "web_view_link": "https://drive.google.com/file/d/1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O.md",
+      "extracted_path": "staging/extracted/1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O.txt",
+      "extracted_chars": 2643
     },
     {
       "id": "17X7h4aD4T7OOodamxZcJZDHXxS60fn0V",
@@ -2284,11 +2284,11 @@
       "size_bytes": 5735,
       "modified_time": "2026-11-08T02:37:19.627Z",
       "web_view_link": "https://drive.google.com/file/d/17X7h4aD4T7OOodamxZcJZDHXxS60fn0V/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/17X7h4aD4T7OOodamxZcJZDHXxS60fn0V.md",
+      "extracted_path": "staging/extracted/17X7h4aD4T7OOodamxZcJZDHXxS60fn0V.txt",
+      "extracted_chars": 5459
     },
     {
       "id": "1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT",
@@ -2297,11 +2297,11 @@
       "size_bytes": 1977,
       "modified_time": "2026-11-08T02:37:19.734Z",
       "web_view_link": "https://drive.google.com/file/d/1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT.md",
+      "extracted_path": "staging/extracted/1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT.txt",
+      "extracted_chars": 1974
     },
     {
       "id": "1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p",
@@ -2310,11 +2310,11 @@
       "size_bytes": 3023,
       "modified_time": "2026-11-08T02:37:19.843Z",
       "web_view_link": "https://drive.google.com/file/d/1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p.md",
+      "extracted_path": "staging/extracted/1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p.txt",
+      "extracted_chars": 3010
     },
     {
       "id": "19SovwVKexfoTPGYmykzAdTarxcHr3vJH",
@@ -2323,11 +2323,11 @@
       "size_bytes": 1020,
       "modified_time": "2026-11-08T02:37:19.948Z",
       "web_view_link": "https://drive.google.com/file/d/19SovwVKexfoTPGYmykzAdTarxcHr3vJH/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/19SovwVKexfoTPGYmykzAdTarxcHr3vJH.md",
+      "extracted_path": "staging/extracted/19SovwVKexfoTPGYmykzAdTarxcHr3vJH.txt",
+      "extracted_chars": 1017
     },
     {
       "id": "1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF",
@@ -2336,11 +2336,11 @@
       "size_bytes": 3081,
       "modified_time": "2026-11-08T02:37:20.074Z",
       "web_view_link": "https://drive.google.com/file/d/1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF.md",
+      "extracted_path": "staging/extracted/1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF.txt",
+      "extracted_chars": 3061
     },
     {
       "id": "1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ",
@@ -2349,11 +2349,11 @@
       "size_bytes": 3446,
       "modified_time": "2026-11-08T02:37:20.219Z",
       "web_view_link": "https://drive.google.com/file/d/1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ.md",
+      "extracted_path": "staging/extracted/1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ.txt",
+      "extracted_chars": 3441
     },
     {
       "id": "10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH",
@@ -2362,11 +2362,11 @@
       "size_bytes": 2512,
       "modified_time": "2026-11-08T02:37:20.321Z",
       "web_view_link": "https://drive.google.com/file/d/10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH.md",
+      "extracted_path": "staging/extracted/10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH.txt",
+      "extracted_chars": 2509
     },
     {
       "id": "1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav",
@@ -2375,11 +2375,11 @@
       "size_bytes": 34800,
       "modified_time": "2026-11-08T02:37:20.433Z",
       "web_view_link": "https://drive.google.com/file/d/1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav.md",
+      "extracted_path": "staging/extracted/1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav.txt",
+      "extracted_chars": 34612
     },
     {
       "id": "1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD",
@@ -2388,11 +2388,11 @@
       "size_bytes": 4873,
       "modified_time": "2026-11-08T02:37:20.540Z",
       "web_view_link": "https://drive.google.com/file/d/1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD.md",
+      "extracted_path": "staging/extracted/1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD.txt",
+      "extracted_chars": 4856
     },
     {
       "id": "1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R",
@@ -2401,11 +2401,11 @@
       "size_bytes": 33437,
       "modified_time": "2026-11-08T02:37:20.660Z",
       "web_view_link": "https://drive.google.com/file/d/1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R.md",
+      "extracted_path": "staging/extracted/1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R.txt",
+      "extracted_chars": 33395
     },
     {
       "id": "1z36me9wQp12R1ROrdepAVttpY3Mymk5a",
@@ -2414,11 +2414,11 @@
       "size_bytes": 17821,
       "modified_time": "2026-11-08T02:37:20.768Z",
       "web_view_link": "https://drive.google.com/file/d/1z36me9wQp12R1ROrdepAVttpY3Mymk5a/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1z36me9wQp12R1ROrdepAVttpY3Mymk5a.md",
+      "extracted_path": "staging/extracted/1z36me9wQp12R1ROrdepAVttpY3Mymk5a.txt",
+      "extracted_chars": 17799
     },
     {
       "id": "1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl",
@@ -2427,11 +2427,11 @@
       "size_bytes": 9798,
       "modified_time": "2026-11-08T02:37:20.863Z",
       "web_view_link": "https://drive.google.com/file/d/1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl.md",
+      "extracted_path": "staging/extracted/1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl.txt",
+      "extracted_chars": 9790
     },
     {
       "id": "1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y",
@@ -2440,11 +2440,11 @@
       "size_bytes": 25611,
       "modified_time": "2026-11-08T02:37:20.975Z",
       "web_view_link": "https://drive.google.com/file/d/1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y.md",
+      "extracted_path": "staging/extracted/1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y.txt",
+      "extracted_chars": 25611
     },
     {
       "id": "1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa",
@@ -2453,11 +2453,11 @@
       "size_bytes": 5151,
       "modified_time": "2026-11-08T02:37:21.086Z",
       "web_view_link": "https://drive.google.com/file/d/1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa.md",
+      "extracted_path": "staging/extracted/1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa.txt",
+      "extracted_chars": 5151
     },
     {
       "id": "1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K",
@@ -2466,11 +2466,11 @@
       "size_bytes": 3151,
       "modified_time": "2026-11-08T02:37:21.227Z",
       "web_view_link": "https://drive.google.com/file/d/1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K.md",
+      "extracted_path": "staging/extracted/1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K.txt",
+      "extracted_chars": 3151
     },
     {
       "id": "1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj",
@@ -2479,11 +2479,11 @@
       "size_bytes": 2049,
       "modified_time": "2026-11-08T02:37:21.345Z",
       "web_view_link": "https://drive.google.com/file/d/1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj.md",
+      "extracted_path": "staging/extracted/1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj.txt",
+      "extracted_chars": 2049
     },
     {
       "id": "1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu",
@@ -2492,11 +2492,11 @@
       "size_bytes": 8409,
       "modified_time": "2026-11-08T02:37:21.453Z",
       "web_view_link": "https://drive.google.com/file/d/1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu.md",
+      "extracted_path": "staging/extracted/1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu.txt",
+      "extracted_chars": 8377
     },
     {
       "id": "125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT",
@@ -2505,11 +2505,11 @@
       "size_bytes": 5771,
       "modified_time": "2026-11-08T02:37:21.562Z",
       "web_view_link": "https://drive.google.com/file/d/125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT.md",
+      "extracted_path": "staging/extracted/125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT.txt",
+      "extracted_chars": 5771
     },
     {
       "id": "1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af",
@@ -2518,11 +2518,11 @@
       "size_bytes": 5594,
       "modified_time": "2026-11-08T02:37:21.672Z",
       "web_view_link": "https://drive.google.com/file/d/1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af.md",
+      "extracted_path": "staging/extracted/1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af.txt",
+      "extracted_chars": 5574
     },
     {
       "id": "1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg",
@@ -2531,11 +2531,11 @@
       "size_bytes": 13249,
       "modified_time": "2026-11-08T02:37:21.799Z",
       "web_view_link": "https://drive.google.com/file/d/1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg.md",
+      "extracted_path": "staging/extracted/1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg.txt",
+      "extracted_chars": 13229
     },
     {
       "id": "1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t",
@@ -2544,11 +2544,11 @@
       "size_bytes": 5288,
       "modified_time": "2026-11-08T02:37:21.922Z",
       "web_view_link": "https://drive.google.com/file/d/1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t.md",
+      "extracted_path": "staging/extracted/1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t.txt",
+      "extracted_chars": 5288
     },
     {
       "id": "1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW",
@@ -2557,11 +2557,11 @@
       "size_bytes": 2709,
       "modified_time": "2026-11-08T02:37:22.055Z",
       "web_view_link": "https://drive.google.com/file/d/1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW.md",
+      "extracted_path": "staging/extracted/1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW.txt",
+      "extracted_chars": 2709
     },
     {
       "id": "1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI",
@@ -2570,11 +2570,11 @@
       "size_bytes": 3942,
       "modified_time": "2026-11-08T02:37:22.191Z",
       "web_view_link": "https://drive.google.com/file/d/1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI.md",
+      "extracted_path": "staging/extracted/1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI.txt",
+      "extracted_chars": 3942
     },
     {
       "id": "1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ",
@@ -2583,11 +2583,11 @@
       "size_bytes": 2645,
       "modified_time": "2026-11-08T02:37:22.330Z",
       "web_view_link": "https://drive.google.com/file/d/1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ.md",
+      "extracted_path": "staging/extracted/1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ.txt",
+      "extracted_chars": 2633
     },
     {
       "id": "1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV",
@@ -2596,11 +2596,11 @@
       "size_bytes": 4389,
       "modified_time": "2026-11-08T02:37:22.439Z",
       "web_view_link": "https://drive.google.com/file/d/1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV.md",
+      "extracted_path": "staging/extracted/1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV.txt",
+      "extracted_chars": 4389
     },
     {
       "id": "1X479KSGJDEn5P9B970goAlrtbDIDkcgm",
@@ -2609,11 +2609,11 @@
       "size_bytes": 13662,
       "modified_time": "2026-11-08T02:37:22.557Z",
       "web_view_link": "https://drive.google.com/file/d/1X479KSGJDEn5P9B970goAlrtbDIDkcgm/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1X479KSGJDEn5P9B970goAlrtbDIDkcgm.md",
+      "extracted_path": "staging/extracted/1X479KSGJDEn5P9B970goAlrtbDIDkcgm.txt",
+      "extracted_chars": 13649
     },
     {
       "id": "1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k",
@@ -2622,11 +2622,11 @@
       "size_bytes": 1610,
       "modified_time": "2026-11-08T02:37:22.656Z",
       "web_view_link": "https://drive.google.com/file/d/1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k.md",
+      "extracted_path": "staging/extracted/1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k.txt",
+      "extracted_chars": 1607
     },
     {
       "id": "1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD",
@@ -2635,11 +2635,11 @@
       "size_bytes": 3806,
       "modified_time": "2026-11-08T02:37:22.786Z",
       "web_view_link": "https://drive.google.com/file/d/1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD.md",
+      "extracted_path": "staging/extracted/1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD.txt",
+      "extracted_chars": 3786
     },
     {
       "id": "1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw",
@@ -2648,11 +2648,11 @@
       "size_bytes": 5735,
       "modified_time": "2026-11-08T02:37:22.908Z",
       "web_view_link": "https://drive.google.com/file/d/1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw.md",
+      "extracted_path": "staging/extracted/1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw.txt",
+      "extracted_chars": 5459
     },
     {
       "id": "1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8",
@@ -2661,11 +2661,11 @@
       "size_bytes": 343396,
       "modified_time": "2026-11-08T02:37:55.169Z",
       "web_view_link": "https://drive.google.com/file/d/1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8.pdf",
+      "extracted_path": "staging/extracted/1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8.txt",
+      "extracted_chars": 3120
     },
     {
       "id": "113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE",
@@ -2674,11 +2674,11 @@
       "size_bytes": 338386,
       "modified_time": "2026-11-08T02:37:55.458Z",
       "web_view_link": "https://drive.google.com/file/d/113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE.pdf",
+      "extracted_path": "staging/extracted/113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE.txt",
+      "extracted_chars": 3045
     },
     {
       "id": "10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp",
@@ -2687,11 +2687,11 @@
       "size_bytes": 1669944,
       "modified_time": "2026-11-08T02:37:58.226Z",
       "web_view_link": "https://drive.google.com/file/d/10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp.pdf",
+      "extracted_path": "staging/extracted/10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp.txt",
+      "extracted_chars": 5856
     },
     {
       "id": "1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal",
@@ -2700,11 +2700,11 @@
       "size_bytes": 238142,
       "modified_time": "2026-11-08T02:43:37.819Z",
       "web_view_link": "https://drive.google.com/file/d/1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal.pdf",
+      "extracted_path": "staging/extracted/1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal.txt",
+      "extracted_chars": 4810
     },
     {
       "id": "1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T",
@@ -2713,11 +2713,11 @@
       "size_bytes": 660549,
       "modified_time": "2026-11-08T02:43:37.730Z",
       "web_view_link": "https://drive.google.com/file/d/1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T.pdf",
+      "extracted_path": "staging/extracted/1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T.txt",
+      "extracted_chars": 8026
     },
     {
       "id": "1S-rjW8v2fUJvsfiLmfZvBfcJkjGvucRn",
@@ -2729,8 +2729,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw",
@@ -2739,11 +2739,11 @@
       "size_bytes": 2625,
       "modified_time": "2026-11-08T02:37:23.271Z",
       "web_view_link": "https://drive.google.com/file/d/1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw.md",
+      "extracted_path": "staging/extracted/1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw.txt",
+      "extracted_chars": 2625
     },
     {
       "id": "1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn",
@@ -2752,11 +2752,11 @@
       "size_bytes": 474284,
       "modified_time": "2026-11-08T02:43:38.269Z",
       "web_view_link": "https://drive.google.com/file/d/1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn.pdf",
+      "extracted_path": "staging/extracted/1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn.txt",
+      "extracted_chars": 1866
     },
     {
       "id": "1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe",
@@ -2765,11 +2765,11 @@
       "size_bytes": 1243197,
       "modified_time": "2026-11-08T02:37:55.600Z",
       "web_view_link": "https://drive.google.com/file/d/1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe.pdf",
+      "extracted_path": "staging/extracted/1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe.txt",
+      "extracted_chars": 12992
     },
     {
       "id": "1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX",
@@ -2778,11 +2778,11 @@
       "size_bytes": 2559,
       "modified_time": "2026-11-08T02:37:23.386Z",
       "web_view_link": "https://drive.google.com/file/d/1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX.md",
+      "extracted_path": "staging/extracted/1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX.txt",
+      "extracted_chars": 2559
     },
     {
       "id": "1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc",
@@ -2791,11 +2791,11 @@
       "size_bytes": 20730,
       "modified_time": "2026-11-08T02:37:16.678Z",
       "web_view_link": "https://drive.google.com/file/d/1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc.md",
+      "extracted_path": "staging/extracted/1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc.txt",
+      "extracted_chars": 20700
     },
     {
       "id": "1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8",
@@ -2804,11 +2804,11 @@
       "size_bytes": 3106,
       "modified_time": "2026-11-08T02:37:23.492Z",
       "web_view_link": "https://drive.google.com/file/d/1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8.md",
+      "extracted_path": "staging/extracted/1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8.txt",
+      "extracted_chars": 3106
     },
     {
       "id": "1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2",
@@ -2817,11 +2817,11 @@
       "size_bytes": 4304,
       "modified_time": "2026-11-08T02:37:23.629Z",
       "web_view_link": "https://drive.google.com/file/d/1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2.md",
+      "extracted_path": "staging/extracted/1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2.txt",
+      "extracted_chars": 4304
     },
     {
       "id": "1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN",
@@ -2830,11 +2830,11 @@
       "size_bytes": 3222,
       "modified_time": "2026-11-08T02:37:23.747Z",
       "web_view_link": "https://drive.google.com/file/d/1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN.md",
+      "extracted_path": "staging/extracted/1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN.txt",
+      "extracted_chars": 3222
     },
     {
       "id": "106vW7aitLPrsVBxqsMF0YrUnQBqvlwfu",
@@ -2846,8 +2846,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1Hdq1cc-EoGe1S16PJfwJQvWCtf89X5Zp",
@@ -2859,8 +2859,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g",
@@ -2869,11 +2869,11 @@
       "size_bytes": 18422,
       "modified_time": "2026-11-08T02:37:23.144Z",
       "web_view_link": "https://drive.google.com/file/d/1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g.txt",
+      "extracted_path": "staging/extracted/1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g.txt",
+      "extracted_chars": 18286
     },
     {
       "id": "1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG",
@@ -2882,11 +2882,11 @@
       "size_bytes": 316900,
       "modified_time": "2026-11-08T02:37:17.227Z",
       "web_view_link": "https://drive.google.com/file/d/1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG.pdf",
+      "extracted_path": "staging/extracted/1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG.txt",
+      "extracted_chars": 4909
     },
     {
       "id": "1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE",
@@ -2895,11 +2895,11 @@
       "size_bytes": 315370,
       "modified_time": "2026-11-08T02:37:17.001Z",
       "web_view_link": "https://drive.google.com/file/d/1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE.pdf",
+      "extracted_path": "staging/extracted/1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE.txt",
+      "extracted_chars": 4909
     },
     {
       "id": "1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu",
@@ -2908,11 +2908,11 @@
       "size_bytes": 316900,
       "modified_time": "2026-11-08T02:37:17.321Z",
       "web_view_link": "https://drive.google.com/file/d/1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu.pdf",
+      "extracted_path": "staging/extracted/1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu.txt",
+      "extracted_chars": 4909
     },
     {
       "id": "15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5",
@@ -2921,11 +2921,11 @@
       "size_bytes": 314500,
       "modified_time": "2026-11-08T02:43:37.993Z",
       "web_view_link": "https://drive.google.com/file/d/15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5.pdf",
+      "extracted_path": "staging/extracted/15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5.txt",
+      "extracted_chars": 9637
     },
     {
       "id": "1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ",
@@ -2934,11 +2934,11 @@
       "size_bytes": 408884,
       "modified_time": "2026-11-08T02:37:17.133Z",
       "web_view_link": "https://drive.google.com/file/d/1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ.pdf",
+      "extracted_path": "staging/extracted/1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ.txt",
+      "extracted_chars": 12244
     },
     {
       "id": "1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx",
@@ -2947,11 +2947,11 @@
       "size_bytes": 2085,
       "modified_time": "2026-11-08T02:37:16.558Z",
       "web_view_link": "https://drive.google.com/file/d/1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx.md",
+      "extracted_path": "staging/extracted/1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx.txt",
+      "extracted_chars": 2085
     },
     {
       "id": "1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV",
@@ -2960,11 +2960,11 @@
       "size_bytes": 17943,
       "modified_time": "2026-11-08T02:37:16.875Z",
       "web_view_link": "https://drive.google.com/file/d/1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV.md",
+      "extracted_path": "staging/extracted/1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV.txt",
+      "extracted_chars": 17864
     },
     {
       "id": "1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw",
@@ -2973,11 +2973,11 @@
       "size_bytes": 1718,
       "modified_time": "2026-11-08T02:37:16.769Z",
       "web_view_link": "https://drive.google.com/file/d/1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw.md",
+      "extracted_path": "staging/extracted/1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw.txt",
+      "extracted_chars": 1718
     },
     {
       "id": "1ucOfHP-bbvSQF9QBQsKvf9iszy5X8FJV",
@@ -2989,8 +2989,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1k8KyJTFNziu-lxtp9NOGqdXe0-eI-Ces",
@@ -3002,8 +3002,8 @@
       "status": "extracted",
       "security_status": "cleared",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf",
@@ -3012,11 +3012,11 @@
       "size_bytes": 8773,
       "modified_time": "2026-11-08T02:52:24.438Z",
       "web_view_link": "https://drive.google.com/file/d/134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf.txt",
+      "extracted_path": "staging/extracted/134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf.txt",
+      "extracted_chars": 8771
     },
     {
       "id": "132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy",
@@ -3025,11 +3025,11 @@
       "size_bytes": 8773,
       "modified_time": "2026-11-08T02:37:17.418Z",
       "web_view_link": "https://drive.google.com/file/d/132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy.txt",
+      "extracted_path": "staging/extracted/132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy.txt",
+      "extracted_chars": 8771
     },
     {
       "id": "1gOW6CPD9vzRVUQmzGesOc5vmhUOI_AMX",
@@ -3038,11 +3038,11 @@
       "size_bytes": 4745,
       "modified_time": "2026-11-08T02:53:50.728Z",
       "web_view_link": "https://drive.google.com/file/d/1gOW6CPD9vzRVUQmzGesOc5vmhUOI_AMX/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1gOW6CPD9vzRVUQmzGesOc5vmhUOI_AMX.py",
+      "extracted_path": "staging/extracted/1gOW6CPD9vzRVUQmzGesOc5vmhUOI_AMX.txt",
+      "extracted_chars": 4708
     },
     {
       "id": "1t9BmH9Enj4c_N7xCuuVL_-wn1_OdhJIg",
@@ -3051,11 +3051,11 @@
       "size_bytes": 610422,
       "modified_time": "2026-11-08T02:50:27.643Z",
       "web_view_link": "https://drive.google.com/file/d/1t9BmH9Enj4c_N7xCuuVL_-wn1_OdhJIg/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1t9BmH9Enj4c_N7xCuuVL_-wn1_OdhJIg.eml",
+      "extracted_path": "staging/extracted/1t9BmH9Enj4c_N7xCuuVL_-wn1_OdhJIg.txt",
+      "extracted_chars": 610408
     },
     {
       "id": "1K7hFr0dUpy3s2wojQN9_ZEJZQyrSuOZ7",
@@ -3064,11 +3064,11 @@
       "size_bytes": 610422,
       "modified_time": "2026-11-08T02:47:37.004Z",
       "web_view_link": "https://drive.google.com/file/d/1K7hFr0dUpy3s2wojQN9_ZEJZQyrSuOZ7/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1K7hFr0dUpy3s2wojQN9_ZEJZQyrSuOZ7.eml",
+      "extracted_path": "staging/extracted/1K7hFr0dUpy3s2wojQN9_ZEJZQyrSuOZ7.txt",
+      "extracted_chars": 610408
     },
     {
       "id": "1yECvRNi1VcnFR5U3IC3UiVoRfiBs2_gc",
@@ -3077,11 +3077,11 @@
       "size_bytes": 623199,
       "modified_time": "2026-11-08T02:55:48.714Z",
       "web_view_link": "https://drive.google.com/file/d/1yECvRNi1VcnFR5U3IC3UiVoRfiBs2_gc/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1yECvRNi1VcnFR5U3IC3UiVoRfiBs2_gc.eml",
+      "extracted_path": "staging/extracted/1yECvRNi1VcnFR5U3IC3UiVoRfiBs2_gc.txt",
+      "extracted_chars": 622972
     },
     {
       "id": "1Zd9jsDGe_BPYcqQF_qw9SSUxE2ImguqT",
@@ -3090,11 +3090,11 @@
       "size_bytes": 623199,
       "modified_time": "2026-11-08T02:50:27.785Z",
       "web_view_link": "https://drive.google.com/file/d/1Zd9jsDGe_BPYcqQF_qw9SSUxE2ImguqT/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Zd9jsDGe_BPYcqQF_qw9SSUxE2ImguqT.eml",
+      "extracted_path": "staging/extracted/1Zd9jsDGe_BPYcqQF_qw9SSUxE2ImguqT.txt",
+      "extracted_chars": 622972
     },
     {
       "id": "1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps",
@@ -3103,11 +3103,11 @@
       "size_bytes": 15198,
       "modified_time": "2026-11-08T02:52:56.515Z",
       "web_view_link": "https://drive.google.com/file/d/1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps.txt",
+      "extracted_path": "staging/extracted/1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps.txt",
+      "extracted_chars": 15196
     },
     {
       "id": "1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa",
@@ -3116,11 +3116,11 @@
       "size_bytes": 15198,
       "modified_time": "2026-11-08T02:52:56.691Z",
       "web_view_link": "https://drive.google.com/file/d/1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa.txt",
+      "extracted_path": "staging/extracted/1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa.txt",
+      "extracted_chars": 15196
     },
     {
       "id": "1_Fq8sJDwV3PgxfSF1rYM5tgeFRUr9XAN",
@@ -3129,11 +3129,11 @@
       "size_bytes": 266201,
       "modified_time": "2026-11-08T02:57:40.647Z",
       "web_view_link": "https://drive.google.com/file/d/1_Fq8sJDwV3PgxfSF1rYM5tgeFRUr9XAN/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1_Fq8sJDwV3PgxfSF1rYM5tgeFRUr9XAN.pdf",
+      "extracted_path": "staging/extracted/1_Fq8sJDwV3PgxfSF1rYM5tgeFRUr9XAN.txt",
+      "extracted_chars": 12960
     },
     {
       "id": "1qdAXnDkyW2h2A0t5h0u9SpPnSwFcaaXc",
@@ -3142,11 +3142,11 @@
       "size_bytes": 446718,
       "modified_time": "2026-11-08T02:53:51.729Z",
       "web_view_link": "https://drive.google.com/file/d/1qdAXnDkyW2h2A0t5h0u9SpPnSwFcaaXc/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1qdAXnDkyW2h2A0t5h0u9SpPnSwFcaaXc.pdf",
+      "extracted_path": "staging/extracted/1qdAXnDkyW2h2A0t5h0u9SpPnSwFcaaXc.txt",
+      "extracted_chars": 3924
     },
     {
       "id": "1trnO2gfhmCDaCgTnirdIFj0ZUgDiVcDD",
@@ -3155,11 +3155,11 @@
       "size_bytes": 639408,
       "modified_time": "2026-11-08T02:53:51.809Z",
       "web_view_link": "https://drive.google.com/file/d/1trnO2gfhmCDaCgTnirdIFj0ZUgDiVcDD/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1trnO2gfhmCDaCgTnirdIFj0ZUgDiVcDD.pdf",
+      "extracted_path": "staging/extracted/1trnO2gfhmCDaCgTnirdIFj0ZUgDiVcDD.txt",
+      "extracted_chars": 9241
     },
     {
       "id": "1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw",
@@ -3168,11 +3168,11 @@
       "size_bytes": 5866,
       "modified_time": "2026-11-08T02:37:24.249Z",
       "web_view_link": "https://drive.google.com/file/d/1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw.py",
+      "extracted_path": "staging/extracted/1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw.txt",
+      "extracted_chars": 5866
     },
     {
       "id": "1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw",
@@ -3181,11 +3181,11 @@
       "size_bytes": 13500,
       "modified_time": "2026-11-08T02:52:56.929Z",
       "web_view_link": "https://drive.google.com/file/d/1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw.txt",
+      "extracted_path": "staging/extracted/1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw.txt",
+      "extracted_chars": 13488
     },
     {
       "id": "1kc-utcKWWkiO__2-7HEu_vdyQ-32QY_d",
@@ -3194,11 +3194,11 @@
       "size_bytes": 651548,
       "modified_time": "2026-11-08T02:37:57.122Z",
       "web_view_link": "https://drive.google.com/file/d/1kc-utcKWWkiO__2-7HEu_vdyQ-32QY_d/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1kc-utcKWWkiO__2-7HEu_vdyQ-32QY_d.pdf",
+      "extracted_path": "staging/extracted/1kc-utcKWWkiO__2-7HEu_vdyQ-32QY_d.txt",
+      "extracted_chars": 11711
     },
     {
       "id": "1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz",
@@ -3207,11 +3207,11 @@
       "size_bytes": 4904,
       "modified_time": "2026-11-08T02:53:51.073Z",
       "web_view_link": "https://drive.google.com/file/d/1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz.txt",
+      "extracted_path": "staging/extracted/1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz.txt",
+      "extracted_chars": 4902
     },
     {
       "id": "1BIUPj_AjrJ9JnMqpa2_YOLzc4omt-2K6",
@@ -3220,11 +3220,11 @@
       "size_bytes": 261183,
       "modified_time": "2026-11-08T02:57:41.195Z",
       "web_view_link": "https://drive.google.com/file/d/1BIUPj_AjrJ9JnMqpa2_YOLzc4omt-2K6/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1BIUPj_AjrJ9JnMqpa2_YOLzc4omt-2K6.pdf",
+      "extracted_path": "staging/extracted/1BIUPj_AjrJ9JnMqpa2_YOLzc4omt-2K6.txt",
+      "extracted_chars": 8212
     },
     {
       "id": "1g1V2qdybOpEGgph1yXeOusSrW0ZAd3Oo",
@@ -3236,8 +3236,8 @@
       "status": "scanned",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "18RGud8Bs3MVOSocpyRFusn1vaNy6tr6n",
@@ -3249,8 +3249,8 @@
       "status": "queued",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1581Q_186PQXSQ-G-W7-15zfYW3Xzk7Qu",
@@ -3259,11 +3259,11 @@
       "size_bytes": 1437,
       "modified_time": "2026-11-08T02:50:27.895Z",
       "web_view_link": "https://drive.google.com/file/d/1581Q_186PQXSQ-G-W7-15zfYW3Xzk7Qu/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1581Q_186PQXSQ-G-W7-15zfYW3Xzk7Qu.py",
+      "extracted_path": "staging/extracted/1581Q_186PQXSQ-G-W7-15zfYW3Xzk7Qu.txt",
+      "extracted_chars": 1415
     },
     {
       "id": "1hc8L0XjhclGFCPwE6ah8JEyapCWLQv3b",
@@ -3272,11 +3272,11 @@
       "size_bytes": 446039,
       "modified_time": "2026-11-08T02:45:09.548Z",
       "web_view_link": "https://drive.google.com/file/d/1hc8L0XjhclGFCPwE6ah8JEyapCWLQv3b/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1hc8L0XjhclGFCPwE6ah8JEyapCWLQv3b.pdf",
+      "extracted_path": "staging/extracted/1hc8L0XjhclGFCPwE6ah8JEyapCWLQv3b.txt",
+      "extracted_chars": 151363
     },
     {
       "id": "10YxzoRSuW5GvoJ-mxTPV-wKvcpi4Rzpn",
@@ -3285,11 +3285,11 @@
       "size_bytes": 462352,
       "modified_time": "2026-11-08T02:57:41.476Z",
       "web_view_link": "https://drive.google.com/file/d/10YxzoRSuW5GvoJ-mxTPV-wKvcpi4Rzpn/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/10YxzoRSuW5GvoJ-mxTPV-wKvcpi4Rzpn.pdf",
+      "extracted_path": "staging/extracted/10YxzoRSuW5GvoJ-mxTPV-wKvcpi4Rzpn.txt",
+      "extracted_chars": 18536
     },
     {
       "id": "1wSTeuUrvDmEiZZ_JGfAgGeQCuQBPzjaV",
@@ -3298,11 +3298,11 @@
       "size_bytes": 388079,
       "modified_time": "2026-11-08T02:57:40.907Z",
       "web_view_link": "https://drive.google.com/file/d/1wSTeuUrvDmEiZZ_JGfAgGeQCuQBPzjaV/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1wSTeuUrvDmEiZZ_JGfAgGeQCuQBPzjaV.pdf",
+      "extracted_path": "staging/extracted/1wSTeuUrvDmEiZZ_JGfAgGeQCuQBPzjaV.txt",
+      "extracted_chars": 9408
     },
     {
       "id": "1A4Ddh9x51UInH89imm7jHKK3DekxOWrr",
@@ -3311,11 +3311,11 @@
       "size_bytes": 316252,
       "modified_time": "2026-11-08T02:57:40.988Z",
       "web_view_link": "https://drive.google.com/file/d/1A4Ddh9x51UInH89imm7jHKK3DekxOWrr/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1A4Ddh9x51UInH89imm7jHKK3DekxOWrr.pdf",
+      "extracted_path": "staging/extracted/1A4Ddh9x51UInH89imm7jHKK3DekxOWrr.txt",
+      "extracted_chars": 4223
     },
     {
       "id": "1cXAwjpq5otR9tlaIVVDHemzQJfS_uYCA",
@@ -3324,11 +3324,11 @@
       "size_bytes": 313930,
       "modified_time": "2026-11-08T02:50:27.536Z",
       "web_view_link": "https://drive.google.com/file/d/1cXAwjpq5otR9tlaIVVDHemzQJfS_uYCA/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1cXAwjpq5otR9tlaIVVDHemzQJfS_uYCA.pdf",
+      "extracted_path": "staging/extracted/1cXAwjpq5otR9tlaIVVDHemzQJfS_uYCA.txt",
+      "extracted_chars": 85942
     },
     {
       "id": "1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf",
@@ -3337,11 +3337,11 @@
       "size_bytes": 8007,
       "modified_time": "2026-11-08T02:52:24.750Z",
       "web_view_link": "https://drive.google.com/file/d/1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf.txt",
+      "extracted_path": "staging/extracted/1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf.txt",
+      "extracted_chars": 7993
     },
     {
       "id": "1Q3PbKQA4tGaN5mBsKZ9DW_pEkpHCldF7",
@@ -3353,8 +3353,8 @@
       "status": "scanned",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1Wad6SOX_FVYXKtRHwNYY3wZIzV067vIX",
@@ -3366,8 +3366,8 @@
       "status": "scanned",
       "security_status": "pending",
       "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "extracted_path": null,
+      "extracted_chars": null
     },
     {
       "id": "1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4",
@@ -3376,11 +3376,11 @@
       "size_bytes": 8425,
       "modified_time": "2026-11-08T02:52:23.618Z",
       "web_view_link": "https://drive.google.com/file/d/1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4.txt",
+      "extracted_path": "staging/extracted/1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4.txt",
+      "extracted_chars": 8423
     },
     {
       "id": "1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX",
@@ -3389,11 +3389,11 @@
       "size_bytes": 255299,
       "modified_time": "2026-11-08T02:37:56.336Z",
       "web_view_link": "https://drive.google.com/file/d/1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX.pdf",
+      "extracted_path": "staging/extracted/1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX.txt",
+      "extracted_chars": 1075
     },
     {
       "id": "12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29",
@@ -3402,11 +3402,11 @@
       "size_bytes": 146631,
       "modified_time": "2026-11-08T02:43:39.966Z",
       "web_view_link": "https://drive.google.com/file/d/12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29.pdf",
+      "extracted_path": "staging/extracted/12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29.txt",
+      "extracted_chars": 4559
     },
     {
       "id": "1Bk1W6A29P-4JLcU8QIZct_PiCA64uRno",
@@ -3415,11 +3415,11 @@
       "size_bytes": 3324747,
       "modified_time": "2026-11-08T02:37:57.262Z",
       "web_view_link": "https://drive.google.com/file/d/1Bk1W6A29P-4JLcU8QIZct_PiCA64uRno/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Bk1W6A29P-4JLcU8QIZct_PiCA64uRno.pdf",
+      "extracted_path": "staging/extracted/1Bk1W6A29P-4JLcU8QIZct_PiCA64uRno.txt",
+      "extracted_chars": 164621
     },
     {
       "id": "1JbCcd24p4-YLpllW-3OOMG6Mbr3Ozg9x",
@@ -3428,11 +3428,11 @@
       "size_bytes": 245273,
       "modified_time": "2026-11-08T02:37:57.672Z",
       "web_view_link": "https://drive.google.com/file/d/1JbCcd24p4-YLpllW-3OOMG6Mbr3Ozg9x/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1JbCcd24p4-YLpllW-3OOMG6Mbr3Ozg9x.pdf",
+      "extracted_path": "staging/extracted/1JbCcd24p4-YLpllW-3OOMG6Mbr3Ozg9x.txt",
+      "extracted_chars": 5403
     },
     {
       "id": "1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5",
@@ -3441,11 +3441,11 @@
       "size_bytes": 181094,
       "modified_time": "2026-11-08T02:37:57.388Z",
       "web_view_link": "https://drive.google.com/file/d/1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5.pdf",
+      "extracted_path": "staging/extracted/1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5.txt",
+      "extracted_chars": 1504
     },
     {
       "id": "1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz",
@@ -3454,11 +3454,11 @@
       "size_bytes": 230946,
       "modified_time": "2026-11-08T02:37:57.546Z",
       "web_view_link": "https://drive.google.com/file/d/1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz.pdf",
+      "extracted_path": "staging/extracted/1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz.txt",
+      "extracted_chars": 4002
     },
     {
       "id": "1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0",
@@ -3467,11 +3467,11 @@
       "size_bytes": 343736,
       "modified_time": "2026-11-08T02:37:55.967Z",
       "web_view_link": "https://drive.google.com/file/d/1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0.pdf",
+      "extracted_path": "staging/extracted/1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0.txt",
+      "extracted_chars": 7593
     },
     {
       "id": "1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43",
@@ -3480,11 +3480,11 @@
       "size_bytes": 210520,
       "modified_time": "2026-11-08T02:37:55.827Z",
       "web_view_link": "https://drive.google.com/file/d/1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43.pdf",
+      "extracted_path": "staging/extracted/1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43.txt",
+      "extracted_chars": 3408
     },
     {
       "id": "1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv",
@@ -3493,11 +3493,11 @@
       "size_bytes": 210520,
       "modified_time": "2026-11-08T02:37:56.214Z",
       "web_view_link": "https://drive.google.com/file/d/1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv.pdf",
+      "extracted_path": "staging/extracted/1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv.txt",
+      "extracted_chars": 3408
     },
     {
       "id": "118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq",
@@ -3506,11 +3506,11 @@
       "size_bytes": 1331221,
       "modified_time": "2026-11-08T02:43:38.167Z",
       "web_view_link": "https://drive.google.com/file/d/118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq.pdf",
+      "extracted_path": "staging/extracted/118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq.txt",
+      "extracted_chars": 15559
     },
     {
       "id": "16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO",
@@ -3519,11 +3519,11 @@
       "size_bytes": 1373518,
       "modified_time": "2026-11-08T02:37:57.802Z",
       "web_view_link": "https://drive.google.com/file/d/16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO.pdf",
+      "extracted_path": "staging/extracted/16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO.txt",
+      "extracted_chars": 15525
     },
     {
       "id": "1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF",
@@ -3532,11 +3532,11 @@
       "size_bytes": 283800,
       "modified_time": "2026-11-08T02:37:56.103Z",
       "web_view_link": "https://drive.google.com/file/d/1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF/view?usp=drivesdk",
-      "status": "queued",
+      "status": "extracted",
       "security_status": "pending",
-      "note": null,
-      "workspace_path": null,
-      "workspace_present": null
+      "note": "staged:staging/materialized/1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF.pdf",
+      "extracted_path": "staging/extracted/1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF.txt",
+      "extracted_chars": 3551
     }
   ]
 }

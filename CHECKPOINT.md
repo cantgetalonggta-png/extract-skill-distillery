@@ -35,3 +35,12 @@ Primary product remains Skill Distillery. RE/APK/billing corpus is a secondary s
 - Tests: **18/18 OK** (6 guardrail + 12 extension/integration)
 - Docs: `docs/BILLING_GOVERNANCE_EXTENSION.md`
 - Scope: authorization records only — no payment APIs, no APK execution
+
+
+## Full textish ingest (2026-11-08)
+- Planned text/PDF/md/etc: **225**
+- Materialized to `staging/materialized/`: **225/225** (69.9 MB)
+- Text extracted to `staging/extracted/`: **225** files, **7,690,178** chars
+- New skill/doc KB entries: **155** (skills total 176)
+- Remaining queued (archives only): **11**
+- Inventory status: {'extracted': 237, 'scanned': 7, 'restored': 17, 'queued': 11}

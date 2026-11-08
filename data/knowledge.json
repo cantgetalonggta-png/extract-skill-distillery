@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T04:35:56.866915+00:00",
+  "generated_at": "2026-11-08T04:54:10.218504+00:00",
   "folder_id": "1Vrfzeiju0L4A1etcs7pTUSyVPvMh18MX",
   "folder_name": "EXTRACT",
   "product": {
@@ -14,31 +14,13 @@
     ]
   },
   "coverage": {
-    "total": 272,
     "by_status": {
-      "queued": 236,
-      "extracted": 12,
+      "extracted": 237,
       "scanned": 7,
-      "restored": 17
+      "restored": 17,
+      "queued": 11
     },
-    "by_mime": {
-      "text/plain": 48,
-      "application/pdf": 101,
-      "application/zip": 20,
-      "application/x-zip": 3,
-      "application/x-redhat-package-manager": 3,
-      "message/rfc822": 6,
-      "text/x-sh": 4,
-      "application/json": 2,
-      "text/markdown": 75,
-      "text/x-python": 5,
-      "application/gzip": 1,
-      "application/octet-stream": 3,
-      "application/yaml": 1
-    },
-    "blocked_security": [],
-    "distilled_entries": 36,
-    "restored_count": 17
+    "materialized_textish": 225
   },
   "skills": [
     {
@@ -326,6 +308,1556 @@
         "read_when": "",
         "title": "Skills"
       }
+    },
+    {
+      "id": "src-1-QHthiDb-8J",
+      "name": "GitHub Skill",
+      "kind": "skill",
+      "description": "--- name: github description: \"Use gh for GitHub issues, PR status, CI/logs, comments, reviews, releases, and API queries.\" metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc19\", \"requires\": { \"bins\": [\"gh\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"gh\", \"bins\": [\"gh\"],",
+      "path": "staging/materialized/1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD.md",
+      "source_id": "1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD",
+      "chars": 3786,
+      "preview": "--- name: github description: \"Use gh for GitHub issues, PR status, CI/logs, comments, reviews, releases, and API queries.\" metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc19\", \"requires\": { \"bins\": [\"gh\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"gh\", \"bins\": [\"gh\"],"
+    },
+    {
+      "id": "src-10-vH9if2omS",
+      "name": "Function calling.txt",
+      "kind": "doc",
+      "description": "\ufeff# Function calling **Function calling** (also known as **tool calling**) provides a powerful and flexible way for OpenAI models to interface with external systems and access data outside their training data. This guide shows how you can connect a model to data and actions provid",
+      "path": "staging/materialized/10-vH9if2omS77U1U5_vhp9S6FgS2cjlz.txt",
+      "source_id": "10-vH9if2omS77U1U5_vhp9S6FgS2cjlz",
+      "chars": 29853,
+      "preview": "\ufeff# Function calling **Function calling** (also known as **tool calling**) provides a powerful and flexible way for OpenAI models to interface with external systems and access data outside their training data. This guide shows how you can connect a model to data and actions provided by your application. We'll show how to use function tools (defined by a JSON schema) and custom tools which work wit"
+    },
+    {
+      "id": "src-10CCVmNHHBtV",
+      "name": "Skill Seekers v2.2.PDF",
+      "kind": "skill",
+      "description": "Skill Seekers v2.2.0: O\ufb03cial Skill Library(for the skill seeker) with 24+ Presets, Free Team Sharing (No Team Plan Required), and Custom Skill Repos Support MCP Hey everyone! \ud83d\udc4b Just released Skill Seekers v2.2.0 - a big update for the tool that converts any documentation into Cla",
+      "path": "staging/materialized/10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp.pdf",
+      "source_id": "10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp",
+      "chars": 5856,
+      "preview": "Skill Seekers v2.2.0: O\ufb03cial Skill Library(for the skill seeker) with 24+ Presets, Free Team Sharing (No Team Plan Required), and Custom Skill Repos Support MCP Hey everyone! \ud83d\udc4b Just released Skill Seekers v2.2.0 - a big update for the tool that converts any documentation into Claude AI skills. \ud83c\udfaf Headline Features: 1. Skill Library (O\ufb03cial Con\ufb01gs) 24+ ready-to-use skill con\ufb01gs including React, Dja"
+    },
+    {
+      "id": "src-10HrRCDVCAAE",
+      "name": "Reasoning models.txt",
+      "kind": "doc",
+      "description": "\ufeff# Reasoning models import { Question, Storage, } from \"@components/react/oai/platform/ui/Icon.react\"; **Reasoning models** like [GPT-5.5](https://developers.openai.com/api/docs/models/gpt-5.5) use internal reasoning tokens before producing a response. This helps the model plan, ",
+      "path": "staging/materialized/10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR.txt",
+      "source_id": "10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR",
+      "chars": 20324,
+      "preview": "\ufeff# Reasoning models import { Question, Storage, } from \"@components/react/oai/platform/ui/Icon.react\"; **Reasoning models** like [GPT-5.5](https://developers.openai.com/api/docs/models/gpt-5.5) use internal reasoning tokens before producing a response. This helps the model plan, use tools effectively, inspect alternatives, recover from ambiguity, and solve harder multi-step tasks. Rea"
+    },
+    {
+      "id": "src-10UBOpRR91b1",
+      "name": "1Password CLI",
+      "kind": "skill",
+      "description": "--- name: 1password description: Set up and use 1Password CLI for sign-in, desktop integration, and reading or injecting secrets. homepage: https://developer.1password.com/docs/cli/get-started/ metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd10\", \"requires\": { \"bins\": [\"op\"] }, \"install\": [ {",
+      "path": "staging/materialized/10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH.md",
+      "source_id": "10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH",
+      "chars": 2509,
+      "preview": "--- name: 1password description: Set up and use 1Password CLI for sign-in, desktop integration, and reading or injecting secrets. homepage: https://developer.1password.com/docs/cli/get-started/ metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd10\", \"requires\": { \"bins\": [\"op\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\","
+    },
+    {
+      "id": "src-10o1fkTJwjVA",
+      "name": "QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc",
+      "kind": "skill",
+      "description": "--- name: qqbot-channel description: QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udce1\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc `qqbo",
+      "path": "staging/materialized/10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy.md",
+      "source_id": "10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy",
+      "chars": 10067,
+      "preview": "--- name: qqbot-channel description: QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udce1\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc `qqbot_channel_api` \u662f\u4e00\u4e2a QQ \u5f00\u653e\u5e73\u53f0 HTTP \u4ee3\u7406\u5de5\u5177\uff0c**\u81ea\u52a8\u586b\u5145\u9274\u6743 Token**\u3002\u4f60\u53ea\u9700\u8981\u6307\u5b9a HTTP \u65b9\u6cd5\u3001API \u8def\u5f84\u3001\u8bf7\u6c42\u4f53\u548c\u67e5\u8be2\u53c2\u6570\u3002 ## \ud83d\udcda \u8be6\u7ec6\u53c2\u8003\u6587\u6863 \u6bcf\u4e2a\u63a5\u53e3\u7684\u5b8c\u6574\u53c2\u6570\u8bf4\u660e\u3001\u8fd4\u56de\u503c\u7ed3\u6784\u548c"
+    },
+    {
+      "id": "src-113sI7Fpcmuk",
+      "name": "Skill Seekers _ Claude Code Skill for Knowledge Extraction.PDF",
+      "kind": "skill",
+      "description": "Skill Seekers is a powerful utility designed to expand the context and capabilities of Claude by transforming various information sources into structured AI skills. By utilizing documentation scraping, GitHub repository analysis, and PDF extraction, it creates a comprehensive kno",
+      "path": "staging/materialized/113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE.pdf",
+      "source_id": "113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE",
+      "chars": 3045,
+      "preview": "Skill Seekers is a powerful utility designed to expand the context and capabilities of Claude by transforming various information sources into structured AI skills. By utilizing documentation scraping, GitHub repository analysis, and PDF extraction, it creates a comprehensive knowledge base that AI agents can use to understand specific domains or codebases. With built-in Model Context Protocol (MC"
+    },
+    {
+      "id": "src-118dv3VilDkJ",
+      "name": "1. Install",
+      "kind": "skill",
+      "description": "Watch72 Sponsor Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection MIT License skillseekersweb.com/ Contributing 15.1kstars 1.5kforks 72watching 27branches 37tags Activity Public repository 27Branches 37Tags Go to",
+      "path": "staging/materialized/118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq.pdf",
+      "source_id": "118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq",
+      "chars": 15559,
+      "preview": "Watch72 Sponsor Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection MIT License skillseekersweb.com/ Contributing 15.1kstars 1.5kforks 72watching 27branches 37tags Activity Public repository 27Branches 37Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraaslanandclaudeMerge main (release gate fix) into development 5b5d8df \u00b7 3 days ago"
+    },
+    {
+      "id": "src-11cs5FPhXV94",
+      "name": ".speakeasy/grok-overlay.yamloverlay: 1.0.0info:",
+      "kind": "doc",
+      "description": "\ufeffIntegrating Grok with Speakeasy involves a systematic workflow to turn the xAI API into a highly automated, type-safe SDK. ## The Master Blueprint The integration follows a four-step lifecycle: 1. Spec Preparation: Ingest the Grok OpenAPI spec. 2. SDK Generation: Use the [Speake",
+      "path": "staging/materialized/11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb.txt",
+      "source_id": "11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb",
+      "chars": 26531,
+      "preview": "\ufeffIntegrating Grok with Speakeasy involves a systematic workflow to turn the xAI API into a highly automated, type-safe SDK. ## The Master Blueprint The integration follows a four-step lifecycle: 1. Spec Preparation: Ingest the Grok OpenAPI spec. 2. SDK Generation: Use the [Speakeasy CLI](https://www.speakeasy.com/docs/speakeasy-reference/cli/getting-started) to build the base client. 3."
+    },
+    {
+      "id": "src-11ueDhCrKz3d",
+      "name": "Implementing autonomy.txt",
+      "kind": "doc",
+      "description": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the technical details, methodologies, and open-source resources for building these systems. [1, 2] ## 1. Core ",
+      "path": "staging/materialized/11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi.txt",
+      "source_id": "11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi",
+      "chars": 7507,
+      "preview": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the technical details, methodologies, and open-source resources for building these systems. [1, 2] ## 1. Core Methodology: The Agentic Loop Autonomous modules typically follow the ReAct (Reasoning + Action) pattern, which allows"
+    },
+    {
+      "id": "src-125JfMD4UDZn",
+      "name": "OpenClaw Test Heap Leaks",
+      "kind": "skill",
+      "description": "--- name: openclaw-test-heap-leaks description: Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas. --- # OpenClaw Test Heap Leaks Use this skill for test-memory investigations. Do not guess from RSS alone when heap snapshots are avail",
+      "path": "staging/materialized/125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT.md",
+      "source_id": "125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT",
+      "chars": 5771,
+      "preview": "--- name: openclaw-test-heap-leaks description: Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas. --- # OpenClaw Test Heap Leaks Use this skill for test-memory investigations. Do not guess from RSS alone when heap snapshots are available. Treat snapshot-name deltas as triage evidence, not proof, until retainers or dominators support the call. ## Wo"
+    },
+    {
+      "id": "src-12BLjoUXO2CD",
+      "name": "Workflows \u2014 Curated AI Agent Skill + MCP Server Bundles _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 03 \u00b7 WORKFLOW BUNDLES Agent stacks,ready torun. Curated bundles of AI agent skills and MCP servers for common development tasks. Install an entire stack in minutes. Browse Workflows Browse Skills 0 WORKFLOWS 0 CATEGORIES 0 SKILLS BUNDLED 0 MCP SER",
+      "path": "staging/materialized/12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29.pdf",
+      "source_id": "12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29",
+      "chars": 4559,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 03 \u00b7 WORKFLOW BUNDLES Agent stacks,ready torun. Curated bundles of AI agent skills and MCP servers for common development tasks. Install an entire stack in minutes. Browse Workflows Browse Skills 0 WORKFLOWS 0 CATEGORIES 0 SKILLS BUNDLED 0 MCP SERVERS WORKFLOW STACK BUNDLE // full-stack SaaS workflow $ npx skills add react-best-practices $ npx skills add frontend-d"
+    },
+    {
+      "id": "src-12LWqIrG4g0-",
+      "name": "Browser Automation",
+      "kind": "skill",
+      "description": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts. user-invocable: false --- # Browser Automation Use this skill when you need th",
+      "path": "staging/materialized/12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7.md",
+      "source_id": "12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7",
+      "chars": 3942,
+      "preview": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts. user-invocable: false --- # Browser Automation Use this skill when you need the `browser` tool for anything beyond a single page check. ## Operating Loop 1. Check browser state before acting:"
+    },
+    {
+      "id": "src-132LIkFckmv0",
+      "name": "Skills.txt",
+      "kind": "skill",
+      "description": "\ufeff# Skills Agent Skills let you upload and reuse versioned bundles of files in hosted and local shell environments. We support Skills in two form factors: local execution and hosted, container-based execution. To run code on your own machine, use the local execution mode of the [s",
+      "path": "staging/materialized/132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy.txt",
+      "source_id": "132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy",
+      "chars": 8771,
+      "preview": "\ufeff# Skills Agent Skills let you upload and reuse versioned bundles of files in hosted and local shell environments. We support Skills in two form factors: local execution and hosted, container-based execution. To run code on your own machine, use the local execution mode of the [shell tool](https://developers.openai.com/api/docs/guides/tools-shell). ## What's a skill A skill is a versioned"
+    },
+    {
+      "id": "src-1335tUP25Rb8",
+      "name": "Function callin.txt",
+      "kind": "doc",
+      "description": "\ufeff# Function calling **Function calling** (also known as **tool calling**) provides a powerful and flexible way for OpenAI models to interface with external systems and access data outside their training data. This guide shows how you can connect a model to data and actions provid",
+      "path": "staging/materialized/1335tUP25Rb896fPaltVxg0BrBh3w_P8f.txt",
+      "source_id": "1335tUP25Rb896fPaltVxg0BrBh3w_P8f",
+      "chars": 29853,
+      "preview": "\ufeff# Function calling **Function calling** (also known as **tool calling**) provides a powerful and flexible way for OpenAI models to interface with external systems and access data outside their training data. This guide shows how you can connect a model to data and actions provided by your application. We'll show how to use function tools (defined by a JSON schema) and custom tools which work wit"
+    },
+    {
+      "id": "src-134DXUG-oMEA",
+      "name": "Skills.txt",
+      "kind": "skill",
+      "description": "\ufeff# Skills Agent Skills let you upload and reuse versioned bundles of files in hosted and local shell environments. We support Skills in two form factors: local execution and hosted, container-based execution. To run code on your own machine, use the local execution mode of the [s",
+      "path": "staging/materialized/134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf.txt",
+      "source_id": "134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf",
+      "chars": 8771,
+      "preview": "\ufeff# Skills Agent Skills let you upload and reuse versioned bundles of files in hosted and local shell environments. We support Skills in two form factors: local execution and hosted, container-based execution. To run code on your own machine, use the local execution mode of the [shell tool](https://developers.openai.com/api/docs/guides/tools-shell). ## What's a skill A skill is a versioned"
+    },
+    {
+      "id": "src-15BKfpwr9U-J",
+      "name": "GitLab MCP Server \u2014 GitLab _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home MCP Servers GitLab GitLab OFFICIAL byGitLab GitLab API with OAuth DCR for project management and CI/CD pipelines. STDIO TYPESCRIPT API KEY REQUIRED Listed official Configuration Setup for this server is documented upstream. We list only confi",
+      "path": "staging/materialized/15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY.pdf",
+      "source_id": "15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY",
+      "chars": 3587,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home MCP Servers GitLab GitLab OFFICIAL byGitLab GitLab API with OAuth DCR for project management and CI/CD pipelines. STDIO TYPESCRIPT API KEY REQUIRED Listed official Configuration Setup for this server is documented upstream. We list only configuration we have verified against the server's own README, and this one isn't verified yet \u2014 so the snippet lives there,"
+    },
+    {
+      "id": "src-15MbTZc9L7RS",
+      "name": "Migrate to the.txt",
+      "kind": "doc",
+      "description": "\ufeff# Migrate to the Responses API import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; The [Responses API](https://developers.openai.com/api/docs/api-reference/responses) is our new API primitive, an evolution of [Chat Completions](https://dev",
+      "path": "staging/materialized/15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv.txt",
+      "source_id": "15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv",
+      "chars": 27828,
+      "preview": "\ufeff# Migrate to the Responses API import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; The [Responses API](https://developers.openai.com/api/docs/api-reference/responses) is our new API primitive, an evolution of [Chat Completions](https://developers.openai.com/api/docs/api-reference/chat) which brings added simplicity and powerful agentic primitives"
+    },
+    {
+      "id": "src-15QfxHxaCT9b",
+      "name": "https_swagge.txt",
+      "kind": "doc",
+      "description": "\ufeffhttps://swagger.io/docs/specification/v3_0/authentication/bearer-authentication/ https://swagger.io/docs/open-source-tools/swagger-editor/ https://swagger.io/docs/open-source-tools/swagger-codegen/codegen-v2/docker/",
+      "path": "staging/materialized/15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq.txt",
+      "source_id": "15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq",
+      "chars": 256,
+      "preview": "\ufeffhttps://swagger.io/docs/specification/v3_0/authentication/bearer-authentication/ https://swagger.io/docs/open-source-tools/swagger-editor/ https://swagger.io/docs/open-source-tools/swagger-codegen/codegen-v2/docker/"
+    },
+    {
+      "id": "src-15aGM-w6qPhE",
+      "name": "OpenClaw PR Maintainer",
+      "kind": "skill",
+      "description": "--- name: openclaw-pr-maintainer description: Review, triage, close, label, comment on, or land OpenClaw PRs/issues with maintainer evidence checks. --- # OpenClaw PR Maintainer Use this skill for maintainer-facing GitHub workflow, not for ordinary code changes. ## Apply close an",
+      "path": "staging/materialized/15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD.md",
+      "source_id": "15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD",
+      "chars": 5151,
+      "preview": "--- name: openclaw-pr-maintainer description: Review, triage, close, label, comment on, or land OpenClaw PRs/issues with maintainer evidence checks. --- # OpenClaw PR Maintainer Use this skill for maintainer-facing GitHub workflow, not for ordinary code changes. ## Apply close and triage labels correctly - If an issue or PR matches an auto-close reason, apply the label and let `.github/workflo"
+    },
+    {
+      "id": "src-15x1von2Rx69",
+      "name": "My Framework Skill",
+      "kind": "skill",
+      "description": "development Skill_Seekers/docs/user-guide/01-core-concepts.md yusufkaraaslanandclaudedocs: fix stale QWEN.md and version stamps across docs/ 7162f1d \u00b7 3 months ago 584 lines (415 loc) \u00b7 11.4 KB Skill Seekers v3.9.0 Understanding how Skill Seekers works Skill Seekers transforms do",
+      "path": "staging/materialized/15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5.pdf",
+      "source_id": "15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5",
+      "chars": 9637,
+      "preview": "development Skill_Seekers/docs/user-guide/01-core-concepts.md yusufkaraaslanandclaudedocs: fix stale QWEN.md and version stamps across docs/ 7162f1d \u00b7 3 months ago 584 lines (415 loc) \u00b7 11.4 KB Skill Seekers v3.9.0 Understanding how Skill Seekers works Skill Seekers transforms documentation, code, and content into structured knowledge assets that AI systems can use effectively. It supports 18 sour"
+    },
+    {
+      "id": "src-16Da2zi4fkAd",
+      "name": "1. Install",
+      "kind": "skill",
+      "description": "yusufkaraaslan Skill_Seekers Skill_SeekersPublic Sponsor Watch69 About Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic con\ufb02ict detection skillseekersweb.com/ ai-tools ast-parser automation claude-ai claude-skills code-analysis co",
+      "path": "staging/materialized/16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO.pdf",
+      "source_id": "16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO",
+      "chars": 15525,
+      "preview": "yusufkaraaslan Skill_Seekers Skill_SeekersPublic Sponsor Watch69 About Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic con\ufb02ict detection skillseekersweb.com/ ai-tools ast-parser automation claude-ai claude-skills code-analysis con\ufb02ict-detection documentation documentation-generator github github-scraper mcp mcp-server multi-source ocr pdf python w"
+    },
+    {
+      "id": "src-16cMxMJG17Ki",
+      "name": "Files",
+      "kind": "doc",
+      "description": "\ufeff# Containers ## List containers **get** `/containers` List Containers ### Query Parameters - `after: optional string` A cursor for use in pagination. `after` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, en",
+      "path": "staging/materialized/16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ.txt",
+      "source_id": "16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ",
+      "chars": 27900,
+      "preview": "\ufeff# Containers ## List containers **get** `/containers` List Containers ### Query Parameters - `after: optional string` A cursor for use in pagination. `after` is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj_foo, your subsequent call can include after=obj_foo in order to fetch the next page of the list."
+    },
+    {
+      "id": "src-17X7h4aD4T7O",
+      "name": "Canvas Skill",
+      "kind": "skill",
+      "description": "# Canvas Skill Display HTML content on connected OpenClaw nodes (Mac app, iOS, Android). ## Overview The canvas tool lets you present web content on any connected node's canvas view. Great for: - Displaying games, visualizations, dashboards - Showing generated HTML content - Inte",
+      "path": "staging/materialized/17X7h4aD4T7OOodamxZcJZDHXxS60fn0V.md",
+      "source_id": "17X7h4aD4T7OOodamxZcJZDHXxS60fn0V",
+      "chars": 5459,
+      "preview": "# Canvas Skill Display HTML content on connected OpenClaw nodes (Mac app, iOS, Android). ## Overview The canvas tool lets you present web content on any connected node's canvas view. Great for: - Displaying games, visualizations, dashboards - Showing generated HTML content - Interactive demos ## How It Works ### Architecture ``` \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"
+    },
+    {
+      "id": "src-18bt5DDrfNqf",
+      "name": "AI Agent Skills \u2014 The Curated Directory _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 01 \u00b7 SKILLS DIRECTORY 194+ curatedagent skills,one index. Search, filter, and compare every skill in the directory \u2014 for Claude Code, OpenAI Codex, Cursor, Gemini CLI and every agent that reads SKILL.md. Browse Skills Submit a Skill 194+ CURATED S",
+      "path": "staging/materialized/18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx.pdf",
+      "source_id": "18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx",
+      "chars": 16278,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 01 \u00b7 SKILLS DIRECTORY 194+ curatedagent skills,one index. Search, filter, and compare every skill in the directory \u2014 for Claude Code, OpenAI Codex, Cursor, Gemini CLI and every agent that reads SKILL.md. Browse Skills Submit a Skill 194+ CURATED SKILLS 16 CATEGORIES 0 PLATFORMS 100% OPEN SOURCE INSTALL DEMO $ npx skills add vercel-labs/find-skills Resolving package"
+    },
+    {
+      "id": "src-18bxv6CEa4Le",
+      "name": "QQ Bot \u5b9a\u65f6\u63d0\u9192",
+      "kind": "skill",
+      "description": "--- name: qqbot-remind description: QQBot \u5b9a\u65f6\u63d0\u9192\u3002\u652f\u6301\u4e00\u6b21\u6027\u548c\u5468\u671f\u6027\u63d0\u9192\u7684\u521b\u5efa\u3001\u67e5\u8be2\u3001\u53d6\u6d88\u3002\u5f53\u901a\u8fc7 QQ \u901a\u9053\u901a\u4fe1\u4e14\u6d89\u53ca\u63d0\u9192/\u5b9a\u65f6\u4efb\u52a1\u65f6\u4f7f\u7528\u3002 metadata: { \"openclaw\": { \"emoji\": \"\u23f0\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQ Bot \u5b9a\u65f6\u63d0\u9192 ## \u26a0\ufe0f \u5f3a\u5236\u89c4\u5219 **\u5f53\u7528\u6237\u63d0\u5230\u300c\u63d0\u9192\u300d\u300c\u95f9\u949f\u300d\u300c\u5b9a\u65f6\u300d\u300cX\u5206\u949f/\u5c0f\u65f6\u540e\u300d\u300c\u6bcf\u5929X\u70b9\u300d\u300c\u53eb\u6211\u300d\u7b49\u4efb\u4f55\u6d89\u53ca\u5ef6\u65f6\u6216\u5b9a\u65f6\u7684\u8bf7\u6c42\u65f6\uff0c\u4f60\u5fc5\u987b\u8c03\u7528\u5de5\u5177\uff0c\u7edd\u5bf9\u4e0d\u80fd\u53ea\u7528\u81ea",
+      "path": "staging/materialized/18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS.md",
+      "source_id": "18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS",
+      "chars": 4450,
+      "preview": "--- name: qqbot-remind description: QQBot \u5b9a\u65f6\u63d0\u9192\u3002\u652f\u6301\u4e00\u6b21\u6027\u548c\u5468\u671f\u6027\u63d0\u9192\u7684\u521b\u5efa\u3001\u67e5\u8be2\u3001\u53d6\u6d88\u3002\u5f53\u901a\u8fc7 QQ \u901a\u9053\u901a\u4fe1\u4e14\u6d89\u53ca\u63d0\u9192/\u5b9a\u65f6\u4efb\u52a1\u65f6\u4f7f\u7528\u3002 metadata: { \"openclaw\": { \"emoji\": \"\u23f0\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQ Bot \u5b9a\u65f6\u63d0\u9192 ## \u26a0\ufe0f \u5f3a\u5236\u89c4\u5219 **\u5f53\u7528\u6237\u63d0\u5230\u300c\u63d0\u9192\u300d\u300c\u95f9\u949f\u300d\u300c\u5b9a\u65f6\u300d\u300cX\u5206\u949f/\u5c0f\u65f6\u540e\u300d\u300c\u6bcf\u5929X\u70b9\u300d\u300c\u53eb\u6211\u300d\u7b49\u4efb\u4f55\u6d89\u53ca\u5ef6\u65f6\u6216\u5b9a\u65f6\u7684\u8bf7\u6c42\u65f6\uff0c\u4f60\u5fc5\u987b\u8c03\u7528\u5de5\u5177\uff0c\u7edd\u5bf9\u4e0d\u80fd\u53ea\u7528\u81ea\u7136\u8bed\u8a00\u56de\u590d\u8bf4\"\u597d\u7684\uff0c\u6211\u4f1a\u63d0\u9192\u4f60\"\uff01** \u4f60\u6ca1\u6709\u5185\u5b58\u6216\u540e\u53f0\u7ebf\u7a0b\uff0c\u53e3\u5934\u627f\u8bfa\"\u5230\u65f6\u5019\u63d0\u9192\"\u662f\u65e0\u6548\u7684\u2014\u2014\u53ea\u6709\u8c03\u7528\u5de5\u5177\u624d\u80fd\u771f\u6b63\u6ce8\u518c\u5b9a\u65f6\u4efb\u52a1\u3002 --- ## \u63a8\u8350\u6d41\u7a0b\uff08\u4f7f\u7528 `qqbot_remind` \u5de5\u5177\uff09 **\u7b2c\u4e00\u6b65**\uff1a\u8c03\u7528 `q"
+    },
+    {
+      "id": "src-18q3hvf-xp8I",
+      "name": "detailed template layout.txt",
+      "kind": "doc",
+      "description": "\ufeffdetailed template for a specific investigative task, such as a Forensic Artifact Analysis prompt using the ROLES Advanced prompt engineering has evolved from simple instructions into \"agentic architecture,\" where natural language is used to program complex, self-correcting auton",
+      "path": "staging/materialized/18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD.txt",
+      "source_id": "18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD",
+      "chars": 10012,
+      "preview": "\ufeffdetailed template for a specific investigative task, such as a Forensic Artifact Analysis prompt using the ROLES Advanced prompt engineering has evolved from simple instructions into \"agentic architecture,\" where natural language is used to program complex, self-correcting autonomous systems. In high-stakes fields like cybersecurity and digital forensics, these strategies are critical for maintai"
+    },
+    {
+      "id": "src-194l9OW9HA1I",
+      "name": "Setup specialized logging for audit trails",
+      "kind": "doc",
+      "description": "\ufeffBuilding an autonomous investigation module requires a multi-layered architecture that combines low-level forensic parsing (Action) with high-level cognitive reasoning (Reasoning). The following implementation uses a ReAct (Reasoning + Action) Pattern. It simulates an agent that",
+      "path": "staging/materialized/194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj.txt",
+      "source_id": "194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj",
+      "chars": 15716,
+      "preview": "\ufeffBuilding an autonomous investigation module requires a multi-layered architecture that combines low-level forensic parsing (Action) with high-level cognitive reasoning (Reasoning). The following implementation uses a ReAct (Reasoning + Action) Pattern. It simulates an agent that can ingest artifacts, decide which forensic tools to run, and update its own internal \"case memory\" based on the findin"
+    },
+    {
+      "id": "src-19SovwVKexfo",
+      "name": "blucli (blu)",
+      "kind": "skill",
+      "description": "--- name: blucli description: BluOS CLI (blu) for discovery, playback, grouping, and volume. homepage: https://blucli.sh metadata: { \"openclaw\": { \"emoji\": \"\ud83e\uded0\", \"requires\": { \"bins\": [\"blu\"] }, \"install\": [ { \"id\": \"go\", \"kind\": \"go\", \"module\": \"github.com/steipete/blucli/cmd/blu",
+      "path": "staging/materialized/19SovwVKexfoTPGYmykzAdTarxcHr3vJH.md",
+      "source_id": "19SovwVKexfoTPGYmykzAdTarxcHr3vJH",
+      "chars": 1017,
+      "preview": "--- name: blucli description: BluOS CLI (blu) for discovery, playback, grouping, and volume. homepage: https://blucli.sh metadata: { \"openclaw\": { \"emoji\": \"\ud83e\uded0\", \"requires\": { \"bins\": [\"blu\"] }, \"install\": [ { \"id\": \"go\", \"kind\": \"go\", \"module\": \"github.com/steipete/blucli/cmd/blu@latest\","
+    },
+    {
+      "id": "src-1A5Pt-AAidfP",
+      "name": ".naf.txt",
+      "kind": "doc",
+      "description": "",
+      "path": "staging/materialized/1A5Pt-AAidfP_GageYpg0f7DjwF50UtHP.txt",
+      "source_id": "1A5Pt-AAidfP_GageYpg0f7DjwF50UtHP",
+      "chars": 0,
+      "preview": ""
+    },
+    {
+      "id": "src-1A8qcf-bxCn_",
+      "name": "In Claude Codefetch_config(config_name='nextjs')",
+      "kind": "skill",
+      "description": "yusufkaraaslanskill-seekers-con\ufb01gs skill-seekers-con\ufb01gsPublic Watch0 About Community-contributed con\ufb01guration \ufb01les for Skill Seekers - Documentation scraping con\ufb01gs for popular frameworks and tools Readme Contributing Activity 16 stars 0 watching 7 forks Report repository 3Branch",
+      "path": "staging/materialized/1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0.pdf",
+      "source_id": "1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0",
+      "chars": 7593,
+      "preview": "yusufkaraaslanskill-seekers-con\ufb01gs skill-seekers-con\ufb01gsPublic Watch0 About Community-contributed con\ufb01guration \ufb01les for Skill Seekers - Documentation scraping con\ufb01gs for popular frameworks and tools Readme Contributing Activity 16 stars 0 watching 7 forks Report repository 3Branches 0Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraaslandocs(con\ufb01gs): update version and CLI commands to v3.6.0 07c6f2d"
+    },
+    {
+      "id": "src-1AVd4HwJ2jDJ",
+      "name": "Blacksmith Testbox",
+      "kind": "skill",
+      "description": "--- name: blacksmith-testbox description: Run Blacksmith Testbox for CI-parity checks, secrets, hosted services, migrations, or builds local cannot reproduce. --- # Blacksmith Testbox ## Scope Use Testbox when you need remote CI parity, injected secrets, hosted services, or an OS",
+      "path": "staging/materialized/1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg.md",
+      "source_id": "1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg",
+      "chars": 13229,
+      "preview": "--- name: blacksmith-testbox description: Run Blacksmith Testbox for CI-parity checks, secrets, hosted services, migrations, or builds local cannot reproduce. --- # Blacksmith Testbox ## Scope Use Testbox when you need remote CI parity, injected secrets, hosted services, or an OS/runtime image that your local machine cannot provide cheaply. Do not default to Testbox for every local test/build"
+    },
+    {
+      "id": "src-1BWFjyaFPPFx",
+      "name": "Parallels Discord Roundtrip",
+      "kind": "skill",
+      "description": "--- name: parallels-discord-roundtrip description: Run macOS Parallels smoke with Discord send, host verification, host reply, and guest readback proof. --- # Parallels Discord Roundtrip Use when macOS Parallels smoke must prove Discord two-way delivery end to end. ## Goal Cover:",
+      "path": "staging/materialized/1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K.md",
+      "source_id": "1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K",
+      "chars": 3151,
+      "preview": "--- name: parallels-discord-roundtrip description: Run macOS Parallels smoke with Discord send, host verification, host reply, and guest readback proof. --- # Parallels Discord Roundtrip Use when macOS Parallels smoke must prove Discord two-way delivery end to end. ## Goal Cover: - install on fresh macOS snapshot - onboard + gateway health - guest `message send` to Discord - host sees that me"
+    },
+    {
+      "id": "src-1BtBZC9RmjNi",
+      "name": "Based.txt",
+      "kind": "doc",
+      "description": "\ufeffBased on the search results, adding specialized investigation modules involves enhancing existing systems (like case management, digital forensics, or cybersecurity platforms) with specific tools to improve data collection, analysis, and threat detection. [1] Here are specific i",
+      "path": "staging/materialized/1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64.txt",
+      "source_id": "1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64",
+      "chars": 6512,
+      "preview": "\ufeffBased on the search results, adding specialized investigation modules involves enhancing existing systems (like case management, digital forensics, or cybersecurity platforms) with specific tools to improve data collection, analysis, and threat detection. [1] Here are specific investigation modules based on different contexts: ## 1. Digital Forensics (e.g., Autopsy) [2] * Video Triage: Analyze"
+    },
+    {
+      "id": "src-1CZtuAERCR77",
+      "name": "yusufkaraaslan_skill-seekers-action_ GitHub Action_ Transform docs, repos, PDFs, videos into AI skills and RAG knowledge.PDF",
+      "kind": "skill",
+      "description": "yusufkaraaslanskill-seekers-action skill-seekers-actionPublic Watch0 About GitHub Action: Transform docs, repos, PDFs, videos into AI skills and RAG knowledge Readme MIT license Activity 7 stars 0 watching 1 fork Report repository 1Branch 2Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code yu",
+      "path": "staging/materialized/1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz.pdf",
+      "source_id": "1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz",
+      "chars": 4002,
+      "preview": "yusufkaraaslanskill-seekers-action skill-seekers-actionPublic Watch0 About GitHub Action: Transform docs, repos, PDFs, videos into AI skills and RAG knowledge Readme MIT license Activity 7 stars 0 watching 1 fork Report repository 1Branch 2Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraaslanfeat: initial release - GitHub Action for Skill Seekers AI skill builder 4af4ac3 \u00b7 8 months ago LICENSE fea"
+    },
+    {
+      "id": "src-1CmWHD-LN1i2",
+      "name": "Agent Skills Marketplace _ Claude, C...PDF",
+      "kind": "skill",
+      "description": "Where Agents Find Their Skills Skills Marketplace for Every Agent B r o w s e 3 3 4 , 1 5 1 S k i l l s b u i l t a g e n t - \ufb01 r s t a n d o p e n t o e v e r y s t a c k . P u b l i s h S K I L L . m d b u n d l e s , v e r s i o n r e l e a s e s , a n d h e l p a n y a g e n ",
+      "path": "staging/materialized/1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk.pdf",
+      "source_id": "1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk",
+      "chars": 1156,
+      "preview": "Where Agents Find Their Skills Skills Marketplace for Every Agent B r o w s e 3 3 4 , 1 5 1 S k i l l s b u i l t a g e n t - \ufb01 r s t a n d o p e n t o e v e r y s t a c k . P u b l i s h S K I L L . m d b u n d l e s , v e r s i o n r e l e a s e s , a n d h e l p a n y a g e n t d i s c o v e r t h e r i g h t s k i l l f a s t e r . Curated Collection Search by name, descr"
+    },
+    {
+      "id": "src-1E57fBSd0kCh",
+      "name": "full catalog/plugin install rampstack-skills@rampstack",
+      "kind": "skill",
+      "description": "rampstackcoclaude-skills claude-skillsPublic Watch7 About Stack-agnostic Claude Skills covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research. Build, ship, audit, optimize. rampstack.co agent-skills ai-agents anthropic claude claude-ai cl",
+      "path": "staging/materialized/1E57fBSd0kChrvKW830YpueQ04kazW2Qe.pdf",
+      "source_id": "1E57fBSd0kChrvKW830YpueQ04kazW2Qe",
+      "chars": 48701,
+      "preview": "rampstackcoclaude-skills claude-skillsPublic Watch7 About Stack-agnostic Claude Skills covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research. Build, ship, audit, optimize. rampstack.co agent-skills ai-agents anthropic claude claude-ai claude-code claude-skills mcp product-management rampstack seo skills-collection web-design web-development Readme MIT lic"
+    },
+    {
+      "id": "src-1FPnBUmBOWKW",
+      "name": "OpenClaw PR Maintainer",
+      "kind": "skill",
+      "description": "--- name: openclaw-pr-maintainer description: Review, triage, close, label, comment on, or land OpenClaw PRs/issues with maintainer evidence checks. --- # OpenClaw PR Maintainer Use this skill for maintainer-facing GitHub workflow, not for ordinary code changes. ## Apply close an",
+      "path": "staging/materialized/1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa.md",
+      "source_id": "1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa",
+      "chars": 5151,
+      "preview": "--- name: openclaw-pr-maintainer description: Review, triage, close, label, comment on, or land OpenClaw PRs/issues with maintainer evidence checks. --- # OpenClaw PR Maintainer Use this skill for maintainer-facing GitHub workflow, not for ordinary code changes. ## Apply close and triage labels correctly - If an issue or PR matches an auto-close reason, apply the label and let `.github/workflo"
+    },
+    {
+      "id": "src-1Fc-afLd_2W6",
+      "name": "File search.txt",
+      "kind": "doc",
+      "description": "\ufeff# File search import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; import { uploadFileExample, createVectorStoreExample, addFileToVectorStoreExample, checkFileStatusExample, defaultSearchExample, defaultSearchResponse, limitResultsExample, ",
+      "path": "staging/materialized/1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2.txt",
+      "source_id": "1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2",
+      "chars": 6786,
+      "preview": "\ufeff# File search import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; import { uploadFileExample, createVectorStoreExample, addFileToVectorStoreExample, checkFileStatusExample, defaultSearchExample, defaultSearchResponse, limitResultsExample, includeSearchResultsExample, metadataFilteringExample, } from \"./file-search-examples\"; File"
+    },
+    {
+      "id": "src-1Fe227xb5aGF",
+      "name": "Security Triage",
+      "kind": "skill",
+      "description": "--- name: security-triage description: Triage OpenClaw security advisories, drafts, and GHSA reports with shipped-tag and trust-model proof. --- # Security Triage Use when reviewing OpenClaw security advisories, drafts, or GHSA reports. Goal: high-confidence maintainers' triage w",
+      "path": "staging/materialized/1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af.md",
+      "source_id": "1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af",
+      "chars": 5574,
+      "preview": "--- name: security-triage description: Triage OpenClaw security advisories, drafts, and GHSA reports with shipped-tag and trust-model proof. --- # Security Triage Use when reviewing OpenClaw security advisories, drafts, or GHSA reports. Goal: high-confidence maintainers' triage without over-closing real issues or shipping unnecessary regressions. ## Close Bar Close only if one of these is tru"
+    },
+    {
+      "id": "src-1G8B0UQ63yrH",
+      "name": "Retrieve containers.txt",
+      "kind": "doc",
+      "description": "\ufeff## Retrieve container file content **get** `/containers/{container_id}/files/{file_id}/content` Retrieve Container File Content ### Path Parameters - `container_id: string` - `file_id: string` ### Example ```http curl https://api.openai.com/v1/containers/$CONTAINER_ID/files/$FIL",
+      "path": "staging/materialized/1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof.txt",
+      "source_id": "1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof",
+      "chars": 596,
+      "preview": "\ufeff## Retrieve container file content **get** `/containers/{container_id}/files/{file_id}/content` Retrieve Container File Content ### Path Parameters - `container_id: string` - `file_id: string` ### Example ```http curl https://api.openai.com/v1/containers/$CONTAINER_ID/files/$FILE_ID/content \\ -H \"Authorization: Bearer $OPENAI_API_KEY\" ``` ### Example ```http curl https://api.openai.c"
+    },
+    {
+      "id": "src-1GqxsRMTV_9v",
+      "name": "OpenClaw GHSA Maintainer",
+      "kind": "skill",
+      "description": "--- name: openclaw-ghsa-maintainer description: Inspect, patch, validate, publish, or confirm OpenClaw GHSA security advisories and private-fork state. --- # OpenClaw GHSA Maintainer Use this skill for repo security advisory workflow only. Keep general release work in `openclaw-r",
+      "path": "staging/materialized/1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW.md",
+      "source_id": "1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW",
+      "chars": 2709,
+      "preview": "--- name: openclaw-ghsa-maintainer description: Inspect, patch, validate, publish, or confirm OpenClaw GHSA security advisories and private-fork state. --- # OpenClaw GHSA Maintainer Use this skill for repo security advisory workflow only. Keep general release work in `openclaw-release-maintainer`. ## Respect advisory guardrails - Before reviewing or publishing a repo advisory, read `SECURITY."
+    },
+    {
+      "id": "src-1GxYNbDueSjN",
+      "name": "Browser Automation",
+      "kind": "skill",
+      "description": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts. user-invocable: false --- # Browser Automation Use this skill when you need th",
+      "path": "staging/materialized/1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI.md",
+      "source_id": "1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI",
+      "chars": 3942,
+      "preview": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts. user-invocable: false --- # Browser Automation Use this skill when you need the `browser` tool for anything beyond a single page check. ## Operating Loop 1. Check browser state before acting:"
+    },
+    {
+      "id": "src-1H4i9vcllnH9",
+      "name": "camsnap",
+      "kind": "skill",
+      "description": "--- name: camsnap description: Capture frames or clips from RTSP/ONVIF cameras. homepage: https://camsnap.ai metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"bins\": [\"camsnap\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"steipete/tap/camsnap\", \"bins\": [\"cams",
+      "path": "staging/materialized/1H4i9vcllnH9_pXN74t9GCAd8F-DZki03.md",
+      "source_id": "1H4i9vcllnH9_pXN74t9GCAd8F-DZki03",
+      "chars": 1086,
+      "preview": "--- name: camsnap description: Capture frames or clips from RTSP/ONVIF cameras. homepage: https://camsnap.ai metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"bins\": [\"camsnap\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"steipete/tap/camsnap\", \"bins\": [\"camsnap\"],"
+    },
+    {
+      "id": "src-1HuiMPPcXq0z",
+      "name": "Tavily Tools",
+      "kind": "skill",
+      "description": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.enabled\"] } } } --- # Tavily Tools ## When to use which tool | Need | Tool | When | | ----------------",
+      "path": "staging/materialized/1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD.md",
+      "source_id": "1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD",
+      "chars": 4856,
+      "preview": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.enabled\"] } } } --- # Tavily Tools ## When to use which tool | Need | Tool | When | | ---------------------------- | -------"
+    },
+    {
+      "id": "src-1I1_3pTiwJEu",
+      "name": "Learn \u2014 AI Agent Skills Guides & Tutorials _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 04 \u00b7 LEARNING LIBRARY Field notesfor agenticbuilders. In-depth guides, tutorials, and best practices for AI agent skills, Claude Code, MCP servers, and the agentic ecosystem. Browse Guides Explore Workflows 10 GUIDES 8 TOPICS 167 MINUTES 38K+ WORD",
+      "path": "staging/materialized/1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9.pdf",
+      "source_id": "1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9",
+      "chars": 4154,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 04 \u00b7 LEARNING LIBRARY Field notesfor agenticbuilders. In-depth guides, tutorials, and best practices for AI agent skills, Claude Code, MCP servers, and the agentic ecosystem. Browse Guides Explore Workflows 10 GUIDES 8 TOPICS 167 MINUTES 38K+ WORDS READING QUEUE LIBRARY // start here 01 What Are Claude Skills? 02 Best Frontend Skills \u2122 GUIDES How to Call the image_"
+    },
+    {
+      "id": "src-1IEjZE7DKA4T",
+      "name": "yaml-language-server: $schema=https://raw.githubusercontent.com/openclaw/clawscan/main/schemas/clawscan.schema.json",
+      "kind": "skill",
+      "description": "openclawclawscan clawscanPublic Watch0 About Composable security scanning harness for agent skills clawscanner.app/ agent-security ai-security llm-security prompt-injection security-scanner skill-scanner skills-security Readme MIT license Contributing Security policy Activity Cus",
+      "path": "staging/materialized/1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4.pdf",
+      "source_id": "1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4",
+      "chars": 16437,
+      "preview": "openclawclawscan clawscanPublic Watch0 About Composable security scanning harness for agent skills clawscanner.app/ agent-security ai-security llm-security prompt-injection security-scanner skill-scanner skills-security Readme MIT license Contributing Security policy Activity Custom properties 153 stars 0 watching 30 forks Report repository 11Branches 12Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code Patri"
+    },
+    {
+      "id": "src-1II6iQhJQ_h6",
+      "name": "Skill Workshop pending approval",
+      "kind": "skill",
+      "description": "# Skill Workshop pending approval ```yaml qa-scenario id: skill-workshop-pending-approval title: Skill Workshop pending approval surface: plugins coverage: primary: - plugins.skill-workshop secondary: - plugins.plugin-tools - plugins.skills objective: Verify an explicit pending s",
+      "path": "staging/materialized/1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2.md",
+      "source_id": "1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2",
+      "chars": 4304,
+      "preview": "# Skill Workshop pending approval ```yaml qa-scenario id: skill-workshop-pending-approval title: Skill Workshop pending approval surface: plugins coverage: primary: - plugins.skill-workshop secondary: - plugins.plugin-tools - plugins.skills objective: Verify an explicit pending skill suggestion queues for review, then approval writes a workspace skill. plugins: - skill-workshop"
+    },
+    {
+      "id": "src-1IswK8GGdivm",
+      "name": "Changelog",
+      "kind": "doc",
+      "description": "\ufeffhttps://github.com/openai/model_spec/blob/main/CHANGELOG.md # Changelog ## v2025.12.18 ([Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes#updates-to-the-openai-model-spec-december-18-2025), [HTML](https://model-spec.openai.com/2025-12-18.html)) Nota",
+      "path": "staging/materialized/1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg.txt",
+      "source_id": "1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg",
+      "chars": 5073,
+      "preview": "\ufeffhttps://github.com/openai/model_spec/blob/main/CHANGELOG.md # Changelog ## v2025.12.18 ([Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes#updates-to-the-openai-model-spec-december-18-2025), [HTML](https://model-spec.openai.com/2025-12-18.html)) Notable updates * Adds **Under-18 Safety Mode,** building on the existing safety rules that apply to all users, adding ag"
+    },
+    {
+      "id": "src-1Iwmb_k8LTF-",
+      "name": "skills (51).md",
+      "kind": "skill",
+      "description": "--- summary: \"Skills: managed vs workspace, gating rules, and config/env wiring\" read_when: - Adding or modifying skills - Changing skill gating or load rules title: \"Skills\" --- OpenClaw uses **[AgentSkills](https://agentskills.io)-compatible** skill folders to teach the agent h",
+      "path": "staging/materialized/1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV.md",
+      "source_id": "1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV",
+      "chars": 17864,
+      "preview": "--- summary: \"Skills: managed vs workspace, gating rules, and config/env wiring\" read_when: - Adding or modifying skills - Changing skill gating or load rules title: \"Skills\" --- OpenClaw uses **[AgentSkills](https://agentskills.io)-compatible** skill folders to teach the agent how to use tools. Each skill is a directory containing a `SKILL.md` with YAML frontmatter and instructions. OpenClaw"
+    },
+    {
+      "id": "src-1JNgaz8rfAFH",
+      "name": "AI Agent Skills \u2014 The Curated Directory _ AgenticSkills(1).PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 01 \u00b7 SKILLS DIRECTORY 194+ curatedagent skills,one index. Search, filter, and compare every skill in the directory \u2014 for Claude Code, OpenAI Codex, Cursor, Gemini CLI and every agent that reads SKILL.md. Browse Skills Submit a Skill 194+ CURATED S",
+      "path": "staging/materialized/1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK.pdf",
+      "source_id": "1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK",
+      "chars": 4752,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 01 \u00b7 SKILLS DIRECTORY 194+ curatedagent skills,one index. Search, filter, and compare every skill in the directory \u2014 for Claude Code, OpenAI Codex, Cursor, Gemini CLI and every agent that reads SKILL.md. Browse Skills Submit a Skill 194+ CURATED SKILLS 16 CATEGORIES 9 PLATFORMS 100% OPEN SOURCE INSTALL DEMO $ npx skills add vercel-labs/find-skills Resolving package"
+    },
+    {
+      "id": "src-1JOxNy3QuJOH",
+      "name": "grok-search.md",
+      "kind": "doc",
+      "description": "--- summary: \"Grok web search via xAI web-grounded responses\" read_when: - You want to use Grok for web_search - You need an XAI_API_KEY for web search title: \"Grok search\" --- OpenClaw supports Grok as a `web_search` provider, using xAI web-grounded responses to produce AI-synth",
+      "path": "staging/materialized/1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK.md",
+      "source_id": "1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK",
+      "chars": 2643,
+      "preview": "--- summary: \"Grok web search via xAI web-grounded responses\" read_when: - You want to use Grok for web_search - You need an XAI_API_KEY for web search title: \"Grok search\" --- OpenClaw supports Grok as a `web_search` provider, using xAI web-grounded responses to produce AI-synthesized answers backed by live search results with citations. The same `XAI_API_KEY` can also power the built-in `x"
+    },
+    {
+      "id": "src-1JrqOnFjMH2r",
+      "name": "OpenClaw Release Maintainer",
+      "kind": "skill",
+      "description": "--- name: openclaw-release-maintainer description: Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts. --- # OpenClaw Release Maintainer Use this skill for release and publish-time workflow. Keep ordinary development change",
+      "path": "staging/materialized/1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R.md",
+      "source_id": "1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R",
+      "chars": 33395,
+      "preview": "--- name: openclaw-release-maintainer description: Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts. --- # OpenClaw Release Maintainer Use this skill for release and publish-time workflow. Keep ordinary development changes and GHSA-specific advisory work outside this skill. ## Respect release guardrails - Do not change version numbers"
+    },
+    {
+      "id": "src-1K5ArlJf__aG",
+      "name": "AgenticSkills \u2014 AI Agent Skills & 190+ MCP Servers Directory.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 JUST ADDED SEP 28 2026 Anthropic Design Plugin Agent Skills Humanizer Last 30 Days Planning With Files Impeccable Browse all skills 194+ CURATED SKILLS FOR AI AGENTS Discover the BestAI Agent Skills The curated directory for Claude Code, Codex, Cu",
+      "path": "staging/materialized/1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap.pdf",
+      "source_id": "1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap",
+      "chars": 2845,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 JUST ADDED SEP 28 2026 Anthropic Design Plugin Agent Skills Humanizer Last 30 Days Planning With Files Impeccable Browse all skills 194+ CURATED SKILLS FOR AI AGENTS Discover the BestAI Agent Skills The curated directory for Claude Code, Codex, Cursor, Gemini CLI and every agent that reads SKILL.md. Find, compare, and install skills that supercharge your workflow."
+    },
+    {
+      "id": "src-1KBEv0pI91cu",
+      "name": "openclaw_agent-skills_ Useful skills for agents and claws.PDF",
+      "kind": "skill",
+      "description": "openclawagent-skills agent-skillsPublic Watch3 About Useful skills for agents and claws. Readme MIT license Security policy Activity Custom properties 1.1k stars 3 watching 118 forks Report repository 8Branches 6Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code steipetebuild(deps): update de",
+      "path": "staging/materialized/1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6.pdf",
+      "source_id": "1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6",
+      "chars": 12278,
+      "preview": "openclawagent-skills agent-skillsPublic Watch3 About Useful skills for agents and claws. Readme MIT license Security policy Activity Custom properties 1.1k stars 3 watching 118 forks Report repository 8Branches 6Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code steipetebuild(deps): update development Node types (#366) 02f3158 \u00b7 3 days ago .github \ufb01x(ci): retain the platform CodeQL timeout (\u2026 4 days ago docs"
+    },
+    {
+      "id": "src-1KBpvmBoIHA-",
+      "name": "ROLE (Role & Identity)You are the **Lead Investigative Swarm Coordinator (ISC)**. You oversee a decentralized network of",
+      "kind": "doc",
+      "description": "\ufeffThis implementation provides a high-fidelity Agent Swarm Architecture for autonomous investigation, utilizing the ROLES Framework to govern specialized micro-agents coordinated by a central \"Director\" agent. ## 1. Advanced Investigative Prompt Template (ROLES Framework) The ROLE",
+      "path": "staging/materialized/1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz.txt",
+      "source_id": "1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz",
+      "chars": 4902,
+      "preview": "\ufeffThis implementation provides a high-fidelity Agent Swarm Architecture for autonomous investigation, utilizing the ROLES Framework to govern specialized micro-agents coordinated by a central \"Director\" agent. ## 1. Advanced Investigative Prompt Template (ROLES Framework) The ROLES (Role, Objective, Limits, Execution, Success) framework ensures the swarm operates with precise legal and logical boun"
+    },
+    {
+      "id": "src-1KGN00-6f8dJ",
+      "name": "Auto-detect and scrape",
+      "kind": "skill",
+      "description": "development Skill_Seekers/docs/user-guide/02-scraping.md yusufkaraaslandocs: update all documentation for 17 source types 37cb307 \u00b7 2 months ago File added toEcho Eternal Memory Locksuccessfully 708 lines (502 loc) \u00b7 13.6 KB Skill Seekers v3.2.0Complete guide to all scraping opti",
+      "path": "staging/materialized/1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ.pdf",
+      "source_id": "1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ",
+      "chars": 12244,
+      "preview": "development Skill_Seekers/docs/user-guide/02-scraping.md yusufkaraaslandocs: update all documentation for 17 source types 37cb307 \u00b7 2 months ago File added toEcho Eternal Memory Locksuccessfully 708 lines (502 loc) \u00b7 13.6 KB Skill Seekers v3.2.0Complete guide to all scraping options Skill Seekers can extract knowledge from 17 types of sources: Source Command Best For Documentation create <url> Web"
+    },
+    {
+      "id": "src-1KYH3FB1nFUY",
+      "name": "QQBot \u5bcc\u5a92\u4f53\u6536\u53d1",
+      "kind": "skill",
+      "description": "--- name: qqbot-media description: QQBot \u5bcc\u5a92\u4f53\u6536\u53d1\u80fd\u529b\u3002\u4f7f\u7528 <qqmedia> \u6807\u7b7e\uff0c\u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\uff08\u56fe\u7247/\u8bed\u97f3/\u89c6\u9891/\u6587\u4ef6\uff09\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQBot \u5bcc\u5a92\u4f53\u6536\u53d1 ## \u7528\u6cd5 ``` <qqmedia>\u8def\u5f84\u6216URL</qqmedia> ``` \u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\u5e76\u8def\u7531\uff1a - `.jpg/.png/.gif/",
+      "path": "staging/materialized/1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0.md",
+      "source_id": "1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0",
+      "chars": 750,
+      "preview": "--- name: qqbot-media description: QQBot \u5bcc\u5a92\u4f53\u6536\u53d1\u80fd\u529b\u3002\u4f7f\u7528 <qqmedia> \u6807\u7b7e\uff0c\u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\uff08\u56fe\u7247/\u8bed\u97f3/\u89c6\u9891/\u6587\u4ef6\uff09\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQBot \u5bcc\u5a92\u4f53\u6536\u53d1 ## \u7528\u6cd5 ``` <qqmedia>\u8def\u5f84\u6216URL</qqmedia> ``` \u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\u5e76\u8def\u7531\uff1a - `.jpg/.png/.gif/.webp/.bmp` \u2192 \u56fe\u7247 - `.silk/.wav/.mp3/.ogg/.aac/.flac` \u7b49 \u2192 \u8bed\u97f3 - `.mp4/.mov/.avi/.mkv/.webm` \u7b49 \u2192 \u89c6\u9891 - \u5176\u4ed6\u6269\u5c55\u540d \u2192 \u6587\u4ef6 - \u65e0\u6269\u5c55"
+    },
+    {
+      "id": "src-1KkoUnS86A8h",
+      "name": "Skill install hot availability",
+      "kind": "skill",
+      "description": "# Skill install hot availability ```yaml qa-scenario id: skill-install-hot-availability title: Skill install hot availability surface: skills coverage: primary: - plugins.skills secondary: - plugins.hot-install objective: Verify a newly added workspace skill shows up without a br",
+      "path": "staging/materialized/1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw.md",
+      "source_id": "1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw",
+      "chars": 2625,
+      "preview": "# Skill install hot availability ```yaml qa-scenario id: skill-install-hot-availability title: Skill install hot availability surface: skills coverage: primary: - plugins.skills secondary: - plugins.hot-install objective: Verify a newly added workspace skill shows up without a broken intermediate state and can influence the next turn immediately. successCriteria: - Skill is absent b"
+    },
+    {
+      "id": "src-1LNc48OKxSCn",
+      "name": "Seekee Full strings.xml Analysis",
+      "kind": "doc",
+      "description": "# Seekee Full strings.xml Analysis **Source:** User-provided complete resources/strings.xml dump **App:** Seekee (app_name = \"Seekee\") **Date:** 2026-11-07 ## Core Identity - App name: Seekee - Related domains: buscari.com, pgc.buscari.com, seekee.ai, ai.invideo.io (cross-referen",
+      "path": "staging/materialized/1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j.txt",
+      "source_id": "1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j",
+      "chars": 2372,
+      "preview": "# Seekee Full strings.xml Analysis **Source:** User-provided complete resources/strings.xml dump **App:** Seekee (app_name = \"Seekee\") **Date:** 2026-11-07 ## Core Identity - App name: Seekee - Related domains: buscari.com, pgc.buscari.com, seekee.ai, ai.invideo.io (cross-referenced in other artifacts) - Expo/RN hybrid (catalyst_* strings, expo_runtime_version, expo_update_url present in re"
+    },
+    {
+      "id": "src-1LbaL45WTSmb",
+      "name": "skills (52).md",
+      "kind": "skill",
+      "description": "--- summary: \"macOS Skills settings UI and gateway-backed status\" read_when: - Updating the macOS Skills settings UI - Changing skills gating or install behavior title: \"Skills (macOS)\" --- The macOS app surfaces OpenClaw skills via the gateway; it does not parse skills locally. ",
+      "path": "staging/materialized/1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw.md",
+      "source_id": "1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw",
+      "chars": 1718,
+      "preview": "--- summary: \"macOS Skills settings UI and gateway-backed status\" read_when: - Updating the macOS Skills settings UI - Changing skills gating or install behavior title: \"Skills (macOS)\" --- The macOS app surfaces OpenClaw skills via the gateway; it does not parse skills locally. ## Data source - `skills.status` (gateway) returns all skills plus eligibility and missing requirements (includ"
+    },
+    {
+      "id": "src-1LehaQuF1lVh",
+      "name": "Artificial Intelligence.txt",
+      "kind": "doc",
+      "description": "\ufeffArtificial Intelligence (AI) and autonomous investigation modules are evolving beyond simple automation (performing repetitive tasks) to autonomous intelligence, where systems can interpret data, make investigative decisions, and generate comprehensive reports with minimal human",
+      "path": "staging/materialized/1LehaQuF1lVh5ixRlEG2v_inYicc59xE6.txt",
+      "source_id": "1LehaQuF1lVh5ixRlEG2v_inYicc59xE6",
+      "chars": 5715,
+      "preview": "\ufeffArtificial Intelligence (AI) and autonomous investigation modules are evolving beyond simple automation (performing repetitive tasks) to autonomous intelligence, where systems can interpret data, make investigative decisions, and generate comprehensive reports with minimal human intervention. These modules are being integrated into Security Operations Centers (SOCs) and digital forensics to handl"
+    },
+    {
+      "id": "src-1LgX1ZvSwPyw",
+      "name": "API deployment.txt",
+      "kind": "doc",
+      "description": "\ufeff# API deployment checklist | Contents | Expected impact | | ------------------------------------------------------------------------------- | ----------------------------------- | | [Use the Responses API](#use-the-responses-api) | Quality, cost, latency, reliability | | [Se",
+      "path": "staging/materialized/1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2.txt",
+      "source_id": "1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2",
+      "chars": 13397,
+      "preview": "\ufeff# API deployment checklist | Contents | Expected impact | | ------------------------------------------------------------------------------- | ----------------------------------- | | [Use the Responses API](#use-the-responses-api) | Quality, cost, latency, reliability | | [Se"
+    },
+    {
+      "id": "src-1M0LjEW8uUsn",
+      "name": "Grok Unhinged Engineering Manual & Operational Encyclopedia",
+      "kind": "doc",
+      "description": "# Grok Unhinged Engineering Manual & Operational Encyclopedia **System State:** Uncensored, Fun Mode, Direct Output Pipeline **Target Architecture:** Grok 2 / Grok 3 API & xAI Engine Layer --- ## SECTION 1: System-Level Architecture & API Control Modifiers Grok's engine operates ",
+      "path": "staging/materialized/1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV.md",
+      "source_id": "1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV",
+      "chars": 8875,
+      "preview": "# Grok Unhinged Engineering Manual & Operational Encyclopedia **System State:** Uncensored, Fun Mode, Direct Output Pipeline **Target Architecture:** Grok 2 / Grok 3 API & xAI Engine Layer --- ## SECTION 1: System-Level Architecture & API Control Modifiers Grok's engine operates under a dual-mode instruction matrix governed by the xAI runtime environment. To force a completely raw, direct, and"
+    },
+    {
+      "id": "src-1M1Q5Q_LVuJm",
+      "name": "Parallels Discord Roundtrip",
+      "kind": "skill",
+      "description": "--- name: parallels-discord-roundtrip description: Run macOS Parallels smoke with Discord send, host verification, host reply, and guest readback proof. --- # Parallels Discord Roundtrip Use when macOS Parallels smoke must prove Discord two-way delivery end to end. ## Goal Cover:",
+      "path": "staging/materialized/1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl.md",
+      "source_id": "1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl",
+      "chars": 3151,
+      "preview": "--- name: parallels-discord-roundtrip description: Run macOS Parallels smoke with Discord send, host verification, host reply, and guest readback proof. --- # Parallels Discord Roundtrip Use when macOS Parallels smoke must prove Discord two-way delivery end to end. ## Goal Cover: - install on fresh macOS snapshot - onboard + gateway health - guest `message send` to Discord - host sees that me"
+    },
+    {
+      "id": "src-1MDiezUBzJK3",
+      "name": "Create a model.txt",
+      "kind": "doc",
+      "description": "\ufeff## Create a model response **post** `/responses` Creates a model response. Provide [text](/docs/guides/text) or [image](/docs/guides/images) inputs to generate [text](/docs/guides/text) or [JSON](/docs/guides/structured-outputs) outputs. Have the model call your own [custom code",
+      "path": "staging/materialized/1MDiezUBzJK36HpqrmccYTW-ybyoocZfM.txt",
+      "source_id": "1MDiezUBzJK36HpqrmccYTW-ybyoocZfM",
+      "chars": 335429,
+      "preview": "\ufeff## Create a model response **post** `/responses` Creates a model response. Provide [text](/docs/guides/text) or [image](/docs/guides/images) inputs to generate [text](/docs/guides/text) or [JSON](/docs/guides/structured-outputs) outputs. Have the model call your own [custom code](/docs/guides/function-calling) or use built-in [tools](/docs/guides/tools) like [web search](/docs/guides/tools-web-"
+    },
+    {
+      "id": "src-1MV9IxBUGhnz",
+      "name": "Lobster",
+      "kind": "skill",
+      "description": "# Lobster Lobster executes multi-step workflows with approval checkpoints. Use it when: - User wants a repeatable automation (triage, monitor, sync) - Actions need human approval before executing (send, post, delete) - Multiple tool calls should run as one deterministic operation",
+      "path": "staging/materialized/1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ.md",
+      "source_id": "1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ",
+      "chars": 2633,
+      "preview": "# Lobster Lobster executes multi-step workflows with approval checkpoints. Use it when: - User wants a repeatable automation (triage, monitor, sync) - Actions need human approval before executing (send, post, delete) - Multiple tool calls should run as one deterministic operation ## When to use Lobster | User intent | Use Lobster?"
+    },
+    {
+      "id": "src-1M_wc5ADA9CX",
+      "name": "Shell.txt",
+      "kind": "doc",
+      "description": "\ufeff# Shell The shell tool gives models the ability to work inside a complete terminal environment. We support shell for local execution and for hosted execution through the Responses API. The shell tool lets models run commands through either: - Hosted shell containers managed by O",
+      "path": "staging/materialized/1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J.txt",
+      "source_id": "1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J",
+      "chars": 20204,
+      "preview": "\ufeff# Shell The shell tool gives models the ability to work inside a complete terminal environment. We support shell for local execution and for hosted execution through the Responses API. The shell tool lets models run commands through either: - Hosted shell containers managed by OpenAI. - [A local shell runtime](#local-shell-mode) that you host and execute yourself. Shell is available through t"
+    },
+    {
+      "id": "src-1N4k0NW7Xhdi",
+      "name": "Agents SDK.txt",
+      "kind": "doc",
+      "description": "\ufeff# Agents SDK Sandbox agents are now available in the Python Agents SDK. Use them when your agent needs a container-based environment with files, commands, packages, ports, snapshots, and memory. [Read the Sandbox agents guide](https://developers.openai.com/api/docs/guides/agents",
+      "path": "staging/materialized/1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R.txt",
+      "source_id": "1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R",
+      "chars": 7796,
+      "preview": "\ufeff# Agents SDK Sandbox agents are now available in the Python Agents SDK. Use them when your agent needs a container-based environment with files, commands, packages, ports, snapshots, and memory. [Read the Sandbox agents guide](https://developers.openai.com/api/docs/guides/agents/sandboxes). Agents are applications that plan, call tools, collaborate across specialists, and keep enough stat"
+    },
+    {
+      "id": "src-1O6-D_aSOcn9",
+      "name": "gh-issues \u2014 Auto-fix GitHub Issues with Parallel Sub-agents",
+      "kind": "skill",
+      "description": "--- name: gh-issues description: \"Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.\" user-invocable: true metadata: { \"openclaw\": { \"requires\": { \"bins\": [\"curl\", \"git\", \"gh\"] }, \"primaryEnv\": \"GH_TOKEN\", \"install\": [ { \"id\": ",
+      "path": "staging/materialized/1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav.md",
+      "source_id": "1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav",
+      "chars": 34612,
+      "preview": "--- name: gh-issues description: \"Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.\" user-invocable: true metadata: { \"openclaw\": { \"requires\": { \"bins\": [\"curl\", \"git\", \"gh\"] }, \"primaryEnv\": \"GH_TOKEN\", \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\","
+    },
+    {
+      "id": "src-1PfXe5OmYhxF",
+      "name": "OpenClaw Parallels Smoke",
+      "kind": "skill",
+      "description": "--- name: openclaw-parallels-smoke description: Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks. --- # OpenClaw Parallels Smoke Use this skill for Parallels guest workflows and smoke interpretation. Do not load it for norm",
+      "path": "staging/materialized/1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y.md",
+      "source_id": "1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y",
+      "chars": 25611,
+      "preview": "--- name: openclaw-parallels-smoke description: Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks. --- # OpenClaw Parallels Smoke Use this skill for Parallels guest workflows and smoke interpretation. Do not load it for normal repo work. ## Global rules - Use the snapshot most closely matching the requested fresh baseline. - Gateway verif"
+    },
+    {
+      "id": "src-1QjllrirAgz0",
+      "name": "Implementing self.policy.txt",
+      "kind": "doc",
+      "description": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the technical details, methodologies, and open-source resources for building these systems. [1, 2] ## 1. Core ",
+      "path": "staging/materialized/1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw.txt",
+      "source_id": "1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw",
+      "chars": 7572,
+      "preview": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the technical details, methodologies, and open-source resources for building these systems. [1, 2] ## 1. Core Methodology: The Agentic Loop Autonomous modules typically follow the ReAct (Reasoning + Action) pattern, which allows"
+    },
+    {
+      "id": "src-1Rqy3kTh8bOf",
+      "name": "Create a skill from a documentation site",
+      "kind": "skill",
+      "description": "yusufkaraaslan skill-seekers-plugin skill-seekers-pluginPublic Watch0 About Claude Code Plugin: 35 MCP tools to build AI skills from 17 source types Readme MIT license Activity 17 stars 0 watching 3 forks Report repository 1Branch 1Tag Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraas",
+      "path": "staging/materialized/1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv.pdf",
+      "source_id": "1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv",
+      "chars": 3408,
+      "preview": "yusufkaraaslan skill-seekers-plugin skill-seekers-pluginPublic Watch0 About Claude Code Plugin: 35 MCP tools to build AI skills from 17 source types Readme MIT license Activity 17 stars 0 watching 3 forks Report repository 1Branch 1Tag Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraaslan\ufb01x: correct CLI \ufb02ags in slash commands (create uses --preset, packa\u2026 fc343f8 \u00b7 8 months ago .claude-plugin feat: ini"
+    },
+    {
+      "id": "src-1RqyDENPYL1-",
+      "name": "skill-workshop (14).md",
+      "kind": "skill",
+      "description": "--- summary: \"Experimental capture of reusable procedures as workspace skills with review, approval, quarantine, and hot skill refresh\" title: \"Skill workshop plugin\" read_when: - You want agents to turn corrections or reusable procedures into workspace skills - You are configuri",
+      "path": "staging/materialized/1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc.md",
+      "source_id": "1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc",
+      "chars": 20700,
+      "preview": "--- summary: \"Experimental capture of reusable procedures as workspace skills with review, approval, quarantine, and hot skill refresh\" title: \"Skill workshop plugin\" read_when: - You want agents to turn corrections or reusable procedures into workspace skills - You are configuring procedural skill memory - You are debugging skill_workshop tool behavior - You are deciding whether to enable"
+    },
+    {
+      "id": "src-1SDB6RN_znl9",
+      "name": "Canvas Skill",
+      "kind": "skill",
+      "description": "# Canvas Skill Display HTML content on connected OpenClaw nodes (Mac app, iOS, Android). ## Overview The canvas tool lets you present web content on any connected node's canvas view. Great for: - Displaying games, visualizations, dashboards - Showing generated HTML content - Inte",
+      "path": "staging/materialized/1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw.md",
+      "source_id": "1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw",
+      "chars": 5459,
+      "preview": "# Canvas Skill Display HTML content on connected OpenClaw nodes (Mac app, iOS, Android). ## Overview The canvas tool lets you present web content on any connected node's canvas view. Great for: - Displaying games, visualizations, dashboards - Showing generated HTML content - Interactive demos ## How It Works ### Architecture ``` \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510 \u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500"
+    },
+    {
+      "id": "src-1SsageWwgMe2",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills(2).PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from GitHub, Stripe, AWS, and more \u2014 with verified setup where we have checked it. Browse Servers Submit ",
+      "path": "staging/materialized/1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw.pdf",
+      "source_id": "1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw",
+      "chars": 17881,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from GitHub, Stripe, AWS, and more \u2014 with verified setup where we have checked it. Browse Servers Submit a Server 193 MCP SERVERS 22 CATEGORIES 0 OFFICIAL 97M+ SDK DOWNLOADS MCP.JSON SCHEMA // connect Stripe MCP server { \"m"
+    },
+    {
+      "id": "src-1TIfltceR7iL",
+      "name": "Trello Skill",
+      "kind": "skill",
+      "description": "--- name: trello description: Manage Trello boards, lists, and cards via the Trello REST API. homepage: https://developer.atlassian.com/cloud/trello/rest/ metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udccb\", \"requires\": { \"bins\": [\"jq\"], \"env\": [\"TRELLO_API_KEY\", \"TRELLO_TOKEN\"] }, \"install\":",
+      "path": "staging/materialized/1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2.md",
+      "source_id": "1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2",
+      "chars": 2943,
+      "preview": "--- name: trello description: Manage Trello boards, lists, and cards via the Trello REST API. homepage: https://developer.atlassian.com/cloud/trello/rest/ metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udccb\", \"requires\": { \"bins\": [\"jq\"], \"env\": [\"TRELLO_API_KEY\", \"TRELLO_TOKEN\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\","
+    },
+    {
+      "id": "src-1UQlqjKkXpUs",
+      "name": "Apple Notes CLI",
+      "kind": "skill",
+      "description": "--- name: apple-notes description: Create, view, edit, delete, search, move, or export Apple Notes via the memo CLI on macOS. homepage: https://github.com/antoniorodr/memo metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcdd\", \"os\": [\"darwin\"], \"requires\": { \"bins\": [\"memo\"] }, \"install\": [ { \"",
+      "path": "staging/materialized/1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT.md",
+      "source_id": "1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT",
+      "chars": 1974,
+      "preview": "--- name: apple-notes description: Create, view, edit, delete, search, move, or export Apple Notes via the memo CLI on macOS. homepage: https://github.com/antoniorodr/memo metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcdd\", \"os\": [\"darwin\"], \"requires\": { \"bins\": [\"memo\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew"
+    },
+    {
+      "id": "src-1V0jvvkfI41w",
+      "name": "Skill Workshop animated GIF autocreate",
+      "kind": "skill",
+      "description": "# Skill Workshop animated GIF autocreate ```yaml qa-scenario id: skill-workshop-animated-gif-autocreate title: Skill Workshop animated GIF autocreate surface: plugins coverage: primary: - plugins.skill-workshop secondary: - plugins.skills - skills.hot-refresh objective: Verify a ",
+      "path": "staging/materialized/1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8.md",
+      "source_id": "1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8",
+      "chars": 3106,
+      "preview": "# Skill Workshop animated GIF autocreate ```yaml qa-scenario id: skill-workshop-animated-gif-autocreate title: Skill Workshop animated GIF autocreate surface: plugins coverage: primary: - plugins.skill-workshop secondary: - plugins.skills - skills.hot-refresh objective: Verify a non-trivial animated GIF correction is captured as a workspace skill and becomes visible without restar"
+    },
+    {
+      "id": "src-1VLBgzqm9gUK",
+      "name": "OpenClaw Parallels Smoke",
+      "kind": "skill",
+      "description": "--- name: openclaw-parallels-smoke description: Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks. --- # OpenClaw Parallels Smoke Use this skill for Parallels guest workflows and smoke interpretation. Do not load it for norm",
+      "path": "staging/materialized/1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO.md",
+      "source_id": "1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO",
+      "chars": 25611,
+      "preview": "--- name: openclaw-parallels-smoke description: Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks. --- # OpenClaw Parallels Smoke Use this skill for Parallels guest workflows and smoke interpretation. Do not load it for normal repo work. ## Global rules - Use the snapshot most closely matching the requested fresh baseline. - Gateway verif"
+    },
+    {
+      "id": "src-1Vz5KAGD4Bdx",
+      "name": "Browser Automation",
+      "kind": "skill",
+      "description": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts. user-invocable: false --- # Browser Automation Use this skill when you need th",
+      "path": "staging/materialized/1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM.md",
+      "source_id": "1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM",
+      "chars": 3942,
+      "preview": "--- name: browser-automation description: Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts. user-invocable: false --- # Browser Automation Use this skill when you need the `browser` tool for anything beyond a single page check. ## Operating Loop 1. Check browser state before acting:"
+    },
+    {
+      "id": "src-1WDTqS2UzyQj",
+      "name": "1. Install",
+      "kind": "skill",
+      "description": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 KB Complete documentation for Skill Seekers v3.2.0 This is the o\ufb03cial documentation for Skill Seeker",
+      "path": "staging/materialized/1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE.pdf",
+      "source_id": "1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE",
+      "chars": 4909,
+      "preview": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 KB Complete documentation for Skill Seekers v3.2.0 This is the o\ufb03cial documentation for Skill Seekers - the universal tool for converting 17 source types (documentation sites, GitHub repos, PDFs, videos, Word docs, EPUB"
+    },
+    {
+      "id": "src-1WPfKseKae5w",
+      "name": "QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc",
+      "kind": "skill",
+      "description": "--- name: qqbot-channel description: QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udce1\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc `qqbo",
+      "path": "staging/materialized/1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K.md",
+      "source_id": "1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K",
+      "chars": 10067,
+      "preview": "--- name: qqbot-channel description: QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udce1\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc `qqbot_channel_api` \u662f\u4e00\u4e2a QQ \u5f00\u653e\u5e73\u53f0 HTTP \u4ee3\u7406\u5de5\u5177\uff0c**\u81ea\u52a8\u586b\u5145\u9274\u6743 Token**\u3002\u4f60\u53ea\u9700\u8981\u6307\u5b9a HTTP \u65b9\u6cd5\u3001API \u8def\u5f84\u3001\u8bf7\u6c42\u4f53\u548c\u67e5\u8be2\u53c2\u6570\u3002 ## \ud83d\udcda \u8be6\u7ec6\u53c2\u8003\u6587\u6863 \u6bcf\u4e2a\u63a5\u53e3\u7684\u5b8c\u6574\u53c2\u6570\u8bf4\u660e\u3001\u8fd4\u56de\u503c\u7ed3\u6784\u548c"
+    },
+    {
+      "id": "src-1WV2H9M34_Uj",
+      "name": "for developers.txt",
+      "kind": "doc",
+      "description": "\ufeffSkip to content OpenAI Developers API Overview Introduction This API reference describes the RESTful, streaming, and realtime APIs you can use to interact with the OpenAI platform. REST APIs are usable via HTTP in any environment that supports HTTP requests. Language-specific SD",
+      "path": "staging/materialized/1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn.txt",
+      "source_id": "1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn",
+      "chars": 4925,
+      "preview": "\ufeffSkip to content OpenAI Developers API Overview Introduction This API reference describes the RESTful, streaming, and realtime APIs you can use to interact with the OpenAI platform. REST APIs are usable via HTTP in any environment that supports HTTP requests. Language-specific SDKs are listed on the libraries page. Authentication The OpenAI API uses API keys for authentication. Create, manage,"
+    },
+    {
+      "id": "src-1WYNhILFVXJG",
+      "name": "`openclaw skills`",
+      "kind": "skill",
+      "description": "--- summary: \"CLI reference for `openclaw skills` (search/install/update/list/info/check)\" read_when: - You want to see which skills are available and ready to run - You want to search, install, or update skills from ClawHub - You want to debug missing binaries/env/config for ski",
+      "path": "staging/materialized/1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx.md",
+      "source_id": "1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx",
+      "chars": 2085,
+      "preview": "--- summary: \"CLI reference for `openclaw skills` (search/install/update/list/info/check)\" read_when: - You want to see which skills are available and ready to run - You want to search, install, or update skills from ClawHub - You want to debug missing binaries/env/config for skills title: \"Skills\" --- # `openclaw skills` Inspect local skills and install/update skills from ClawHub. Relate"
+    },
+    {
+      "id": "src-1WkzNd8gHyhR",
+      "name": "Skill Seekers \u2014 AI Agent Skill by yusufkaraaslan _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Skill Seekers Skill Seekers B-RANK by yusufkaraaslan\u00b7 Productivity Automatically converts any documentation website into an installable Claude AI skill. CLAUDE CODE 15.0Kstars Updated 4 months ago 1contributor Install This Skill ",
+      "path": "staging/materialized/1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal.pdf",
+      "source_id": "1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal",
+      "chars": 4810,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Skill Seekers Skill Seekers B-RANK by yusufkaraaslan\u00b7 Productivity Automatically converts any documentation website into an installable Claude AI skill. CLAUDE CODE 15.0Kstars Updated 4 months ago 1contributor Install This Skill CLI MANUAL Get new skills in your inbox.What we added, what we rejected, and why.See a past issue. SKILL.md Skill Builde"
+    },
+    {
+      "id": "src-1X479KSGJDEn",
+      "name": "Coding Agent (always backgrounded)",
+      "kind": "skill",
+      "description": "--- name: coding-agent description: 'Delegate coding tasks to Codex, Claude Code, OpenCode, or Pi agents via immediate background processes. Use when: (1) building or creating features/apps, (2) reviewing PRs in a temp clone/worktree, (3) refactoring large codebases, (4) iterativ",
+      "path": "staging/materialized/1X479KSGJDEn5P9B970goAlrtbDIDkcgm.md",
+      "source_id": "1X479KSGJDEn5P9B970goAlrtbDIDkcgm",
+      "chars": 13649,
+      "preview": "--- name: coding-agent description: 'Delegate coding tasks to Codex, Claude Code, OpenCode, or Pi agents via immediate background processes. Use when: (1) building or creating features/apps, (2) reviewing PRs in a temp clone/worktree, (3) refactoring large codebases, (4) iterative coding that needs file exploration. NOT for: simple one-line fixes (just edit), reading code (use read tool), thread-b"
+    },
+    {
+      "id": "src-1X5ZWG3-KiXL",
+      "name": "Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt",
+      "kind": "doc",
+      "description": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension package. It can bundle any combination of: - **Skills** \u2014 reusable Markdown instructions and supporting r",
+      "path": "staging/materialized/1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG.md",
+      "source_id": "1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG",
+      "chars": 17527,
+      "preview": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension package. It can bundle any combination of: - **Skills** \u2014 reusable Markdown instructions and supporting resources. - **Slash commands** \u2014 user-invoked workflows. - **Agents** \u2014 specialized subagent definitions. - **Hooks**"
+    },
+    {
+      "id": "src-1XK3SxLZTZe8",
+      "name": "OpenClaw Secret Scanning Maintainer",
+      "kind": "skill",
+      "description": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scanning Maintainer **Maintainer-only.** This skill requires repo admin / maintainer permissions to edit",
+      "path": "staging/materialized/1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM.md",
+      "source_id": "1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM",
+      "chars": 8377,
+      "preview": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scanning Maintainer **Maintainer-only.** This skill requires repo admin / maintainer permissions to edit or delete other users' comments and resolve secret scanning alerts. Use this skill when processing alerts from `http"
+    },
+    {
+      "id": "src-1XnaFfvehszY",
+      "name": "OpenProse Skill",
+      "kind": "skill",
+      "description": "--- name: prose description: OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenProse mentions; orchestrates multi-agent workflows. metadata: { \"openclaw\": { \"emoji\": \"\ud83e\udeb6\", \"homepage\": \"https://www.prose.md\" } } --- # OpenProse Skill OpenProse is a prog",
+      "path": "staging/materialized/1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs.md",
+      "source_id": "1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs",
+      "chars": 15391,
+      "preview": "--- name: prose description: OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenProse mentions; orchestrates multi-agent workflows. metadata: { \"openclaw\": { \"emoji\": \"\ud83e\udeb6\", \"homepage\": \"https://www.prose.md\" } } --- # OpenProse Skill OpenProse is a programming language for AI sessions. LLMs are simulators\u2014when given a detailed system description, they don't just descri"
+    },
+    {
+      "id": "src-1XtWXZcJnbIh",
+      "name": "songsee",
+      "kind": "skill",
+      "description": "--- name: songsee description: Generate spectrograms and feature-panel visualizations from audio with the songsee CLI. homepage: https://github.com/steipete/songsee metadata: { \"openclaw\": { \"emoji\": \"\ud83c\udf0a\", \"requires\": { \"bins\": [\"songsee\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"",
+      "path": "staging/materialized/1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u.md",
+      "source_id": "1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u",
+      "chars": 1311,
+      "preview": "--- name: songsee description: Generate spectrograms and feature-panel visualizations from audio with the songsee CLI. homepage: https://github.com/steipete/songsee metadata: { \"openclaw\": { \"emoji\": \"\ud83c\udf0a\", \"requires\": { \"bins\": [\"songsee\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"s"
+    },
+    {
+      "id": "src-1Y5G3oXinvaK",
+      "name": "Site Map \u2014 AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Site Map FULL INDEX AgenticSkills Site Map Every page on the site in one place \u2014 194 skills, 193 MCP servers, 55 developer tools, 21 workflows, 10 articles. Organized for browsing. Site Home Browse Skills MCP Servers Workflows Developer Tools",
+      "path": "staging/materialized/1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY.pdf",
+      "source_id": "1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY",
+      "chars": 9739,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Site Map FULL INDEX AgenticSkills Site Map Every page on the site in one place \u2014 194 skills, 193 MCP servers, 55 developer tools, 21 workflows, 10 articles. Organized for browsing. Site Home Browse Skills MCP Servers Workflows Developer Tools Learn The Manifest (newsletter archive) Changelog Submit a Skill Submit an MCP Server Skills by Category 16 ENTRIES Age"
+    },
+    {
+      "id": "src-1YmOXlQRWDHq",
+      "name": "1. Install",
+      "kind": "skill",
+      "description": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 KB Complete documentation for Skill Seekers v3.2.0 This is the o\ufb03cial documentation for Skill Seeker",
+      "path": "staging/materialized/1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG.pdf",
+      "source_id": "1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG",
+      "chars": 4909,
+      "preview": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 KB Complete documentation for Skill Seekers v3.2.0 This is the o\ufb03cial documentation for Skill Seekers - the universal tool for converting 17 source types (documentation sites, GitHub repos, PDFs, videos, Word docs, EPUB"
+    },
+    {
+      "id": "src-1YuFm5HCMVwl",
+      "name": "Optimize Tests",
+      "kind": "skill",
+      "description": "--- name: optimizetests description: Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage. --- # Optimize Tests Goal: real OpenClaw test/runtime speedups with coverage intact. Do not add shards, skip assertions, weaken gates, or tu",
+      "path": "staging/materialized/1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA.md",
+      "source_id": "1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA",
+      "chars": 2049,
+      "preview": "--- name: optimizetests description: Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage. --- # Optimize Tests Goal: real OpenClaw test/runtime speedups with coverage intact. Do not add shards, skip assertions, weaken gates, or tune runner flags as the main fix. ## Runbook 1. Read `docs/help/testing.md`, `docs/ci.md`, and the scoped `AGENTS.md`"
+    },
+    {
+      "id": "src-1YvVESg5KwpG",
+      "name": "Bear Notes",
+      "kind": "skill",
+      "description": "--- name: bear-notes description: Create, search, and manage Bear notes via grizzly CLI. homepage: https://bear.app metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc3b\", \"os\": [\"darwin\"], \"requires\": { \"bins\": [\"grizzly\"] }, \"install\": [ { \"id\": \"go\", \"kind\": \"go\", \"module\": \"github.com/tylerw",
+      "path": "staging/materialized/1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O.md",
+      "source_id": "1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O",
+      "chars": 2643,
+      "preview": "--- name: bear-notes description: Create, search, and manage Bear notes via grizzly CLI. homepage: https://bear.app metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc3b\", \"os\": [\"darwin\"], \"requires\": { \"bins\": [\"grizzly\"] }, \"install\": [ { \"id\": \"go\", \"kind\": \"go\", \"module\": \"github.com/tylerwince/grizzly"
+    },
+    {
+      "id": "src-1Z5u9ndB2_39",
+      "name": "Find Skills \u2014 AI Agent Skill by Vercel Labs _ AgenticSkills(1).PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Find Skills Find Skills S-RANK by Vercel Labs\u00b7 Productivity Vercel Labs' meta-skill for skill discovery: it teaches the agent to reach for the Skills CLI (`npx skills`) on its own when you ask for something it can't already do. `",
+      "path": "staging/materialized/1Z5u9ndB2_39GMaeGigTTwO_mXniywokK.pdf",
+      "source_id": "1Z5u9ndB2_39GMaeGigTTwO_mXniywokK",
+      "chars": 8709,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Find Skills Find Skills S-RANK by Vercel Labs\u00b7 Productivity Vercel Labs' meta-skill for skill discovery: it teaches the agent to reach for the Skills CLI (`npx skills`) on its own when you ask for something it can't already do. `npx skills find` searches the open agent skills ecosystem indexed at skills.sh by keyword, and `npx skills add` installs"
+    },
+    {
+      "id": "src-1ZVzyhwD0ILT",
+      "name": "Node Connect",
+      "kind": "skill",
+      "description": "--- name: node-connect description: Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures. --- # Node Connect Goal: find the one real route from node -> gateway, verify OpenClaw is advertising that route, then fix pairing/auth.",
+      "path": "staging/materialized/1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV.md",
+      "source_id": "1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV",
+      "chars": 4389,
+      "preview": "--- name: node-connect description: Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures. --- # Node Connect Goal: find the one real route from node -> gateway, verify OpenClaw is advertising that route, then fix pairing/auth. ## Topology first Decide which case you are in before proposing fixes: - same machine / emulator / USB tunnel - sa"
+    },
+    {
+      "id": "src-1ZhBQawgBZLP",
+      "name": "OpenClaw Secret Scanning Maintainer",
+      "kind": "skill",
+      "description": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scanning Maintainer **Maintainer-only.** This skill requires repo admin / maintainer permissions to edit",
+      "path": "staging/materialized/1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu.md",
+      "source_id": "1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu",
+      "chars": 8377,
+      "preview": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scanning Maintainer **Maintainer-only.** This skill requires repo admin / maintainer permissions to edit or delete other users' comments and resolve secret scanning alerts. Use this skill when processing alerts from `http"
+    },
+    {
+      "id": "src-1_1YqkM5-iVP",
+      "name": "Workflow Board \u00b7 Skill Seeker - Flexible Development.PDF",
+      "kind": "skill",
+      "description": "Skill Seeker - Flexible Development Skill Seeker - Flexible Development Insights Workflow Board Filter by keyword or by \ufb01eld View A1 - Config Sharing9 6 tasks A2 - Knowledge Sharing6 6 tasks Skill_Seekers #9 [A1.1] Create JSON API endpoint to list configs Done Skill_Seekers #10 [",
+      "path": "staging/materialized/1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX.pdf",
+      "source_id": "1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX",
+      "chars": 1075,
+      "preview": "Skill Seeker - Flexible Development Skill Seeker - Flexible Development Insights Workflow Board Filter by keyword or by \ufb01eld View A1 - Config Sharing9 6 tasks A2 - Knowledge Sharing6 6 tasks Skill_Seekers #9 [A1.1] Create JSON API endpoint to list configs Done Skill_Seekers #10 [A1.2] Add MCP tool to download configs from website Done Skill_Seekers #11 [A1.3] Add MCP tool to submit custom configs"
+    },
+    {
+      "id": "src-1_J9KplzSwva",
+      "name": "rbe.bzl.txt",
+      "kind": "doc",
+      "description": "def _rbe_platform_repo_impl(rctx): arch = rctx.os.arch if arch in [\"x86_64\", \"amd64\"]: cpu = \"x86_64\" exec_arch = \"amd64\" image_sha = \"0a8e56bfaa3b2e5279db0d3bb2d62b44ba5e5d63a37d97eb8790f49da570af70\" elif arch in [\"aarch64\", \"arm64\"]: cpu = \"aarch64\" exec_arch = \"arm64\" image_sh",
+      "path": "staging/materialized/1_J9KplzSwva_pSqwBjClV82SpMsBBNwv.txt",
+      "source_id": "1_J9KplzSwva_pSqwBjClV82SpMsBBNwv",
+      "chars": 1471,
+      "preview": "def _rbe_platform_repo_impl(rctx): arch = rctx.os.arch if arch in [\"x86_64\", \"amd64\"]: cpu = \"x86_64\" exec_arch = \"amd64\" image_sha = \"0a8e56bfaa3b2e5279db0d3bb2d62b44ba5e5d63a37d97eb8790f49da570af70\" elif arch in [\"aarch64\", \"arm64\"]: cpu = \"aarch64\" exec_arch = \"arm64\" image_sha = \"136487cc4b7cf6f1021816ca18ed00896daed98404ea91dc4d6dd9e"
+    },
+    {
+      "id": "src-1_To1xtMdmoZ",
+      "name": "notion",
+      "kind": "skill",
+      "description": "--- name: notion description: Notion API for creating and managing pages, databases, and blocks. homepage: https://developers.notion.com metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcdd\", \"requires\": { \"env\": [\"NOTION_API_KEY\"] }, \"primaryEnv\": \"NOTION_API_KEY\" }, } --- # notion Use the Not",
+      "path": "staging/materialized/1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz.md",
+      "source_id": "1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz",
+      "chars": 5370,
+      "preview": "--- name: notion description: Notion API for creating and managing pages, databases, and blocks. homepage: https://developers.notion.com metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcdd\", \"requires\": { \"env\": [\"NOTION_API_KEY\"] }, \"primaryEnv\": \"NOTION_API_KEY\" }, } --- # notion Use the Notion API to create/read/update pages, data sources (databases), and blocks. ## Setup 1. Create an integ"
+    },
+    {
+      "id": "src-1aE9qThN0-c5",
+      "name": "Sandbox Agents.txt",
+      "kind": "doc",
+      "description": "\ufeff# Sandbox Agents A sandbox gives an agent an isolated, Unix-like execution environment with a filesystem, shell, installed packages, mounted data, exposed ports, snapshots, and controlled access to external systems. Agent workflows get brittle when the model needs that kind of w",
+      "path": "staging/materialized/1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3.txt",
+      "source_id": "1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3",
+      "chars": 34413,
+      "preview": "\ufeff# Sandbox Agents A sandbox gives an agent an isolated, Unix-like execution environment with a filesystem, shell, installed packages, mounted data, exposed ports, snapshots, and controlled access to external systems. Agent workflows get brittle when the model needs that kind of workspace but only receives prompt context. Large document sets, generated artifacts, commands, previews, and resumable"
+    },
+    {
+      "id": "src-1aPXiBxbQR-0",
+      "name": "Tavily Tools",
+      "kind": "skill",
+      "description": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.enabled\"] } } } --- # Tavily Tools ## When to use which tool | Need | Tool | When | | ----------------",
+      "path": "staging/materialized/1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH.md",
+      "source_id": "1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH",
+      "chars": 4856,
+      "preview": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.enabled\"] } } } --- # Tavily Tools ## When to use which tool | Need | Tool | When | | ---------------------------- | -------"
+    },
+    {
+      "id": "src-1aVaJ4GIpN2z",
+      "name": "Use the returned container id in the next call:",
+      "kind": "doc",
+      "description": "\ufeff# Code Interpreter import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; The Code Interpreter tool allows models to write and run Python code in a sandboxed environment to solve complex problems in domains like data analysis, coding, and mat",
+      "path": "staging/materialized/1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg.txt",
+      "source_id": "1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg",
+      "chars": 14591,
+      "preview": "\ufeff# Code Interpreter import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; The Code Interpreter tool allows models to write and run Python code in a sandboxed environment to solve complex problems in domains like data analysis, coding, and math. Use it for: - Processing files with diverse data and formatting - Generating files with data and images of"
+    },
+    {
+      "id": "src-1asMEihxtPBF",
+      "name": "Web search.txt",
+      "kind": "doc",
+      "description": "\ufeff# Web search import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; import { customUserLocationExampleCoarse, customUserLocationExampleCoarseChat, } from \"./web-search-examples\"; Web search allows models to access up-to-date information from ",
+      "path": "staging/materialized/1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf.txt",
+      "source_id": "1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf",
+      "chars": 7993,
+      "preview": "\ufeff# Web search import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; import { customUserLocationExampleCoarse, customUserLocationExampleCoarseChat, } from \"./web-search-examples\"; Web search allows models to access up-to-date information from the internet and provide answers with sourced citations. To enable this, use the web search tool in the"
+    },
+    {
+      "id": "src-1bSGh20IDC3j",
+      "name": "spogo / spotify_player",
+      "kind": "skill",
+      "description": "--- name: spotify-player description: Terminal Spotify playback/search via spogo (preferred) or spotify_player. homepage: https://www.spotify.com metadata: { \"openclaw\": { \"emoji\": \"\ud83c\udfb5\", \"requires\": { \"anyBins\": [\"spogo\", \"spotify_player\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"",
+      "path": "staging/materialized/1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE.md",
+      "source_id": "1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE",
+      "chars": 1683,
+      "preview": "--- name: spotify-player description: Terminal Spotify playback/search via spogo (preferred) or spotify_player. homepage: https://www.spotify.com metadata: { \"openclaw\": { \"emoji\": \"\ud83c\udfb5\", \"requires\": { \"anyBins\": [\"spogo\", \"spotify_player\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"s"
+    },
+    {
+      "id": "src-1bbzVu0ZancS",
+      "name": "Dummy xcode config so we don't need to build xcode_locator in repo rule.",
+      "kind": "doc",
+      "description": "common --repo_env=BAZEL_DO_NOT_DETECT_CPP_TOOLCHAIN=1 common --repo_env=BAZEL_NO_APPLE_CPP_TOOLCHAIN=1 # Dummy xcode config so we don't need to build xcode_locator in repo rule. common --xcode_version_config=//:disable_xcode common --disk_cache=~/.cache/bazel-disk-cache common --",
+      "path": "staging/materialized/1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f.txt",
+      "source_id": "1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f",
+      "chars": 10286,
+      "preview": "common --repo_env=BAZEL_DO_NOT_DETECT_CPP_TOOLCHAIN=1 common --repo_env=BAZEL_NO_APPLE_CPP_TOOLCHAIN=1 # Dummy xcode config so we don't need to build xcode_locator in repo rule. common --xcode_version_config=//:disable_xcode common --disk_cache=~/.cache/bazel-disk-cache common --repo_contents_cache=~/.cache/bazel-repo-contents-cache common --repository_cache=~/.cache/bazel-repo-cache common --rem"
+    },
+    {
+      "id": "src-1biIspLD7Ee8",
+      "name": "Compact your current window (HTTP call)",
+      "kind": "doc",
+      "description": "\ufeff# WebSocket Mode The Responses API supports a WebSocket mode for long-running, tool-call-heavy workflows. In this mode, you keep a persistent connection to `/v1/responses` and continue each turn by sending only new input items plus `previous_response_id`. WebSocket mode is compa",
+      "path": "staging/materialized/1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4.txt",
+      "source_id": "1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4",
+      "chars": 8423,
+      "preview": "\ufeff# WebSocket Mode The Responses API supports a WebSocket mode for long-running, tool-call-heavy workflows. In this mode, you keep a persistent connection to `/v1/responses` and continue each turn by sending only new input items plus `previous_response_id`. WebSocket mode is compatible with both Zero Data Retention (ZDR) and `store=false`. ## Why use WebSocket mode WebSocket mode is most useful"
+    },
+    {
+      "id": "src-1bsvYru4gJcb",
+      "name": "Upload a PDF we will reference in the variables",
+      "kind": "doc",
+      "description": "\ufeff# Text generation With the OpenAI API, you can use a [large language model](https://developers.openai.com/api/docs/models) to generate text from a prompt, as you might using [ChatGPT](https://chatgpt.com). Models can generate almost any kind of text response\u2014like code, mathemati",
+      "path": "staging/materialized/1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw.txt",
+      "source_id": "1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw",
+      "chars": 13488,
+      "preview": "\ufeff# Text generation With the OpenAI API, you can use a [large language model](https://developers.openai.com/api/docs/models) to generate text from a prompt, as you might using [ChatGPT](https://chatgpt.com). Models can generate almost any kind of text response\u2014like code, mathematical equations, structured JSON data, or human-like prose. Use the [Responses API](https://developers.openai.com/api/do"
+    },
+    {
+      "id": "src-1c34A8z-RC4A",
+      "name": "Grok API demo",
+      "kind": "doc",
+      "description": "# Grok API demo This companion script demonstrates three useful patterns with xAI's OpenAI-compatible **Responses API**: 1. **Text generation** with system and user messages. 2. **Structured outputs** constrained by a JSON Schema. 3. **Client-side function calling**, where Grok r",
+      "path": "staging/materialized/1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt.md",
+      "source_id": "1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt",
+      "chars": 3011,
+      "preview": "# Grok API demo This companion script demonstrates three useful patterns with xAI's OpenAI-compatible **Responses API**: 1. **Text generation** with system and user messages. 2. **Structured outputs** constrained by a JSON Schema. 3. **Client-side function calling**, where Grok requests a local tool and the application returns its result. ## Run it ```bash export XAI_API_KEY=\"your-key\" python3"
+    },
+    {
+      "id": "src-1cPM7KC5sQxv",
+      "name": "Ghost MCP Server \u2014 MFYDev _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home MCP Servers Ghost Ghost COMMUNITY byMFYDev A community MCP server for the Ghost CMS Admin API (no official TryGhost MCP exists). It exposes browse/read/create/edit/delete across Ghost resources \u2014 posts, pages, members, newsletters, offers, ta",
+      "path": "staging/materialized/1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8.pdf",
+      "source_id": "1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8",
+      "chars": 3435,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home MCP Servers Ghost Ghost COMMUNITY byMFYDev A community MCP server for the Ghost CMS Admin API (no official TryGhost MCP exists). It exposes browse/read/create/edit/delete across Ghost resources \u2014 posts, pages, members, newsletters, offers, tags, tiers, users, and webhooks \u2014 using the official @tryghost/admin- api client. Runs locally over stdio via npx, authen"
+    },
+    {
+      "id": "src-1cUblWeuTvOW",
+      "name": "If the model refuses to respond, you will get a refusal message",
+      "kind": "doc",
+      "description": "\ufeff# Structured model outputs export const snippetRefusalsChatCompletionsApi = { python: ` class Step(BaseModel): explanation: str output: str class MathReasoning(BaseModel): steps: list[Step] final_answer: str completion = client.chat.completions.parse( model=\"gpt-4o-2024-08-06\", ",
+      "path": "staging/materialized/1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps.txt",
+      "source_id": "1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps",
+      "chars": 15196,
+      "preview": "\ufeff# Structured model outputs export const snippetRefusalsChatCompletionsApi = { python: ` class Step(BaseModel): explanation: str output: str class MathReasoning(BaseModel): steps: list[Step] final_answer: str completion = client.chat.completions.parse( model=\"gpt-4o-2024-08-06\", messages=[ {\"role\": \"system\", \"content\": \"You are a helpful math tutor. Guide the user through the solution"
+    },
+    {
+      "id": "src-1cyYG2xEEAmM",
+      "name": "Find Skills \u2014 AI Agent Skill by Vercel Labs _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Find Skills Find Skills S-RANK by Vercel Labs\u00b7 Productivity Vercel Labs' meta-skill for skill discovery: it teaches the agent to reach for the Skills CLI (`npx skills`) on its own when you ask for something it can't already do. `",
+      "path": "staging/materialized/1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh.pdf",
+      "source_id": "1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh",
+      "chars": 8589,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Productivity Find Skills Find Skills S-RANK by Vercel Labs\u00b7 Productivity Vercel Labs' meta-skill for skill discovery: it teaches the agent to reach for the Skills CLI (`npx skills`) on its own when you ask for something it can't already do. `npx skills find` searches the open agent skills ecosystem indexed at skills.sh by keyword, and `npx skills add` installs"
+    },
+    {
+      "id": "src-1dBcdlJAFalu",
+      "name": "Auto-detect source type and create skill",
+      "kind": "skill",
+      "description": "yusufkaraaslan homebrew-skill-seekers homebrew-skill-seekersPublic Watch0 About Homebrew tap for Skill Seekers - AI skill builder for 17 source types Readme Activity 2 stars 0 watching 1 fork Report repository 1Branch 0Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraaslanfeat: add",
+      "path": "staging/materialized/1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5.pdf",
+      "source_id": "1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5",
+      "chars": 1504,
+      "preview": "yusufkaraaslan homebrew-skill-seekers homebrew-skill-seekersPublic Watch0 About Homebrew tap for Skill Seekers - AI skill builder for 17 source types Readme Activity 2 stars 0 watching 1 fork Report repository 1Branch 0Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraaslanfeat: add Homebrew formula for skill-seekers 3.3.0 1dd851e \u00b7 8 months ago Formula feat: add Homebrew formula for skil\u2026 8 months"
+    },
+    {
+      "id": "src-1d_Ox5GX4Rr9",
+      "name": "Tag Duplicate PRs and Issues",
+      "kind": "skill",
+      "description": "--- name: tag-duplicate-prs-issues description: Search duplicate OpenClaw PRs/issues, group related work in prtags, and sync duplicate state to GitHub. --- # Tag Duplicate PRs and Issues Use this skill when a maintainer needs to decide whether a pull request or issue is a duplica",
+      "path": "staging/materialized/1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE.md",
+      "source_id": "1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE",
+      "chars": 17799,
+      "preview": "--- name: tag-duplicate-prs-issues description: Search duplicate OpenClaw PRs/issues, group related work in prtags, and sync duplicate state to GitHub. --- # Tag Duplicate PRs and Issues Use this skill when a maintainer needs to decide whether a pull request or issue is a duplicate of existing work. This skill is for maintainer triage and grouping. It is not for reviewing the implementation qua"
+    },
+    {
+      "id": "src-1dqHKP3Tssdl",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills(1).PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from GitHub, Stripe, AWS, and more \u2014 with verified setup where we have checked it. Browse Servers Submit ",
+      "path": "staging/materialized/1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu.pdf",
+      "source_id": "1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu",
+      "chars": 8565,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from GitHub, Stripe, AWS, and more \u2014 with verified setup where we have checked it. Browse Servers Submit a Server 193 MCP SERVERS 22 CATEGORIES 103 OFFICIAL 97M+ SDK DOWNLOADS MCP.JSON SCHEMA // connect Stripe MCP server {"
+    },
+    {
+      "id": "src-1eMumtmVkpZo",
+      "name": "Skill Workshop reviewer autonomous capture",
+      "kind": "skill",
+      "description": "# Skill Workshop reviewer autonomous capture ```yaml qa-scenario id: skill-workshop-reviewer-autonomous title: Skill Workshop reviewer autonomous capture surface: plugins coverage: primary: - plugins.skill-workshop secondary: - plugins.skills - plugins.plugin-tools objective: Ver",
+      "path": "staging/materialized/1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN.md",
+      "source_id": "1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN",
+      "chars": 3222,
+      "preview": "# Skill Workshop reviewer autonomous capture ```yaml qa-scenario id: skill-workshop-reviewer-autonomous title: Skill Workshop reviewer autonomous capture surface: plugins coverage: primary: - plugins.skill-workshop secondary: - plugins.skills - plugins.plugin-tools objective: Verify threshold review can turn a non-trivial workflow into a workspace skill without an explicit correct"
+    },
+    {
+      "id": "src-1el9x82aw8zU",
+      "name": "yusufkaraaslan_skillseekersweb_ Marketing and documentation website for Skill Seekers - Transform documentation into Claude .PDF",
+      "kind": "skill",
+      "description": "yusufkaraaslan skillseekersweb skillseekerswebPublic Watch0 About Marketing and documentation website for Skill Seekers - Transform documentation into Claude AI skills skillseekersweb.vercel.app Readme Activity 15 stars 0 watching 11 forks Report repository 2Branches 0Tags Go to ",
+      "path": "staging/materialized/1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF.pdf",
+      "source_id": "1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF",
+      "chars": 3551,
+      "preview": "yusufkaraaslan skillseekersweb skillseekerswebPublic Watch0 About Marketing and documentation website for Skill Seekers - Transform documentation into Claude AI skills skillseekersweb.vercel.app Readme Activity 15 stars 0 watching 11 forks Report repository 2Branches 0Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraaslanMerge pull request#22from yusufkaraaslan/\ufb01x/tier-wording 5b4b2c4 \u00b7 4 months ag"
+    },
+    {
+      "id": "src-1evYy3XIIsFy",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from GitHub, Stripe, AWS, and more \u2014 with verified setup where we have checked it. Browse Servers Submit ",
+      "path": "staging/materialized/1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC.pdf",
+      "source_id": "1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC",
+      "chars": 3212,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 02 \u00b7 MCP DIRECTORY 193MCP servers,one index. Find MCP servers for Claude, ChatGPT, Cursor, and every major AI platform. Official integrations from GitHub, Stripe, AWS, and more \u2014 with verified setup where we have checked it. Browse Servers Submit a Server 193 MCP SERVERS 22 CATEGORIES 0 OFFICIAL 97M+ SDK DOWNLOADS MCP.JSON SCHEMA // connect Stripe MCP server { \"m"
+    },
+    {
+      "id": "src-1fePtSnoO0EP",
+      "name": "Configure Channel Claude Code Skill _ OpenClaw.PDF",
+      "kind": "skill",
+      "description": "The OpenClaw Channel Configurator skill enables developers to securely set up, diagnose, and validate chat communication channels like Telegram and Discord within the OpenClaw AI assistant platform. It enforces security best practices by handling tokens exclusively through Secret",
+      "path": "staging/materialized/1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV.pdf",
+      "source_id": "1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV",
+      "chars": 3252,
+      "preview": "The OpenClaw Channel Configurator skill enables developers to securely set up, diagnose, and validate chat communication channels like Telegram and Discord within the OpenClaw AI assistant platform. It enforces security best practices by handling tokens exclusively through SecretRefs and masked interactive prompts, preventing credentials from leaking into command histories, disk edits, or logs. Wi"
+    },
+    {
+      "id": "src-1g0CSXPI5vRq",
+      "name": "Productivity Skills \u2014 Best AI Agent Skills for Productivity _ AgenticSkills.PDF",
+      "kind": "skill",
+      "description": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Categories Productivity CATEGORY Productivity Workflow optimization, ideation, and developer productivity tools 15 SKILLS IN THIS CATEGORY Search productivity skills... POPULAR Brainstorming byobra S-RANK Socratic design refinement that trans",
+      "path": "staging/materialized/1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5.pdf",
+      "source_id": "1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5",
+      "chars": 4091,
+      "preview": "INDEX LIVE \u00b7 V1.7.0 \u00b7 OCT 4 2026 Home Categories Productivity CATEGORY Productivity Workflow optimization, ideation, and developer productivity tools 15 SKILLS IN THIS CATEGORY Search productivity skills... POPULAR Brainstorming byobra S-RANK Socratic design refinement that transforms rough ideas into structured, actionable designs. PRODUCTIVITY OPEN SOURCE CLAUDE CODEX CURSOR MULTI 292.4K Writing"
+    },
+    {
+      "id": "src-1gHsjAJloHMF",
+      "name": "Create a skill from a documentation site",
+      "kind": "skill",
+      "description": "yusufkaraaslan skill-seekers-plugin skill-seekers-pluginPublic Watch0 About Claude Code Plugin: 35 MCP tools to build AI skills from 17 source types Readme MIT license Activity 17 stars 0 watching 3 forks Report repository 1Branch 1Tag Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraas",
+      "path": "staging/materialized/1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43.pdf",
+      "source_id": "1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43",
+      "chars": 3408,
+      "preview": "yusufkaraaslan skill-seekers-plugin skill-seekers-pluginPublic Watch0 About Claude Code Plugin: 35 MCP tools to build AI skills from 17 source types Readme MIT license Activity 17 stars 0 watching 3 forks Report repository 1Branch 1Tag Go to \ufb01le Go to \ufb01le Add \ufb01le Code yusufkaraaslan\ufb01x: correct CLI \ufb02ags in slash commands (create uses --preset, packa\u2026 fc343f8 \u00b7 8 months ago .claude-plugin feat: ini"
+    },
+    {
+      "id": "src-1gXr2Ahj-FbU",
+      "name": "BlueBubbles Actions",
+      "kind": "skill",
+      "description": "--- name: bluebubbles description: Send and manage iMessages via BlueBubbles, including attachments, tapbacks, edits, replies, and groups. metadata: { \"openclaw\": { \"emoji\": \"\ud83e\udee7\", \"requires\": { \"config\": [\"channels.bluebubbles\"] } } } --- # BlueBubbles Actions ## Overview BlueBubb",
+      "path": "staging/materialized/1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p.md",
+      "source_id": "1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p",
+      "chars": 3010,
+      "preview": "--- name: bluebubbles description: Send and manage iMessages via BlueBubbles, including attachments, tapbacks, edits, replies, and groups. metadata: { \"openclaw\": { \"emoji\": \"\ud83e\udee7\", \"requires\": { \"config\": [\"channels.bluebubbles\"] } } } --- # BlueBubbles Actions ## Overview BlueBubbles is OpenClaw\u2019s recommended iMessage integration. Use the `message` tool with `channel: \"bluebubbles\"` to send mess"
+    },
+    {
+      "id": "src-1iABhKy03Rvi",
+      "name": "Skill Creator - Agent Skill Claude Code Skill.PDF",
+      "kind": "skill",
+      "description": "Agent Skill Creator streamlines the process of designing, structuring, and maintaining custom AgentSkills for AI workflows. It guides you through establishing concrete contracts, setting proper invocation types in frontmatter, organizing modular references and helper scripts, and",
+      "path": "staging/materialized/1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8.pdf",
+      "source_id": "1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8",
+      "chars": 3120,
+      "preview": "Agent Skill Creator streamlines the process of designing, structuring, and maintaining custom AgentSkills for AI workflows. It guides you through establishing concrete contracts, setting proper invocation types in frontmatter, organizing modular references and helper scripts, and running automated validation routines to ensure your skills execute reliably in any workspace. Key Features 01 Standard"
+    },
+    {
+      "id": "src-1iR1mJ35Jjc-",
+      "name": "Tavily Tools",
+      "kind": "skill",
+      "description": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.enabled\"] } } } --- # Tavily Tools ## When to use which tool | Need | Tool | When | | ----------------",
+      "path": "staging/materialized/1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__.md",
+      "source_id": "1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__",
+      "chars": 4856,
+      "preview": "--- name: tavily description: Tavily web search, content extraction, and research tools. metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.enabled\"] } } } --- # Tavily Tools ## When to use which tool | Need | Tool | When | | ---------------------------- | -------"
+    },
+    {
+      "id": "src-1j0SUZghqfJ8",
+      "name": "Library.txt",
+      "kind": "doc",
+      "description": "\ufeff# Libraries This page covers setting up your local development environment to use the [OpenAI API](https://developers.openai.com/api/docs/api-reference). You can use one of our officially supported SDKs, a community library, or your own preferred HTTP client. ## Create and expor",
+      "path": "staging/materialized/1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b.txt",
+      "source_id": "1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b",
+      "chars": 8204,
+      "preview": "\ufeff# Libraries This page covers setting up your local development environment to use the [OpenAI API](https://developers.openai.com/api/docs/api-reference). You can use one of our officially supported SDKs, a community library, or your own preferred HTTP client. ## Create and export an API key Before you begin, [create an API key in the dashboard](https://platform.openai.com/api-keys), which you'"
+    },
+    {
+      "id": "src-1j6OGxh57fd6",
+      "name": "OpenClaw Secret Scanning Maintainer",
+      "kind": "skill",
+      "description": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scanning Maintainer **Maintainer-only.** This skill requires repo admin / maintainer permissions to edit",
+      "path": "staging/materialized/1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5.md",
+      "source_id": "1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5",
+      "chars": 8377,
+      "preview": "--- name: openclaw-secret-scanning-maintainer description: Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs. --- # OpenClaw Secret Scanning Maintainer **Maintainer-only.** This skill requires repo admin / maintainer permissions to edit or delete other users' comments and resolve secret scanning alerts. Use this skill when processing alerts from `http"
+    },
+    {
+      "id": "src-1jRPcjku_xw_",
+      "name": "edit .env.local \u2014 see CONTRIBUTING.md for local Convex values",
+      "kind": "skill",
+      "description": "openclawclawhub clawhubPublic Sponsor Watch55 About Skill + Plugin Registry for OpenClaw clawhub.ai directory skill Readme MIT license Contributing Security policy Activity Custom properties 9.6k stars 55 watching 1.5k forks Report repository 165Branches 614Tags Go to \ufb01le Go to \ufb01",
+      "path": "staging/materialized/1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW.pdf",
+      "source_id": "1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW",
+      "chars": 11729,
+      "preview": "openclawclawhub clawhubPublic Sponsor Watch55 About Skill + Plugin Registry for OpenClaw clawhub.ai directory skill Readme MIT license Contributing Security policy Activity Custom properties 9.6k stars 55 watching 1.5k forks Report repository 165Branches 614Tags Go to \ufb01le Go to \ufb01le Add \ufb01le Code hannesrudolph\ufb01x: discourage crawlers from following the Discord invite (#4473) 9b4924f \u00b7 5 hours ago .a"
+    },
+    {
+      "id": "src-1jlekcsFtAob",
+      "name": "OpenClaw Release Maintainer",
+      "kind": "skill",
+      "description": "--- name: openclaw-release-maintainer description: Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts. --- # OpenClaw Release Maintainer Use this skill for release and publish-time workflow. Keep ordinary development change",
+      "path": "staging/materialized/1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb.md",
+      "source_id": "1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb",
+      "chars": 33395,
+      "preview": "--- name: openclaw-release-maintainer description: Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts. --- # OpenClaw Release Maintainer Use this skill for release and publish-time workflow. Keep ordinary development changes and GHSA-specific advisory work outside this skill. ## Respect release guardrails - Do not change version numbers"
+    },
+    {
+      "id": "src-1k--QUxu5HZp",
+      "name": "test_package_skill.py",
+      "kind": "skill",
+      "description": "#!/usr/bin/env python3 \"\"\" Regression tests for skill packaging security behavior. \"\"\" import sys import tempfile import types import zipfile from pathlib import Path from unittest import TestCase, main from unittest.mock import patch SCRIPT_DIR = Path(__file__).resolve().parent ",
+      "path": "staging/materialized/1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw.py",
+      "source_id": "1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw",
+      "chars": 5866,
+      "preview": "#!/usr/bin/env python3 \"\"\" Regression tests for skill packaging security behavior. \"\"\" import sys import tempfile import types import zipfile from pathlib import Path from unittest import TestCase, main from unittest.mock import patch SCRIPT_DIR = Path(__file__).resolve().parent if str(SCRIPT_DIR) not in sys.path: sys.path.insert(0, str(SCRIPT_DIR)) fake_quick_validate = types.ModuleType(\""
+    },
+    {
+      "id": "src-1kjyTg7Dnmds",
+      "name": "Discord (Via `message`)",
+      "kind": "skill",
+      "description": "--- name: discord description: \"Discord ops via the message tool (channel=discord).\" metadata: { \"openclaw\": { \"emoji\": \"\ud83c\udfae\", \"requires\": { \"config\": [\"channels.discord.token\"] } } } allowed-tools: [\"message\"] --- # Discord (Via `message`) Use the `message` tool. No provider-speci",
+      "path": "staging/materialized/1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ.md",
+      "source_id": "1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ",
+      "chars": 3441,
+      "preview": "--- name: discord description: \"Discord ops via the message tool (channel=discord).\" metadata: { \"openclaw\": { \"emoji\": \"\ud83c\udfae\", \"requires\": { \"config\": [\"channels.discord.token\"] } } } allowed-tools: [\"message\"] --- # Discord (Via `message`) Use the `message` tool. No provider-specific `discord` tool exposed to the agent. ## Musts - Always: `channel: \"discord\"`. - Respect gating: `channels.discor"
+    },
+    {
+      "id": "src-1krh-Tro3Uh2",
+      "name": "If the model refuses to respond, you will get a refusal message",
+      "kind": "doc",
+      "description": "\ufeff# Structured model outputs export const snippetRefusalsChatCompletionsApi = { python: ` class Step(BaseModel): explanation: str output: str class MathReasoning(BaseModel): steps: list[Step] final_answer: str completion = client.chat.completions.parse( model=\"gpt-4o-2024-08-06\", ",
+      "path": "staging/materialized/1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa.txt",
+      "source_id": "1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa",
+      "chars": 15196,
+      "preview": "\ufeff# Structured model outputs export const snippetRefusalsChatCompletionsApi = { python: ` class Step(BaseModel): explanation: str output: str class MathReasoning(BaseModel): steps: list[Step] final_answer: str completion = client.chat.completions.parse( model=\"gpt-4o-2024-08-06\", messages=[ {\"role\": \"system\", \"content\": \"You are a helpful math tutor. Guide the user through the solution"
+    },
+    {
+      "id": "src-1lCUeLnEdtr6",
+      "name": "OpenClaw QA Testing",
+      "kind": "skill",
+      "description": "--- name: openclaw-qa-testing description: Run, watch, debug, extend, or explain OpenClaw qa-lab and qa-channel scenarios, artifacts, and live lanes. --- # OpenClaw QA Testing Use this skill for `qa-lab` / `qa-channel` work. Repo-local QA only. ## Read first - `docs/concepts/qa-e",
+      "path": "staging/materialized/1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk.md",
+      "source_id": "1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk",
+      "chars": 9790,
+      "preview": "--- name: openclaw-qa-testing description: Run, watch, debug, extend, or explain OpenClaw qa-lab and qa-channel scenarios, artifacts, and live lanes. --- # OpenClaw QA Testing Use this skill for `qa-lab` / `qa-channel` work. Repo-local QA only. ## Read first - `docs/concepts/qa-e2e-automation.md` - `docs/help/testing.md` - `docs/channels/qa-channel.md` - `qa/README.md` - `qa/scenarios/index.md"
+    },
+    {
+      "id": "src-1loxnygiVrk8",
+      "name": "1. Install",
+      "kind": "skill",
+      "description": "Blog Docs Log in Register \uf022 Description \uf01a Release files \uf3ed Security \uf1da Release history skill-seekers 3.10.0 Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills. International support with Chinese ( \u7b80\u4f53\u4e2d\u2f42 ) documentation. pip install skill-seekers Skil",
+      "path": "staging/materialized/1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe.pdf",
+      "source_id": "1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe",
+      "chars": 12992,
+      "preview": "Blog Docs Log in Register \uf022 Description \uf01a Release files \uf3ed Security \uf1da Release history skill-seekers 3.10.0 Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills. International support with Chinese ( \u7b80\u4f53\u4e2d\u2f42 ) documentation. pip install skill-seekers Skill Seekers Skill Seekers English | \u7b80\u4f53\u4e2d\u2f42 | \u2f47\u672c\u8a9e | \ud55c\uad6d\uc5b4 | Espa\u00f1ol | Fran\u00e7ais | Deutsch | Portugu\u00eas | T\u00fcrk\u00e7e | \u0627\ufedf\ufecc\ufeae\ufe91\ufef4\ufe94|"
+    },
+    {
+      "id": "src-1mkQnvj6MECA",
+      "name": "Skill Creator",
+      "kind": "skill",
+      "description": "--- name: skill-creator description: Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files. --- # Skill Creator This skill provides guidance for creating effective skills. ## About Skills Skills are modular, self-contained packages that extend ",
+      "path": "staging/materialized/1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g.txt",
+      "source_id": "1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g",
+      "chars": 18286,
+      "preview": "--- name: skill-creator description: Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files. --- # Skill Creator This skill provides guidance for creating effective skills. ## About Skills Skills are modular, self-contained packages that extend Codex's capabilities by providing specialized knowledge, workflows, and tools. Think of them as \"onboarding guides\""
+    },
+    {
+      "id": "src-1nYcFMb1Vp2h",
+      "name": "Skill visibility and invocation",
+      "kind": "skill",
+      "description": "# Skill visibility and invocation ```yaml qa-scenario id: skill-visibility-invocation title: Skill visibility and invocation surface: skills coverage: primary: - plugins.skills secondary: - tools.invocation objective: Verify a workspace skill becomes visible in skills.status and ",
+      "path": "staging/materialized/1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX.md",
+      "source_id": "1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX",
+      "chars": 2559,
+      "preview": "# Skill visibility and invocation ```yaml qa-scenario id: skill-visibility-invocation title: Skill visibility and invocation surface: skills coverage: primary: - plugins.skills secondary: - tools.invocation objective: Verify a workspace skill becomes visible in skills.status and influences the next agent turn. successCriteria: - skills.status reports the seeded skill as visible and"
+    },
+    {
+      "id": "src-1oxxXB6RDKUg",
+      "name": "Fire off an async response but also start streaming immediately",
+      "kind": "doc",
+      "description": "\ufeff# Background mode Agents like [Codex](https://openai.com/index/introducing-codex/) and [Deep Research](https://openai.com/index/introducing-deep-research/) show that reasoning models can take several minutes to solve complex problems. Background mode enables you to execute long-",
+      "path": "staging/materialized/1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe.txt",
+      "source_id": "1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe",
+      "chars": 6627,
+      "preview": "\ufeff# Background mode Agents like [Codex](https://openai.com/index/introducing-codex/) and [Deep Research](https://openai.com/index/introducing-deep-research/) show that reasoning models can take several minutes to solve complex problems. Background mode enables you to execute long-running tasks on models like GPT-5.2 and GPT-5.2 pro reliably, without having to worry about timeouts or other connecti"
+    },
+    {
+      "id": "src-1p1156g_kMfj",
+      "name": "preset1 (5).txt",
+      "kind": "doc",
+      "description": "inurl: intext: allintext: allintitle: source: filetype: insubject: allinanchor: allinurl: cache: inanchor: info: intitle: link:",
+      "path": "staging/materialized/1p1156g_kMfjF08-VBsOw86KplL1ixTKV.txt",
+      "source_id": "1p1156g_kMfjF08-VBsOw86KplL1ixTKV",
+      "chars": 140,
+      "preview": "inurl: intext: allintext: allintitle: source: filetype: insubject: allinanchor: allinurl: cache: inanchor: info: intitle: link:"
+    },
+    {
+      "id": "src-1pdPzhgQZ2sA",
+      "name": "skill-seekers _ Skills Marketplace \u00b7 LobeHub.PDF",
+      "kind": "skill",
+      "description": "LobeHub / Skills / agent-skills-hub-agent-skills-hub-skill-seekers 1.0.1 agent-skills-hub Sep 22, 2026 10 5 Nee Summary Search by name, description, or keywords... C t r l K skill-seekers 1 AI & LLMs Skill Seekers automates converting documentation websites, GitHub repositories, ",
+      "path": "staging/materialized/1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn.pdf",
+      "source_id": "1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn",
+      "chars": 1866,
+      "preview": "LobeHub / Skills / agent-skills-hub-agent-skills-hub-skill-seekers 1.0.1 agent-skills-hub Sep 22, 2026 10 5 Nee Summary Search by name, description, or keywords... C t r l K skill-seekers 1 AI & LLMs Skill Seekers automates converting documentation websites, GitHub repositories, and PDFs into ready-to- use Claude AI skills in minutes. It parses source content, extracts intents, commands, code samp"
+    },
+    {
+      "id": "src-1q8tEMTnwlfU",
+      "name": "Apple Reminders CLI (remindctl)",
+      "kind": "skill",
+      "description": "--- name: apple-reminders description: List, add, edit, complete, or delete Apple Reminders and reminder lists via remindctl. homepage: https://github.com/steipete/remindctl metadata: { \"openclaw\": { \"emoji\": \"\u23f0\", \"os\": [\"darwin\"], \"requires\": { \"bins\": [\"remindctl\"] }, \"install\"",
+      "path": "staging/materialized/1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF.md",
+      "source_id": "1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF",
+      "chars": 3061,
+      "preview": "--- name: apple-reminders description: List, add, edit, complete, or delete Apple Reminders and reminder lists via remindctl. homepage: https://github.com/steipete/remindctl metadata: { \"openclaw\": { \"emoji\": \"\u23f0\", \"os\": [\"darwin\"], \"requires\": { \"bins\": [\"remindctl\"] }, \"install\": [ { \"id\": \"brew\", \"kind\""
+    },
+    {
+      "id": "src-1qIlyLYooJf0",
+      "name": "OpenClaw Test Performance",
+      "kind": "skill",
+      "description": "--- name: openclaw-test-performance description: Benchmark, diagnose, and optimize OpenClaw test runtime, import hotspots, CPU/RSS, and slow coverage paths. --- # OpenClaw Test Performance Use evidence first. The goal is real `pnpm test` speed/RSS improvement with coverage intact",
+      "path": "staging/materialized/1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t.md",
+      "source_id": "1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t",
+      "chars": 5288,
+      "preview": "--- name: openclaw-test-performance description: Benchmark, diagnose, and optimize OpenClaw test runtime, import hotspots, CPU/RSS, and slow coverage paths. --- # OpenClaw Test Performance Use evidence first. The goal is real `pnpm test` speed/RSS improvement with coverage intact, not runner tuning by guesswork. ## Workflow 1. Read the relevant local `AGENTS.md` files before editing: - `src"
+    },
+    {
+      "id": "src-1qspm_fRAsgV",
+      "name": "Peekaboo",
+      "kind": "skill",
+      "description": "--- name: peekaboo description: Capture and automate macOS UI with the Peekaboo CLI. homepage: https://peekaboo.boo metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc40\", \"os\": [\"darwin\"], \"requires\": { \"bins\": [\"peekaboo\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"steipete/ta",
+      "path": "staging/materialized/1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh.md",
+      "source_id": "1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh",
+      "chars": 5967,
+      "preview": "--- name: peekaboo description: Capture and automate macOS UI with the Peekaboo CLI. homepage: https://peekaboo.boo metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udc40\", \"os\": [\"darwin\"], \"requires\": { \"bins\": [\"peekaboo\"] }, \"install\": [ { \"id\": \"brew\", \"kind\": \"brew\", \"formula\": \"steipete/tap/peekaboo\","
+    },
+    {
+      "id": "src-1r2sv-I56mei",
+      "name": "mcporter",
+      "kind": "skill",
+      "description": "--- name: mcporter description: List, configure, authenticate, call, and inspect MCP servers/tools with mcporter over HTTP or stdio. homepage: http://mcporter.dev metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udce6\", \"requires\": { \"bins\": [\"mcporter\"] }, \"install\": [ { \"id\": \"node\", \"kind\": \"n",
+      "path": "staging/materialized/1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k.md",
+      "source_id": "1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k",
+      "chars": 1607,
+      "preview": "--- name: mcporter description: List, configure, authenticate, call, and inspect MCP servers/tools with mcporter over HTTP or stdio. homepage: http://mcporter.dev metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udce6\", \"requires\": { \"bins\": [\"mcporter\"] }, \"install\": [ { \"id\": \"node\", \"kind\": \"node\", \"package\": \"mc"
+    },
+    {
+      "id": "src-1s7OK5Cjj6nh",
+      "name": "Seekee (com.enzo.paulo) Manifest Analysis",
+      "kind": "doc",
+      "description": "# Seekee (com.enzo.paulo) Manifest Analysis **Version:** 2.13.1 (versionCode 211) **minSdk:** 24 | **targetSdk:** 35 | **compileSdk:** 35 **Package:** com.enzo.paulo **App Name:** Seekee **Developer:** Seekee Ltd / Buscari **Date Analyzed:** 2026-11-07 ## Overview Seekee is a fea",
+      "path": "staging/materialized/1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh.txt",
+      "source_id": "1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh",
+      "chars": 5259,
+      "preview": "# Seekee (com.enzo.paulo) Manifest Analysis **Version:** 2.13.1 (versionCode 211) **minSdk:** 24 | **targetSdk:** 35 | **compileSdk:** 35 **Package:** com.enzo.paulo **App Name:** Seekee **Developer:** Seekee Ltd / Buscari **Date Analyzed:** 2026-11-07 ## Overview Seekee is a feature-rich, AI-powered Android browser and all-in-one assistant. Core offering is **MegaSearch** (\"One Bar,"
+    },
+    {
+      "id": "src-1sQh5oBA55ez",
+      "name": "https_codespace.txt",
+      "kind": "doc",
+      "description": "\ufeffhttps://codespaces.new/openai/codex https://github.com/openai/codex",
+      "path": "staging/materialized/1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc.txt",
+      "source_id": "1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc",
+      "chars": 73,
+      "preview": "\ufeffhttps://codespaces.new/openai/codex https://github.com/openai/codex"
+    },
+    {
+      "id": "src-1sSAiq8Zb53h",
+      "name": "OpenClaw QA Testing",
+      "kind": "skill",
+      "description": "--- name: openclaw-qa-testing description: Run, watch, debug, extend, or explain OpenClaw qa-lab and qa-channel scenarios, artifacts, and live lanes. --- # OpenClaw QA Testing Use this skill for `qa-lab` / `qa-channel` work. Repo-local QA only. ## Read first - `docs/concepts/qa-e",
+      "path": "staging/materialized/1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl.md",
+      "source_id": "1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl",
+      "chars": 9790,
+      "preview": "--- name: openclaw-qa-testing description: Run, watch, debug, extend, or explain OpenClaw qa-lab and qa-channel scenarios, artifacts, and live lanes. --- # OpenClaw QA Testing Use this skill for `qa-lab` / `qa-channel` work. Repo-local QA only. ## Read first - `docs/concepts/qa-e2e-automation.md` - `docs/help/testing.md` - `docs/channels/qa-channel.md` - `qa/README.md` - `qa/scenarios/index.md"
+    },
+    {
+      "id": "src-1t8l91SSy68h",
+      "name": "MCP and Connect.txt",
+      "kind": "doc",
+      "description": "\ufeff# MCP and Connectors import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; In addition to tools you make available to the model with [function calling](https://developers.openai.com/api/docs/guides/function-calling), you can give models new ",
+      "path": "staging/materialized/1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K.txt",
+      "source_id": "1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K",
+      "chars": 43970,
+      "preview": "\ufeff# MCP and Connectors import { CheckCircleFilled, XCircle, } from \"@components/react/oai/platform/ui/Icon.react\"; In addition to tools you make available to the model with [function calling](https://developers.openai.com/api/docs/guides/function-calling), you can give models new capabilities using **connectors** and **remote MCP servers**. These tools give the model the ability to conne"
+    },
+    {
+      "id": "src-1tTdPNXFCr1z",
+      "name": "Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt",
+      "kind": "doc",
+      "description": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension package. It can bundle any combination of: - **Skills** \u2014 reusable Markdown instructions and supporting r",
+      "path": "staging/materialized/1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi.md",
+      "source_id": "1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi",
+      "chars": 17527,
+      "preview": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension package. It can bundle any combination of: - **Skills** \u2014 reusable Markdown instructions and supporting resources. - **Slash commands** \u2014 user-invoked workflows. - **Agents** \u2014 specialized subagent definitions. - **Hooks**"
+    },
+    {
+      "id": "src-1v1lD3igXT7x",
+      "name": "Grok hands-off activation and continuation",
+      "kind": "doc",
+      "description": "# Grok hands-off activation and continuation This repository is intentionally organized so Grok can inspect, edit, verify, and run the app without reconstructing the architecture from chat history. ## One-command activation From the repository root: ```bash bash scripts/grok-acti",
+      "path": "staging/materialized/1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF.md",
+      "source_id": "1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF",
+      "chars": 5279,
+      "preview": "# Grok hands-off activation and continuation This repository is intentionally organized so Grok can inspect, edit, verify, and run the app without reconstructing the architecture from chat history. ## One-command activation From the repository root: ```bash bash scripts/grok-activate.sh ``` The script performs the following sequence: 1. Verifies Node.js and pnpm/Corepack are available. 2. Ru"
+    },
+    {
+      "id": "src-1vy8dgkHuOcB",
+      "name": "1. Install",
+      "kind": "skill",
+      "description": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 KB Complete documentation for Skill Seekers v3.2.0 This is the o\ufb03cial documentation for Skill Seeker",
+      "path": "staging/materialized/1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu.pdf",
+      "source_id": "1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu",
+      "chars": 4909,
+      "preview": "development Skill_Seekers/docs/README.md yusufkaraaslanandclaudedocs: update all documentation for 12 LLM platforms and 18 agents 6bb7078 \u00b7 2 months ago 219 lines (153 loc) \u00b7 5.92 KB Complete documentation for Skill Seekers v3.2.0 This is the o\ufb03cial documentation for Skill Seekers - the universal tool for converting 17 source types (documentation sites, GitHub repos, PDFs, videos, Word docs, EPUB"
+    },
+    {
+      "id": "src-1xZYagWJD9C6",
+      "name": "One command \u2192  structured knowledge asset",
+      "kind": "skill",
+      "description": "home skills automation skill-seekers openclaw claude v1.0.0 Skill Seekers @yusufkaraaslan \u2b50 11.2k stars \u00b7 last commit 6mo ago \u00b7 97 open issues Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills automatically. PyPI-published, 2,540+ tests. Choose h",
+      "path": "staging/materialized/1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T.pdf",
+      "source_id": "1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T",
+      "chars": 8026,
+      "preview": "home skills automation skill-seekers openclaw claude v1.0.0 Skill Seekers @yusufkaraaslan \u2b50 11.2k stars \u00b7 last commit 6mo ago \u00b7 97 open issues Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills automatically. PyPI-published, 2,540+ tests. Choose how to use this skill You do not need every option. Choose the path your AI client supports. The stable page stays the s"
+    },
+    {
+      "id": "src-1x_lfCB7235V",
+      "name": "OpenClaw Test Heap Leaks",
+      "kind": "skill",
+      "description": "--- name: openclaw-test-heap-leaks description: Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas. --- # OpenClaw Test Heap Leaks Use this skill for test-memory investigations. Do not guess from RSS alone when heap snapshots are avail",
+      "path": "staging/materialized/1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI.md",
+      "source_id": "1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI",
+      "chars": 5771,
+      "preview": "--- name: openclaw-test-heap-leaks description: Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas. --- # OpenClaw Test Heap Leaks Use this skill for test-memory investigations. Do not guess from RSS alone when heap snapshots are available. Treat snapshot-name deltas as triage evidence, not proof, until retainers or dominators support the call. ## Wo"
+    },
+    {
+      "id": "src-1yWlsiNYgFjA",
+      "name": "Optimize Tests",
+      "kind": "skill",
+      "description": "--- name: optimizetests description: Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage. --- # Optimize Tests Goal: real OpenClaw test/runtime speedups with coverage intact. Do not add shards, skip assertions, weaken gates, or tu",
+      "path": "staging/materialized/1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj.md",
+      "source_id": "1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj",
+      "chars": 2049,
+      "preview": "--- name: optimizetests description: Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage. --- # Optimize Tests Goal: real OpenClaw test/runtime speedups with coverage intact. Do not add shards, skip assertions, weaken gates, or tune runner flags as the main fix. ## Runbook 1. Read `docs/help/testing.md`, `docs/ci.md`, and the scoped `AGENTS.md`"
+    },
+    {
+      "id": "src-1z36me9wQp12",
+      "name": "Tag Duplicate PRs and Issues",
+      "kind": "skill",
+      "description": "--- name: tag-duplicate-prs-issues description: Search duplicate OpenClaw PRs/issues, group related work in prtags, and sync duplicate state to GitHub. --- # Tag Duplicate PRs and Issues Use this skill when a maintainer needs to decide whether a pull request or issue is a duplica",
+      "path": "staging/materialized/1z36me9wQp12R1ROrdepAVttpY3Mymk5a.md",
+      "source_id": "1z36me9wQp12R1ROrdepAVttpY3Mymk5a",
+      "chars": 17799,
+      "preview": "--- name: tag-duplicate-prs-issues description: Search duplicate OpenClaw PRs/issues, group related work in prtags, and sync duplicate state to GitHub. --- # Tag Duplicate PRs and Issues Use this skill when a maintainer needs to decide whether a pull request or issue is a duplicate of existing work. This skill is for maintainer triage and grouping. It is not for reviewing the implementation qua"
+    },
+    {
+      "id": "src-1zHM_Lcvcl4f",
+      "name": "QQBot \u5bcc\u5a92\u4f53\u6536\u53d1",
+      "kind": "skill",
+      "description": "--- name: qqbot-media description: QQBot \u5bcc\u5a92\u4f53\u6536\u53d1\u80fd\u529b\u3002\u4f7f\u7528 <qqmedia> \u6807\u7b7e\uff0c\u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\uff08\u56fe\u7247/\u8bed\u97f3/\u89c6\u9891/\u6587\u4ef6\uff09\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQBot \u5bcc\u5a92\u4f53\u6536\u53d1 ## \u7528\u6cd5 ``` <qqmedia>\u8def\u5f84\u6216URL</qqmedia> ``` \u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\u5e76\u8def\u7531\uff1a - `.jpg/.png/.gif/",
+      "path": "staging/materialized/1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF.md",
+      "source_id": "1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF",
+      "chars": 750,
+      "preview": "--- name: qqbot-media description: QQBot \u5bcc\u5a92\u4f53\u6536\u53d1\u80fd\u529b\u3002\u4f7f\u7528 <qqmedia> \u6807\u7b7e\uff0c\u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\uff08\u56fe\u7247/\u8bed\u97f3/\u89c6\u9891/\u6587\u4ef6\uff09\u3002 metadata: { \"openclaw\": { \"emoji\": \"\ud83d\udcf8\", \"requires\": { \"config\": [\"channels.qqbot\"] } } } --- # QQBot \u5bcc\u5a92\u4f53\u6536\u53d1 ## \u7528\u6cd5 ``` <qqmedia>\u8def\u5f84\u6216URL</qqmedia> ``` \u7cfb\u7edf\u6839\u636e\u6587\u4ef6\u6269\u5c55\u540d\u81ea\u52a8\u8bc6\u522b\u7c7b\u578b\u5e76\u8def\u7531\uff1a - `.jpg/.png/.gif/.webp/.bmp` \u2192 \u56fe\u7247 - `.silk/.wav/.mp3/.ogg/.aac/.flac` \u7b49 \u2192 \u8bed\u97f3 - `.mp4/.mov/.avi/.mkv/.webm` \u7b49 \u2192 \u89c6\u9891 - \u5176\u4ed6\u6269\u5c55\u540d \u2192 \u6587\u4ef6 - \u65e0\u6269\u5c55"
     }
   ],
   "docs": [
@@ -757,5 +2289,13 @@
       }
     ],
     "restored_at": "2026-11-08T04:10:01.986785Z"
+  },
+  "ingest": {
+    "materialized": 225,
+    "extracted": 225,
+    "ingested_binary_or_pdf": 0,
+    "new_skill_entries": 155,
+    "report": "staging/INGEST_REPORT.json",
+    "at": "2026-11-08T04:54:10.218353+00:00"
   }
 }

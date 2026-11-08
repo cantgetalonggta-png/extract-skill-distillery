@@ -1,0 +1,1587 @@
+{
+  "generated_at": "2026-11-08T04:54:08.730698+00:00",
+  "planned_textish": 225,
+  "materialized": 225,
+  "by_status": {
+    "extracted": 225
+  },
+  "total_bytes": 69881423,
+  "extracted_chars": 7690178,
+  "file_index": [
+    {
+      "id": "1-Ants1F2MkG_S-GKfy88JnVfezjU46Wk",
+      "name": "grok-4.20-multi-agent-0.pdf",
+      "status": "extracted",
+      "size_bytes": 18585,
+      "extracted_chars": 4096
+    },
+    {
+      "id": "1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD",
+      "name": "SKILL (944).md",
+      "status": "extracted",
+      "size_bytes": 3806,
+      "extracted_chars": 3786
+    },
+    {
+      "id": "10-vH9if2omS77U1U5_vhp9S6FgS2cjlz",
+      "name": "Function calling.txt",
+      "status": "extracted",
+      "size_bytes": 29880,
+      "extracted_chars": 29853
+    },
+    {
+      "id": "100z3lPnT0S8gofOIDahn86fhGp00sr7U",
+      "name": "Introducing deep research _ OpenAI.PDF",
+      "status": "extracted",
+      "size_bytes": 1377077,
+      "extracted_chars": 17603
+    },
+    {
+      "id": "10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp",
+      "name": "Skill Seekers v2.2.PDF",
+      "status": "extracted",
+      "size_bytes": 1669944,
+      "extracted_chars": 5856
+    },
+    {
+      "id": "10CZHNVRPIS7-2BtUy6j3hpidX6HMLYPD",
+      "name": "Multi-Agent_Distributed_Framework_for_Swarm_Intell.pdf",
+      "status": "extracted",
+      "size_bytes": 342461,
+      "extracted_chars": 41649
+    },
+    {
+      "id": "10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR",
+      "name": "Reasoning models.txt",
+      "status": "extracted",
+      "size_bytes": 20328,
+      "extracted_chars": 20324
+    },
+    {
+      "id": "10Iy66jodb6G0DjapPPd4aWe_eL9716E8",
+      "name": "research-agents-494403-2c0e7e1958b2.json",
+      "status": "extracted",
+      "size_bytes": 2404,
+      "extracted_chars": 2404
+    },
+    {
+      "id": "10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH",
+      "name": "SKILL (823).md",
+      "status": "extracted",
+      "size_bytes": 2512,
+      "extracted_chars": 2509
+    },
+    {
+      "id": "10YxzoRSuW5GvoJ-mxTPV-wKvcpi4Rzpn",
+      "name": "Use custom instructions in VS Code.PDF",
+      "status": "extracted",
+      "size_bytes": 462352,
+      "extracted_chars": 18536
+    },
+    {
+      "id": "10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy",
+      "name": "SKILL (676).md",
+      "status": "extracted",
+      "size_bytes": 12485,
+      "extracted_chars": 10067
+    },
+    {
+      "id": "113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE",
+      "name": "Skill Seekers _ Claude Code Skill for Knowledge Extraction.PDF",
+      "status": "extracted",
+      "size_bytes": 338386,
+      "extracted_chars": 3045
+    },
+    {
+      "id": "118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq",
+      "name": "yusufkaraaslan_Skill_Seekers_ Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with autom.PDF",
+      "status": "extracted",
+      "size_bytes": 1331221,
+      "extracted_chars": 15559
+    },
+    {
+      "id": "11JXJd2_kWpC854JKG-_MX_e-5rASUOff",
+      "name": "MCP Inspector Online \u2013 Test & Debug MCP Servers _ Glama(1).PDF",
+      "status": "extracted",
+      "size_bytes": 297877,
+      "extracted_chars": 6008
+    },
+    {
+      "id": "11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb",
+      "name": "Integrating GrokToolHook implements AfterSuccessHook.txt",
+      "status": "extracted",
+      "size_bytes": 26562,
+      "extracted_chars": 26531
+    },
+    {
+      "id": "11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi",
+      "name": "Implementing autonomy.txt",
+      "status": "extracted",
+      "size_bytes": 7515,
+      "extracted_chars": 7507
+    },
+    {
+      "id": "125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT",
+      "name": "SKILL (880).md",
+      "status": "extracted",
+      "size_bytes": 5771,
+      "extracted_chars": 5771
+    },
+    {
+      "id": "12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29",
+      "name": "Workflows \u2014 Curated AI Agent Skill + MCP Server Bundles _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 146631,
+      "extracted_chars": 4559
+    },
+    {
+      "id": "12IjQTa-Yd3NhMlcJ7QY6uT2h1dqLelhu",
+      "name": "Grok_Build_Plugins__Tools,_Locations,_Development_.pdf",
+      "status": "extracted",
+      "size_bytes": 277554,
+      "extracted_chars": 15706
+    },
+    {
+      "id": "12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7",
+      "name": "SKILL (678).md",
+      "status": "extracted",
+      "size_bytes": 3942,
+      "extracted_chars": 3942
+    },
+    {
+      "id": "132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy",
+      "name": "Skills.txt",
+      "status": "extracted",
+      "size_bytes": 8773,
+      "extracted_chars": 8771
+    },
+    {
+      "id": "1335tUP25Rb896fPaltVxg0BrBh3w_P8f",
+      "name": "Function callin.txt",
+      "status": "extracted",
+      "size_bytes": 29880,
+      "extracted_chars": 29853
+    },
+    {
+      "id": "134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf",
+      "name": "Skills.txt",
+      "status": "extracted",
+      "size_bytes": 8773,
+      "extracted_chars": 8771
+    },
+    {
+      "id": "13wDoyatuCKWcP3AH6zXwh2UWQGHqvzVZ",
+      "name": "Auto install start-codex-exec(1).PDF",
+      "status": "extracted",
+      "size_bytes": 308811,
+      "extracted_chars": 1957
+    },
+    {
+      "id": "1581Q_186PQXSQ-G-W7-15zfYW3Xzk7Qu",
+      "name": "ultimate_swarm.py",
+      "status": "extracted",
+      "size_bytes": 1437,
+      "extracted_chars": 1415
+    },
+    {
+      "id": "15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY",
+      "name": "GitLab MCP Server \u2014 GitLab _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 185658,
+      "extracted_chars": 3587
+    },
+    {
+      "id": "15CI9jba5fqVVlTccCuUnv7NQq9tXzjZp",
+      "name": "ci_ route build IO through Dev Drives (#31357) \u00b7 cantgetalonggta-png_codex@bd5c860.PDF",
+      "status": "extracted",
+      "size_bytes": 324202,
+      "extracted_chars": 19779
+    },
+    {
+      "id": "15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv",
+      "name": "Migrate to the.txt",
+      "status": "extracted",
+      "size_bytes": 27838,
+      "extracted_chars": 27828
+    },
+    {
+      "id": "15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq",
+      "name": "https_swagge.txt",
+      "status": "extracted",
+      "size_bytes": 258,
+      "extracted_chars": 256
+    },
+    {
+      "id": "15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD",
+      "name": "SKILL (684).md",
+      "status": "extracted",
+      "size_bytes": 5151,
+      "extracted_chars": 5151
+    },
+    {
+      "id": "15cuIuSUQkAmHN41Hl0_h_jTxCbhIQSfQ",
+      "name": "Overview - Ollama.PDF",
+      "status": "extracted",
+      "size_bytes": 127338,
+      "extracted_chars": 685
+    },
+    {
+      "id": "15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5",
+      "name": "Skill_Seekers_docs_user-guide_01-core-concepts.PDF",
+      "status": "extracted",
+      "size_bytes": 314500,
+      "extracted_chars": 9637
+    },
+    {
+      "id": "16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO",
+      "name": "yusufkaraaslan_Skill_Seekers_ Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with autom.PDF",
+      "status": "extracted",
+      "size_bytes": 1373518,
+      "extracted_chars": 15525
+    },
+    {
+      "id": "16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ",
+      "name": "Containers.txt",
+      "status": "extracted",
+      "size_bytes": 27902,
+      "extracted_chars": 27900
+    },
+    {
+      "id": "17DUDChA6dvySb4TxEIHikzIop_qnZYRX",
+      "name": "Browse - Databases - Library Search.PDF",
+      "status": "extracted",
+      "size_bytes": 411346,
+      "extracted_chars": 7131
+    },
+    {
+      "id": "17R7wGD2EGi_k59FDSjlVMQ6e5wA0dHrE",
+      "name": "Open Responses.PDF",
+      "status": "extracted",
+      "size_bytes": 207157,
+      "extracted_chars": 1939
+    },
+    {
+      "id": "17X7h4aD4T7OOodamxZcJZDHXxS60fn0V",
+      "name": "SKILL (817).md",
+      "status": "extracted",
+      "size_bytes": 5735,
+      "extracted_chars": 5459
+    },
+    {
+      "id": "17fdvh4D3MkP3rVsq_69FQhVWbIzs8u5k",
+      "name": "MCP Clients _ Glama.PDF",
+      "status": "extracted",
+      "size_bytes": 6695060,
+      "extracted_chars": 40193
+    },
+    {
+      "id": "18RkEHuWz8zOl07cq0lEY4pNwimGBLpZl",
+      "name": "grok_api_demo.py",
+      "status": "extracted",
+      "size_bytes": 5096,
+      "extracted_chars": 5096
+    },
+    {
+      "id": "18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx",
+      "name": "AI Agent Skills \u2014 The Curated Directory _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 326835,
+      "extracted_chars": 16278
+    },
+    {
+      "id": "18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS",
+      "name": "SKILL (1027).md",
+      "status": "extracted",
+      "size_bytes": 6349,
+      "extracted_chars": 4450
+    },
+    {
+      "id": "18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD",
+      "name": "detailed template layout.txt",
+      "status": "extracted",
+      "size_bytes": 10016,
+      "extracted_chars": 10012
+    },
+    {
+      "id": "194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj",
+      "name": "Building an automated.txt",
+      "status": "extracted",
+      "size_bytes": 15720,
+      "extracted_chars": 15716
+    },
+    {
+      "id": "19SovwVKexfoTPGYmykzAdTarxcHr3vJH",
+      "name": "SKILL (820).md",
+      "status": "extracted",
+      "size_bytes": 1020,
+      "extracted_chars": 1017
+    },
+    {
+      "id": "19hQhaiCRkTHJWNG0G6KgUHzCVasoZsya",
+      "name": "Embeddings - Ollama.PDF",
+      "status": "extracted",
+      "size_bytes": 186058,
+      "extracted_chars": 1184
+    },
+    {
+      "id": "1A4Ddh9x51UInH89imm7jHKK3DekxOWrr",
+      "name": "Using Proposed API _ Visual Studio Code Extension API.PDF",
+      "status": "extracted",
+      "size_bytes": 316252,
+      "extracted_chars": 4223
+    },
+    {
+      "id": "1A5Pt-AAidfP_GageYpg0f7DjwF50UtHP",
+      "name": ".naf.txt",
+      "status": "extracted",
+      "size_bytes": 0,
+      "extracted_chars": 0
+    },
+    {
+      "id": "1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0",
+      "name": "yusufkaraaslan_skill-seekers-configs_ Community-contributed configuration files for Skill Seekers - Documentation scraping c.PDF",
+      "status": "extracted",
+      "size_bytes": 343736,
+      "extracted_chars": 7593
+    },
+    {
+      "id": "1AFpB7K0_Upn82skxHou1QW7M7Gj893vS",
+      "name": "openclaw_nix-openclaw-tools.PDF",
+      "status": "extracted",
+      "size_bytes": 340474,
+      "extracted_chars": 9741
+    },
+    {
+      "id": "1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg",
+      "name": "SKILL (882).md",
+      "status": "extracted",
+      "size_bytes": 13249,
+      "extracted_chars": 13229
+    },
+    {
+      "id": "1BIUPj_AjrJ9JnMqpa2_YOLzc4omt-2K6",
+      "name": "Tool calling - Ollama.PDF",
+      "status": "extracted",
+      "size_bytes": 261183,
+      "extracted_chars": 8212
+    },
+    {
+      "id": "1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K",
+      "name": "SKILL (877).md",
+      "status": "extracted",
+      "size_bytes": 3151,
+      "extracted_chars": 3151
+    },
+    {
+      "id": "1Bk1W6A29P-4JLcU8QIZct_PiCA64uRno",
+      "name": "yusufkaraaslan_awesome-mcp-servers_ A collection of MCP servers.PDF",
+      "status": "extracted",
+      "size_bytes": 3324747,
+      "extracted_chars": 164621
+    },
+    {
+      "id": "1BmjbuS4Sf_2RNP_MbF0MkcOpAtrU98No",
+      "name": "Improving instruction hierarchy in frontier LLMs _ OpenAI.PDF",
+      "status": "extracted",
+      "size_bytes": 1927328,
+      "extracted_chars": 11621
+    },
+    {
+      "id": "1Bqtwk0ydtXgQpQcPpwbcqWrKrHcvcVN1",
+      "name": "pnpm-workspace.yaml",
+      "status": "extracted",
+      "size_bytes": 317,
+      "extracted_chars": 317
+    },
+    {
+      "id": "1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64",
+      "name": "Based.txt",
+      "status": "extracted",
+      "size_bytes": 6514,
+      "extracted_chars": 6512
+    },
+    {
+      "id": "1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz",
+      "name": "yusufkaraaslan_skill-seekers-action_ GitHub Action_ Transform docs, repos, PDFs, videos into AI skills and RAG knowledge.PDF",
+      "status": "extracted",
+      "size_bytes": 230946,
+      "extracted_chars": 4002
+    },
+    {
+      "id": "1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk",
+      "name": "Agent Skills Marketplace _ Claude, C...PDF",
+      "status": "extracted",
+      "size_bytes": 1329247,
+      "extracted_chars": 1156
+    },
+    {
+      "id": "1CuDNDXuTYGqkfN3K008TdNA4pdAqvIuX",
+      "name": "github-mcp-server_docs_installation-guides_install-copilot-cli.PDF",
+      "status": "extracted",
+      "size_bytes": 266999,
+      "extracted_chars": 3724
+    },
+    {
+      "id": "1E57fBSd0kChrvKW830YpueQ04kazW2Qe",
+      "name": "rampstackco_claude-skills_ Stack-agnostic Claude Skills covering the full website lifecycle_ brand, design, content, SEO, de.PDF",
+      "status": "extracted",
+      "size_bytes": 4134687,
+      "extracted_chars": 48701
+    },
+    {
+      "id": "1EQbny70SXnLs5MMvqQzMKLHw5xCYHx49",
+      "name": "openclaw_clawrouter_ ClawRouter API gateway and provider router for OpenClaw services.PDF",
+      "status": "extracted",
+      "size_bytes": 357200,
+      "extracted_chars": 7684
+    },
+    {
+      "id": "1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa",
+      "name": "SKILL (876).md",
+      "status": "extracted",
+      "size_bytes": 5151,
+      "extracted_chars": 5151
+    },
+    {
+      "id": "1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2",
+      "name": "File search.txt",
+      "status": "extracted",
+      "size_bytes": 6788,
+      "extracted_chars": 6786
+    },
+    {
+      "id": "1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af",
+      "name": "SKILL (881).md",
+      "status": "extracted",
+      "size_bytes": 5594,
+      "extracted_chars": 5574
+    },
+    {
+      "id": "1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof",
+      "name": "Retrieve containers.txt",
+      "status": "extracted",
+      "size_bytes": 598,
+      "extracted_chars": 596
+    },
+    {
+      "id": "1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW",
+      "name": "SKILL (884).md",
+      "status": "extracted",
+      "size_bytes": 2709,
+      "extracted_chars": 2709
+    },
+    {
+      "id": "1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI",
+      "name": "SKILL (885).md",
+      "status": "extracted",
+      "size_bytes": 3942,
+      "extracted_chars": 3942
+    },
+    {
+      "id": "1H4i9vcllnH9_pXN74t9GCAd8F-DZki03",
+      "name": "SKILL (814).md",
+      "status": "extracted",
+      "size_bytes": 1089,
+      "extracted_chars": 1086
+    },
+    {
+      "id": "1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD",
+      "name": "SKILL (871).md",
+      "status": "extracted",
+      "size_bytes": 4873,
+      "extracted_chars": 4856
+    },
+    {
+      "id": "1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9",
+      "name": "Learn \u2014 AI Agent Skills Guides & Tutorials _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 155352,
+      "extracted_chars": 4154
+    },
+    {
+      "id": "1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4",
+      "name": "openclaw_clawscan_ Composable security scanning harness for agent skills.PDF",
+      "status": "extracted",
+      "size_bytes": 399988,
+      "extracted_chars": 16437
+    },
+    {
+      "id": "1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2",
+      "name": "skill-workshop-pending-approval.md",
+      "status": "extracted",
+      "size_bytes": 4304,
+      "extracted_chars": 4304
+    },
+    {
+      "id": "1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg",
+      "name": "https_github.txt",
+      "status": "extracted",
+      "size_bytes": 5075,
+      "extracted_chars": 5073
+    },
+    {
+      "id": "1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV",
+      "name": "skills (51).md",
+      "status": "extracted",
+      "size_bytes": 17943,
+      "extracted_chars": 17864
+    },
+    {
+      "id": "1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK",
+      "name": "AI Agent Skills \u2014 The Curated Directory _ AgenticSkills(1).PDF",
+      "status": "extracted",
+      "size_bytes": 185230,
+      "extracted_chars": 4752
+    },
+    {
+      "id": "1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK",
+      "name": "grok-search.md",
+      "status": "extracted",
+      "size_bytes": 2643,
+      "extracted_chars": 2643
+    },
+    {
+      "id": "1JZsUPMzX-ZJgMlwn8uHwZSQ6aGvAuKh1",
+      "name": "openclaw_kitchen-sink_ Credential-free kitchen-sink OpenClaw plugin fixture covering the public plugin API surface.PDF",
+      "status": "extracted",
+      "size_bytes": 426141,
+      "extracted_chars": 14967
+    },
+    {
+      "id": "1JbCcd24p4-YLpllW-3OOMG6Mbr3Ozg9x",
+      "name": "yusufkaraaslan_claude-remote-plus_ Hot-swap Claude Code remote sessions between projects from your phone. A daemon + MCP ser.PDF",
+      "status": "extracted",
+      "size_bytes": 245273,
+      "extracted_chars": 5403
+    },
+    {
+      "id": "1JdtpFQTwp89dmWxSngy0r-YZX9ssPF9G",
+      "name": "openclaw_Peekaboo_ Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applicatio.PDF",
+      "status": "extracted",
+      "size_bytes": 836002,
+      "extracted_chars": 8479
+    },
+    {
+      "id": "1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R",
+      "name": "SKILL (872).md",
+      "status": "extracted",
+      "size_bytes": 33437,
+      "extracted_chars": 33395
+    },
+    {
+      "id": "1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap",
+      "name": "AgenticSkills \u2014 AI Agent Skills & 190+ MCP Servers Directory.PDF",
+      "status": "extracted",
+      "size_bytes": 313939,
+      "extracted_chars": 2845
+    },
+    {
+      "id": "1K7hFr0dUpy3s2wojQN9_ZEJZQyrSuOZ7",
+      "name": "SpaceXAI Console \u2014 Grok API & Developer Tools",
+      "status": "extracted",
+      "size_bytes": 610422,
+      "extracted_chars": 610408
+    },
+    {
+      "id": "1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6",
+      "name": "openclaw_agent-skills_ Useful skills for agents and claws.PDF",
+      "status": "extracted",
+      "size_bytes": 379885,
+      "extracted_chars": 12278
+    },
+    {
+      "id": "1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz",
+      "name": "This implementation.txt",
+      "status": "extracted",
+      "size_bytes": 4904,
+      "extracted_chars": 4902
+    },
+    {
+      "id": "1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ",
+      "name": "Skill_Seekers_docs_user-guide_02-scraping.PDF",
+      "status": "extracted",
+      "size_bytes": 408884,
+      "extracted_chars": 12244
+    },
+    {
+      "id": "1KHBqp04kq_4xd0JfDO7kyBE73MrZsL68",
+      "name": "openclaw_mcporter_ Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them as cli.PDF",
+      "status": "extracted",
+      "size_bytes": 906316,
+      "extracted_chars": 8208
+    },
+    {
+      "id": "1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0",
+      "name": "SKILL (1026).md",
+      "status": "extracted",
+      "size_bytes": 1331,
+      "extracted_chars": 750
+    },
+    {
+      "id": "1Kj-nfqpDvPT1nPAQJP9OnnCEdxf5pC4X",
+      "name": "openclaw_openclaw_ The AI that really does things. Any OS. Any Platform. The lobster way.PDF",
+      "status": "extracted",
+      "size_bytes": 2499004,
+      "extracted_chars": 13678
+    },
+    {
+      "id": "1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw",
+      "name": "skill-install-hot-availability.md",
+      "status": "extracted",
+      "size_bytes": 2625,
+      "extracted_chars": 2625
+    },
+    {
+      "id": "1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j",
+      "name": "SEEKEE_STRINGS_ANALYSIS.md.txt",
+      "status": "extracted",
+      "size_bytes": 2372,
+      "extracted_chars": 2372
+    },
+    {
+      "id": "1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw",
+      "name": "skills (52).md",
+      "status": "extracted",
+      "size_bytes": 1718,
+      "extracted_chars": 1718
+    },
+    {
+      "id": "1LehaQuF1lVh5ixRlEG2v_inYicc59xE6",
+      "name": "Artificial Intelligence.txt",
+      "status": "extracted",
+      "size_bytes": 5717,
+      "extracted_chars": 5715
+    },
+    {
+      "id": "1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2",
+      "name": "API deployment.txt",
+      "status": "extracted",
+      "size_bytes": 13399,
+      "extracted_chars": 13397
+    },
+    {
+      "id": "1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV",
+      "name": "grok_unhinged_encyclopedia.md",
+      "status": "extracted",
+      "size_bytes": 8875,
+      "extracted_chars": 8875
+    },
+    {
+      "id": "1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl",
+      "name": "SKILL (683).md",
+      "status": "extracted",
+      "size_bytes": 3151,
+      "extracted_chars": 3151
+    },
+    {
+      "id": "1MDiezUBzJK36HpqrmccYTW-ybyoocZfM",
+      "name": "Create a model.txt",
+      "status": "extracted",
+      "size_bytes": 335439,
+      "extracted_chars": 335429
+    },
+    {
+      "id": "1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ",
+      "name": "SKILL (895).md",
+      "status": "extracted",
+      "size_bytes": 2645,
+      "extracted_chars": 2633
+    },
+    {
+      "id": "1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J",
+      "name": "Shell.txt",
+      "status": "extracted",
+      "size_bytes": 20206,
+      "extracted_chars": 20204
+    },
+    {
+      "id": "1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R",
+      "name": "Agents SDK.txt",
+      "status": "extracted",
+      "size_bytes": 7798,
+      "extracted_chars": 7796
+    },
+    {
+      "id": "1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav",
+      "name": "SKILL (870).md",
+      "status": "extracted",
+      "size_bytes": 34800,
+      "extracted_chars": 34612
+    },
+    {
+      "id": "1OXfSjR7_abwcc2WNzdAg7UI2HYx-Yle6",
+      "name": "openclaw_ffmpeg-wasm_ Lightweight FFmpeg and FFprobe for Node, built as modern WebAssembly for local media automation.PDF",
+      "status": "extracted",
+      "size_bytes": 811835,
+      "extracted_chars": 10403
+    },
+    {
+      "id": "1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y",
+      "name": "SKILL (875).md",
+      "status": "extracted",
+      "size_bytes": 25611,
+      "extracted_chars": 25611
+    },
+    {
+      "id": "1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw",
+      "name": "Implementing self.policy.txt",
+      "status": "extracted",
+      "size_bytes": 7580,
+      "extracted_chars": 7572
+    },
+    {
+      "id": "1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv",
+      "name": "yusufkaraaslan_skill-seekers-plugin_ Claude Code Plugin_ 35 MCP tools to build AI skills from 17 source types.PDF",
+      "status": "extracted",
+      "size_bytes": 210520,
+      "extracted_chars": 3408
+    },
+    {
+      "id": "1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc",
+      "name": "skill-workshop (14).md",
+      "status": "extracted",
+      "size_bytes": 20730,
+      "extracted_chars": 20700
+    },
+    {
+      "id": "1S0MbGNZ9OUGs3n-2tInky2cJv5B6lqf5",
+      "name": "GitLab MCP server _ GitLab Docs.PDF",
+      "status": "extracted",
+      "size_bytes": 713298,
+      "extracted_chars": 24019
+    },
+    {
+      "id": "1S299jDGRhaMGukj1uqzmw0vA2nsjWtqD",
+      "name": "linangdata-document.pdf",
+      "status": "extracted",
+      "size_bytes": 43028,
+      "extracted_chars": 6671
+    },
+    {
+      "id": "1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw",
+      "name": "SKILL (950).md",
+      "status": "extracted",
+      "size_bytes": 5735,
+      "extracted_chars": 5459
+    },
+    {
+      "id": "1SodqCuA-ErRLX02AnD4gKDhgJ6tsoAfS",
+      "name": "grok-activate.sh",
+      "status": "extracted",
+      "size_bytes": 2690,
+      "extracted_chars": 2690
+    },
+    {
+      "id": "1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills(2).PDF",
+      "status": "extracted",
+      "size_bytes": 381531,
+      "extracted_chars": 17881
+    },
+    {
+      "id": "1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2",
+      "name": "SKILL (640).md",
+      "status": "extracted",
+      "size_bytes": 2946,
+      "extracted_chars": 2943
+    },
+    {
+      "id": "1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT",
+      "name": "SKILL (818).md",
+      "status": "extracted",
+      "size_bytes": 1977,
+      "extracted_chars": 1974
+    },
+    {
+      "id": "1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8",
+      "name": "skill-workshop-animated-gif-autocreate.md",
+      "status": "extracted",
+      "size_bytes": 3106,
+      "extracted_chars": 3106
+    },
+    {
+      "id": "1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO",
+      "name": "SKILL (687).md",
+      "status": "extracted",
+      "size_bytes": 25611,
+      "extracted_chars": 25611
+    },
+    {
+      "id": "1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM",
+      "name": "SKILL (1024).md",
+      "status": "extracted",
+      "size_bytes": 3942,
+      "extracted_chars": 3942
+    },
+    {
+      "id": "1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE",
+      "name": "Skill_Seekers_docs_README (6).pdf",
+      "status": "extracted",
+      "size_bytes": 315370,
+      "extracted_chars": 4909
+    },
+    {
+      "id": "1WNm6rD12vNu2maErBZG1MM3yKsZKgrOg",
+      "name": "AI Developer Tools \u2014 Agent Frameworks, Sandboxes & Observability(1).PDF",
+      "status": "extracted",
+      "size_bytes": 198629,
+      "extracted_chars": 10540
+    },
+    {
+      "id": "1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K",
+      "name": "SKILL (1025).md",
+      "status": "extracted",
+      "size_bytes": 12485,
+      "extracted_chars": 10067
+    },
+    {
+      "id": "1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn",
+      "name": "for developers.txt",
+      "status": "extracted",
+      "size_bytes": 4929,
+      "extracted_chars": 4925
+    },
+    {
+      "id": "1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx",
+      "name": "skills (50).md",
+      "status": "extracted",
+      "size_bytes": 2085,
+      "extracted_chars": 2085
+    },
+    {
+      "id": "1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal",
+      "name": "Skill Seekers \u2014 AI Agent Skill by yusufkaraaslan _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 238142,
+      "extracted_chars": 4810
+    },
+    {
+      "id": "1X479KSGJDEn5P9B970goAlrtbDIDkcgm",
+      "name": "SKILL (929).md",
+      "status": "extracted",
+      "size_bytes": 13662,
+      "extracted_chars": 13649
+    },
+    {
+      "id": "1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG",
+      "name": "Grok_Build_Plugins__Tools,_Locations,_Development_.md",
+      "status": "extracted",
+      "size_bytes": 17661,
+      "extracted_chars": 17527
+    },
+    {
+      "id": "1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM",
+      "name": "SKILL (1022).md",
+      "status": "extracted",
+      "size_bytes": 8409,
+      "extracted_chars": 8377
+    },
+    {
+      "id": "1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs",
+      "name": "SKILL (679).md",
+      "status": "extracted",
+      "size_bytes": 15611,
+      "extracted_chars": 15391
+    },
+    {
+      "id": "1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u",
+      "name": "SKILL (815).md",
+      "status": "extracted",
+      "size_bytes": 1314,
+      "extracted_chars": 1311
+    },
+    {
+      "id": "1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY",
+      "name": "Site Map \u2014 AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 238348,
+      "extracted_chars": 9739
+    },
+    {
+      "id": "1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG",
+      "name": "Skill_Seekers_docs_README (1).PDF",
+      "status": "extracted",
+      "size_bytes": 316900,
+      "extracted_chars": 4909
+    },
+    {
+      "id": "1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA",
+      "name": "SKILL (1020).md",
+      "status": "extracted",
+      "size_bytes": 2049,
+      "extracted_chars": 2049
+    },
+    {
+      "id": "1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O",
+      "name": "SKILL (816).md",
+      "status": "extracted",
+      "size_bytes": 2662,
+      "extracted_chars": 2643
+    },
+    {
+      "id": "1Z5u9ndB2_39GMaeGigTTwO_mXniywokK",
+      "name": "Find Skills \u2014 AI Agent Skill by Vercel Labs _ AgenticSkills(1).PDF",
+      "status": "extracted",
+      "size_bytes": 276663,
+      "extracted_chars": 8709
+    },
+    {
+      "id": "1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV",
+      "name": "SKILL (922).md",
+      "status": "extracted",
+      "size_bytes": 4389,
+      "extracted_chars": 4389
+    },
+    {
+      "id": "1Zd9jsDGe_BPYcqQF_qw9SSUxE2ImguqT",
+      "name": "static.videoai.world_terms-conditions-en",
+      "status": "extracted",
+      "size_bytes": 623199,
+      "extracted_chars": 622972
+    },
+    {
+      "id": "1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu",
+      "name": "SKILL (879).md",
+      "status": "extracted",
+      "size_bytes": 8409,
+      "extracted_chars": 8377
+    },
+    {
+      "id": "1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX",
+      "name": "Workflow Board \u00b7 Skill Seeker - Flexible Development.PDF",
+      "status": "extracted",
+      "size_bytes": 255299,
+      "extracted_chars": 1075
+    },
+    {
+      "id": "1_Fq8sJDwV3PgxfSF1rYM5tgeFRUr9XAN",
+      "name": "Subagents in Visual Studio Code.PDF",
+      "status": "extracted",
+      "size_bytes": 266201,
+      "extracted_chars": 12960
+    },
+    {
+      "id": "1_J9KplzSwva_pSqwBjClV82SpMsBBNwv",
+      "name": "rbe.bzl.txt",
+      "status": "extracted",
+      "size_bytes": 1471,
+      "extracted_chars": 1471
+    },
+    {
+      "id": "1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz",
+      "name": "SKILL (813).md",
+      "status": "extracted",
+      "size_bytes": 5381,
+      "extracted_chars": 5370
+    },
+    {
+      "id": "1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3",
+      "name": "Sandbox Agents.txt",
+      "status": "extracted",
+      "size_bytes": 34415,
+      "extracted_chars": 34413
+    },
+    {
+      "id": "1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH",
+      "name": "SKILL (680).md",
+      "status": "extracted",
+      "size_bytes": 4873,
+      "extracted_chars": 4856
+    },
+    {
+      "id": "1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg",
+      "name": "Code Interprete.txt",
+      "status": "extracted",
+      "size_bytes": 14595,
+      "extracted_chars": 14591
+    },
+    {
+      "id": "1aidQU_1IPXHr0GZEsrzK_jDufcEOI5YB",
+      "name": "OpenClawAndroid_openclaw-android-assistant_ \ud83e\udd9e AnyClaw \u2014 OpenClaw + Codex + Claude Code on Android. Three AI agents in one A.PDF",
+      "status": "extracted",
+      "size_bytes": 1205275,
+      "extracted_chars": 17852
+    },
+    {
+      "id": "1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf",
+      "name": "Web search.txt",
+      "status": "extracted",
+      "size_bytes": 8007,
+      "extracted_chars": 7993
+    },
+    {
+      "id": "1b0ELfDc4_sTTlf3WTDTK6SBlYE1hbnlw",
+      "name": "MCP Inspector Online \u2013 Test & Debug MCP Servers _ Glama.PDF",
+      "status": "extracted",
+      "size_bytes": 298527,
+      "extracted_chars": 6001
+    },
+    {
+      "id": "1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE",
+      "name": "SKILL (812).md",
+      "status": "extracted",
+      "size_bytes": 1686,
+      "extracted_chars": 1683
+    },
+    {
+      "id": "1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f",
+      "name": "bazelrc.txt",
+      "status": "extracted",
+      "size_bytes": 10286,
+      "extracted_chars": 10286
+    },
+    {
+      "id": "1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4",
+      "name": "WebSocket Mode.txt",
+      "status": "extracted",
+      "size_bytes": 8425,
+      "extracted_chars": 8423
+    },
+    {
+      "id": "1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw",
+      "name": "Text generation.txt",
+      "status": "extracted",
+      "size_bytes": 13500,
+      "extracted_chars": 13488
+    },
+    {
+      "id": "1buqOdO4Id5pglCJx1DkZGxhNeIrcPTjQ",
+      "name": "core_directives.pdf",
+      "status": "extracted",
+      "size_bytes": 30071,
+      "extracted_chars": 598
+    },
+    {
+      "id": "1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt",
+      "name": "Grok_API_demo.md",
+      "status": "extracted",
+      "size_bytes": 3011,
+      "extracted_chars": 3011
+    },
+    {
+      "id": "1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8",
+      "name": "Ghost MCP Server \u2014 MFYDev _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 200726,
+      "extracted_chars": 3435
+    },
+    {
+      "id": "1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps",
+      "name": "Structured mode.txt",
+      "status": "extracted",
+      "size_bytes": 15198,
+      "extracted_chars": 15196
+    },
+    {
+      "id": "1cXAwjpq5otR9tlaIVVDHemzQJfS_uYCA",
+      "name": "Various Licenses and Comments about Them - GNU Project - Reading mode.PDF",
+      "status": "extracted",
+      "size_bytes": 313930,
+      "extracted_chars": 85942
+    },
+    {
+      "id": "1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh",
+      "name": "Find Skills \u2014 AI Agent Skill by Vercel Labs _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 275714,
+      "extracted_chars": 8589
+    },
+    {
+      "id": "1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5",
+      "name": "yusufkaraaslan_homebrew-skill-seekers_ Homebrew tap for Skill Seekers - AI skill builder for 17 source types.PDF",
+      "status": "extracted",
+      "size_bytes": 181094,
+      "extracted_chars": 1504
+    },
+    {
+      "id": "1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE",
+      "name": "SKILL (685).md",
+      "status": "extracted",
+      "size_bytes": 17821,
+      "extracted_chars": 17799
+    },
+    {
+      "id": "1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills(1).PDF",
+      "status": "extracted",
+      "size_bytes": 295857,
+      "extracted_chars": 8565
+    },
+    {
+      "id": "1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN",
+      "name": "skill-workshop-reviewer-autonomous.md",
+      "status": "extracted",
+      "size_bytes": 3222,
+      "extracted_chars": 3222
+    },
+    {
+      "id": "1efaWYX7LDJu8VzCN80PG_eZpsEW6VCLD",
+      "name": "Auto install start-codex-exec.PDF",
+      "status": "extracted",
+      "size_bytes": 197602,
+      "extracted_chars": 959
+    },
+    {
+      "id": "1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF",
+      "name": "yusufkaraaslan_skillseekersweb_ Marketing and documentation website for Skill Seekers - Transform documentation into Claude .PDF",
+      "status": "extracted",
+      "size_bytes": 283800,
+      "extracted_chars": 3551
+    },
+    {
+      "id": "1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC",
+      "name": "MCP Server Directory \u2014 190+ MCP Servers _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 178637,
+      "extracted_chars": 3212
+    },
+    {
+      "id": "1exRN7xTTnqxaGVe12fGIedp0WKusfF4j",
+      "name": "Integrating GrokToolHook implements AfterSuccessHook.pdf",
+      "status": "extracted",
+      "size_bytes": 127263,
+      "extracted_chars": 40519
+    },
+    {
+      "id": "1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV",
+      "name": "Configure Channel Claude Code Skill _ OpenClaw.PDF",
+      "status": "extracted",
+      "size_bytes": 345558,
+      "extracted_chars": 3252
+    },
+    {
+      "id": "1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5",
+      "name": "Productivity Skills \u2014 Best AI Agent Skills for Productivity _ AgenticSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 134946,
+      "extracted_chars": 4091
+    },
+    {
+      "id": "1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43",
+      "name": "yusufkaraaslan_skill-seekers-plugin_ Claude Code Plugin_ 35 MCP tools to build AI skills from 17 source types(1).PDF",
+      "status": "extracted",
+      "size_bytes": 210520,
+      "extracted_chars": 3408
+    },
+    {
+      "id": "1gOW6CPD9vzRVUQmzGesOc5vmhUOI_AMX",
+      "name": "SovereignEpsteinInvestigator.py",
+      "status": "extracted",
+      "size_bytes": 4745,
+      "extracted_chars": 4708
+    },
+    {
+      "id": "1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p",
+      "name": "SKILL (819).md",
+      "status": "extracted",
+      "size_bytes": 3023,
+      "extracted_chars": 3010
+    },
+    {
+      "id": "1h5N28QbIFPK7PAeQgGhaohEZ1_y_s_Y_",
+      "name": "grok_bridge.py",
+      "status": "extracted",
+      "size_bytes": 8361,
+      "extracted_chars": 8185
+    },
+    {
+      "id": "1hc8L0XjhclGFCPwE6ah8JEyapCWLQv3b",
+      "name": "UPLOAD ASAP AUDIT.pdf",
+      "status": "extracted",
+      "size_bytes": 446039,
+      "extracted_chars": 151363
+    },
+    {
+      "id": "1hjm16H5dP-fBOK5pGW-BHvzwC_JBprec",
+      "name": "How we monitor internal coding agents for misalignment _ OpenAI.PDF",
+      "status": "extracted",
+      "size_bytes": 1743880,
+      "extracted_chars": 13804
+    },
+    {
+      "id": "1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8",
+      "name": "Skill Creator - Agent Skill Claude Code Skill.PDF",
+      "status": "extracted",
+      "size_bytes": 343396,
+      "extracted_chars": 3120
+    },
+    {
+      "id": "1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__",
+      "name": "SKILL (1023).md",
+      "status": "extracted",
+      "size_bytes": 4873,
+      "extracted_chars": 4856
+    },
+    {
+      "id": "1iuKU8E9DgpQCZbAFYFnx2GOKXHPO2oeA",
+      "name": "AI Developer Tools \u2014 Agent Frameworks, Sandboxes & Observability.PDF",
+      "status": "extracted",
+      "size_bytes": 100284,
+      "extracted_chars": 1615
+    },
+    {
+      "id": "1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b",
+      "name": "Library.txt",
+      "status": "extracted",
+      "size_bytes": 8206,
+      "extracted_chars": 8204
+    },
+    {
+      "id": "1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5",
+      "name": "SKILL (686).md",
+      "status": "extracted",
+      "size_bytes": 8409,
+      "extracted_chars": 8377
+    },
+    {
+      "id": "1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW",
+      "name": "openclaw_clawhub_ Skill + Plugin Registry for OpenClaw.PDF",
+      "status": "extracted",
+      "size_bytes": 1535912,
+      "extracted_chars": 11729
+    },
+    {
+      "id": "1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb",
+      "name": "SKILL (681).md",
+      "status": "extracted",
+      "size_bytes": 33437,
+      "extracted_chars": 33395
+    },
+    {
+      "id": "1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw",
+      "name": "test_package_skill.py",
+      "status": "extracted",
+      "size_bytes": 5866,
+      "extracted_chars": 5866
+    },
+    {
+      "id": "1kFzg2wdZWsZts7FatP3uk1fqpeNgCrGd",
+      "name": "openclaw repositories.PDF",
+      "status": "extracted",
+      "size_bytes": 591260,
+      "extracted_chars": 4301
+    },
+    {
+      "id": "1kc-utcKWWkiO__2-7HEu_vdyQ-32QY_d",
+      "name": "The State of MCP in 2025 _ Glama.PDF",
+      "status": "extracted",
+      "size_bytes": 651548,
+      "extracted_chars": 11711
+    },
+    {
+      "id": "1kh4wyH8ExVOR913iAR3t5V_k9Wkap8u7",
+      "name": "grok_chat.sh",
+      "status": "extracted",
+      "size_bytes": 5712,
+      "extracted_chars": 5704
+    },
+    {
+      "id": "1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ",
+      "name": "SKILL (822).md",
+      "status": "extracted",
+      "size_bytes": 3446,
+      "extracted_chars": 3441
+    },
+    {
+      "id": "1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa",
+      "name": "Structured models.txt",
+      "status": "extracted",
+      "size_bytes": 15198,
+      "extracted_chars": 15196
+    },
+    {
+      "id": "1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk",
+      "name": "SKILL (682).md",
+      "status": "extracted",
+      "size_bytes": 9798,
+      "extracted_chars": 9790
+    },
+    {
+      "id": "1lJlQ3X9m46N6cJdUJoKS5LXTIylUyj_b",
+      "name": "Release v2.2.PDF",
+      "status": "extracted",
+      "size_bytes": 230083,
+      "extracted_chars": 6979
+    },
+    {
+      "id": "1llGW8iS12XsSRKSI1n_26uXXEDGFbSpd",
+      "name": "MCP Registry _ GitHub.PDF",
+      "status": "extracted",
+      "size_bytes": 471611,
+      "extracted_chars": 20412
+    },
+    {
+      "id": "1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe",
+      "name": "skill-seekers \u00b7 PyPI.PDF",
+      "status": "extracted",
+      "size_bytes": 1243197,
+      "extracted_chars": 12992
+    },
+    {
+      "id": "1mV_oow8m7qyWofHjFZ0B7DuFw1pz22hR",
+      "name": "Create new codespace (2)",
+      "status": "extracted",
+      "size_bytes": 2479713,
+      "extracted_chars": 2479583
+    },
+    {
+      "id": "1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g",
+      "name": "SKILL.txt",
+      "status": "extracted",
+      "size_bytes": 18422,
+      "extracted_chars": 18286
+    },
+    {
+      "id": "1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX",
+      "name": "skill-visibility-invocation.md",
+      "status": "extracted",
+      "size_bytes": 2559,
+      "extracted_chars": 2559
+    },
+    {
+      "id": "1oEljOy0o6NsABs8lzPPPHKv_98R5s442",
+      "name": "Popular MCP Tools _ Glama.PDF",
+      "status": "extracted",
+      "size_bytes": 456565,
+      "extracted_chars": 4134
+    },
+    {
+      "id": "1oMykg1Lwq3ps7J556XShCezp0pFrFftW",
+      "name": "Remote MCP Servers \u2013 41,827 Connectors for Claude, ChatGPT & Cursor _ Glama.PDF",
+      "status": "extracted",
+      "size_bytes": 1496032,
+      "extracted_chars": 8943
+    },
+    {
+      "id": "1oW-PBCLlhgoh3mKYpVy5sBiBZlkhc-Do",
+      "name": "run_sciworld_claude.sh",
+      "status": "extracted",
+      "size_bytes": 454,
+      "extracted_chars": 454
+    },
+    {
+      "id": "1otZxvqp-wr-Qrr_j0R7qGJSlPVvk8C-d",
+      "name": "RampStack.PDF",
+      "status": "extracted",
+      "size_bytes": 334297,
+      "extracted_chars": 9313
+    },
+    {
+      "id": "1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe",
+      "name": "Background mode.txt",
+      "status": "extracted",
+      "size_bytes": 6629,
+      "extracted_chars": 6627
+    },
+    {
+      "id": "1p1156g_kMfjF08-VBsOw86KplL1ixTKV",
+      "name": "preset1 (5).txt",
+      "status": "extracted",
+      "size_bytes": 140,
+      "extracted_chars": 140
+    },
+    {
+      "id": "1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn",
+      "name": "skill-seekers _ Skills Marketplace \u00b7 LobeHub.PDF",
+      "status": "extracted",
+      "size_bytes": 474284,
+      "extracted_chars": 1866
+    },
+    {
+      "id": "1q2OBfcmpWCLp1p2hvZclRbVe2Oda5lqh",
+      "name": "OpenClawAndroid_openclaw-android-assistant_ \ud83e\udd9e AnyClaw \u2014 OpenClaw + Codex + Claude Code on Android. Three AI agents in on(1).PDF",
+      "status": "extracted",
+      "size_bytes": 1205195,
+      "extracted_chars": 17852
+    },
+    {
+      "id": "1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF",
+      "name": "SKILL (821).md",
+      "status": "extracted",
+      "size_bytes": 3081,
+      "extracted_chars": 3061
+    },
+    {
+      "id": "1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t",
+      "name": "SKILL (883).md",
+      "status": "extracted",
+      "size_bytes": 5288,
+      "extracted_chars": 5288
+    },
+    {
+      "id": "1qbd-5-rQ3yvJO6FL7K4VaG5yiCQJTrHM",
+      "name": "Introducing Codex _ OpenAI.PDF",
+      "status": "extracted",
+      "size_bytes": 2159775,
+      "extracted_chars": 17136
+    },
+    {
+      "id": "1qdAXnDkyW2h2A0t5h0u9SpPnSwFcaaXc",
+      "name": "Swagger Codegen Using Docker _ Swagger Docs.PDF",
+      "status": "extracted",
+      "size_bytes": 446718,
+      "extracted_chars": 3924
+    },
+    {
+      "id": "1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh",
+      "name": "SKILL (643).md",
+      "status": "extracted",
+      "size_bytes": 5970,
+      "extracted_chars": 5967
+    },
+    {
+      "id": "1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k",
+      "name": "SKILL (935).md",
+      "status": "extracted",
+      "size_bytes": 1610,
+      "extracted_chars": 1607
+    },
+    {
+      "id": "1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh",
+      "name": "SEEKEE_MANIFEST_NOTES.md.txt",
+      "status": "extracted",
+      "size_bytes": 5263,
+      "extracted_chars": 5259
+    },
+    {
+      "id": "1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc",
+      "name": "https_codespace.txt",
+      "status": "extracted",
+      "size_bytes": 75,
+      "extracted_chars": 73
+    },
+    {
+      "id": "1sRC4YxWlVsl4VuFXGrmYi8CU_wgRnbLd",
+      "name": "AI-assisted_visual_content_creation_process_and_op.pdf",
+      "status": "extracted",
+      "size_bytes": 396323,
+      "extracted_chars": 33377
+    },
+    {
+      "id": "1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl",
+      "name": "SKILL (874).md",
+      "status": "extracted",
+      "size_bytes": 9798,
+      "extracted_chars": 9790
+    },
+    {
+      "id": "1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K",
+      "name": "MCP and Connect.txt",
+      "status": "extracted",
+      "size_bytes": 43972,
+      "extracted_chars": 43970
+    },
+    {
+      "id": "1t9BmH9Enj4c_N7xCuuVL_-wn1_OdhJIg",
+      "name": "SpaceXAI Console \u2014 Grok API & Developer Tools",
+      "status": "extracted",
+      "size_bytes": 610422,
+      "extracted_chars": 610408
+    },
+    {
+      "id": "1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi",
+      "name": "Grok_Build_Plugins__Tools,_Locations,_Development_.md",
+      "status": "extracted",
+      "size_bytes": 17661,
+      "extracted_chars": 17527
+    },
+    {
+      "id": "1trnO2gfhmCDaCgTnirdIFj0ZUgDiVcDD",
+      "name": "Swagger Editor Documentation _ Swagger Docs.PDF",
+      "status": "extracted",
+      "size_bytes": 639408,
+      "extracted_chars": 9241
+    },
+    {
+      "id": "1uRIwLhN_-QDO9be8gJUTJodl-ib7lke9",
+      "name": "openclaw.PDF",
+      "status": "extracted",
+      "size_bytes": 506304,
+      "extracted_chars": 2685
+    },
+    {
+      "id": "1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF",
+      "name": "Grok_hands-off_activation_and_continuation.md",
+      "status": "extracted",
+      "size_bytes": 5295,
+      "extracted_chars": 5279
+    },
+    {
+      "id": "1vV-ZKt1EvhtBNM9OmAlcmPdoj25EKrny",
+      "name": "Bearer Authentication _ Swagger Docs.PDF",
+      "status": "extracted",
+      "size_bytes": 446127,
+      "extracted_chars": 3863
+    },
+    {
+      "id": "1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu",
+      "name": "Skill_Seekers_docs_README.PDF",
+      "status": "extracted",
+      "size_bytes": 316900,
+      "extracted_chars": 4909
+    },
+    {
+      "id": "1wSTeuUrvDmEiZZ_JGfAgGeQCuQBPzjaV",
+      "name": "Use prompt files in VS Code.PDF",
+      "status": "extracted",
+      "size_bytes": 388079,
+      "extracted_chars": 9408
+    },
+    {
+      "id": "1wajkVVPHUik80AKzERN6LJUUWlZ3H-gO",
+      "name": "Importsql.pdf",
+      "status": "extracted",
+      "size_bytes": 63715,
+      "extracted_chars": 3823
+    },
+    {
+      "id": "1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T",
+      "name": "Skill Seekers \u2014 ProSkills.PDF",
+      "status": "extracted",
+      "size_bytes": 660549,
+      "extracted_chars": 8026
+    },
+    {
+      "id": "1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI",
+      "name": "SKILL (1021).md",
+      "status": "extracted",
+      "size_bytes": 5771,
+      "extracted_chars": 5771
+    },
+    {
+      "id": "1yECvRNi1VcnFR5U3IC3UiVoRfiBs2_gc",
+      "name": "static.videoai.world_terms-conditions-en",
+      "status": "extracted",
+      "size_bytes": 623199,
+      "extracted_chars": 622972
+    },
+    {
+      "id": "1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj",
+      "name": "SKILL (878).md",
+      "status": "extracted",
+      "size_bytes": 2049,
+      "extracted_chars": 2049
+    },
+    {
+      "id": "1z36me9wQp12R1ROrdepAVttpY3Mymk5a",
+      "name": "SKILL (873).md",
+      "status": "extracted",
+      "size_bytes": 17821,
+      "extracted_chars": 17799
+    },
+    {
+      "id": "1zGRii2S6rtCcTubPGaynmI7TtbCKmRmm",
+      "name": "Reasoning models struggle to control their chains of thought, and that\u2019s good _ OpenAI.PDF",
+      "status": "extracted",
+      "size_bytes": 1299062,
+      "extracted_chars": 9619
+    },
+    {
+      "id": "1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF",
+      "name": "SKILL (677).md",
+      "status": "extracted",
+      "size_bytes": 1331,
+      "extracted_chars": 750
+    }
+  ]
+}

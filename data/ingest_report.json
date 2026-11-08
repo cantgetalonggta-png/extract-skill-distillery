@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-11-08T04:54:08.730698+00:00",
+  "planned_textish": 225,
+  "materialized": 225,
+  "by_status": {
+    "extracted": 225
+  },
+  "total_bytes": 69881423,
+  "extracted_chars": 7690178,
+  "sample": [
+    {
+      "name": "grok-4.20-multi-agent-0.pdf",
+      "status": "extracted",
+      "chars": 4096,
+      "size": 18585
+    },
+    {
+      "name": "SKILL (944).md",
+      "status": "extracted",
+      "chars": 3786,
+      "size": 3806
+    },
+    {
+      "name": "Function calling.txt",
+      "status": "extracted",
+      "chars": 29853,
+      "size": 29880
+    },
+    {
+      "name": "Introducing deep research _ OpenAI.PDF",
+      "status": "extracted",
+      "chars": 17603,
+      "size": 1377077
+    },
+    {
+      "name": "Skill Seekers v2.2.PDF",
+      "status": "extracted",
+      "chars": 5856,
+      "size": 1669944
+    },
+    {
+      "name": "Multi-Agent_Distributed_Framework_for_Swarm_Intell.pdf",
+      "status": "extracted",
+      "chars": 41649,
+      "size": 342461
+    },
+    {
+      "name": "Reasoning models.txt",
+      "status": "extracted",
+      "chars": 20324,
+      "size": 20328
+    },
+    {
+      "name": "research-agents-494403-2c0e7e1958b2.json",
+      "status": "extracted",
+      "chars": 2404,
+      "size": 2404
+    },
+    {
+      "name": "SKILL (823).md",
+      "status": "extracted",
+      "chars": 2509,
+      "size": 2512
+    },
+    {
+      "name": "Use custom instructions in VS Code.PDF",
+      "status": "extracted",
+      "chars": 18536,
+      "size": 462352
+    },
+    {
+      "name": "SKILL (676).md",
+      "status": "extracted",
+      "chars": 10067,
+      "size": 12485
+    },
+    {
+      "name": "Skill Seekers _ Claude Code Skill for Knowledge Extraction.PDF",
+      "status": "extracted",
+      "chars": 3045,
+      "size": 338386
+    },
+    {
+      "name": "yusufkaraaslan_Skill_Seekers_ Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with autom.PDF",
+      "status": "extracted",
+      "chars": 15559,
+      "size": 1331221
+    },
+    {
+      "name": "MCP Inspector Online \u2013 Test & Debug MCP Servers _ Glama(1).PDF",
+      "status": "extracted",
+      "chars": 6008,
+      "size": 297877
+    },
+    {
+      "name": "Integrating GrokToolHook implements AfterSuccessHook.txt",
+      "status": "extracted",
+      "chars": 26531,
+      "size": 26562
+    },
+    {
+      "name": "Implementing autonomy.txt",
+      "status": "extracted",
+      "chars": 7507,
+      "size": 7515
+    },
+    {
+      "name": "SKILL (880).md",
+      "status": "extracted",
+      "chars": 5771,
+      "size": 5771
+    },
+    {
+      "name": "Workflows \u2014 Curated AI Agent Skill + MCP Server Bundles _ AgenticSkills.PDF",
+      "status": "extracted",
+      "chars": 4559,
+      "size": 146631
+    },
+    {
+      "name": "Grok_Build_Plugins__Tools,_Locations,_Development_.pdf",
+      "status": "extracted",
+      "chars": 15706,
+      "size": 277554
+    },
+    {
+      "name": "SKILL (678).md",
+      "status": "extracted",
+      "chars": 3942,
+      "size": 3942
+    }
+  ]
+}
