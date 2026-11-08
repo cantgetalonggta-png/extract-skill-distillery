@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T04:10:01.986920Z",
+  "generated_at": "2026-11-08T04:24:27.641220+00:00",
   "folder_id": "1Vrfzeiju0L4A1etcs7pTUSyVPvMh18MX",
   "folder_name": "EXTRACT",
   "product": {
@@ -41,6 +41,36 @@
     "restored_count": 17
   },
   "skills": [
+    {
+      "id": "billing-governance-guardrail",
+      "name": "BillingGovernanceGuardrail",
+      "kind": "module",
+      "description": "Administrative & Billing Governance Directive for agentic/MCP workflows. Enforces principal authority, legitimate account-maintenance operations, and mandatory HITL approval before any billing/payment mutation. Fail-closed. Does not call payment providers or process live charges.",
+      "path": "src/billing_governance/guardrail.py",
+      "principles": [
+        "Principal Authority & Account Ownership",
+        "Legitimate Financial Execution (Account Maintenance)",
+        "Mandatory Human Approval Protocol (HITL Interception)"
+      ],
+      "operation_types": [
+        "standard",
+        "billing_configuration",
+        "payment_method_update",
+        "financial_transaction"
+      ],
+      "tests": {
+        "command": "PYTHONPATH=src python3 -m unittest tests.test_billing_governance -v",
+        "result": "6/6 OK",
+        "ran_at": "2026-11-08T04:24:27.641173+00:00"
+      },
+      "scope": "governance-gate-only",
+      "not_included": [
+        "payment provider API calls",
+        "APK instrumentation",
+        "billing bypass",
+        "secret publication"
+      ]
+    },
     {
       "id": "262d098bb0f5",
       "name": "blacksmith-testbox",
@@ -481,6 +511,14 @@
       "chars": 1652,
       "preview": "Static RE documentation restored under workspace-restored/re-docs. See file locally. Not published as actionable exploit content.",
       "frontmatter": {}
+    },
+    {
+      "id": "billing-governance-doc",
+      "name": "Billing Governance",
+      "description": "Legitimate HITL billing governance for agent pipelines",
+      "kind": "doc",
+      "path": "docs/BILLING_GOVERNANCE.md",
+      "preview": "Principal verification + mandatory HITL for billing_configuration, payment_method_update, financial_transaction. Fail-closed. No live payment APIs."
     }
   ],
   "requirements": [
@@ -518,6 +556,11 @@
       "id": "R6",
       "text": "Resolve RE vs skills corpus conflict",
       "status": "done"
+    },
+    {
+      "id": "R7",
+      "text": "Install BillingGovernanceGuardrail with unit tests (HITL fail-closed)",
+      "status": "done"
     }
   ],
   "conflict_resolution": {
@@ -526,7 +569,8 @@
     "primary_product": "Skill Distillery SPA",
     "secondary_workspace": "workspace-restored/{re-docs,docs,binaries,private}",
     "execution_policy": "no APK/RPM execution in this session",
-    "kb_policy": "no secret values in public knowledge.json"
+    "kb_policy": "no secret values in public knowledge.json",
+    "billing_governance": "User-supplied BillingGovernanceGuardrail is the authorized policy path for billing-related agent behavior. Static RE notes remain read-only under workspace-restored/re-docs and are not used as execution logic."
   },
   "restored": {
     "count": 17,

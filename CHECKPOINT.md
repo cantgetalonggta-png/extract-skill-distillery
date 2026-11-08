@@ -18,3 +18,11 @@ Primary product remains Skill Distillery. RE/APK/billing corpus is a secondary s
 - No APK/RPM execution
 - No secret values in app-static/data public JSON
 - private/ is local workspace only
+
+
+## BillingGovernanceGuardrail (ingested)
+- Path: `src/billing_governance/guardrail.py`
+- Tests: `PYTHONPATH=src python3 -m unittest tests.test_billing_governance -v` → **6/6 OK**
+- Docs: `docs/BILLING_GOVERNANCE.md`
+- Policy: principal check + HITL for billing/payment ops; fail-closed; no live payment APIs
+- Relationship to restored RE corpus: governance module is the executable policy; RE notes stay static documentation only
