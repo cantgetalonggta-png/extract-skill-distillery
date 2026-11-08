@@ -7,7 +7,9 @@ function formatBytes(n) {
 function statusClass(status, security) {
   const s = (status || 'queued').toLowerCase();
   if (s === 'blocked' || security === 'quarantined' || security === 'binary-quarantine') return 'bad';
-  if (s === 'extracted' || s === 'distilled' || s === 'indexed') return 'ok';
+  if (s === 'extracted' || s === 'distilled' || s === 'indexed' || s === 'restored') return 'ok';
+  if ((security||'').includes('secret')) return 'warn';
+  if ((security||'').includes('binary')) return 'warn';
   if (s === 'scanned' || s === 'retrieved') return 'warn';
   return '';
 }
@@ -49,7 +51,7 @@ function render() {
   });
   const pool = state.tab === 'docs' ? docs : skills;
   const filteredSkills = !needle ? pool : pool.filter(s => (s.name||'').toLowerCase().includes(needle) || (s.description||'').toLowerCase().includes(needle) || (s.preview||'').toLowerCase().includes(needle));
-  const blocked = items.filter(i => i.status === 'blocked' || (i.security_status && i.security_status !== 'cleared' && i.security_status !== 'pending'))
+  const blocked = items.filter(i => i.status === 'restored' || i.status === 'blocked' || (i.security_status && !['cleared','pending',''].includes(i.security_status||'')))
     .filter(i => !needle || (i.name||'').toLowerCase().includes(needle));
 
   let body = '';
@@ -90,7 +92,7 @@ function render() {
       <div class="chips">
         <span class="chip ok">Drive folder reconciled</span>
         <span class="chip">EXTRACT · ${esc(inv.reconciled_count)} items</span>
-        <span class="chip warn">Vercel token not in session</span>
+        <span class="chip warn">17 items restored · secrets private-hold</span>
       </div>
       <h1>EXTRACT Skill Distillery</h1>
       <p>${esc(kb.product?.tagline)}. ${esc(kb.product?.decision)}</p>
@@ -99,7 +101,7 @@ function render() {
       <div class="stat"><b>${esc(inv.reconciled_count)}</b><span>files reconciled</span></div>
       <div class="stat"><b>${esc(coverage.distilled_entries||0)}</b><span>distilled entries</span></div>
       <div class="stat"><b>${esc(skills.length)}</b><span>skills extracted</span></div>
-      <div class="stat"><b>${esc((coverage.blocked_security||[]).length)}</b><span>security blocked</span></div>
+      <div class="stat"><b>${esc((coverage.blocked_security||[]).length)}</b><span>restored / held</span></div>
     </section>
     <div class="toolbar">
       <div class="tabs">

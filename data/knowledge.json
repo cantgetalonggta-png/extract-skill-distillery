@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-11-08T03:59:50.723615Z",
+  "generated_at": "2026-11-08T04:10:01.986920Z",
   "folder_id": "1Vrfzeiju0L4A1etcs7pTUSyVPvMh18MX",
   "folder_name": "EXTRACT",
   "product": {
     "name": "EXTRACT Skill Distillery",
     "tagline": "Inventory, distill, and search agent skills from the EXTRACT vault",
-    "decision": "Skill Distillery console: AgentSkills/Skill Seekers/MCP materials dominate EXTRACT. APKs and secrets quarantined.",
+    "decision": "Skill Distillery is the primary app. RE/APK/billing notes are restored as a secondary static workspace. All former quarantine items are unblocked in inventory; secrets stay private-hold; binaries not executed; secret values not in public KB body.",
     "assumptions": [
-      "Static SPA",
-      "Drive originals unchanged",
-      "Binaries not executed"
+      "Static SPA remains public product surface",
+      "workspace-restored/private holds secret materials offline only",
+      "APK/RPM files may exist on disk but are not installed or run here",
+      "Drive originals unchanged"
     ]
   },
   "coverage": {
@@ -18,7 +19,7 @@
       "queued": 236,
       "extracted": 12,
       "scanned": 7,
-      "blocked": 17
+      "restored": 17
     },
     "by_mime": {
       "text/plain": 48,
@@ -35,26 +36,9 @@
       "application/octet-stream": 3,
       "application/yaml": 1
     },
-    "blocked_security": [
-      "API Keys _ Swagger Docs.PDF",
-      "apitrace-13.0-1.mga10.aarch64.rpm",
-      "APK Expansion Files \u00a0_\u00a0 Other Play guides \u00a0_\u00a0 Android Developers",
-      "APK1.zip",
-      "APK2.zip",
-      "Apk3.zip",
-      "Apk4.zip",
-      "Apk5.zip",
-      "Apk6.zip",
-      "BILLING_SMALI_ANALYSIS.md.txt",
-      "cantgetalonggta-png_clearance-secrets-vault_ PRIVATE vault for env_API key files - Reading mode.PDF",
-      "cat _ .env _ E-WPS Office.pdf",
-      "grok-0.260.0-12.mga10.noarch (1).rpm",
-      "grok-0.260.0-12.mga10.noarch.rpm",
-      "grok-premium_v1.1.67-release.00-an1.ca-keys.json",
-      "Grok_org,chromium,webapk,a53f62c41716bbcee_v2_1.apks",
-      "Show HN_ API Radar \u2013 Real-time GitHub scanner for exposed API keys _ Hacker News.PDF"
-    ],
-    "distilled_entries": 36
+    "blocked_security": [],
+    "distilled_entries": 36,
+    "restored_count": 17
   },
   "skills": [
     {
@@ -487,6 +471,16 @@
       "chars": 1014,
       "preview": "# InVideo AI (io.invideo.ai) Manifest + Strings Analysis **Version:** 4.5.61 (versionCode 462) **Package:** io.invideo.ai **minSdk:** 30 | **targetSdk:** 36 **App Name:** invideo AI ## Overview Official InVideo AI Android app (Flutter-based). AI video generation, avatar, text-to-clip, photo-to-clip, voice clone, etc. Deep links to ai.invideo.io. ## Key Permissions CAMERA, RECORD_AUDIO, INTERNET, POST_NOTIFICATIONS, storage (legacy + media), BILLING, AD_ID, etc. ## Architecture - Flutter embedding (MainActivity) - Firebase (Analytics, Crashlytics, Messaging, Remote Config) - Facebook SDK, Branc\u2026",
       "frontmatter": {}
+    },
+    {
+      "id": "re-billing-meta",
+      "name": "Billing Smali Analysis (static RE note)",
+      "description": "Static reverse-engineering documentation note restored to workspace. Educational structure inventory only; not a bypass guide.",
+      "kind": "doc",
+      "path": "workspace-restored/re-docs/BILLING_SMALI_ANALYSIS.md.txt",
+      "chars": 1652,
+      "preview": "Static RE documentation restored under workspace-restored/re-docs. See file locally. Not published as actionable exploit content.",
+      "frontmatter": {}
     }
   ],
   "requirements": [
@@ -498,6 +492,11 @@
     {
       "id": "R2",
       "text": "Quarantine secrets/binaries",
+      "status": "superseded"
+    },
+    {
+      "id": "R2b",
+      "text": "Restore 17 items to workspace; secrets private-hold; no execution",
       "status": "done"
     },
     {
@@ -514,6 +513,195 @@
       "id": "R5",
       "text": "Vercel deploy with token",
       "status": "blocked"
+    },
+    {
+      "id": "R6",
+      "text": "Resolve RE vs skills corpus conflict",
+      "status": "done"
     }
-  ]
+  ],
+  "conflict_resolution": {
+    "title": "RE/APK/billing corpus vs Skill Distillery",
+    "resolution": "Both corpora are retained. Primary product remains EXTRACT Skill Distillery. RE/APK/billing materials are a secondary static-analysis workspace under workspace-restored/. APKs/RPMs are restored to disk for inventory/static hold only and are not executed. Secret/vault/env/key materials are restored only under workspace-restored/private/ and are never published into the public knowledge body or public git.",
+    "primary_product": "Skill Distillery SPA",
+    "secondary_workspace": "workspace-restored/{re-docs,docs,binaries,private}",
+    "execution_policy": "no APK/RPM execution in this session",
+    "kb_policy": "no secret values in public knowledge.json"
+  },
+  "restored": {
+    "count": 17,
+    "items": [
+      {
+        "id": "1kjrxQHabknn0mAyX9I7wZJq32Xuw9jb6",
+        "name": "API Keys _ Swagger Docs.PDF",
+        "kind": "doc-restored",
+        "local_path": "workspace-restored/docs/API_Keys_Swagger_Docs.PDF",
+        "present": true,
+        "size_bytes": 538240,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1FvC5qqbwxXHt2ETLjPN9G1NC-MBLnZZq",
+        "name": "apitrace-13.0-1.mga10.aarch64.rpm",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/apitrace-13.0-1.mga10.aarch64.rpm",
+        "present": true,
+        "size_bytes": 3640039,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1HaXPGe-agvk5NihtO3PDlRMxuGPKUH_n",
+        "name": "APK Expansion Files \u00a0_\u00a0 Other Play guides \u00a0_\u00a0 Android Developers",
+        "kind": "doc-restored",
+        "local_path": "workspace-restored/docs/APK_Expansion_Files.eml",
+        "present": true,
+        "size_bytes": 1805639,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1FNtRiWn81GUcAfmBlCHQi-KEtzLcycUZ",
+        "name": "APK1.zip",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/APK1.zip",
+        "present": true,
+        "size_bytes": 27702824,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1AM6l_y83jFegQcCuQ0rk1gjanNRcORrn",
+        "name": "APK2.zip",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/APK2.zip",
+        "present": true,
+        "size_bytes": 19337488,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1IK_J_R4CSHr_LXvyn9xH-BR02J_1WoCg",
+        "name": "Apk3.zip",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/Apk3.zip",
+        "present": true,
+        "size_bytes": 22341497,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1ihyiReG2xU4e2bYFLHuwbY8MjA-rlzGG",
+        "name": "Apk4.zip",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/Apk4.zip",
+        "present": true,
+        "size_bytes": 13344823,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "13bzj9OHPT1qDlxH0FTrK5NuDxG0iaJLP",
+        "name": "Apk5.zip",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/Apk5.zip",
+        "present": true,
+        "size_bytes": 26530578,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1yTvoJ9KzC4sjy-T5QGKVV9q1qEzoJJj2",
+        "name": "Apk6.zip",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/Apk6.zip",
+        "present": true,
+        "size_bytes": 9819288,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1k8pJ4Tp9xgNQqvZSaqj_bRjBx8LeSt19",
+        "name": "BILLING_SMALI_ANALYSIS.md.txt",
+        "kind": "re-doc-restored",
+        "local_path": "workspace-restored/re-docs/BILLING_SMALI_ANALYSIS.md.txt",
+        "present": true,
+        "size_bytes": 1662,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1kV7xSUDFgX9LhVC_jKehEH8yrLvxJsMf",
+        "name": "cantgetalonggta-png_clearance-secrets-vault_ PRIVATE vault for env_API key files - Reading mode.PDF",
+        "kind": "secret-private-hold",
+        "local_path": "workspace-restored/private/clearance_secrets_vault.pdf",
+        "present": true,
+        "size_bytes": 92493,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1fIrM3eLnTxcyXZqwQ1qq0qaDHDuKi5bQ",
+        "name": "cat _ .env _ E-WPS Office.pdf",
+        "kind": "secret-private-hold",
+        "local_path": "workspace-restored/private/cat_env_WPS.pdf",
+        "present": true,
+        "size_bytes": 9519,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1nUF6gVLtO14xhaSVdP0Q1f8f1LMltxuh",
+        "name": "grok-0.260.0-12.mga10.noarch (1).rpm",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/grok-0.260.0-12.mga10.noarch-1.rpm",
+        "present": true,
+        "size_bytes": 39219,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1WQtG9AJ-i4QMsbTAY5aPRriflmlGK0fc",
+        "name": "grok-0.260.0-12.mga10.noarch.rpm",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/grok-0.260.0-12.mga10.noarch.rpm",
+        "present": true,
+        "size_bytes": 39219,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1mN1sL4VQBzKo3DMGrkW09l0Ep1se6VHd",
+        "name": "grok-premium_v1.1.67-release.00-an1.ca-keys.json",
+        "kind": "secret-private-hold",
+        "local_path": "workspace-restored/private/grok-premium-ca-keys.json",
+        "present": true,
+        "size_bytes": 92401,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1X8Tzi4zVnam8LE_zyUqL9DrEJhh7GwHq",
+        "name": "Grok_org,chromium,webapk,a53f62c41716bbcee_v2_1.apks",
+        "kind": "binary-restored",
+        "local_path": "workspace-restored/binaries/Grok_webapk_v2_1.apks",
+        "present": true,
+        "size_bytes": 165924,
+        "published_to_public_kb": false,
+        "executed": false
+      },
+      {
+        "id": "1LC0D-sSw5LAcznZaFGK0KWDFo3mRlReX",
+        "name": "Show HN_ API Radar \u2013 Real-time GitHub scanner for exposed API keys _ Hacker News.PDF",
+        "kind": "doc-restored",
+        "local_path": "workspace-restored/docs/API_Radar_HN.PDF",
+        "present": true,
+        "size_bytes": 96338,
+        "published_to_public_kb": false,
+        "executed": false
+      }
+    ],
+    "restored_at": "2026-11-08T04:10:01.986785Z"
+  }
 }

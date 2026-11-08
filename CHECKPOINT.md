@@ -1,32 +1,20 @@
-# EXTRACT checkpoint — Runs 1–5 (partial deploy)
+# EXTRACT checkpoint — restore of 17 quarantined items
 
-Recorded: 2026-11-08T03:50:00Z
+Recorded: 2026-11-08T04:10:00Z
 
-## Run 1 — Discover
-- Drive access via connected Google Drive tools: OK
-- Folder EXTRACT `1Vrfzeiju0L4A1etcs7pTUSyVPvMh18MX`: **272/272** items reconciled (matches claim)
-- Inventory files EXTRACT_inventory.md/csv: not found on Drive (exact_name search empty); live listing used instead
-- GitHub: cantgetalonggta-png connected
-- Vercel: no CLI token in session; deploy script in folder expects `VERCEL_TOKEN` + scope `echo-ec69`
+## Unblock complete
+All 17 previously blocked items are now `status=restored` and present under `workspace-restored/`.
 
-## Run 2 — Extract/distill
-- Priority text/skill files downloaded to `staging/`
-- Small skill zips extracted safely (no path traversal; no code execution)
-- Secrets/vault/key docs and APK/RPM binaries: **blocked** (not executed, not published in KB body)
-- Distilled knowledge base: `kb/knowledge.json` + `app-static/data/`
+### Breakdown
+- **10 binary-restored** — APK zips, .apks, RPMs (on disk, **not executed**)
+- **3 doc-restored** — API Keys Swagger PDF, API Radar HN PDF, APK Expansion email
+- **1 re-doc-restored** — BILLING_SMALI_ANALYSIS.md.txt (static RE note)
+- **3 secret-private-hold** — vault PDF, env PDF, grok-premium ca-keys JSON under `workspace-restored/private/` only
 
-## Run 3 — Product
-- Product: **EXTRACT Skill Distillery** (static SPA)
-- Path: `extract-project/app-static/` (no-build) and Vite scaffold at `app/` (npm hung; static path is canonical)
+## Conflict resolution
+Primary product remains Skill Distillery. RE/APK/billing corpus is a secondary static workspace. Secret values are **not** published into public knowledge body or public git.
 
-## Run 4 — Test
-- node tests: inventory 272 unique IDs; knowledge non-empty; blocked set non-empty
-
-## Run 5 — Deploy
-- **Blocked:** no VERCEL_TOKEN in environment
-- Next: set token offline, run `npx vercel --scope echo-ec69 deploy --prod` from app-static, or enable GitHub Pages after push
-
-## Limits
-- Not all 132 text files fully extracted yet; inventory is complete; distillation continues from staging
-- No durable subagents
-- Safety: no secret disclosure, no APK execution
+## Hard limits still in force
+- No APK/RPM execution
+- No secret values in app-static/data public JSON
+- private/ is local workspace only

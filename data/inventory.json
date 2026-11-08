@@ -11,7 +11,9 @@
       "web_view_link": "https://drive.google.com/file/d/1A5Pt-AAidfP_GageYpg0f7DjwF50UtHP/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1vuvt8KtuJC2ZpB2kmmIfU303NZVDzCzS",
@@ -22,7 +24,9 @@
       "web_view_link": "https://drive.google.com/file/d/1vuvt8KtuJC2ZpB2kmmIfU303NZVDzCzS/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk",
@@ -33,7 +37,9 @@
       "web_view_link": "https://drive.google.com/file/d/1CmWHD-LN1i2f_AWO7oYvItrhxxfr7-bk/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1MdZ4VRZpXN4XKz8aABdgxlICIHu1t3Md",
@@ -44,7 +50,9 @@
       "web_view_link": "https://drive.google.com/file/d/1MdZ4VRZpXN4XKz8aABdgxlICIHu1t3Md/view?usp=drivesdk",
       "status": "scanned",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap",
@@ -55,7 +63,9 @@
       "web_view_link": "https://drive.google.com/file/d/1K5ArlJf__aGtLwknFhYDNlEyZGgKiWap/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R",
@@ -66,7 +76,9 @@
       "web_view_link": "https://drive.google.com/file/d/1N4k0NW7Xhdig_lwXbO3DiVhaTKvIug1R/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK",
@@ -77,7 +89,9 @@
       "web_view_link": "https://drive.google.com/file/d/1JNgaz8rfAFHi-M5j5TPFMz7LQbn-MPbK/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx",
@@ -88,7 +102,9 @@
       "web_view_link": "https://drive.google.com/file/d/18bt5DDrfNqfzO0vGUHDtnhTPAL-Sysjx/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1WNm6rD12vNu2maErBZG1MM3yKsZKgrOg",
@@ -99,7 +115,9 @@
       "web_view_link": "https://drive.google.com/file/d/1WNm6rD12vNu2maErBZG1MM3yKsZKgrOg/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1iuKU8E9DgpQCZbAFYFnx2GOKXHPO2oeA",
@@ -110,7 +128,9 @@
       "web_view_link": "https://drive.google.com/file/d/1iuKU8E9DgpQCZbAFYFnx2GOKXHPO2oeA/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1sRC4YxWlVsl4VuFXGrmYi8CU_wgRnbLd",
@@ -121,7 +141,9 @@
       "web_view_link": "https://drive.google.com/file/d/1sRC4YxWlVsl4VuFXGrmYi8CU_wgRnbLd/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2",
@@ -132,7 +154,9 @@
       "web_view_link": "https://drive.google.com/file/d/1LgX1ZvSwPywEhFT4S7QpP04qZK9Mkkz2/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1kjrxQHabknn0mAyX9I7wZJq32Xuw9jb6",
@@ -141,9 +165,11 @@
       "size_bytes": 538240,
       "modified_time": "2026-11-08T02:53:51.899Z",
       "web_view_link": "https://drive.google.com/file/d/1kjrxQHabknn0mAyX9I7wZJq32Xuw9jb6/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "quarantined",
-      "note": null
+      "status": "restored",
+      "security_status": "doc-restored",
+      "note": "Restored to workspace. Not executed. local=docs/API_Keys_Swagger_Docs.PDF",
+      "workspace_path": "workspace-restored/docs/API_Keys_Swagger_Docs.PDF",
+      "workspace_present": true
     },
     {
       "id": "1YMcOvz7PtjUWI3HkvbCISzeF4hyh0_52",
@@ -154,7 +180,9 @@
       "web_view_link": "https://drive.google.com/file/d/1YMcOvz7PtjUWI3HkvbCISzeF4hyh0_52/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1FvC5qqbwxXHt2ETLjPN9G1NC-MBLnZZq",
@@ -163,9 +191,11 @@
       "size_bytes": 3640039,
       "modified_time": "2026-11-08T02:48:45.928Z",
       "web_view_link": "https://drive.google.com/file/d/1FvC5qqbwxXHt2ETLjPN9G1NC-MBLnZZq/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/apitrace-13.0-1.mga10.aarch64.rpm",
+      "workspace_path": "workspace-restored/binaries/apitrace-13.0-1.mga10.aarch64.rpm",
+      "workspace_present": true
     },
     {
       "id": "1HaXPGe-agvk5NihtO3PDlRMxuGPKUH_n",
@@ -174,9 +204,11 @@
       "size_bytes": 1805639,
       "modified_time": "2026-11-08T02:48:45.795Z",
       "web_view_link": "https://drive.google.com/file/d/1HaXPGe-agvk5NihtO3PDlRMxuGPKUH_n/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "doc-restored",
+      "note": "Restored to workspace. Not executed. local=docs/APK_Expansion_Files.eml",
+      "workspace_path": "workspace-restored/docs/APK_Expansion_Files.eml",
+      "workspace_present": true
     },
     {
       "id": "1FNtRiWn81GUcAfmBlCHQi-KEtzLcycUZ",
@@ -185,9 +217,11 @@
       "size_bytes": 27702824,
       "modified_time": "2026-11-08T02:14:50.798Z",
       "web_view_link": "https://drive.google.com/file/d/1FNtRiWn81GUcAfmBlCHQi-KEtzLcycUZ/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/APK1.zip",
+      "workspace_path": "workspace-restored/binaries/APK1.zip",
+      "workspace_present": true
     },
     {
       "id": "1AM6l_y83jFegQcCuQ0rk1gjanNRcORrn",
@@ -196,9 +230,11 @@
       "size_bytes": 19337488,
       "modified_time": "2026-11-08T02:14:50.410Z",
       "web_view_link": "https://drive.google.com/file/d/1AM6l_y83jFegQcCuQ0rk1gjanNRcORrn/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/APK2.zip",
+      "workspace_path": "workspace-restored/binaries/APK2.zip",
+      "workspace_present": true
     },
     {
       "id": "1IK_J_R4CSHr_LXvyn9xH-BR02J_1WoCg",
@@ -207,9 +243,11 @@
       "size_bytes": 22341497,
       "modified_time": "2026-11-08T02:14:50.066Z",
       "web_view_link": "https://drive.google.com/file/d/1IK_J_R4CSHr_LXvyn9xH-BR02J_1WoCg/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Apk3.zip",
+      "workspace_path": "workspace-restored/binaries/Apk3.zip",
+      "workspace_present": true
     },
     {
       "id": "1ihyiReG2xU4e2bYFLHuwbY8MjA-rlzGG",
@@ -218,9 +256,11 @@
       "size_bytes": 13344823,
       "modified_time": "2026-11-08T02:14:49.737Z",
       "web_view_link": "https://drive.google.com/file/d/1ihyiReG2xU4e2bYFLHuwbY8MjA-rlzGG/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Apk4.zip",
+      "workspace_path": "workspace-restored/binaries/Apk4.zip",
+      "workspace_present": true
     },
     {
       "id": "13bzj9OHPT1qDlxH0FTrK5NuDxG0iaJLP",
@@ -229,9 +269,11 @@
       "size_bytes": 26530578,
       "modified_time": "2026-11-08T02:14:49.410Z",
       "web_view_link": "https://drive.google.com/file/d/13bzj9OHPT1qDlxH0FTrK5NuDxG0iaJLP/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Apk5.zip",
+      "workspace_path": "workspace-restored/binaries/Apk5.zip",
+      "workspace_present": true
     },
     {
       "id": "1yTvoJ9KzC4sjy-T5QGKVV9q1qEzoJJj2",
@@ -240,9 +282,11 @@
       "size_bytes": 9819288,
       "modified_time": "2026-11-08T02:14:48.943Z",
       "web_view_link": "https://drive.google.com/file/d/1yTvoJ9KzC4sjy-T5QGKVV9q1qEzoJJj2/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Apk6.zip",
+      "workspace_path": "workspace-restored/binaries/Apk6.zip",
+      "workspace_present": true
     },
     {
       "id": "1LehaQuF1lVh5ixRlEG2v_inYicc59xE6",
@@ -253,7 +297,9 @@
       "web_view_link": "https://drive.google.com/file/d/1LehaQuF1lVh5ixRlEG2v_inYicc59xE6/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "13wDoyatuCKWcP3AH6zXwh2UWQGHqvzVZ",
@@ -264,7 +310,9 @@
       "web_view_link": "https://drive.google.com/file/d/13wDoyatuCKWcP3AH6zXwh2UWQGHqvzVZ/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1efaWYX7LDJu8VzCN80PG_eZpsEW6VCLD",
@@ -275,7 +323,9 @@
       "web_view_link": "https://drive.google.com/file/d/1efaWYX7LDJu8VzCN80PG_eZpsEW6VCLD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe",
@@ -286,7 +336,9 @@
       "web_view_link": "https://drive.google.com/file/d/1oxxXB6RDKUgphkGoHEfjW8nZwL-w2rJe/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64",
@@ -297,7 +349,9 @@
       "web_view_link": "https://drive.google.com/file/d/1BtBZC9RmjNiAIEQ-GfZuMNsWluL3tS64/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f",
@@ -308,7 +362,9 @@
       "web_view_link": "https://drive.google.com/file/d/1bbzVu0ZancS8wLMOlj0nTGSVbBMeLC_f/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1vV-ZKt1EvhtBNM9OmAlcmPdoj25EKrny",
@@ -319,7 +375,9 @@
       "web_view_link": "https://drive.google.com/file/d/1vV-ZKt1EvhtBNM9OmAlcmPdoj25EKrny/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1k8pJ4Tp9xgNQqvZSaqj_bRjBx8LeSt19",
@@ -328,9 +386,11 @@
       "size_bytes": 1662,
       "modified_time": "2026-11-08T02:14:27.322Z",
       "web_view_link": "https://drive.google.com/file/d/1k8pJ4Tp9xgNQqvZSaqj_bRjBx8LeSt19/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "quarantined",
-      "note": "Secrets/vault/sensitive analysis excluded from KB."
+      "status": "restored",
+      "security_status": "re-doc-restored",
+      "note": "Restored to workspace. Not executed. local=re-docs/BILLING_SMALI_ANALYSIS.md.txt",
+      "workspace_path": "workspace-restored/re-docs/BILLING_SMALI_ANALYSIS.md.txt",
+      "workspace_present": true
     },
     {
       "id": "17DUDChA6dvySb4TxEIHikzIop_qnZYRX",
@@ -341,7 +401,9 @@
       "web_view_link": "https://drive.google.com/file/d/17DUDChA6dvySb4TxEIHikzIop_qnZYRX/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj",
@@ -352,7 +414,9 @@
       "web_view_link": "https://drive.google.com/file/d/194l9OW9HA1IJEDk5cz4YJDvQNjudnrLj/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1kV7xSUDFgX9LhVC_jKehEH8yrLvxJsMf",
@@ -361,9 +425,11 @@
       "size_bytes": 92493,
       "modified_time": "2026-11-08T02:48:45.308Z",
       "web_view_link": "https://drive.google.com/file/d/1kV7xSUDFgX9LhVC_jKehEH8yrLvxJsMf/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "quarantined",
-      "note": "Secrets/vault/sensitive analysis excluded from KB."
+      "status": "restored",
+      "security_status": "secret-private-hold",
+      "note": "Restored to workspace. Not executed. Secret values held in private/ only \u2014 not published to public KB or git. local=private/clearance_secrets_vault.pdf",
+      "workspace_path": "workspace-restored/private/clearance_secrets_vault.pdf",
+      "workspace_present": true
     },
     {
       "id": "1fIrM3eLnTxcyXZqwQ1qq0qaDHDuKi5bQ",
@@ -372,9 +438,11 @@
       "size_bytes": 9519,
       "modified_time": "2026-11-08T02:57:40.819Z",
       "web_view_link": "https://drive.google.com/file/d/1fIrM3eLnTxcyXZqwQ1qq0qaDHDuKi5bQ/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "quarantined",
-      "note": "Secrets/vault/sensitive analysis excluded from KB."
+      "status": "restored",
+      "security_status": "secret-private-hold",
+      "note": "Restored to workspace. Not executed. Secret values held in private/ only \u2014 not published to public KB or git. local=private/cat_env_WPS.pdf",
+      "workspace_path": "workspace-restored/private/cat_env_WPS.pdf",
+      "workspace_present": true
     },
     {
       "id": "1gDE8j7uTQ7RuyW-wzqvGpcBb9Q1n9TZq",
@@ -385,7 +453,9 @@
       "web_view_link": "https://drive.google.com/file/d/1gDE8j7uTQ7RuyW-wzqvGpcBb9Q1n9TZq/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "15CI9jba5fqVVlTccCuUnv7NQq9tXzjZp",
@@ -396,7 +466,9 @@
       "web_view_link": "https://drive.google.com/file/d/15CI9jba5fqVVlTccCuUnv7NQq9tXzjZp/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "14DogYUtgYOp9GIVfe5NiLGTSqWNJlohu",
@@ -407,7 +479,9 @@
       "web_view_link": "https://drive.google.com/file/d/14DogYUtgYOp9GIVfe5NiLGTSqWNJlohu/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg",
@@ -418,7 +492,9 @@
       "web_view_link": "https://drive.google.com/file/d/1aVaJ4GIpN2zLS7G02H92-0hrCg1MR7fg/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV",
@@ -429,7 +505,9 @@
       "web_view_link": "https://drive.google.com/file/d/1fePtSnoO0EPqSAsjJrIZ_nUE6q1CKlrV/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ",
@@ -440,7 +518,9 @@
       "web_view_link": "https://drive.google.com/file/d/16cMxMJG17KiQAEPDiSdPlZMXaT8jTXCZ/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1y2IfYg3KSR0RiWCVYbU-m3hyI1qF9gsO",
@@ -451,7 +531,9 @@
       "web_view_link": "https://drive.google.com/file/d/1y2IfYg3KSR0RiWCVYbU-m3hyI1qF9gsO/view?usp=drivesdk",
       "status": "scanned",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1buqOdO4Id5pglCJx1DkZGxhNeIrcPTjQ",
@@ -462,7 +544,9 @@
       "web_view_link": "https://drive.google.com/file/d/1buqOdO4Id5pglCJx1DkZGxhNeIrcPTjQ/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1MDiezUBzJK36HpqrmccYTW-ybyoocZfM",
@@ -473,7 +557,9 @@
       "web_view_link": "https://drive.google.com/file/d/1MDiezUBzJK36HpqrmccYTW-ybyoocZfM/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1mV_oow8m7qyWofHjFZ0B7DuFw1pz22hR",
@@ -484,7 +570,9 @@
       "web_view_link": "https://drive.google.com/file/d/1mV_oow8m7qyWofHjFZ0B7DuFw1pz22hR/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "12nBP1soh-wSLb3naJokDbdnBQERiLuoN",
@@ -495,7 +583,9 @@
       "web_view_link": "https://drive.google.com/file/d/12nBP1soh-wSLb3naJokDbdnBQERiLuoN/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD",
@@ -506,7 +596,9 @@
       "web_view_link": "https://drive.google.com/file/d/18q3hvf-xp8IuoKxJmXRE1J_ePlahOMzD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Lc0-GoB3ewiHCub6ljg3BTiNw74DAZCs",
@@ -517,7 +609,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Lc0-GoB3ewiHCub6ljg3BTiNw74DAZCs/view?usp=drivesdk",
       "status": "scanned",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "19hQhaiCRkTHJWNG0G6KgUHzCVasoZsya",
@@ -528,7 +622,9 @@
       "web_view_link": "https://drive.google.com/file/d/19hQhaiCRkTHJWNG0G6KgUHzCVasoZsya/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2",
@@ -539,7 +635,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Fc-afLd_2W6p0hbCdPZIH9ZYxvNksKY2/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Z5u9ndB2_39GMaeGigTTwO_mXniywokK",
@@ -550,7 +648,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Z5u9ndB2_39GMaeGigTTwO_mXniywokK/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh",
@@ -561,7 +661,9 @@
       "web_view_link": "https://drive.google.com/file/d/1cyYG2xEEAmMpqNE0VUbm9ZD5PWYVCHGh/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1P0IK86NKfdRWZy_ykMMTyRVOxMst8Btl",
@@ -572,7 +674,9 @@
       "web_view_link": "https://drive.google.com/file/d/1P0IK86NKfdRWZy_ykMMTyRVOxMst8Btl/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn",
@@ -583,7 +687,9 @@
       "web_view_link": "https://drive.google.com/file/d/1WV2H9M34_UjHi7wB8TKWLB3j2MrJTfyn/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1335tUP25Rb896fPaltVxg0BrBh3w_P8f",
@@ -594,7 +700,9 @@
       "web_view_link": "https://drive.google.com/file/d/1335tUP25Rb896fPaltVxg0BrBh3w_P8f/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "10-vH9if2omS77U1U5_vhp9S6FgS2cjlz",
@@ -605,7 +713,9 @@
       "web_view_link": "https://drive.google.com/file/d/10-vH9if2omS77U1U5_vhp9S6FgS2cjlz/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8",
@@ -616,7 +726,9 @@
       "web_view_link": "https://drive.google.com/file/d/1cPM7KC5sQxv0VcDdKuimXjq2AZXl_FT8/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1CuDNDXuTYGqkfN3K008TdNA4pdAqvIuX",
@@ -627,7 +739,9 @@
       "web_view_link": "https://drive.google.com/file/d/1CuDNDXuTYGqkfN3K008TdNA4pdAqvIuX/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1S0MbGNZ9OUGs3n-2tInky2cJv5B6lqf5",
@@ -638,7 +752,9 @@
       "web_view_link": "https://drive.google.com/file/d/1S0MbGNZ9OUGs3n-2tInky2cJv5B6lqf5/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY",
@@ -649,7 +765,9 @@
       "web_view_link": "https://drive.google.com/file/d/15BKfpwr9U-JtlqR2p3FvHmnfUiGtyndY/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1nUF6gVLtO14xhaSVdP0Q1f8f1LMltxuh",
@@ -658,9 +776,11 @@
       "size_bytes": 39219,
       "modified_time": "2026-11-08T02:51:37.986Z",
       "web_view_link": "https://drive.google.com/file/d/1nUF6gVLtO14xhaSVdP0Q1f8f1LMltxuh/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/grok-0.260.0-12.mga10.noarch-1.rpm",
+      "workspace_path": "workspace-restored/binaries/grok-0.260.0-12.mga10.noarch-1.rpm",
+      "workspace_present": true
     },
     {
       "id": "1WQtG9AJ-i4QMsbTAY5aPRriflmlGK0fc",
@@ -669,9 +789,11 @@
       "size_bytes": 39219,
       "modified_time": "2026-11-08T02:46:56.468Z",
       "web_view_link": "https://drive.google.com/file/d/1WQtG9AJ-i4QMsbTAY5aPRriflmlGK0fc/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/grok-0.260.0-12.mga10.noarch.rpm",
+      "workspace_path": "workspace-restored/binaries/grok-0.260.0-12.mga10.noarch.rpm",
+      "workspace_present": true
     },
     {
       "id": "1-Ants1F2MkG_S-GKfy88JnVfezjU46Wk",
@@ -682,7 +804,9 @@
       "web_view_link": "https://drive.google.com/file/d/1-Ants1F2MkG_S-GKfy88JnVfezjU46Wk/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1SodqCuA-ErRLX02AnD4gKDhgJ6tsoAfS",
@@ -693,7 +817,9 @@
       "web_view_link": "https://drive.google.com/file/d/1SodqCuA-ErRLX02AnD4gKDhgJ6tsoAfS/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1z6PEKBZn0F3UuFECYEZ48RPzxNwdi4Rr",
@@ -704,7 +830,9 @@
       "web_view_link": "https://drive.google.com/file/d/1z6PEKBZn0F3UuFECYEZ48RPzxNwdi4Rr/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1mN1sL4VQBzKo3DMGrkW09l0Ep1se6VHd",
@@ -713,9 +841,11 @@
       "size_bytes": 92401,
       "modified_time": "2026-11-08T02:51:37.430Z",
       "web_view_link": "https://drive.google.com/file/d/1mN1sL4VQBzKo3DMGrkW09l0Ep1se6VHd/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "quarantined",
-      "note": "Secrets/vault/sensitive analysis excluded from KB."
+      "status": "restored",
+      "security_status": "secret-private-hold",
+      "note": "Restored to workspace. Not executed. Secret values held in private/ only \u2014 not published to public KB or git. local=private/grok-premium-ca-keys.json",
+      "workspace_path": "workspace-restored/private/grok-premium-ca-keys.json",
+      "workspace_present": true
     },
     {
       "id": "1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK",
@@ -726,7 +856,9 @@
       "web_view_link": "https://drive.google.com/file/d/1JOxNy3QuJOH_1L8hreQyxQLGR-zXVrPK/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "17hawKNZIM49FDAdGYqVCeN5--ocHvH-T",
@@ -737,7 +869,9 @@
       "web_view_link": "https://drive.google.com/file/d/17hawKNZIM49FDAdGYqVCeN5--ocHvH-T/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt",
@@ -748,7 +882,9 @@
       "web_view_link": "https://drive.google.com/file/d/1c34A8z-RC4A4LcyMTtCoqYlXJpl78nkt/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "18RkEHuWz8zOl07cq0lEY4pNwimGBLpZl",
@@ -759,7 +895,9 @@
       "web_view_link": "https://drive.google.com/file/d/18RkEHuWz8zOl07cq0lEY4pNwimGBLpZl/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1h5N28QbIFPK7PAeQgGhaohEZ1_y_s_Y_",
@@ -770,7 +908,9 @@
       "web_view_link": "https://drive.google.com/file/d/1h5N28QbIFPK7PAeQgGhaohEZ1_y_s_Y_/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi",
@@ -781,7 +921,9 @@
       "web_view_link": "https://drive.google.com/file/d/1tTdPNXFCr1z-o7r85MtJxRiAfuRialKi/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG",
@@ -792,7 +934,9 @@
       "web_view_link": "https://drive.google.com/file/d/1X5ZWG3-KiXLpmELcQBs_jnfUKQLdwZBG/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "12IjQTa-Yd3NhMlcJ7QY6uT2h1dqLelhu",
@@ -803,7 +947,9 @@
       "web_view_link": "https://drive.google.com/file/d/12IjQTa-Yd3NhMlcJ7QY6uT2h1dqLelhu/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1kh4wyH8ExVOR913iAR3t5V_k9Wkap8u7",
@@ -814,7 +960,9 @@
       "web_view_link": "https://drive.google.com/file/d/1kh4wyH8ExVOR913iAR3t5V_k9Wkap8u7/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF",
@@ -825,7 +973,9 @@
       "web_view_link": "https://drive.google.com/file/d/1v1lD3igXT7xhKvDKRm93lrMmUkcTzEKF/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1X8Tzi4zVnam8LE_zyUqL9DrEJhh7GwHq",
@@ -834,9 +984,11 @@
       "size_bytes": 165924,
       "modified_time": "2026-11-08T02:51:38.516Z",
       "web_view_link": "https://drive.google.com/file/d/1X8Tzi4zVnam8LE_zyUqL9DrEJhh7GwHq/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "binary-quarantine",
-      "note": "Binary package; not executed."
+      "status": "restored",
+      "security_status": "binary-restored",
+      "note": "Restored to workspace. Not executed. Binary held for static inventory only. local=binaries/Grok_webapk_v2_1.apks",
+      "workspace_path": "workspace-restored/binaries/Grok_webapk_v2_1.apks",
+      "workspace_present": true
     },
     {
       "id": "1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV",
@@ -847,7 +999,9 @@
       "web_view_link": "https://drive.google.com/file/d/1M0LjEW8uUsn9ZuSIkErPQQ4otmW27YyV/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Q5x0dEicbMG_b6E4_oL6MlyOWIucMz5H",
@@ -858,7 +1012,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Q5x0dEicbMG_b6E4_oL6MlyOWIucMz5H/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1hjm16H5dP-fBOK5pGW-BHvzwC_JBprec",
@@ -869,7 +1025,9 @@
       "web_view_link": "https://drive.google.com/file/d/1hjm16H5dP-fBOK5pGW-BHvzwC_JBprec/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc",
@@ -880,7 +1038,9 @@
       "web_view_link": "https://drive.google.com/file/d/1sQh5oBA55ezrjF9_kMhjTPPFVwu6sgbc/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg",
@@ -891,7 +1051,9 @@
       "web_view_link": "https://drive.google.com/file/d/1IswK8GGdivmNWcqi27gAkJXjGHlkHDkg/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq",
@@ -902,7 +1064,9 @@
       "web_view_link": "https://drive.google.com/file/d/15QfxHxaCT9bfFn9H2cOLiXrbGqD544Hq/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi",
@@ -913,7 +1077,9 @@
       "web_view_link": "https://drive.google.com/file/d/11ueDhCrKz3dYpy0PxcvoSznaXdxASXEi/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw",
@@ -924,7 +1090,9 @@
       "web_view_link": "https://drive.google.com/file/d/1QjllrirAgz0xq4OZWauXM1ENtUiG17Dw/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1wajkVVPHUik80AKzERN6LJUUWlZ3H-gO",
@@ -935,7 +1103,9 @@
       "web_view_link": "https://drive.google.com/file/d/1wajkVVPHUik80AKzERN6LJUUWlZ3H-gO/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1BmjbuS4Sf_2RNP_MbF0MkcOpAtrU98No",
@@ -946,7 +1116,9 @@
       "web_view_link": "https://drive.google.com/file/d/1BmjbuS4Sf_2RNP_MbF0MkcOpAtrU98No/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1exRN7xTTnqxaGVe12fGIedp0WKusfF4j",
@@ -957,7 +1129,9 @@
       "web_view_link": "https://drive.google.com/file/d/1exRN7xTTnqxaGVe12fGIedp0WKusfF4j/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb",
@@ -968,7 +1142,9 @@
       "web_view_link": "https://drive.google.com/file/d/11cs5FPhXV94hGcDfTYDQUcjm4lhlzRbb/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1n-2CfmSu0hEo0hhL8hkPX6vWo8YZ5vFq",
@@ -979,7 +1155,9 @@
       "web_view_link": "https://drive.google.com/file/d/1n-2CfmSu0hEo0hhL8hkPX6vWo8YZ5vFq/view?usp=drivesdk",
       "status": "scanned",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1qbd-5-rQ3yvJO6FL7K4VaG5yiCQJTrHM",
@@ -990,7 +1168,9 @@
       "web_view_link": "https://drive.google.com/file/d/1qbd-5-rQ3yvJO6FL7K4VaG5yiCQJTrHM/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "100z3lPnT0S8gofOIDahn86fhGp00sr7U",
@@ -1001,7 +1181,9 @@
       "web_view_link": "https://drive.google.com/file/d/100z3lPnT0S8gofOIDahn86fhGp00sr7U/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1zwF2STheU1xNRRO_kwoXfw1Q31FM_iML",
@@ -1012,7 +1194,9 @@
       "web_view_link": "https://drive.google.com/file/d/1zwF2STheU1xNRRO_kwoXfw1Q31FM_iML/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "17-Pv341ubFgl-pBTy7sJBV0-SeLI2GtZ",
@@ -1023,7 +1207,9 @@
       "web_view_link": "https://drive.google.com/file/d/17-Pv341ubFgl-pBTy7sJBV0-SeLI2GtZ/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9",
@@ -1034,7 +1220,9 @@
       "web_view_link": "https://drive.google.com/file/d/1I1_3pTiwJEuI88XIpQIcEf9Wgm7yUJq9/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b",
@@ -1045,7 +1233,9 @@
       "web_view_link": "https://drive.google.com/file/d/1j0SUZghqfJ88Yh5gRMvMdrPmJfJYR_3b/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1S299jDGRhaMGukj1uqzmw0vA2nsjWtqD",
@@ -1056,7 +1246,9 @@
       "web_view_link": "https://drive.google.com/file/d/1S299jDGRhaMGukj1uqzmw0vA2nsjWtqD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K",
@@ -1067,7 +1259,9 @@
       "web_view_link": "https://drive.google.com/file/d/1t8l91SSy68hvIxQKSwX5p6uad_jYIh7K/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "17fdvh4D3MkP3rVsq_69FQhVWbIzs8u5k",
@@ -1078,7 +1272,9 @@
       "web_view_link": "https://drive.google.com/file/d/17fdvh4D3MkP3rVsq_69FQhVWbIzs8u5k/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "11JXJd2_kWpC854JKG-_MX_e-5rASUOff",
@@ -1089,7 +1285,9 @@
       "web_view_link": "https://drive.google.com/file/d/11JXJd2_kWpC854JKG-_MX_e-5rASUOff/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1b0ELfDc4_sTTlf3WTDTK6SBlYE1hbnlw",
@@ -1100,7 +1298,9 @@
       "web_view_link": "https://drive.google.com/file/d/1b0ELfDc4_sTTlf3WTDTK6SBlYE1hbnlw/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1llGW8iS12XsSRKSI1n_26uXXEDGFbSpd",
@@ -1111,7 +1311,9 @@
       "web_view_link": "https://drive.google.com/file/d/1llGW8iS12XsSRKSI1n_26uXXEDGFbSpd/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu",
@@ -1122,7 +1324,9 @@
       "web_view_link": "https://drive.google.com/file/d/1dqHKP3TssdlzJrBZlF6JxVNdjwu1ocAu/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw",
@@ -1133,7 +1337,9 @@
       "web_view_link": "https://drive.google.com/file/d/1SsageWwgMe2hzqaEn_A5Ic6feOPBRzfw/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC",
@@ -1144,7 +1350,9 @@
       "web_view_link": "https://drive.google.com/file/d/1evYy3XIIsFyT6Vq0GpqiLVORpBEPq4WC/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1rmHS_J_xqLDzhDl0AQOUxypEP1GHVexD",
@@ -1155,7 +1363,9 @@
       "web_view_link": "https://drive.google.com/file/d/1rmHS_J_xqLDzhDl0AQOUxypEP1GHVexD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Csrgu9ptuH1CrxMDG6_U10VQWyObrNSR",
@@ -1166,7 +1376,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Csrgu9ptuH1CrxMDG6_U10VQWyObrNSR/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv",
@@ -1177,7 +1389,9 @@
       "web_view_link": "https://drive.google.com/file/d/15MbTZc9L7RSPLxsvTVKTMGFN1BHiHbwv/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "10CZHNVRPIS7-2BtUy6j3hpidX6HMLYPD",
@@ -1188,7 +1402,9 @@
       "web_view_link": "https://drive.google.com/file/d/10CZHNVRPIS7-2BtUy6j3hpidX6HMLYPD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1bl4m5Gioj0sX5ORtUbHOK-rwxk8-Cn3N",
@@ -1199,7 +1415,9 @@
       "web_view_link": "https://drive.google.com/file/d/1bl4m5Gioj0sX5ORtUbHOK-rwxk8-Cn3N/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1H6NnUZJJ309ugV3K6Xige-lH0kn_5Kmz",
@@ -1210,7 +1428,9 @@
       "web_view_link": "https://drive.google.com/file/d/1H6NnUZJJ309ugV3K6Xige-lH0kn_5Kmz/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1p_vtJfidqc9ATz1nXjQDkLjYAETV3ZSC",
@@ -1221,7 +1441,9 @@
       "web_view_link": "https://drive.google.com/file/d/1p_vtJfidqc9ATz1nXjQDkLjYAETV3ZSC/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "17R7wGD2EGi_k59FDSjlVMQ6e5wA0dHrE",
@@ -1232,7 +1454,9 @@
       "web_view_link": "https://drive.google.com/file/d/17R7wGD2EGi_k59FDSjlVMQ6e5wA0dHrE/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1kFzg2wdZWsZts7FatP3uk1fqpeNgCrGd",
@@ -1243,7 +1467,9 @@
       "web_view_link": "https://drive.google.com/file/d/1kFzg2wdZWsZts7FatP3uk1fqpeNgCrGd/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1uRIwLhN_-QDO9be8gJUTJodl-ib7lke9",
@@ -1254,7 +1480,9 @@
       "web_view_link": "https://drive.google.com/file/d/1uRIwLhN_-QDO9be8gJUTJodl-ib7lke9/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6",
@@ -1265,7 +1493,9 @@
       "web_view_link": "https://drive.google.com/file/d/1KBEv0pI91cubr6PkpI1VPSwMk-nuu-M6/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW",
@@ -1276,7 +1506,9 @@
       "web_view_link": "https://drive.google.com/file/d/1jRPcjku_xw_Hs7I4tw_pBZxc0_1kg_nW/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1EQbny70SXnLs5MMvqQzMKLHw5xCYHx49",
@@ -1287,7 +1519,9 @@
       "web_view_link": "https://drive.google.com/file/d/1EQbny70SXnLs5MMvqQzMKLHw5xCYHx49/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4",
@@ -1298,7 +1532,9 @@
       "web_view_link": "https://drive.google.com/file/d/1IEjZE7DKA4TVqw0zhRpRhwfkPwGX6zi4/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1OXfSjR7_abwcc2WNzdAg7UI2HYx-Yle6",
@@ -1309,7 +1545,9 @@
       "web_view_link": "https://drive.google.com/file/d/1OXfSjR7_abwcc2WNzdAg7UI2HYx-Yle6/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1JZsUPMzX-ZJgMlwn8uHwZSQ6aGvAuKh1",
@@ -1320,7 +1558,9 @@
       "web_view_link": "https://drive.google.com/file/d/1JZsUPMzX-ZJgMlwn8uHwZSQ6aGvAuKh1/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1KHBqp04kq_4xd0JfDO7kyBE73MrZsL68",
@@ -1331,7 +1571,9 @@
       "web_view_link": "https://drive.google.com/file/d/1KHBqp04kq_4xd0JfDO7kyBE73MrZsL68/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1AFpB7K0_Upn82skxHou1QW7M7Gj893vS",
@@ -1342,7 +1584,9 @@
       "web_view_link": "https://drive.google.com/file/d/1AFpB7K0_Upn82skxHou1QW7M7Gj893vS/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Kj-nfqpDvPT1nPAQJP9OnnCEdxf5pC4X",
@@ -1353,7 +1597,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Kj-nfqpDvPT1nPAQJP9OnnCEdxf5pC4X/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1JdtpFQTwp89dmWxSngy0r-YZX9ssPF9G",
@@ -1364,7 +1610,9 @@
       "web_view_link": "https://drive.google.com/file/d/1JdtpFQTwp89dmWxSngy0r-YZX9ssPF9G/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1q2OBfcmpWCLp1p2hvZclRbVe2Oda5lqh",
@@ -1375,7 +1623,9 @@
       "web_view_link": "https://drive.google.com/file/d/1q2OBfcmpWCLp1p2hvZclRbVe2Oda5lqh/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1aidQU_1IPXHr0GZEsrzK_jDufcEOI5YB",
@@ -1386,7 +1636,9 @@
       "web_view_link": "https://drive.google.com/file/d/1aidQU_1IPXHr0GZEsrzK_jDufcEOI5YB/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "15cuIuSUQkAmHN41Hl0_h_jTxCbhIQSfQ",
@@ -1397,7 +1649,9 @@
       "web_view_link": "https://drive.google.com/file/d/15cuIuSUQkAmHN41Hl0_h_jTxCbhIQSfQ/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Bqtwk0ydtXgQpQcPpwbcqWrKrHcvcVN1",
@@ -1408,7 +1662,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Bqtwk0ydtXgQpQcPpwbcqWrKrHcvcVN1/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1oEljOy0o6NsABs8lzPPPHKv_98R5s442",
@@ -1419,7 +1675,9 @@
       "web_view_link": "https://drive.google.com/file/d/1oEljOy0o6NsABs8lzPPPHKv_98R5s442/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1p1156g_kMfjF08-VBsOw86KplL1ixTKV",
@@ -1430,7 +1688,9 @@
       "web_view_link": "https://drive.google.com/file/d/1p1156g_kMfjF08-VBsOw86KplL1ixTKV/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5",
@@ -1441,7 +1701,9 @@
       "web_view_link": "https://drive.google.com/file/d/1g0CSXPI5vRquUWZ4jojhPK7Up_YdD9a5/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1otZxvqp-wr-Qrr_j0R7qGJSlPVvk8C-d",
@@ -1452,7 +1714,9 @@
       "web_view_link": "https://drive.google.com/file/d/1otZxvqp-wr-Qrr_j0R7qGJSlPVvk8C-d/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1E57fBSd0kChrvKW830YpueQ04kazW2Qe",
@@ -1463,7 +1727,9 @@
       "web_view_link": "https://drive.google.com/file/d/1E57fBSd0kChrvKW830YpueQ04kazW2Qe/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1_J9KplzSwva_pSqwBjClV82SpMsBBNwv",
@@ -1474,7 +1740,9 @@
       "web_view_link": "https://drive.google.com/file/d/1_J9KplzSwva_pSqwBjClV82SpMsBBNwv/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1zGRii2S6rtCcTubPGaynmI7TtbCKmRmm",
@@ -1485,7 +1753,9 @@
       "web_view_link": "https://drive.google.com/file/d/1zGRii2S6rtCcTubPGaynmI7TtbCKmRmm/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR",
@@ -1496,7 +1766,9 @@
       "web_view_link": "https://drive.google.com/file/d/10HrRCDVCAAEVM9YTj7Sxdf43tj28v1UR/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1lJlQ3X9m46N6cJdUJoKS5LXTIylUyj_b",
@@ -1507,7 +1779,9 @@
       "web_view_link": "https://drive.google.com/file/d/1lJlQ3X9m46N6cJdUJoKS5LXTIylUyj_b/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1oMykg1Lwq3ps7J556XShCezp0pFrFftW",
@@ -1518,7 +1792,9 @@
       "web_view_link": "https://drive.google.com/file/d/1oMykg1Lwq3ps7J556XShCezp0pFrFftW/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "10Iy66jodb6G0DjapPPd4aWe_eL9716E8",
@@ -1529,7 +1805,9 @@
       "web_view_link": "https://drive.google.com/file/d/10Iy66jodb6G0DjapPPd4aWe_eL9716E8/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "16Tm-W9C-zB19LBVSUVemjyNuHX-_jOUb",
@@ -1540,7 +1818,9 @@
       "web_view_link": "https://drive.google.com/file/d/16Tm-W9C-zB19LBVSUVemjyNuHX-_jOUb/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof",
@@ -1551,7 +1831,9 @@
       "web_view_link": "https://drive.google.com/file/d/1G8B0UQ63yrHPSuwTH7QBN6iSVYzGNkof/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1oW-PBCLlhgoh3mKYpVy5sBiBZlkhc-Do",
@@ -1562,7 +1844,9 @@
       "web_view_link": "https://drive.google.com/file/d/1oW-PBCLlhgoh3mKYpVy5sBiBZlkhc-Do/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3",
@@ -1573,7 +1857,9 @@
       "web_view_link": "https://drive.google.com/file/d/1aE9qThN0-c5icD_e2NGy1QXS3ly_RHj3/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh",
@@ -1584,7 +1870,9 @@
       "web_view_link": "https://drive.google.com/file/d/1s7OK5Cjj6nhD84TMV0zk3L2Ug1FLWQDh/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j",
@@ -1595,7 +1883,9 @@
       "web_view_link": "https://drive.google.com/file/d/1LNc48OKxSCnUQ8sKsUbZ9Quo9WLzHj0j/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J",
@@ -1606,7 +1896,9 @@
       "web_view_link": "https://drive.google.com/file/d/1M_wc5ADA9CXqRiZdgiKgSWwn6ye3Bt-J/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1LC0D-sSw5LAcznZaFGK0KWDFo3mRlReX",
@@ -1615,9 +1907,11 @@
       "size_bytes": 96338,
       "modified_time": "2026-11-08T02:53:50.646Z",
       "web_view_link": "https://drive.google.com/file/d/1LC0D-sSw5LAcznZaFGK0KWDFo3mRlReX/view?usp=drivesdk",
-      "status": "blocked",
-      "security_status": "quarantined",
-      "note": null
+      "status": "restored",
+      "security_status": "doc-restored",
+      "note": "Restored to workspace. Not executed. local=docs/API_Radar_HN.PDF",
+      "workspace_path": "workspace-restored/docs/API_Radar_HN.PDF",
+      "workspace_present": true
     },
     {
       "id": "1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY",
@@ -1628,7 +1922,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Y5G3oXinvaKmLSofXPqo7oUHfVgH5GqY/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA",
@@ -1639,7 +1935,9 @@
       "web_view_link": "https://drive.google.com/file/d/1YuFm5HCMVwlXvL2j2rFEA6M7WUUefSFA/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI",
@@ -1650,7 +1948,9 @@
       "web_view_link": "https://drive.google.com/file/d/1x_lfCB7235VYpUgFsTiza7WBUfsiuFFI/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM",
@@ -1661,7 +1961,9 @@
       "web_view_link": "https://drive.google.com/file/d/1XK3SxLZTZe8HNuyVMbaxLLBHUoCoWUhM/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__",
@@ -1672,7 +1974,9 @@
       "web_view_link": "https://drive.google.com/file/d/1iR1mJ35Jjc-qaAVlGdQiNy5MEfyhZt__/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM",
@@ -1683,7 +1987,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Vz5KAGD4Bdx4mJIHsDsJhlU_AR74DorM/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K",
@@ -1694,7 +2000,9 @@
       "web_view_link": "https://drive.google.com/file/d/1WPfKseKae5wnHTSJQL8YCuNxdbijOV0K/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0",
@@ -1705,7 +2013,9 @@
       "web_view_link": "https://drive.google.com/file/d/1KYH3FB1nFUYTpFhghhoEvL3vKKF0dzA0/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS",
@@ -1716,7 +2026,9 @@
       "web_view_link": "https://drive.google.com/file/d/18bxv6CEa4LeuqUUFAYSDYxCEFL02RztS/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2",
@@ -1727,7 +2039,9 @@
       "web_view_link": "https://drive.google.com/file/d/1TIfltceR7iL8w-G8DkBxuZco4M8FLe-2/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh",
@@ -1738,7 +2052,9 @@
       "web_view_link": "https://drive.google.com/file/d/1qspm_fRAsgVbN65UTsrjGBmIL5X4dfrh/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy",
@@ -1749,7 +2065,9 @@
       "web_view_link": "https://drive.google.com/file/d/10o1fkTJwjVA-ogdrFPbRVxfyXuizSTPy/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF",
@@ -1760,7 +2078,9 @@
       "web_view_link": "https://drive.google.com/file/d/1zHM_Lcvcl4fJnr0mbNXdPGHdhUNH7eOF/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7",
@@ -1771,7 +2091,9 @@
       "web_view_link": "https://drive.google.com/file/d/12LWqIrG4g0-YT1mfhw01ijxHuLdXcxf7/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs",
@@ -1782,7 +2104,9 @@
       "web_view_link": "https://drive.google.com/file/d/1XnaFfvehszY53-t1Yt-jZPoSSrlVfjFs/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH",
@@ -1793,7 +2117,9 @@
       "web_view_link": "https://drive.google.com/file/d/1aPXiBxbQR-0KCgABDsIp7HHIb0kmmDfH/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb",
@@ -1804,7 +2130,9 @@
       "web_view_link": "https://drive.google.com/file/d/1jlekcsFtAobpjQptEOPmSLmO3OKD_8lb/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk",
@@ -1815,7 +2143,9 @@
       "web_view_link": "https://drive.google.com/file/d/1lCUeLnEdtr66lLdE0_8zVAQNlHzVk3hk/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl",
@@ -1826,7 +2156,9 @@
       "web_view_link": "https://drive.google.com/file/d/1M1Q5Q_LVuJm5e6HIoDN1ba_vHZpziudl/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD",
@@ -1837,7 +2169,9 @@
       "web_view_link": "https://drive.google.com/file/d/15aGM-w6qPhEdeeg_1AGRK4mjvA-0wizD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE",
@@ -1848,7 +2182,9 @@
       "web_view_link": "https://drive.google.com/file/d/1d_Ox5GX4Rr9ECZ6Fes4367iYq_1uoiJE/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5",
@@ -1859,7 +2195,9 @@
       "web_view_link": "https://drive.google.com/file/d/1j6OGxh57fd6b5A5HqQqKX-psPwpu3gH5/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO",
@@ -1870,7 +2208,9 @@
       "web_view_link": "https://drive.google.com/file/d/1VLBgzqm9gUKnuEXP6U4UWt10qQ7E0tRO/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE",
@@ -1881,7 +2221,9 @@
       "web_view_link": "https://drive.google.com/file/d/1bSGh20IDC3ja2PsRgtzkb-K9REgtQmhE/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz",
@@ -1892,7 +2234,9 @@
       "web_view_link": "https://drive.google.com/file/d/1_To1xtMdmoZNiaKPMkgnqVOd2oi4Tsqz/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1H4i9vcllnH9_pXN74t9GCAd8F-DZki03",
@@ -1903,7 +2247,9 @@
       "web_view_link": "https://drive.google.com/file/d/1H4i9vcllnH9_pXN74t9GCAd8F-DZki03/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u",
@@ -1914,7 +2260,9 @@
       "web_view_link": "https://drive.google.com/file/d/1XtWXZcJnbIhs-UcG920xVybuOBuQBt3u/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O",
@@ -1925,7 +2273,9 @@
       "web_view_link": "https://drive.google.com/file/d/1YvVESg5KwpGRxkymDSt7SP6SB1rfFq7O/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "17X7h4aD4T7OOodamxZcJZDHXxS60fn0V",
@@ -1936,7 +2286,9 @@
       "web_view_link": "https://drive.google.com/file/d/17X7h4aD4T7OOodamxZcJZDHXxS60fn0V/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT",
@@ -1947,7 +2299,9 @@
       "web_view_link": "https://drive.google.com/file/d/1UQlqjKkXpUs2ReeRB1PGDcUjLiFU5jaT/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p",
@@ -1958,7 +2312,9 @@
       "web_view_link": "https://drive.google.com/file/d/1gXr2Ahj-FbUWPgI42_XTReyNM4QUcU9p/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "19SovwVKexfoTPGYmykzAdTarxcHr3vJH",
@@ -1969,7 +2325,9 @@
       "web_view_link": "https://drive.google.com/file/d/19SovwVKexfoTPGYmykzAdTarxcHr3vJH/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF",
@@ -1980,7 +2338,9 @@
       "web_view_link": "https://drive.google.com/file/d/1q8tEMTnwlfUF34KKY4buhV713Y8XEgnF/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ",
@@ -1991,7 +2351,9 @@
       "web_view_link": "https://drive.google.com/file/d/1kjyTg7DnmdsvyOrmOiDGWDk5lNGS5osZ/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH",
@@ -2002,7 +2364,9 @@
       "web_view_link": "https://drive.google.com/file/d/10UBOpRR91b1n7zRRQ6xFJ0wsHmkYZCjH/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav",
@@ -2013,7 +2377,9 @@
       "web_view_link": "https://drive.google.com/file/d/1O6-D_aSOcn9kJGYuQBezSZUdYvRFYNav/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD",
@@ -2024,7 +2390,9 @@
       "web_view_link": "https://drive.google.com/file/d/1HuiMPPcXq0zU-sHrk6IhEOa6z0ifDktD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R",
@@ -2035,7 +2403,9 @@
       "web_view_link": "https://drive.google.com/file/d/1JrqOnFjMH2rxP0o9NNtt9Jg7BAVmp03R/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1z36me9wQp12R1ROrdepAVttpY3Mymk5a",
@@ -2046,7 +2416,9 @@
       "web_view_link": "https://drive.google.com/file/d/1z36me9wQp12R1ROrdepAVttpY3Mymk5a/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl",
@@ -2057,7 +2429,9 @@
       "web_view_link": "https://drive.google.com/file/d/1sSAiq8Zb53hfAcScJJKbdjuZI-IKN3Fl/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y",
@@ -2068,7 +2442,9 @@
       "web_view_link": "https://drive.google.com/file/d/1PfXe5OmYhxF65BbYCr6mQlHA4CUAvI_y/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa",
@@ -2079,7 +2455,9 @@
       "web_view_link": "https://drive.google.com/file/d/1FPnBUmBOWKWclotEr3zNi0Epun6KKeoa/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K",
@@ -2090,7 +2468,9 @@
       "web_view_link": "https://drive.google.com/file/d/1BWFjyaFPPFxn9Y0W8R6YkRvnw4FB6P6K/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj",
@@ -2101,7 +2481,9 @@
       "web_view_link": "https://drive.google.com/file/d/1yWlsiNYgFjAHix9EVZRvMuemw5WZ3UWj/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu",
@@ -2112,7 +2494,9 @@
       "web_view_link": "https://drive.google.com/file/d/1ZhBQawgBZLPDTsmOUzQqXZkPhNxk0LEu/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT",
@@ -2123,7 +2507,9 @@
       "web_view_link": "https://drive.google.com/file/d/125JfMD4UDZnNqjqu2Y0zHILHFXfJEnBT/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af",
@@ -2134,7 +2520,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Fe227xb5aGFnCzojBk8Hbf0aSv-i40Af/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg",
@@ -2145,7 +2533,9 @@
       "web_view_link": "https://drive.google.com/file/d/1AVd4HwJ2jDJ7knEmpQzMMH2oRLIs-rOg/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t",
@@ -2156,7 +2546,9 @@
       "web_view_link": "https://drive.google.com/file/d/1qIlyLYooJf0pzdGuZTFDyZIDYUJZru7t/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW",
@@ -2167,7 +2559,9 @@
       "web_view_link": "https://drive.google.com/file/d/1GqxsRMTV_9vWLFRFelX6B-I-b13-N8FW/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI",
@@ -2178,7 +2572,9 @@
       "web_view_link": "https://drive.google.com/file/d/1GxYNbDueSjNO7SAuC7jYmykg6oNFoTGI/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ",
@@ -2189,7 +2585,9 @@
       "web_view_link": "https://drive.google.com/file/d/1MV9IxBUGhnzHjV1Ew-3wvB1PyyRMxThQ/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV",
@@ -2200,7 +2598,9 @@
       "web_view_link": "https://drive.google.com/file/d/1ZVzyhwD0ILTrqMVAIw2kRkA70983VUqV/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1X479KSGJDEn5P9B970goAlrtbDIDkcgm",
@@ -2211,7 +2611,9 @@
       "web_view_link": "https://drive.google.com/file/d/1X479KSGJDEn5P9B970goAlrtbDIDkcgm/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k",
@@ -2222,7 +2624,9 @@
       "web_view_link": "https://drive.google.com/file/d/1r2sv-I56meiTdUtUWtNJPlhxzySVK_4k/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD",
@@ -2233,7 +2637,9 @@
       "web_view_link": "https://drive.google.com/file/d/1-QHthiDb-8J6hL9oDJwm9jNfwULln4wD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw",
@@ -2244,7 +2650,9 @@
       "web_view_link": "https://drive.google.com/file/d/1SDB6RN_znl9DAlUHi9jBRAh1QdvNWmlw/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8",
@@ -2255,7 +2663,9 @@
       "web_view_link": "https://drive.google.com/file/d/1iABhKy03Rvi3ablfqPswtx8ChTHMXbe8/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE",
@@ -2266,7 +2676,9 @@
       "web_view_link": "https://drive.google.com/file/d/113sI7Fpcmukb9naoxh1Ov1Ld5xxiITqE/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp",
@@ -2277,7 +2689,9 @@
       "web_view_link": "https://drive.google.com/file/d/10CCVmNHHBtVL6gE3743EYUvN0VY4NDBp/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal",
@@ -2288,7 +2702,9 @@
       "web_view_link": "https://drive.google.com/file/d/1WkzNd8gHyhR0n60ytxS0Kpk4NebSRoal/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T",
@@ -2299,7 +2715,9 @@
       "web_view_link": "https://drive.google.com/file/d/1xZYagWJD9C6R-hJ4DG4XDxcdIRuGNn-T/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1S-rjW8v2fUJvsfiLmfZvBfcJkjGvucRn",
@@ -2310,7 +2728,9 @@
       "web_view_link": "https://drive.google.com/file/d/1S-rjW8v2fUJvsfiLmfZvBfcJkjGvucRn/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw",
@@ -2321,7 +2741,9 @@
       "web_view_link": "https://drive.google.com/file/d/1KkoUnS86A8hcCGg7wSKjReGcA58VDLcw/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn",
@@ -2332,7 +2754,9 @@
       "web_view_link": "https://drive.google.com/file/d/1pdPzhgQZ2sAT2IcLumNGkW0-bRgndmHn/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe",
@@ -2343,7 +2767,9 @@
       "web_view_link": "https://drive.google.com/file/d/1loxnygiVrk8kGUyqeoO8aH8r4IFgdkHe/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX",
@@ -2354,7 +2780,9 @@
       "web_view_link": "https://drive.google.com/file/d/1nYcFMb1Vp2hDCjdcRyszk5Ch01sRjAsX/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc",
@@ -2365,7 +2793,9 @@
       "web_view_link": "https://drive.google.com/file/d/1RqyDENPYL1-fxZUlVavBDs6bAwyEBaPc/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8",
@@ -2376,7 +2806,9 @@
       "web_view_link": "https://drive.google.com/file/d/1V0jvvkfI41w-tyBvcIn9IT7BoK30FE-8/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2",
@@ -2387,7 +2819,9 @@
       "web_view_link": "https://drive.google.com/file/d/1II6iQhJQ_h62F0-8kB6CknEniHpyDnL2/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN",
@@ -2398,7 +2832,9 @@
       "web_view_link": "https://drive.google.com/file/d/1eMumtmVkpZoMpYXLcder3dvxbqb8y9FN/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "106vW7aitLPrsVBxqsMF0YrUnQBqvlwfu",
@@ -2409,7 +2845,9 @@
       "web_view_link": "https://drive.google.com/file/d/106vW7aitLPrsVBxqsMF0YrUnQBqvlwfu/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Hdq1cc-EoGe1S16PJfwJQvWCtf89X5Zp",
@@ -2420,7 +2858,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Hdq1cc-EoGe1S16PJfwJQvWCtf89X5Zp/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g",
@@ -2431,7 +2871,9 @@
       "web_view_link": "https://drive.google.com/file/d/1mkQnvj6MECA1VsT3aA7R62Hu9sRC0F7g/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG",
@@ -2442,7 +2884,9 @@
       "web_view_link": "https://drive.google.com/file/d/1YmOXlQRWDHq10Rt6lX3Z4OjqNbENFHgG/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE",
@@ -2453,7 +2897,9 @@
       "web_view_link": "https://drive.google.com/file/d/1WDTqS2UzyQjb_2d6yCfMTnM_WpAvugEE/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu",
@@ -2464,7 +2910,9 @@
       "web_view_link": "https://drive.google.com/file/d/1vy8dgkHuOcBU7GCoqPAwZzhURdrTFHSu/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5",
@@ -2475,7 +2923,9 @@
       "web_view_link": "https://drive.google.com/file/d/15x1von2Rx69TfF3H8q9RWPlBjW3WM2H5/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ",
@@ -2486,7 +2936,9 @@
       "web_view_link": "https://drive.google.com/file/d/1KGN00-6f8dJ2vTb8cEjIO9ac518hikqQ/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx",
@@ -2497,7 +2949,9 @@
       "web_view_link": "https://drive.google.com/file/d/1WYNhILFVXJGBC5wNGknAVfv1q_cDQUjx/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV",
@@ -2508,7 +2962,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Iwmb_k8LTF-YA6f-rxPw4ZhsKpYjrTQV/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw",
@@ -2519,7 +2975,9 @@
       "web_view_link": "https://drive.google.com/file/d/1LbaL45WTSmbaJ9by1dMjTsx4Acvb4GKw/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1ucOfHP-bbvSQF9QBQsKvf9iszy5X8FJV",
@@ -2530,7 +2988,9 @@
       "web_view_link": "https://drive.google.com/file/d/1ucOfHP-bbvSQF9QBQsKvf9iszy5X8FJV/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1k8KyJTFNziu-lxtp9NOGqdXe0-eI-Ces",
@@ -2541,7 +3001,9 @@
       "web_view_link": "https://drive.google.com/file/d/1k8KyJTFNziu-lxtp9NOGqdXe0-eI-Ces/view?usp=drivesdk",
       "status": "extracted",
       "security_status": "cleared",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf",
@@ -2552,7 +3014,9 @@
       "web_view_link": "https://drive.google.com/file/d/134DXUG-oMEARd0v4gFLWzJwPg-TjH-wf/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy",
@@ -2563,7 +3027,9 @@
       "web_view_link": "https://drive.google.com/file/d/132LIkFckmv0AZ9QsW0LPWFI4_dHzrkMy/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1gOW6CPD9vzRVUQmzGesOc5vmhUOI_AMX",
@@ -2574,7 +3040,9 @@
       "web_view_link": "https://drive.google.com/file/d/1gOW6CPD9vzRVUQmzGesOc5vmhUOI_AMX/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1t9BmH9Enj4c_N7xCuuVL_-wn1_OdhJIg",
@@ -2585,7 +3053,9 @@
       "web_view_link": "https://drive.google.com/file/d/1t9BmH9Enj4c_N7xCuuVL_-wn1_OdhJIg/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1K7hFr0dUpy3s2wojQN9_ZEJZQyrSuOZ7",
@@ -2596,7 +3066,9 @@
       "web_view_link": "https://drive.google.com/file/d/1K7hFr0dUpy3s2wojQN9_ZEJZQyrSuOZ7/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1yECvRNi1VcnFR5U3IC3UiVoRfiBs2_gc",
@@ -2607,7 +3079,9 @@
       "web_view_link": "https://drive.google.com/file/d/1yECvRNi1VcnFR5U3IC3UiVoRfiBs2_gc/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Zd9jsDGe_BPYcqQF_qw9SSUxE2ImguqT",
@@ -2618,7 +3092,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Zd9jsDGe_BPYcqQF_qw9SSUxE2ImguqT/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps",
@@ -2629,7 +3105,9 @@
       "web_view_link": "https://drive.google.com/file/d/1cUblWeuTvOWNrxCuUIkCa0j5cGpvkQps/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa",
@@ -2640,7 +3118,9 @@
       "web_view_link": "https://drive.google.com/file/d/1krh-Tro3Uh2VvpqYjbBlQFWknI9_zTsa/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1_Fq8sJDwV3PgxfSF1rYM5tgeFRUr9XAN",
@@ -2651,7 +3131,9 @@
       "web_view_link": "https://drive.google.com/file/d/1_Fq8sJDwV3PgxfSF1rYM5tgeFRUr9XAN/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1qdAXnDkyW2h2A0t5h0u9SpPnSwFcaaXc",
@@ -2662,7 +3144,9 @@
       "web_view_link": "https://drive.google.com/file/d/1qdAXnDkyW2h2A0t5h0u9SpPnSwFcaaXc/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1trnO2gfhmCDaCgTnirdIFj0ZUgDiVcDD",
@@ -2673,7 +3157,9 @@
       "web_view_link": "https://drive.google.com/file/d/1trnO2gfhmCDaCgTnirdIFj0ZUgDiVcDD/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw",
@@ -2684,7 +3170,9 @@
       "web_view_link": "https://drive.google.com/file/d/1k--QUxu5HZpX7j_YWIGlDDZN_zZPDiBw/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw",
@@ -2695,7 +3183,9 @@
       "web_view_link": "https://drive.google.com/file/d/1bsvYru4gJcbY4lANQ3qR8Sdc9r013PIw/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1kc-utcKWWkiO__2-7HEu_vdyQ-32QY_d",
@@ -2706,7 +3196,9 @@
       "web_view_link": "https://drive.google.com/file/d/1kc-utcKWWkiO__2-7HEu_vdyQ-32QY_d/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz",
@@ -2717,7 +3209,9 @@
       "web_view_link": "https://drive.google.com/file/d/1KBpvmBoIHA-IM62gJl0JUl-oeqVAWKAz/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1BIUPj_AjrJ9JnMqpa2_YOLzc4omt-2K6",
@@ -2728,7 +3222,9 @@
       "web_view_link": "https://drive.google.com/file/d/1BIUPj_AjrJ9JnMqpa2_YOLzc4omt-2K6/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1g1V2qdybOpEGgph1yXeOusSrW0ZAd3Oo",
@@ -2739,7 +3235,9 @@
       "web_view_link": "https://drive.google.com/file/d/1g1V2qdybOpEGgph1yXeOusSrW0ZAd3Oo/view?usp=drivesdk",
       "status": "scanned",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "18RGud8Bs3MVOSocpyRFusn1vaNy6tr6n",
@@ -2750,7 +3248,9 @@
       "web_view_link": "https://drive.google.com/file/d/18RGud8Bs3MVOSocpyRFusn1vaNy6tr6n/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1581Q_186PQXSQ-G-W7-15zfYW3Xzk7Qu",
@@ -2761,7 +3261,9 @@
       "web_view_link": "https://drive.google.com/file/d/1581Q_186PQXSQ-G-W7-15zfYW3Xzk7Qu/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1hc8L0XjhclGFCPwE6ah8JEyapCWLQv3b",
@@ -2772,7 +3274,9 @@
       "web_view_link": "https://drive.google.com/file/d/1hc8L0XjhclGFCPwE6ah8JEyapCWLQv3b/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "10YxzoRSuW5GvoJ-mxTPV-wKvcpi4Rzpn",
@@ -2783,7 +3287,9 @@
       "web_view_link": "https://drive.google.com/file/d/10YxzoRSuW5GvoJ-mxTPV-wKvcpi4Rzpn/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1wSTeuUrvDmEiZZ_JGfAgGeQCuQBPzjaV",
@@ -2794,7 +3300,9 @@
       "web_view_link": "https://drive.google.com/file/d/1wSTeuUrvDmEiZZ_JGfAgGeQCuQBPzjaV/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1A4Ddh9x51UInH89imm7jHKK3DekxOWrr",
@@ -2805,7 +3313,9 @@
       "web_view_link": "https://drive.google.com/file/d/1A4Ddh9x51UInH89imm7jHKK3DekxOWrr/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1cXAwjpq5otR9tlaIVVDHemzQJfS_uYCA",
@@ -2816,7 +3326,9 @@
       "web_view_link": "https://drive.google.com/file/d/1cXAwjpq5otR9tlaIVVDHemzQJfS_uYCA/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf",
@@ -2827,7 +3339,9 @@
       "web_view_link": "https://drive.google.com/file/d/1asMEihxtPBF6zeXh8BDda9z3ViEHY-Jf/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Q3PbKQA4tGaN5mBsKZ9DW_pEkpHCldF7",
@@ -2838,7 +3352,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Q3PbKQA4tGaN5mBsKZ9DW_pEkpHCldF7/view?usp=drivesdk",
       "status": "scanned",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Wad6SOX_FVYXKtRHwNYY3wZIzV067vIX",
@@ -2849,7 +3365,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Wad6SOX_FVYXKtRHwNYY3wZIzV067vIX/view?usp=drivesdk",
       "status": "scanned",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4",
@@ -2860,7 +3378,9 @@
       "web_view_link": "https://drive.google.com/file/d/1biIspLD7Ee8RCoJSV1PkEN9PoEm45Ir4/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX",
@@ -2871,7 +3391,9 @@
       "web_view_link": "https://drive.google.com/file/d/1_1YqkM5-iVP3B48o_N-f90HSHWjFrlYX/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29",
@@ -2882,7 +3404,9 @@
       "web_view_link": "https://drive.google.com/file/d/12BLjoUXO2CDcjNtZIbMktcCBP_k1Qi29/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Bk1W6A29P-4JLcU8QIZct_PiCA64uRno",
@@ -2893,7 +3417,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Bk1W6A29P-4JLcU8QIZct_PiCA64uRno/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1JbCcd24p4-YLpllW-3OOMG6Mbr3Ozg9x",
@@ -2904,7 +3430,9 @@
       "web_view_link": "https://drive.google.com/file/d/1JbCcd24p4-YLpllW-3OOMG6Mbr3Ozg9x/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5",
@@ -2915,7 +3443,9 @@
       "web_view_link": "https://drive.google.com/file/d/1dBcdlJAFalu8RkbErmrZFYunsiVlDWs5/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz",
@@ -2926,7 +3456,9 @@
       "web_view_link": "https://drive.google.com/file/d/1CZtuAERCR77Oog6KXKcjXKDShP2II4Wz/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0",
@@ -2937,7 +3469,9 @@
       "web_view_link": "https://drive.google.com/file/d/1A8qcf-bxCn_5HQoqnXOyUdh58c4J29N0/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43",
@@ -2948,7 +3482,9 @@
       "web_view_link": "https://drive.google.com/file/d/1gHsjAJloHMFkpGviTr1YIJ2_aoFGGz43/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv",
@@ -2959,7 +3495,9 @@
       "web_view_link": "https://drive.google.com/file/d/1Rqy3kTh8bOfk7biA6pgSI40eysYjbSPv/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq",
@@ -2970,7 +3508,9 @@
       "web_view_link": "https://drive.google.com/file/d/118dv3VilDkJPtNkWtYrxF9I4nYxwnoAq/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO",
@@ -2981,7 +3521,9 @@
       "web_view_link": "https://drive.google.com/file/d/16Da2zi4fkAdzV-C2SKRksgm9FMIC01cO/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     },
     {
       "id": "1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF",
@@ -2992,7 +3534,9 @@
       "web_view_link": "https://drive.google.com/file/d/1el9x82aw8zU6I2ovlXJ-_dwzHvIeBjYF/view?usp=drivesdk",
       "status": "queued",
       "security_status": "pending",
-      "note": null
+      "note": null,
+      "workspace_path": null,
+      "workspace_present": null
     }
   ]
 }
