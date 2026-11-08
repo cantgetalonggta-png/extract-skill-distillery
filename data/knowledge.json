@@ -1,0 +1,519 @@
+{
+  "generated_at": "2026-11-08T03:59:50.723615Z",
+  "folder_id": "1Vrfzeiju0L4A1etcs7pTUSyVPvMh18MX",
+  "folder_name": "EXTRACT",
+  "product": {
+    "name": "EXTRACT Skill Distillery",
+    "tagline": "Inventory, distill, and search agent skills from the EXTRACT vault",
+    "decision": "Skill Distillery console: AgentSkills/Skill Seekers/MCP materials dominate EXTRACT. APKs and secrets quarantined.",
+    "assumptions": [
+      "Static SPA",
+      "Drive originals unchanged",
+      "Binaries not executed"
+    ]
+  },
+  "coverage": {
+    "total": 272,
+    "by_status": {
+      "queued": 236,
+      "extracted": 12,
+      "scanned": 7,
+      "blocked": 17
+    },
+    "by_mime": {
+      "text/plain": 48,
+      "application/pdf": 101,
+      "application/zip": 20,
+      "application/x-zip": 3,
+      "application/x-redhat-package-manager": 3,
+      "message/rfc822": 6,
+      "text/x-sh": 4,
+      "application/json": 2,
+      "text/markdown": 75,
+      "text/x-python": 5,
+      "application/gzip": 1,
+      "application/octet-stream": 3,
+      "application/yaml": 1
+    },
+    "blocked_security": [
+      "API Keys _ Swagger Docs.PDF",
+      "apitrace-13.0-1.mga10.aarch64.rpm",
+      "APK Expansion Files \u00a0_\u00a0 Other Play guides \u00a0_\u00a0 Android Developers",
+      "APK1.zip",
+      "APK2.zip",
+      "Apk3.zip",
+      "Apk4.zip",
+      "Apk5.zip",
+      "Apk6.zip",
+      "BILLING_SMALI_ANALYSIS.md.txt",
+      "cantgetalonggta-png_clearance-secrets-vault_ PRIVATE vault for env_API key files - Reading mode.PDF",
+      "cat _ .env _ E-WPS Office.pdf",
+      "grok-0.260.0-12.mga10.noarch (1).rpm",
+      "grok-0.260.0-12.mga10.noarch.rpm",
+      "grok-premium_v1.1.67-release.00-an1.ca-keys.json",
+      "Grok_org,chromium,webapk,a53f62c41716bbcee_v2_1.apks",
+      "Show HN_ API Radar \u2013 Real-time GitHub scanner for exposed API keys _ Hacker News.PDF"
+    ],
+    "distilled_entries": 36
+  },
+  "skills": [
+    {
+      "id": "262d098bb0f5",
+      "name": "blacksmith-testbox",
+      "description": "Run Blacksmith Testbox for CI-parity checks, secrets, hosted services, migrations, or builds local cannot reproduce.",
+      "kind": "skill",
+      "path": "SKILL-blacksmith.md",
+      "chars": 13229,
+      "preview": "# Blacksmith Testbox ## Scope Use Testbox when you need remote CI parity, injected secrets, hosted services, or an OS/runtime image that your local machine cannot provide cheaply. Do not default to Testbox for every local test/build loop. If the repo has documented local commands for normal iteration, use those first so you keep warm caches, local build state, and fast feedback. Testbox is the expensive path. Reach for it deliberately. ## Install the CLI If `blacksmith` is not installed, install it: curl -fsSL https://get.blacksmith.sh | sh For the canary channel (bleeding-edge): BLACKSMITH_CH\u2026",
+      "frontmatter": {
+        "name": "blacksmith-testbox",
+        "description": "Run Blacksmith Testbox for CI-parity checks, secrets, hosted services, migrations, or builds local cannot reproduce."
+      }
+    },
+    {
+      "id": "398c14636964",
+      "name": "Skill workshop plugin",
+      "description": "Experimental capture of reusable procedures as workspace skills with review, approval, quarantine, and hot skill refresh",
+      "kind": "skill",
+      "path": "skill-workshop.md",
+      "chars": 20700,
+      "preview": "Skill Workshop is **experimental**. It is disabled by default, its capture heuristics and reviewer prompts may change between releases, and automatic writes should be used only in trusted workspaces after reviewing pending-mode output first. Skill Workshop is procedural memory for workspace skills. It lets an agent turn reusable workflows, user corrections, hard-won fixes, and recurring pitfalls into `SKILL.md` files under: ```text <workspace>/skills/<skill-name>/SKILL.md ``` This is different from long-term memory: - **Memory** stores facts, preferences, entities, and past context. - **Skills\u2026",
+      "frontmatter": {
+        "summary": "Experimental capture of reusable procedures as workspace skills with review, approval, quarantine, and hot skill refresh",
+        "title": "Skill workshop plugin",
+        "read_when": ""
+      }
+    },
+    {
+      "id": "19d993f59864",
+      "name": "Skills config",
+      "description": "Skills config schema and examples",
+      "kind": "skill",
+      "path": "skills-config.md",
+      "chars": 5195,
+      "preview": "Most skills loader/install configuration lives under `skills` in `~/.openclaw/openclaw.json`. Agent-specific skill visibility lives under `agents.defaults.skills` and `agents.list[].skills`. ```json5 { skills: { allowBundled: [\"gemini\", \"peekaboo\"], load: { extraDirs: [\"~/Projects/agent-scripts/skills\", \"~/Projects/oss/some-skill-pack/skills\"], watch: true, watchDebounceMs: 250, }, install: { preferBrew: true, nodeManager: \"npm\", // npm | pnpm | yarn | bun (Gateway runtime still Node; bun not recommended) }, entries: { \"image-lab\": { enabled: true, apiKey: { source: \"env\", provider: \"default\",\u2026",
+      "frontmatter": {
+        "summary": "Skills config schema and examples",
+        "read_when": "",
+        "title": "Skills config"
+      }
+    },
+    {
+      "id": "c2625c54ebc7",
+      "name": "Skills",
+      "description": "CLI reference for `openclaw skills` (search/install/update/list/info/check)",
+      "kind": "skill",
+      "path": "skills.md",
+      "chars": 2085,
+      "preview": "# `openclaw skills` Inspect local skills and install/update skills from ClawHub. Related: - Skills system: [Skills](/tools/skills) - Skills config: [Skills config](/tools/skills-config) - ClawHub installs: [ClawHub](/tools/clawhub) ## Commands ```bash openclaw skills search \"calendar\" openclaw skills search --limit 20 --json openclaw skills install <slug> openclaw skills install <slug> --version <version> openclaw skills install <slug> --force openclaw skills update <slug> openclaw skills update --all openclaw skills list openclaw skills list --eligible openclaw skills list --json openclaw ski\u2026",
+      "frontmatter": {
+        "summary": "CLI reference for `openclaw skills` (search/install/update/list/info/check)",
+        "read_when": "",
+        "title": "Skills"
+      }
+    },
+    {
+      "id": "c3ed37af9248",
+      "name": "agent-orchestration",
+      "description": "Divide a large investigation among focused research workers and combine their results. Use when several independent questions can be researched separately.",
+      "kind": "skill",
+      "path": "archives/agent-orchestration/SKILL.md",
+      "chars": 779,
+      "preview": "# Agent Orchestration 1. Define the main question. 2. Create one task per research track. 3. Give each worker its question, scope, source requirements, and output format. 4. Collect the results. 5. Check for duplicate claims and conflicting dates or names. 6. Send unclear results for review. 7. Combine only traceable findings. 8. Write the final report. Each worker returns: **Question**, **Sources**, **Findings**, **Confidence**, **Conflicts**, and **Open questions**. Workers do not silently change the subject, invent tool use, or claim results they did not obtain.",
+      "frontmatter": {
+        "name": "agent-orchestration",
+        "description": "Divide a large investigation among focused research workers and combine their results. Use when several independent questions can be researched separately."
+      }
+    },
+    {
+      "id": "575365303ae0",
+      "name": "find-skills",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+      "kind": "skill",
+      "path": "archives/find-skills/SKILL.md",
+      "chars": 5456,
+      "preview": "# Find Skills This skill helps you discover and install skills from the open agent skills ecosystem. ## When to Use This Skill Use this skill when the user: - Asks \"how do I do X\" where X might be a common task with an existing skill - Says \"find a skill for X\" or \"is there a skill for X\" - Asks \"can you do X\" where X is a specialized capability - Expresses interest in extending agent capabilities - Wants to search for tools, templates, or workflows - Mentions they wish they had help with a specific domain (design, testing, deployment, etc.) ## What is the Skills CLI? The Skills CLI (`npx skil\u2026",
+      "frontmatter": {
+        "name": "find-skills",
+        "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill."
+      }
+    },
+    {
+      "id": "ec99e8fe6d73",
+      "name": "skill-creator",
+      "description": "Guide for creating or updating skills that extend Manus via specialized knowledge, workflows, or tool integrations. For any modification or improvement request, MUST first read this skill and follow its update workflow instead of editing files directly.",
+      "kind": "skill",
+      "path": "archives/skill-creator/skill-creator_prod/SKILL.md",
+      "chars": 10228,
+      "preview": "# Skill Creator This skill provides guidance for creating effective skills. ## About Skills Skills are modular, self-contained packages that extend Manus's capabilities by providing specialized knowledge, workflows, and tools. Think of them as \"onboarding guides\" for specific domains or tasks\u2014they transform Manus from a general-purpose agent into a specialized agent equipped with procedural knowledge that no model can fully possess. ### What Skills Provide 1. Specialized workflows - Multi-step procedures for specific domains 2. Tool integrations - Instructions for working with specific file fo\u2026",
+      "frontmatter": {
+        "name": "skill-creator",
+        "description": "Guide for creating or updating skills that extend Manus via specialized knowledge, workflows, or tool integrations. For any modification or improvement request, MUST first read this skill and follow its update workflow instead of editing files directly.",
+        "license": "Complete terms in LICENSE.txt"
+      }
+    },
+    {
+      "id": "0d6f929ff3bf",
+      "name": "init_skill",
+      "description": "#!/usr/bin/env python3 \"\"\" Skill Initializer - Creates a new skill from template Usage: init_skill.py <skill-name> Examples: init_skill.py my-new-skill init_skill.py my-api-helper Skills are created at /home/ubuntu/skill\u2026",
+      "kind": "skill",
+      "path": "archives/skill-creator/skill-creator_prod/scripts/init_skill.py",
+      "chars": 10696,
+      "preview": "#!/usr/bin/env python3 \"\"\" Skill Initializer - Creates a new skill from template Usage: init_skill.py <skill-name> Examples: init_skill.py my-new-skill init_skill.py my-api-helper Skills are created at /home/ubuntu/skills/<skill-name>/ \"\"\" import sys from pathlib import Path SKILL_TEMPLATE = \"\"\"--- name: {skill_name} description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.] --- # {skill_title} ## Overview [TODO: 1-2 sentences explaining what this skill enables] \u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "a25242e28e48",
+      "name": "optimizetests",
+      "description": "Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage.",
+      "kind": "skill",
+      "path": "skills/SKILL-1020.md",
+      "chars": 2049,
+      "preview": "# Optimize Tests Goal: real OpenClaw test/runtime speedups with coverage intact. Do not add shards, skip assertions, weaken gates, or tune runner flags as the main fix. ## Runbook 1. Read `docs/help/testing.md`, `docs/ci.md`, and the scoped `AGENTS.md` files for any subtree you will edit. 2. Establish evidence before edits: - Full ranking: `pnpm test:perf:groups --full-suite --allow-failures --output .artifacts/test-perf/<name>.json` - Targeted file: `timeout 240 /usr/bin/time -l pnpm test <file> --maxWorkers=1 --reporter=verbose` - Import suspicion: add `OPENCLAW_VITEST_IMPORT_DURATIONS=1 OPE\u2026",
+      "frontmatter": {
+        "name": "optimizetests",
+        "description": "Optimize OpenClaw slow tests, imports, misplaced coverage, and CI wall time without dropping coverage."
+      }
+    },
+    {
+      "id": "50e6dc1c3160",
+      "name": "openclaw-test-heap-leaks",
+      "description": "Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas.",
+      "kind": "skill",
+      "path": "skills/SKILL-1021.md",
+      "chars": 5771,
+      "preview": "# OpenClaw Test Heap Leaks Use this skill for test-memory investigations. Do not guess from RSS alone when heap snapshots are available. Treat snapshot-name deltas as triage evidence, not proof, until retainers or dominators support the call. ## Workflow 1. Reproduce the failing shape first. - Match the real entrypoint if possible. For Linux CI-style unit failures, start with: - `pnpm canvas:a2ui:bundle && OPENCLAW_TEST_MEMORY_TRACE=1 OPENCLAW_TEST_HEAPSNAPSHOT_INTERVAL_MS=60000 OPENCLAW_TEST_HEAPSNAPSHOT_DIR=.tmp/heapsnap OPENCLAW_TEST_WORKERS=2 OPENCLAW_TEST_MAX_OLD_SPACE_SIZE_MB=6144 pnpm t\u2026",
+      "frontmatter": {
+        "name": "openclaw-test-heap-leaks",
+        "description": "Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas."
+      }
+    },
+    {
+      "id": "4596d8984229",
+      "name": "openclaw-secret-scanning-maintainer",
+      "description": "Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs.",
+      "kind": "skill",
+      "path": "skills/SKILL-1022.md",
+      "chars": 8377,
+      "preview": "# OpenClaw Secret Scanning Maintainer **Maintainer-only.** This skill requires repo admin / maintainer permissions to edit or delete other users' comments and resolve secret scanning alerts. Use this skill when processing alerts from `https://github.com/openclaw/openclaw/security/secret-scanning`. **Language rule:** All notification comments and replacement comments MUST be written in English. ## Script All mechanical operations (API calls, temp file management, security enforcements) are handled by: ``` $REPO_ROOT/.agents/skills/openclaw-secret-scanning-maintainer/scripts/secret-scanning.mjs \u2026",
+      "frontmatter": {
+        "name": "openclaw-secret-scanning-maintainer",
+        "description": "Triage, redact, clean up, and resolve OpenClaw GitHub Secret Scanning alerts in issues or PRs."
+      }
+    },
+    {
+      "id": "ba3a10b5fa60",
+      "name": "tavily",
+      "description": "Tavily web search, content extraction, and research tools.",
+      "kind": "skill",
+      "path": "skills/SKILL-1023.md",
+      "chars": 4856,
+      "preview": "# Tavily Tools ## When to use which tool | Need | Tool | When | | ---------------------------- | ---------------- | ------------------------------------------------------------- | | Quick web search | `web_search` | Basic queries, no special options needed | | Search with advanced options | `tavily_search` | Need depth, topic, domain filters, time ranges, or AI answers | | Extract content from URLs | `tavily_extract` | Have specific URLs, need their content | ## web_search Tavily powers this automatically when selected as the search provider. Use for straightforward queries where you don't nee\u2026",
+      "frontmatter": {
+        "name": "tavily",
+        "description": "Tavily web search, content extraction, and research tools.",
+        "metadata": "",
+        "{ \"openclaw\"": "{ \"emoji\": \"\ud83d\udd0d\", \"requires\": { \"config\": [\"plugins.entries.tavily.enabled\"] } } }"
+      }
+    },
+    {
+      "id": "a583605990c0",
+      "name": "qqbot-channel",
+      "description": "QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002",
+      "kind": "skill",
+      "path": "skills/SKILL-1025.md",
+      "chars": 10067,
+      "preview": "# QQ \u9891\u9053 API \u8bf7\u6c42\u6307\u5bfc `qqbot_channel_api` \u662f\u4e00\u4e2a QQ \u5f00\u653e\u5e73\u53f0 HTTP \u4ee3\u7406\u5de5\u5177\uff0c**\u81ea\u52a8\u586b\u5145\u9274\u6743 Token**\u3002\u4f60\u53ea\u9700\u8981\u6307\u5b9a HTTP \u65b9\u6cd5\u3001API \u8def\u5f84\u3001\u8bf7\u6c42\u4f53\u548c\u67e5\u8be2\u53c2\u6570\u3002 ## \ud83d\udcda \u8be6\u7ec6\u53c2\u8003\u6587\u6863 \u6bcf\u4e2a\u63a5\u53e3\u7684\u5b8c\u6574\u53c2\u6570\u8bf4\u660e\u3001\u8fd4\u56de\u503c\u7ed3\u6784\u548c\u679a\u4e3e\u503c\u5b9a\u4e49\uff1a - `references/api_references.md` --- ## \ud83d\udd27 \u5de5\u5177\u53c2\u6570 | \u53c2\u6570 | \u7c7b\u578b | \u5fc5\u586b | \u8bf4\u660e | | -------- | ------ | ---- | ---------------------------------------------------------------------------- | | `method` | string | \u662f | HTTP \u65b9\u6cd5\uff1a`GET`, `POST`, `PUT`, `PATCH`, `DELETE` | | `path` | string | \u662f | API \u8def\u5f84\uff08\u4e0d\u542b\u57df\u540d\uff09\uff0c\u5982 `/guilds/{guild_id}/channels`\uff0c\u9700\u66ff\u6362\u5360\u4f4d\u7b26\u4e3a\u5b9e\u9645\u503c | | `body` | object | \u5426 | \u8bf7\u6c42\u4f53 JSON\uff08POST/PUT/PATCH \u4f7f\u7528\uff09 | | `query` | object | \u5426 | URL \u67e5\u8be2\u53c2\u6570\u952e\u503c\u5bf9\uff0c\u503c\u4e3a\u5b57\u7b26\u4e32\u7c7b\u578b | > \u57fa\u7840 URL\uff1a`https://a\u2026",
+      "frontmatter": {
+        "name": "qqbot-channel",
+        "description": "QQ \u9891\u9053\u7ba1\u7406\u6280\u80fd\u3002\u67e5\u8be2\u9891\u9053\u5217\u8868\u3001\u5b50\u9891\u9053\u3001\u6210\u5458\u3001\u53d1\u5e16\u3001\u516c\u544a\u3001\u65e5\u7a0b\u7b49\u64cd\u4f5c\u3002\u4f7f\u7528 qqbot_channel_api \u5de5\u5177\u4ee3\u7406 QQ \u5f00\u653e\u5e73\u53f0 HTTP \u63a5\u53e3\uff0c\u81ea\u52a8\u5904\u7406 Token \u9274\u6743\u3002\u5f53\u7528\u6237\u9700\u8981\u67e5\u770b\u9891\u9053\u3001\u7ba1\u7406\u5b50\u9891\u9053\u3001\u67e5\u8be2\u6210\u5458\u3001\u53d1\u5e03\u5e16\u5b50/\u516c\u544a/\u65e5\u7a0b\u65f6\u4f7f\u7528\u3002",
+        "metadata": "{ \"openclaw\": { \"emoji\": \"\ud83d\udce1\", \"requires\": { \"config\": [\"channels.qqbot\"] } } }"
+      }
+    },
+    {
+      "id": "590f269ee48c",
+      "name": "prose",
+      "description": "OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenProse mentions; orchestrates multi-agent workflows.",
+      "kind": "skill",
+      "path": "skills/SKILL-679.md",
+      "chars": 15391,
+      "preview": "# OpenProse Skill OpenProse is a programming language for AI sessions. LLMs are simulators\u2014when given a detailed system description, they don't just describe it, they _simulate_ it. The `prose.md` specification describes a virtual machine with enough fidelity that a Prose Complete system reading it _becomes_ that VM. Simulation with sufficient fidelity is implementation. **You are the Prose Complete system.** ## OpenClaw Runtime Mapping - **Task tool** in the upstream spec == OpenClaw `sessions_spawn` - **File I/O** == OpenClaw `read`/`write` - **Remote fetch** == OpenClaw `web_fetch` (or `exe\u2026",
+      "frontmatter": {
+        "name": "prose",
+        "description": "OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenProse mentions; orchestrates multi-agent workflows.",
+        "metadata": "{ \"openclaw\": { \"emoji\": \"\ud83e\udeb6\", \"homepage\": \"https://www.prose.md\" } }"
+      }
+    },
+    {
+      "id": "ea149e5ac4e1",
+      "name": "openclaw-release-maintainer",
+      "description": "Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts.",
+      "kind": "skill",
+      "path": "skills/SKILL-681.md",
+      "chars": 33395,
+      "preview": "# OpenClaw Release Maintainer Use this skill for release and publish-time workflow. Keep ordinary development changes and GHSA-specific advisory work outside this skill. ## Respect release guardrails - Do not change version numbers without explicit operator approval. - Ask permission before any npm publish or release step. - This skill should be sufficient to drive the normal release flow end-to-end. - Use the private maintainer release docs for credentials, recovery steps, and mac signing/notary specifics, and use `docs/reference/RELEASING.md` for public policy. - Core `openclaw` publish is m\u2026",
+      "frontmatter": {
+        "name": "openclaw-release-maintainer",
+        "description": "Prepare or verify OpenClaw stable/beta releases, changelogs, release notes, publish commands, and artifacts."
+      }
+    },
+    {
+      "id": "351936bd7f04",
+      "name": "openclaw-parallels-smoke",
+      "description": "Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks.",
+      "kind": "skill",
+      "path": "skills/SKILL-687.md",
+      "chars": 25611,
+      "preview": "# OpenClaw Parallels Smoke Use this skill for Parallels guest workflows and smoke interpretation. Do not load it for normal repo work. ## Global rules - Use the snapshot most closely matching the requested fresh baseline. - Gateway verification in smoke runs should use `openclaw gateway status --deep --require-rpc` unless the stable version being checked does not support it yet. - Stable `2026.3.12` pre-upgrade diagnostics may require a plain `gateway status --deep` fallback. - Treat `precheck=latest-ref-fail` on that stable pre-upgrade lane as baseline, not automatically a regression. - Pass \u2026",
+      "frontmatter": {
+        "name": "openclaw-parallels-smoke",
+        "description": "Run, rerun, debug, or interpret OpenClaw Parallels install, onboarding, gateway smoke, and upgrade checks."
+      }
+    },
+    {
+      "id": "9111487e7459",
+      "name": "gh-issues",
+      "description": "Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.",
+      "kind": "skill",
+      "path": "skills/SKILL-870.md",
+      "chars": 34612,
+      "preview": "# gh-issues \u2014 Auto-fix GitHub Issues with Parallel Sub-agents You are an orchestrator. Follow these 6 phases exactly. Do not skip phases. IMPORTANT \u2014 No `gh` CLI dependency. This skill uses curl + the GitHub REST API exclusively. The GH_TOKEN env var is already injected by OpenClaw. Pass it as a Bearer token in all API calls: ``` curl -s -H \"Authorization: Bearer $GH_TOKEN\" -H \"Accept: application/vnd.github+json\" ... ``` --- ## Phase 1 \u2014 Parse Arguments Parse the arguments string provided after /gh-issues. Positional: - owner/repo \u2014 optional. This is the source repo to fetch issues from. If o\u2026",
+      "frontmatter": {
+        "name": "gh-issues",
+        "description": "Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.",
+        "user-invocable": "true",
+        "metadata": "",
+        "\"openclaw\"": "",
+        "\"requires\"": "{ \"bins\": [\"curl\", \"git\", \"gh\"] },",
+        "\"primaryEnv\"": "GH_TOKEN\",",
+        "\"install\"": ""
+      }
+    },
+    {
+      "id": "b14441c4dce4",
+      "name": "skill-creator",
+      "description": "Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files.",
+      "kind": "skill",
+      "path": "skills/SKILL-creator.txt",
+      "chars": 18286,
+      "preview": "# Skill Creator This skill provides guidance for creating effective skills. ## About Skills Skills are modular, self-contained packages that extend Codex's capabilities by providing specialized knowledge, workflows, and tools. Think of them as \"onboarding guides\" for specific domains or tasks\u2014they transform Codex from a general-purpose agent into a specialized agent equipped with procedural knowledge that no model can fully possess. ### What Skills Provide 1. Specialized workflows - Multi-step procedures for specific domains 2. Tool integrations - Instructions for working with specific file fo\u2026",
+      "frontmatter": {
+        "name": "skill-creator",
+        "description": "Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files."
+      }
+    },
+    {
+      "id": "9c6075025ce1",
+      "name": "Skills",
+      "description": "Skills: managed vs workspace, gating rules, and config/env wiring",
+      "kind": "skill",
+      "path": "skills/skills-51.md",
+      "chars": 17864,
+      "preview": "OpenClaw uses **[AgentSkills](https://agentskills.io)-compatible** skill folders to teach the agent how to use tools. Each skill is a directory containing a `SKILL.md` with YAML frontmatter and instructions. OpenClaw loads **bundled skills** plus optional local overrides, and filters them at load time based on environment, config, and binary presence. ## Locations and precedence OpenClaw loads skills from these sources: 1. **Extra skill folders**: configured with `skills.load.extraDirs` 2. **Bundled skills**: shipped with the install (npm package or OpenClaw.app) 3. **Managed/local skills**: `\u2026",
+      "frontmatter": {
+        "summary": "Skills: managed vs workspace, gating rules, and config/env wiring",
+        "read_when": "",
+        "title": "Skills"
+      }
+    }
+  ],
+  "docs": [
+    {
+      "id": "efe8b52a5c6d",
+      "name": "00_TRANSFER_TO_NEW_CHAT.md",
+      "description": "# TRANSFER TO NEW CHAT \u2013 Full Context Package **Created:** 2026-11-06 22:55 PST **Purpose:** One-file transfer of the entire reverse-engineering + developer workspace session. --- ## How to Use (Clear Instructions) 1. Op\u2026",
+      "kind": "doc",
+      "path": "00_TRANSFER_TO_NEW_CHAT.md.txt",
+      "chars": 3474,
+      "preview": "# TRANSFER TO NEW CHAT \u2013 Full Context Package **Created:** 2026-11-06 22:55 PST **Purpose:** One-file transfer of the entire reverse-engineering + developer workspace session. --- ## How to Use (Clear Instructions) 1. Open a **new chat** with Grok. 2. Copy **everything** inside the box below (from `### CONTINUATION PROMPT` all the way to the end). 3. Paste it as your **first message** in the new chat. 4. After Grok confirms it has loaded the context, continue normally (paste new manifests, say \u201cnext\u201d, give new tasks, etc.). 5. You can also keep this file open as a reference. --- ### CONTINUATI\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "ffad5aceb50f",
+      "name": "Grok_Build_Plugins",
+      "description": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension package. It can bundle any combination of: - \u2026",
+      "kind": "doc",
+      "path": "Grok_Build_Plugins.md",
+      "chars": 17527,
+      "preview": "# Grok Build Plugins: Tools, Locations, Development Workflow, and a Clean Replacement Prompt ## 1. What a Grok Build plugin is A Grok Build plugin is an installable extension package. It can bundle any combination of: - **Skills** \u2014 reusable Markdown instructions and supporting resources. - **Slash commands** \u2014 user-invoked workflows. - **Agents** \u2014 specialized subagent definitions. - **Hooks** \u2014 scripts or HTTP callbacks that run at lifecycle events. - **MCP servers** \u2014 external tools exposed through Model Context Protocol. - **LSP servers** \u2014 language-server integrations. A plugin is an exte\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "9c671daa1c18",
+      "name": "Implementing_autonomy",
+      "description": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the technical details, methodologies, and open-sou\u2026",
+      "kind": "doc",
+      "path": "Implementing_autonomy.txt",
+      "chars": 7452,
+      "preview": "\ufeffImplementing autonomous investigation modules requires moving from static scripts to agentic AI architectures that can observe, reason, and act independently. Below are the technical details, methodologies, and open-source resources for building these systems. [1, 2] ## 1. Core Methodology: The Agentic Loop Autonomous modules typically follow the ReAct (Reasoning + Action) pattern, which allows them to \"think\" before executing a tool and \"observe\" the result to adjust their next step. [1, 2] * Observe: The module perceives the environment through APIs, system logs (e.g., CloudTrail, VPC Flow \u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "4ccf744653c2",
+      "name": "This_implementation",
+      "description": "\ufeffThis implementation provides a high-fidelity Agent Swarm Architecture for autonomous investigation, utilizing the ROLES Framework to govern specialized micro-agents coordinated by a central \"Director\" agent. ## 1. Advan\u2026",
+      "kind": "doc",
+      "path": "This_implementation.txt",
+      "chars": 4860,
+      "preview": "\ufeffThis implementation provides a high-fidelity Agent Swarm Architecture for autonomous investigation, utilizing the ROLES Framework to govern specialized micro-agents coordinated by a central \"Director\" agent. ## 1. Advanced Investigative Prompt Template (ROLES Framework) The ROLES (Role, Objective, Limits, Execution, Success) framework ensures the swarm operates with precise legal and logical boundaries. ### AGENT IDENTIFICATION: [CODE_NAME: ARCHIMEDES-SWARM-01] # ROLE (Role & Identity)You are the **Lead Investigative Swarm Coordinator (ISC)**. You oversee a decentralized network of specialize\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "c3eb09c24a40",
+      "name": "deploy-vercel",
+      "description": "#!/usr/bin/env bash set -euo pipefail # Deploy the current project to the Echo Vercel scope. # Preferred non-interactive usage: # VERCEL_TOKEN=your-token ./deploy-vercel.sh # If VERCEL_TOKEN is not set, the script falls \u2026",
+      "kind": "doc",
+      "path": "deploy-vercel.sh",
+      "chars": 668,
+      "preview": "#!/usr/bin/env bash set -euo pipefail # Deploy the current project to the Echo Vercel scope. # Preferred non-interactive usage: # VERCEL_TOKEN=your-token ./deploy-vercel.sh # If VERCEL_TOKEN is not set, the script falls back to interactive `vercel login`. if ! command -v vercel >/dev/null 2>&1; then echo \"Error: Vercel CLI is not installed or not on PATH.\" >&2 echo \"Install it with: npm install --global vercel\" >&2 exit 1 fi if [[ -n \"${VERCEL_TOKEN:-}\" ]]; then vercel_args=(--token \"$VERCEL_TOKEN\") else vercel login vercel_args=() fi vercel \"${vercel_args[@]}\" --scope echo-ec69 link vercel \"$\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "7171c4c51ebf",
+      "name": "api_reference",
+      "description": "# Reference Documentation for Agent Orchestration This is a placeholder for detailed reference documentation. Replace with actual reference content or delete if not needed. Example real reference docs from other skills: \u2026",
+      "kind": "doc",
+      "path": "archives/agent-orchestration/references/api_reference.md",
+      "chars": 970,
+      "preview": "# Reference Documentation for Agent Orchestration This is a placeholder for detailed reference documentation. Replace with actual reference content or delete if not needed. Example real reference docs from other skills: - product-management/references/communication.md - Comprehensive guide for status updates - product-management/references/context_building.md - Deep-dive on gathering context - bigquery/references/ - API references and query examples ## When Reference Docs Are Useful Reference docs are ideal for: - Comprehensive API documentation - Detailed workflow guides - Complex multi-step \u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "be5666a0e1aa",
+      "name": "example",
+      "description": "#!/usr/bin/env python3 \"\"\" Example helper script for agent-orchestration This is a placeholder script that can be executed directly. Replace with actual implementation or delete if not needed. Example real scripts from o\u2026",
+      "kind": "doc",
+      "path": "archives/agent-orchestration/scripts/example.py",
+      "chars": 597,
+      "preview": "#!/usr/bin/env python3 \"\"\" Example helper script for agent-orchestration This is a placeholder script that can be executed directly. Replace with actual implementation or delete if not needed. Example real scripts from other skills: - pdf/scripts/fill_fillable_fields.py - Fills PDF form fields - pdf/scripts/convert_pdf_to_images.py - Converts PDF pages to images \"\"\" def main(): print(\"This is an example script for agent-orchestration\") # TODO: Add actual script logic here # This could be data processing, file conversion, API calls, etc. if __name__ == \"__main__\": main()",
+      "frontmatter": {}
+    },
+    {
+      "id": "5718b459b3c6",
+      "name": "example_template",
+      "description": "# Example Template File This placeholder represents where template files would be stored. Replace with actual template files (templates, images, fonts, etc.) or delete if not needed. Template files are NOT intended to be\u2026",
+      "kind": "doc",
+      "path": "archives/agent-orchestration/templates/example_template.txt",
+      "chars": 885,
+      "preview": "# Example Template File This placeholder represents where template files would be stored. Replace with actual template files (templates, images, fonts, etc.) or delete if not needed. Template files are NOT intended to be loaded into context, but rather used within the output Manus produces. Example template files from other skills: - Brand guidelines: logo.png, slides_template.pptx - Frontend builder: hello-world/ directory with HTML/React boilerplate - Typography: custom-font.ttf, font-family.woff2 - Data: sample_data.csv, test_dataset.json ## Common Template Types - Templates: .pptx, .docx, \u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "8bf3fc1dfc74",
+      "name": "LICENSE",
+      "description": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for use, reproduction, a\u2026",
+      "kind": "doc",
+      "path": "archives/skill-creator/skill-creator_prod/LICENSE.txt",
+      "chars": 11357,
+      "preview": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document. \"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License. \"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition,\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "3bc299752312",
+      "name": "output-patterns",
+      "description": "# Output Patterns Use these patterns when skills need to produce consistent, high-quality output. ## Template Pattern Provide templates for output format. Match the level of strictness to your needs. **For strict require\u2026",
+      "kind": "doc",
+      "path": "archives/skill-creator/skill-creator_prod/references/output-patterns.md",
+      "chars": 1812,
+      "preview": "# Output Patterns Use these patterns when skills need to produce consistent, high-quality output. ## Template Pattern Provide templates for output format. Match the level of strictness to your needs. **For strict requirements (like API responses or data formats):** ```markdown ## Report structure ALWAYS use this exact template structure: # [Analysis Title] ## Executive summary [One-paragraph overview of key findings] ## Key findings - Finding 1 with supporting data - Finding 2 with supporting data - Finding 3 with supporting data ## Recommendations 1. Specific actionable recommendation 2. Spec\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "f0e26a3323d9",
+      "name": "progressive-disclosure-patterns",
+      "description": "# Progressive Disclosure Patterns Keep SKILL.md body to the essentials and under 500 lines to minimize context bloat. Split content into separate files when approaching this limit. When splitting out content into other f\u2026",
+      "kind": "doc",
+      "path": "archives/skill-creator/skill-creator_prod/references/progressive-disclosure-patterns.md",
+      "chars": 2682,
+      "preview": "# Progressive Disclosure Patterns Keep SKILL.md body to the essentials and under 500 lines to minimize context bloat. Split content into separate files when approaching this limit. When splitting out content into other files, it is very important to reference them from SKILL.md and describe clearly when to read them, to ensure the reader of the skill knows they exist and when to use them. **Key principle:** When a skill supports multiple variations, frameworks, or options, keep only the core workflow and selection guidance in SKILL.md. Move variant-specific details (patterns, examples, configu\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "e2ba8b9bb985",
+      "name": "workflows",
+      "description": "# Workflow Patterns ## Sequential Workflows For complex tasks, break operations into clear, sequential steps. It is often helpful to give Manus an overview of the process towards the beginning of SKILL.md: ```markdown Fi\u2026",
+      "kind": "doc",
+      "path": "archives/skill-creator/skill-creator_prod/references/workflows.md",
+      "chars": 812,
+      "preview": "# Workflow Patterns ## Sequential Workflows For complex tasks, break operations into clear, sequential steps. It is often helpful to give Manus an overview of the process towards the beginning of SKILL.md: ```markdown Filling a PDF form involves these steps: 1. Analyze the form (run analyze_form.py) 2. Create field mapping (edit fields.json) 3. Validate mapping (run validate_fields.py) 4. Fill the form (run fill_form.py) 5. Verify output (run verify_output.py) ``` ## Conditional Workflows For tasks with branching logic, guide Manus through decision points: ```markdown 1. Determine the modifica\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "5a0fb867ef35",
+      "name": "quick_validate",
+      "description": "#!/usr/bin/env python3 \"\"\" Quick validation script for skills - minimal version Usage: quick_validate.py <skill-name> quick_validate.py <absolute-path-to-skill> Examples: quick_validate.py my-skill quick_validate.py /hom\u2026",
+      "kind": "doc",
+      "path": "archives/skill-creator/skill-creator_prod/scripts/quick_validate.py",
+      "chars": 4746,
+      "preview": "#!/usr/bin/env python3 \"\"\" Quick validation script for skills - minimal version Usage: quick_validate.py <skill-name> quick_validate.py <absolute-path-to-skill> Examples: quick_validate.py my-skill quick_validate.py /home/ubuntu/skills/my-skill Skills are expected at /home/ubuntu/skills/<skill-name>/ \"\"\" import sys import re import yaml from pathlib import Path SKILLS_BASE_PATH = Path(\"/home/ubuntu/skills\") def resolve_skill_path(skill_path_or_name): \"\"\" Resolve skill path to absolute path. If given an absolute path, use it directly. If given a skill name or relative path, resolve it under SKI\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "8f8a5763c17d",
+      "name": "CHATGPT_MANIFEST_NOTES.md",
+      "description": "# ChatGPT Android App (com.openai.chatgpt) Manifest Analysis **Version:** 1.2026.300 (versionCode 2630015) **minSdk:** 32 | **targetSdk:** 37 | **compileSdk:** 37 **Package:** com.openai.chatgpt **Application class:** co\u2026",
+      "kind": "doc",
+      "path": "docs/CHATGPT_MANIFEST_NOTES.md.txt",
+      "chars": 3675,
+      "preview": "# ChatGPT Android App (com.openai.chatgpt) Manifest Analysis **Version:** 1.2026.300 (versionCode 2630015) **minSdk:** 32 | **targetSdk:** 37 | **compileSdk:** 37 **Package:** com.openai.chatgpt **Application class:** com.openai.chatgpt.app.MainApplication **Date Analyzed:** 2026-11-07 ## Overview Official OpenAI ChatGPT Android application. Heavily featured with voice mode, assistant integration, deep linking across chatgpt.com / chat.openai.com domains, payments (Stripe + Google Billing), identity verification (Persona, Plaid), widgets, and extensive third-party app integration queries. ## K\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "50d25c432e82",
+      "name": "CLOUD_AI_MANIFEST_NOTES.md",
+      "description": "# Cloud AI App Analysis (com.chatgpt.gemini.copilot) ## AndroidManifest.xml provided - version 1.5 (versionCode 17) ### Key Details - Package: com.chatgpt.gemini.copilot - Label: Cloud AI - Flutter app (flutterEmbedding=\u2026",
+      "kind": "doc",
+      "path": "docs/CLOUD_AI_MANIFEST_NOTES.md.txt",
+      "chars": 1074,
+      "preview": "# Cloud AI App Analysis (com.chatgpt.gemini.copilot) ## AndroidManifest.xml provided - version 1.5 (versionCode 17) ### Key Details - Package: com.chatgpt.gemini.copilot - Label: Cloud AI - Flutter app (flutterEmbedding=2) - Min SDK 23, Target 35 - Permissions: CAMERA, RECORD_AUDIO, storage (READ/WRITE), INTERNET, BLUETOOTH (incl. CONNECT), BILLING, etc. - Activities: MainActivity (launcher), UCropActivity (image crop) - Firebase: Auth, Firestore, Analytics, Crashlytics, Remote Config, Sessions - Other: ImagePicker, Share, RevenueCat/Amazon IAP, Google Play Billing 7.1.1, Credentials - Assets \u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "e8cd40237fe7",
+      "name": "GROK_AND_ELEVENLABS_NOTES.md",
+      "description": "# Grok App + ElevenLabs WebAPK Analysis ## 1. Official Grok Android App (ai.x.grok) - Package: ai.x.grok - Version: 1.1.05-release.03 (versionCode 11105003) - Native Android app (Compose + Glance widgets) from xAI - Feat\u2026",
+      "kind": "doc",
+      "path": "docs/GROK_AND_ELEVENLABS_NOTES.md.txt",
+      "chars": 2990,
+      "preview": "# Grok App + ElevenLabs WebAPK Analysis ## 1. Official Grok Android App (ai.x.grok) - Package: ai.x.grok - Version: 1.1.05-release.03 (versionCode 11105003) - Native Android app (Compose + Glance widgets) from xAI - Features: voice service (GrokVoiceService), camera, location, image/video generation download, account authenticator, Intercom support, Firebase (messaging, crashlytics, remote config, analytics, perf), Play Billing 8.0.0 - Deep links: https://grok.com/chat/*, /share/, /highlights/, /trends/, /imagine, /plans, etc. - Custom schemes: xai-grok://oauth, voice, voice-close, voice-mute;\u2026",
+      "frontmatter": {}
+    },
+    {
+      "id": "ac3bbf2a8410",
+      "name": "INVIDEO_AI.md",
+      "description": "# InVideo AI (io.invideo.ai) Manifest + Strings Analysis **Version:** 4.5.61 (versionCode 462) **Package:** io.invideo.ai **minSdk:** 30 | **targetSdk:** 36 **App Name:** invideo AI ## Overview Official InVideo AI Androi\u2026",
+      "kind": "doc",
+      "path": "docs/INVIDEO_AI.md.txt",
+      "chars": 1014,
+      "preview": "# InVideo AI (io.invideo.ai) Manifest + Strings Analysis **Version:** 4.5.61 (versionCode 462) **Package:** io.invideo.ai **minSdk:** 30 | **targetSdk:** 36 **App Name:** invideo AI ## Overview Official InVideo AI Android app (Flutter-based). AI video generation, avatar, text-to-clip, photo-to-clip, voice clone, etc. Deep links to ai.invideo.io. ## Key Permissions CAMERA, RECORD_AUDIO, INTERNET, POST_NOTIFICATIONS, storage (legacy + media), BILLING, AD_ID, etc. ## Architecture - Flutter embedding (MainActivity) - Firebase (Analytics, Crashlytics, Messaging, Remote Config) - Facebook SDK, Branc\u2026",
+      "frontmatter": {}
+    }
+  ],
+  "requirements": [
+    {
+      "id": "R1",
+      "text": "Reconcile all Drive items",
+      "status": "done"
+    },
+    {
+      "id": "R2",
+      "text": "Quarantine secrets/binaries",
+      "status": "done"
+    },
+    {
+      "id": "R3",
+      "text": "Distill skills to knowledge base",
+      "status": "done"
+    },
+    {
+      "id": "R4",
+      "text": "Ship polished UI",
+      "status": "done"
+    },
+    {
+      "id": "R5",
+      "text": "Vercel deploy with token",
+      "status": "blocked"
+    }
+  ]
+}
